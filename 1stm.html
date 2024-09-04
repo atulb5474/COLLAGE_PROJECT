@@ -1,0 +1,821 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sityog Institute of Technology </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        p{
+          font-size:20px ;
+        }
+          .accordion-button
+  {
+   background-color: purple;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+  }
+   button:hover{
+     background-color:#FF6633 ;
+     color:white;
+     border-radius: 30px;
+  
+   }
+   .dropdown-submenu {
+       position: relative;
+     }
+     
+     .dropdown-submenu .dropdown-menu {
+       top: 0;
+       left: 100%;
+       margin-top: -1px;
+     } .navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+      </style>
+</head>
+  <body >
+    <img src="image/download.png"width="100%", height="150px">
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+    <header class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#"><p style="text-align: justify;">Welcome to Smart Sityog</p></a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="institute.html"text-white fw-bold>About Institute</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="vision.html"text-white fw-bold>Vision & Mission</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="board.html"text-white fw-bold>Board Of Management</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="chairman.html"text-white fw-bold>Chairman Message</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="secretary.html"text-white fw-bold>Secretary Message</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="approve.html"text-white fw-bold>Approval & Affiliation</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   ADMISSION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Apply Now <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="registration.html">Apply For B.Tech, BBA ,BCA,BA(J&MC)</a></li>
+                        <li><a tabindex="-1" href="https://bceceboard.bihar.gov.in/">Apply For Diploma</a></li>
+                        <li><a tabindex="-1" href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">Apply For Student Credit Card</a></li>
+                       
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X2dq1ElIqKtn91-rE8e9uIUzd6OgthwF/view?usp=drivesdk">Registration Form</a></li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X3QoQcHpv-6GPBQX5NaXHUaeCioAKgoU/view?usp=drivesdk">Prospectus</a></li>
+                    <li><a tabindex="-1" href="fee.html">Fee Structure</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">U.G(UNDER GRADUATION) <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="btech.html">B.Tech</a></li>
+                        <li><a tabindex="-1" href="bca.html">BCA</a></li>
+                        <li><a tabindex="-1" href="bba.html">BBA</a></li>
+                        <li><a tabindex="-1" href="bj.html">BA(J&MC)</a></li>
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="diploma.html">Diploma</a></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                  Facilities & Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="workshop.html"text-white fw-bold>Workshops</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="library.html"text-white fw-bold>Library</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="lab.html"text-white fw-bold>Lab Testing</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="wifi.html"text-white fw-bold>Wifi-Campus</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="computer.html"text-white fw-bold>Hi-tech Computer Lab</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="transport.html"text-white fw-bold>Transportation</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sports.html"text-white fw-bold>Sports Facilities</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="hostel.html"text-white fw-bold>Hostel & Mess</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="hall.html"text-white fw-bold>Seminar-Hall</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="temple.html"text-white fw-bold>Temple</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white fw-bold" href="faculty.html"text-white fw-bold>Faculty List</a>
+                </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Placement
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="recruiters.html"text-white fw-bold>Our Top Recruiters</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="tpo.html"text-white fw-bold>Training Placement Officer(T.P.O)</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2017.html"text-white fw-bold>Campus Placement 2017</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2018.html"text-white fw-bold>Campus Placement 2018</a></li>
+                     <li><a class="dropdown-item text-fw-bold" href="2019.html"text-white fw-bold>Campus Placement 2019</a></li>
+               
+                     <li><a class="dropdown-item text-fw-bold" href="2021.html"text-white fw-bold>Campus Placement 2021</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2022.html"text-white fw-bold>Campus Placement 2022</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sit/upload-placement.php"text-white fw-bold>Latest Placement</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="facilities.html"text-white fw-bold>Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>Login Now</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        </div>
+      </header>
+      <a href="registration.html"><div class="fixed-icon"><img src="https://www.sityog.edu.in/images/applynow1.gif" style="width: 100px;height: 100px;"></div></a>
+<div class="container-fluid gap ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingOne" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <h1>  Physics (Mechanics & Mechanics of Solids)</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse  border shadow p-3 mb-5 bg-body-tertiary rounded" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h5 style="font-family: roboto; color: #FF6633;">Mechnics</h5><br><br><br>
+            <h5 style="font-family: roboto; color: #FF6633;">PRE-REQUISITES: HIGH-SCHOOL EDUCATION</h5><br><br><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: VECTOR MECHANICS OF PARTICLES (20 LECTURES)
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">TRANSFORMATION OF SCALARS AND VECTORS UNDER ROTATION TRANSFORMATION; 
+                FORCES IN NATURE; NEWTON’S LAWS AND ITS COMPLETENESS IN DESCRIBING PARTICLE 
+                MOTION; FORM INVARIANCE OF NEWTON’S SECOND LAW; SOLVING NEWTON’S EQUATIONS OF 
+                MOTION IN POLAR COORDINATES; PROBLEMS INCLUDING CONSTRAINTS AND FRICTION; 
+                EXTENSION TO CYLINDRICAL AND SPHERICAL COORDINATES; POTENTIAL ENERGY FUNCTION; 
+                F = - GRAD V, EQUIPOTENTIAL SURFACES AND MEANING OF GRADIENT; CONSERVATIVE AND 
+                NON-CONSERVATIVE FORCES, CURL OF A FORCE FIELD; CENTRAL FORCES; CONSERVATION OF 
+                ANGULAR MOMENTUM; ENERGY EQUATION AND ENERGY DIAGRAMS; ELLIPTICAL, PARABOLIC 
+                AND HYPERBOLIC ORBITS; KEPLER PROBLEM; APPLICATION: SATELLITE MANOEUVRES; NON-INERTIAL FRAMES OF REFERENCE; ROTATING COORDINATE SYSTEM: FIVE-TERM 
+                ACCELERATION FORMULA. CENTRIPETAL AND CORIOLIS ACCELERATIONS; APPLICATIONS: 
+                WEATHER SYSTEMS, FOUCAULT PENDULUM; HARMONIC OSCILLATOR; DAMPED HARMONIC MOTION 
+                – OVER-DAMPED, CRITICALLY DAMPED AND LIGHTLY-DAMPED OSCILLATORS; FORCED 
+                OSCILLATIONS AND RESONANCE.</p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: PLANAR RIGID BODY MECHANICS (10 LECTURES
+
+
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;" >DEFINITION AND MOTION OF A RIGID BODY IN THE PLANE; ROTATION IN THE PLANE; 
+                KINEMATICS IN A COORDINATE SYSTEM ROTATING AND TRANSLATING IN THE PLANE; ANGULAR
+                MOMENTUM ABOUT A POINT OF A RIGID BODY IN PLANAR MOTION; EULER’S LAWS OF MOTION, 
+                THEIR INDEPENDENCE FROM NEWTON’S LAWS, AND THEIR NECESSITY IN DESCRIBING RIGID 
+                BODY MOTION; EXAMPLES. INTRODUCTION TO THREE-DIMENSIONAL RIGID BODY MOTION —
+                ONLY NEED TO HIGHLIGHT THE DISTINCTION FROM TWO-DIMENSIONAL MOTION IN TERMS OF 
+                (A) ANGULAR VELOCITY VECTOR, AND ITS RATE OF CHANGE AND (B) MOMENT OF INERTIA 
+                TENSOR; THREE-DIMENSIONAL MOTION OF A RIGID BODY WHEREIN ALL POINTS MOVE IN A 
+                COPLANAR MANNER: E.G. ROD EXECUTING CONICAL MOTION WITHCENTER OF MASS FIXED —
+                ONLY NEED TO SHOW THAT THIS MOTION LOOKS TWO-DIMENSIONAL BUT IS THREE-DIMENSIONAL, AND TWO-DIMENSIONAL FORMULATION FAILS.
+                
+
+                </p><br>
+
+               
+
+
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS / REFRENCES BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        ENGINEERING MECHANICS, 2ND ED. — MK HARBOLA </p><br><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        INTRODUCTION TO MECHANICS — MK VERMA.</p><br><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            AN INTRODUCTION TO MECHANICS — D KLEPPNER& R KOLENKOW.
+                        </p><br><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            PRINCIPLES OF MECHANICS — JL SYNGE & BA GRIFFITHS.
+                            </p><br><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                MECHANICS — JP DEN HARTOG.
+                                
+                               </p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                ENGINEERING MECHANICS - DYNAMICS, 7TH ED. - JL MERIAM
+                            </p><br>
+                                <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    MECHANICAL VIBRATIONS — JP DEN HARTOG.
+                                </p><br>
+                                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                            THEORY OF VIBRATIONS WITH APPLICATIONS — WT THOMSON. </p><br><br><br>
+                                         
+                                                  
+                                            <h5 style="font-family: roboto; color: #FF6633;">MECHANICS OF SOLIDS</h5><br><br><br>
+                                            <h5 style="font-family: roboto; color: #FF6633;">PREREQUISITES: (I) PHYSICS (MECHANICS) ALL MODULES AND (II) MATHEMATICS COURSE 
+                                                WITH ORDINARY DIERENTIAL EQUATIONS</h5><br><br><br>
+                                              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3: STATICS (10 LECTURES)
+                                
+                                            </h5><br>
+                                            <p style="text-align: justify; font-family: roboto;">FREE BODY DIAGRAMS WITH EXAMPLES ON MODELLING OF TYPICAL SUPPORTS AND 
+                                                JOINTS; CONDITION FOR EQUILIBRIUM IN THREE- AND TWO- DIMENSIONS; FRICTION: 
+                                                LIMITING AND NON-LIMITING CASES; FORCEDISPLACEMENT RELATIONSHIP; GEOMETRIC 
+                                                COMPATIBILITY FOR SMALL DEFORMATIONS; ILLUSTRATIONS THROUGH SIMPLE PROBLEMS ON 
+                                                AXIALLY LOADED MEMBERS LIKE TRUSSES.
+                                                </p><br>
+                                
+                                              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4: MECHANICS OF SOLIDS (30 LECTURES)
+
+                                
+                                
+                                              </h5><br>
+                                              <p style="text-align: justify; font-family: roboto;" >CONCEPT OF STRESS AT A POINT; PLANET STRESS: TRANSFORMATION OF STRESSES 
+                                                AT A POINT, PRINCIPAL STRESSES AND MOHR’S CIRCLE; DISPLACEMENT FIELD; CONCEPT 
+                                                OF STRAIN AT A POINT; PLANE STRAIN: TRANSFORMATION OF STRAIN AT A POINT, 
+                                                PRINCIPAL STRAINS AND MOHR’S CIRCLE; STRAIN ROSEOE; DISCUSSION OF EXPERIMENTAL 
+                                                RESULTS ON ONE- DIMENSIONAL MATERIAL BEHAVIOUR; CONCEPTS OF ELASTICITY, 
+                                                PLASTICITY, STRAIN HARDENING, FAILURE (FRACTURE / YIELDING); IDEALIZATION OF 
+                                                ONEDIMENSIONAL STRESS-STRAIN CURVE; GENERALIZED HOOKE’S LAW WITH AND WITHOUT 
+                                                THERMAL STRAINS FOR ISOTROPIC MATERIALS; COMPLETE EQUATIONS OF ELASTICITY; FORCE 
+                                                ANALYSIS — AXIAL FORCE, SHEAR FORCE, BENDING MOMENT AND TWISTING MOMENT DIAGRAMS 
+                                                OF SLENDER MEMBERS (WITHOUT USING SINGULARITY FUNCTIONS); TORSION OF CIRCULAR 
+                                                SHAFTS AND THIN-WALLED TUBES (PLASTIC ANALYSIS AND RECTANGULAR SHAFTS NOT TO BE 
+                                                DISCUSSED); MOMENT CURVATURE RELATIONSHIP FOR PURE BENDING OF BEAMS WITH 
+                                                SYMMETRIC CROSS-SECTION; BENDING STRESS; SHEAR STRESS; CASES OF COMBINED
+                                                STRESSES; CONCEPT OF STRAIN ENERGY; YIELD CRITERIA; DEFLECTION DUE TO BENDING; 
+                                                INTEGRATION OF THE MOMENT-CURVATURE RELATIONSHIP FOR SIMPLE BOUNDARY 
+                                                CONDITIONS; METHOD OF SUPERPOSITION (WITHOUT USING SINGULARITY FUNCTIONS); 
+                                                STRAIN ENERGY AND COMPLEMENTARY STRAIN ENERGY FOR SIMPLE STRUCTURAL ELEMENTS 
+                                                (I.E. THOSE UNDER AXIAL LOAD, SHEAR FORCE, BENDING MOMENT AND TORSION); 
+                                                CASTIGLIANO’S THEOREMS FOR DEFLECTION ANALYSIS AND INDETERMINATE PROBLEMS.
+                                                
+                                
+                                                </p><br>
+                                
+                                               
+                                
+                                
+                                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS / REFRENCES BOOKS</h5><br>
+                                                    <p style="text-align: justify; font-family: roboto;">
+                                                         COUPLED OSCILLATORS; EXPERIMENTS ON AN AIR-TRACK.<br><br>
+                                                         EXPERIMENT ON MOMENT OF INERTIA MEASUREMENT.<br><br>
+                                                         EXPERIMENTS WITH GYROSCOPE; RESONANCE PHENOMENA IN MECHANICAL OSCILLATORS.
+                                                        
+                                                            </p><br><br>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwo" style="text-align: center;">
+            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <h1>  Mathematics –I ( Calculus, Multivariable Calculus and 
+                Linear Algebra )</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto; color:brown;" >CALCULUS (SINGLE VARIBALE)
+            </h5><br><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1A: CALCULUS: (12 LECTURES)
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">INTERVALS, CONVERGENCE OF SEQUENCES AND SERIES OF REAL NUMBERS, LIMIT AND 
+                CONTINUITY OF FUNCTIONS, DIFFERENTIABILITY OF FUNCTIONS, ROLLE’S THEOREM, MEAN 
+                VALUE THEOREMS, TAYLOR’S AND MACLAURIN THEOREMS WITH REMAINDERS; INDETERMINATE 
+                FORMS AND L'HOSPITAL'S RULE; MAXIMA AND MINIMA, RIEMANN INTEGRATION, FUNDAMENTAL
+                THEOREM OF CALCULUS.
+                
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1B: CALCULUS: (8 LECTURES)
+
+            </h5><br>
+              <p style="text-align: justify; font-family: roboto;">EVOLUTES AND INVOLUTES; EVALUATION OF DEFINITE AND IMPROPER INTEGRALS; 
+                BETA AND GAMMA FUNCTIONS AND THEIR PROPERTIES; APPLICATIONS OF DEFINITE 
+                INTEGRALS TO EVALUATE SURFACE AREAS AND VOLUMES OF REVOLUTIONS.
+                
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1C: SERIES: (PREREQUISITE 2B) (8 LECTURES)</h5><br>
+              <p style="text-align: justify; font-family: roboto;">POWER SERIES, TAYLOR'S SERIES. SERIES FOR EXPONENTIAL, TRIGONOMETRIC AND 
+                LOGARITHMIC FUNCTIONS; FOURIER SERIES: HALF RANGE SINE AND COSINE SERIES, 
+                PARSEVAL’S THEOREM.
+                
+                
+                </p><br>
+
+             
+
+                
+                 
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS / REFRENCES</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        G.B. THOMAS AND R.L. FINNEY, CALCULUS AND ANALYTIC GEOMETRY, 9TH 
+                        EDITION, PEARSON, REPRINT, 2002.
+                        
+                    </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        VEERARAJAN T., ENGINEERING MATHEMATICS FOR FIRST YEAR, TATA MCGRAW-HILL, NEW DELHI.
+                      </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            RAMANA B.V., HIGHER ENGINEERING MATHEMATICS, TATA MCGRAW HILL NEW 
+                            DELHI, 11TH REPRINT, 2010.
+                            
+                        </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            N.P. BALI AND MANISH GOYAL, A TEXT BOOK OF ENGINEERING 
+                            MATHEMATICS, LAXMI PUBLICATIONS,REPRINT, 2010.
+                             </p><br>
+                             <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                B.S. GREWAL, HIGHER ENGINEERING MATHEMATICS, KHANNA PUBLISHERS, 35TH 
+                                EDITION, 2000.
+                                
+                                 </p><br>
+
+                                 <h5 style="font-family: roboto; color:brown;" >MATRICES AND LINEAR ALGEBRA
+                                </h5><br><br>
+                                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2A: MATRICES (IN CASE VECTOR SPACES IS NOT TO BE TAUGHT) (14 LECTURES)
+                    
+                                </h5><br>
+                                <p style="text-align: justify; font-family: roboto;">ALGEBRA OF MATRICES, INVERSE AND RANK OF A MATRIX, RANK-NULLITY THEOREM; 
+                                    SYSTEM OF LINEAR EQUATIONS; SYMMETRIC, SKEW-SYMMETRIC AND ORTHOGONAL MATRICES; 
+                                    DETERMINANTS; EIGENVALUES AND EIGENVECTORS; DIAGONALIZATION OF MATRICES; 
+                                    CAYLEY-HAMILTON THEOREM, ORTHOGONAL TRANSFORMATION AND QUADRATIC TO CANONICAL 
+                                    FORMS.
+                                    
+                                  </p><br>
+                    
+                                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2B: MATRICES (IN CASE VECTOR SPACES IS TO BE TAUGHT) (8 LECTURES)
+
+                    
+                                </h5><br>
+                                  <p style="text-align: justify; font-family: roboto;">MATRICES, VECTORS: ADDITION AND SCALAR MULTIPLICATION, MATRIX 
+                                    MULTIPLICATION; LINEAR SYSTEMS OF EQUATIONS, LINEAR INDEPENDENCE, RANK OF A 
+                                    MATRIX, DETERMINANTS, CRAMER’S RULE, INVERSE OF A MATRIX, GAUSS ELIMINATION AND 
+                                    GAUSS-JORDAN ELIMINATION.
+                                    
+                                    </p><br>
+                    
+                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2C: VECTOR SPACES (PREREQUISITE 4B) (10 LECTURES)</h5><br>
+                                  <p style="text-align: justify; font-family: roboto;">VECTOR SPACE, LINEAR DEPENDENCE OF VECTORS, BASIS, DIMENSION; LINEAR 
+                                    TRANSFORMATIONS (MAPS), RANGE AND KERNEL OF A LINEAR MAP, RANK AND NULLITY, 
+                                    INVERSE OF A LINEAR TRANSFORMATION, RANK- NULLITY THEOREM, COMPOSITION OF LINEAR 
+                                    MAPS, MATRIX ASSOCIATED WITH A LINEAR MAP. 
+                                    
+                                    
+                                    </p><br>
+                    
+                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2D: VECTOR SPACES (PREREQUISITE 4B-C) (10 LECTURES)</h5><br>
+                                    <p style="text-align: justify; font-family: roboto;">EIGENVALUES, EIGENVECTORS, SYMMETRIC, SKEW-SYMMETRIC AND ORTHOGONAL 
+                                        MATRICES, EIGENBASES. DIAGONALIZATION; INNER PRODUCT SPACES, GRAM-SCHMIDT 
+                                        ORTHOGONALIZATION.
+                                      
+                                      </p><br>
+                    
+                                    
+                                     
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS / REFRENCES</h5><br>
+                                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                            D. POOLE, LINEAR ALGEBRA: A MODERN INTRODUCTION, 2ND EDITION, BROOKS/COLE, 2005.
+                                        </p><br>
+                                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                            V. KRISHNAMURTHY, V.P. MAINRA AND J.L. ARORA, AN INTRODUCTION TO LINEAR ALGEBRA, AFFILIATED EAST–WEST PRESS, REPRINT 2005.
+
+                                          </p><br>
+                                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                ERWIN KREYSZIG, ADVANCED ENGINEERING MATHEMATICS, 9TH EDITION, JOHN WILEY & SONS, 2006.
+
+                                                
+                                            </p><br>
+                                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                VEERARAJAN T., ENGINEERING MATHEMATICS FOR FIRST YEAR, TATA MCGRAW-HILL, 
+                                                NEW DELHI, 2008.
+                                                
+                                                 </p><br>
+                                                 <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                    N.P. BALI AND MANISH GOYAL, A TEXT BOOK OF ENGINEERING MATHEMATICS, 
+                                                    LAXMI PUBLICATIONS, REPRINT, 2010.
+                                                    
+                                                     </p><br>
+                                                     <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                        B.S. GREWAL, HIGHER ENGINEERING MATHEMATICS, KHANNA PUBLISHERS, 35TH 
+                                                        EDITION, 2000
+                                                        
+                                                         </p><br>
+                             </div>
+          </div>
+        </div>
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingThree" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+           <h1>   Basic Electrical Engineering</h1> 
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: DC CIRCUITS (8 LECTURES)
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">ELECTRICAL CIRCUIT ELEMENTS (R, L AND C), VOLTAGE AND CURRENT SOURCES, 
+              KIRCHHOFF CURRENT AND VOLTAGE LAWS, ANALYSIS OF SIMPLE CIRCUITS WITH DC 
+              EXCITATION. STAR-DELTA CONVERSION, NETWORK THEOREMS (SUPERPOSITION, THEVENIN, 
+              NORTON AND MAXIMUM POWER TRANSFER THEOREMS). TIME-DOMAIN ANALYSIS OF FIRST-ORDER RL AND RC CIRCUITS.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: AC CIRCUITS (8 LECTURES)</h5><br>
+              <p style="text-align: justify; font-family: roboto;">REPRESENTATION OF SINUSOIDAL WAVEFORMS, PEAK, RMS AND AVERAGE VALUES (FORM 
+                FACTOR AND PEAK FACTOR), IMPEDANCE OF SERIES AND PARALLEL CIRCUIT, PHASOR 
+                REPRESENTATION, REAL POWER, REACTIVE POWER, APPARENT POWER, POWER FACTOR, POWER 
+                TRIANGLE. ANALYSIS OF SINGLE-PHASE AC CIRCUITS CONSISTING OF R, L, C, RL, RC, 
+                RLC COMBINATIONS (SERIES AND PARALLEL), RESONANCE. THREE-PHASE BALANCED 
+                CIRCUITS, VOLTAGE AND CURRENT RELATIONS IN STAR AND DELTA CONNECTIONS.
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 3: MAGNETIC CIRCUITS: (4 LECTURES)
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">INTRODUCTION, SERIES AND PARALLEL MAGNETIC CIRCUITS, ANALYSIS OF SERIES 
+                AND PARALLEL MAGNETIC CIRCUITS.
+                
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 4: TRANSFORMERS (6 LECTURES)
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">MAGNETIC MATERIALS, BH CHARACTERISTICS, IDEAL AND PRACTICAL TRANSFORMER, 
+                EMF EQUATION, EQUIVALENT CIRCUIT, LOSSES IN TRANSFORMERS, REGULATION AND 
+                EFFICIENCY. AUTO-TRANSFORMER AND THREE-PHASE TRANSFORMER CONNECTIONS.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: ELECTRICAL MACHINES (10 LECTURES)</h5><br>
+              <p style="text-align: justify; font-family: roboto;">CONSTRUCTION, WORKING, TORQUE-SPEED CHARACTERISTIC AND SPEED CONTROL OF
+                SEPARATELY EXCITED DC MOTOR. GENERATION OF ROTATING MAGNETIC FIELDS, 
+                CONSTRUCTION AND WORKING OF A THREE-PHASE INDUCTION MOTOR, SIGNIFICANCE OF 
+                TORQUE-SLIP CHARACTERISTIC. LOSS COMPONENTS AND EFFICIENCY, STARTING AND SPEED 
+                CONTROL OF INDUCTION MOTOR. CONSTRUCTION AND WORKING OF SYNCHRONOUS GENERATORS.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6: ELECTRICAL INSTALLATIONS (6 LECTURES)</h5><br>
+                <p style="text-align: justify; font-family: roboto;">COMPONENTS OF LT SWITCHGEAR: SWITCH FUSE UNIT (SFU), MCB, ELCB, MCCB, 
+                  TYPES OF WIRES AND CABLES, EARTHING. TYPES OF BATTERIES, IMPORTANT CHARACTERISTICS FOR BATTERIES. ELEMENTARY CALCULATIONS FOR ENERGY CONSUMPTION, 
+                  POWER FACTOR IMPROVEMENT AND BATTERY BACKUP.
+                  </p><br>
+
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                      D. P. KOTHARI AND I. J. NAGRATH, “BASIC ELECTRICAL ENGINEERING”, TATA 
+                      MCGRAW HILL, 2010.
+                       </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        D. C. KULSHRESHTHA, “BASIC ELECTRICAL ENGINEERING”, MCGRAW HILL, 2009.</p><br>
+
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED REFERENCE BOOKS</h5><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          L. S. BOBROW, “FUNDAMENTALS OF ELECTRICAL ENGINEERING”, OXFORD 
+UNIVERSITY PRESS, 2011. </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            E. HUGHES, “ELECTRICAL AND ELECTRONICS TECHNOLOGY”, PEARSON, 2010.</p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              V. D. TORO, “ELECTRICAL ENGINEERING FUNDAMENTALS”, PRENTICE HALL INDIA, 
+                              1989. </p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                BASIC ELECTRICAL ENGINEERING BY FITZERALD, ET AL, TATA MCGRAW HILL.</p><br>
+                             
+                                <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                  FUNDAMENTALS OF ELECTRICAL ENGG. BY R. PRASAD, PHI PUBLICATION. </p><br>
+                                  <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    BASIC ELECTRICAL ENGINEERING BY V.K. MEHTA AND ROHIT MEHTA, S.CHAND 
+                                    PUBLICATIO</p><br>
+
+                            
+                                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+                                  </h5><br>
+                                  <p style="text-align: justify; font-family: roboto;"> TO UNDERSTAND AND ANALYZE BASIC ELECTRIC AND MAGNETIC CIRCUITS.<br><br>
+                                     TO STUDY THE WORKING PRINCIPLES OF ELECTRICAL MACHINES AND POWER 
+                                    CONVERTERS..<br><br>
+                                     TO INTRODUCE THE COMPONENTS OF LOW VOLTAGE ELECTRICAL INSTALLATIONS.<br><br> 
+                                    </p><br></div>
+                                    <p style="font-family: roboto; color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> LABORATORY </p><br>
+                                    <h5 style="font-family: roboto;">LIST OF EXPERIMENTS/DEMONSTRATIONS
+                                    </h5><br>
+                                    <p style="text-align: justify; font-family: roboto;">
+                                       BASIC SAFETY PRECAUTIONS. INTRODUCTION AND USE OF MEASURING INSTRUMENTS 
+                                      – VOLTMETER, AMMETER, MULTI-METER, OSCILLOSCOPE. REAL-LIFE RESISTORS, 
+                                      CAPACITORS AND INDUCTORS.<br><br>
+                                       MEASURING THE STEADY-STATE AND TRANSIENT TIME-RESPONSE OF R-L, R-C, AND 
+                                      R-L-C CIRCUITS TO A STEP CHANGE IN VOLTAGE (TRANSIENT MAY BE OBSERVED ON 
+                                      A STORAGE OSCILLOSCOPE). SINUSOIDAL STEADY STATE RESPONSE OF R-L, AND R-C CIRCUITS – IMPEDANCE CALCULATION AND VERIFICATION. OBSERVATION OF PHASE
+                                      DIFFERENCES BETWEEN CURRENT AND VOLTAGE. RESONANCE IN R-L-C CIRCUITS.<br><br>
+                                       TRANSFORMERS: OBSERVATION OF THE NO-LOAD CURRENT WAVEFORM ON AN 
+                                      OSCILLOSCOPE (NON- SINUSOIDAL WAVE-SHAPE DUE TO B-H CURVE NONLINEARITY
+                                      SHOULD BE SHOWN ALONG WITH A DISCUSSION ABOUT HARMONICS). LOADING OF A 
+                                      TRANSFORMER: MEASUREMENT OF PRIMARY AND SECONDARY VOLTAGES AND CURRENTS, 
+                                      AND POWER.<br><br>
+                                       THREE-PHASE TRANSFORMERS: STAR AND DELTA CONNECTIONS. VOLTAGE 
+                                      AND CURRENT RELATIONSHIPS (LINE-LINE VOLTAGE, PHASE-TO-NEUTRAL VOLTAGE, 
+                                      LINE AND PHASE CURRENTS). PHASE-SHIFTS BETWEEN THE PRIMARY AND SECONDARY
+                                      SIDE. CUMULATIVE THREE-PHASE POWER IN BALANCED THREE-PHASE CIRCUITS.<br><br>
+                                       DEMONSTRATION OF CUT-OUT SECTIONS OF MACHINES: DC MACHINE (COMMUTATOR-BRUSH ARRANGEMENT), INDUCTION MACHINE (SQUIRREL CAGE ROTOR), SYNCHRONOUS 
+                                      MACHINE (FIELD WINGING - SLIP RING ARRANGEMENT) AND SINGLE-PHASE INDUCTION 
+                                      MACHINE.<br><br>
+                                       TORQUE SPEED CHARACTERISTIC OF SEPARATELY EXCITED DC MOTOR.<br><br>
+                                       SYNCHRONOUS SPEED OF TWO AND FOUR-POLE, THREE-PHASE INDUCTION MOTORS.<br><br> 
+                                      DIRECTION REVERSAL BY CHANGE OF PHASE-SEQUENCE OF CONNECTIONS. TORQUE-SLIP CHARACTERISTIC OF AN INDUCTION MOTOR. GENERATOR OPERATION OF AN 
+                                      INDUCTION MACHINE DRIVEN AT SUPER- SYNCHRONOUS SPEED.<br><br>
+                                       SYNCHRONOUS MACHINE OPERATING AS A GENERATOR: STAND-ALONE OPERATION WITH
+                                      A LOAD. CONTROL OF VOLTAGE THROUGH FIELD EXCITATION.<br><br>
+                                       DEMONSTRATION OF (A) DC-DC CONVERTERS (B) DC-AC CONVERTERS – PWM WAVEFORM 
+                                      (C) THE USE OF DC-AC CONVERTER FOR SPEED CONTROL OF AN INDUCTION MOTOR
+                                      AND (D) COMPONENTS OF LT SWITCHGEAR.<br><br>
+                                      
+                                      </p><br>
+                                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">LABORATORY OUTCOMES
+                                      </h5><br>
+                                      <p style="text-align: justify; font-family: roboto;">  GET AN EXPOSURE TO COMMON ELECTRICAL COMPONENTS AND THEIR RATINGS.<br><br>
+                                         MAKE ELECTRICAL CONNECTIONS BY WIRES OF APPROPRIATE RATINGS.<br><br>
+                                         UNDERSTAND THE USAGE OF COMMON ELECTRICAL MEASURING INSTRUMENTS.<br><br>
+                                         UNDERSTAND THE BASIC CHARACTERISTICS OF TRANSFORMERS AND ELECTRICAL 
+                                        MACHINES.<br><br>
+                                         GET AN EXPOSURE TO THE WORKING OF POWER ELECTRONIC CONVERTERS
+                                        </p><br>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFour" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+           <h1>   Engineering Graphics & Design </h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">TRADITIONAL ENGINEERING GRAPHICS:
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">PRINCIPLES OF ENGINEERING GRAPHICS; ORTHOGRAPHIC PROJECTION; DESCRIPTIVE 
+                GEOMETRY; DRAWING PRINCIPLES; ISOMETRIC PROJECTION; SURFACE DEVELOPMENT; 
+                PERSPECTIVE; READING A DRAWING; SECTIONAL VIEWS; DIMENSIONING & TOLERANCES; 
+                TRUE LENGTH, ANGLE; INTERSECTION, SHORTEST DISTANCE.
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">TRADITIONAL ENGINEERING GRAPHICS:
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">ENGINEERING GRAPHICS SOFTWARE; -SPATIAL TRANSFORMATIONS; ORTHOGRAPHIC 
+                  PROJECTIONS; MODEL VIEWING; CO-ORDINATE SYSTEMS; MULTI-VIEW PROJECTION; 
+                  EXPLODED ASSEMBLY; MODEL VIEWING; ANIMATION; SPATIAL MANIPULATION; SURFACE
+                  MODELLING; SOLID MODELLING, INTRODUCTION TO BUILDING INFORMATION MODELLING 
+                  (BIM).
+                  </p><br>
+                
+              <h5 style="font-family: roboto;color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">(EXCEPT THE BASIC ESSENTIAL CONCEPTS, MOST OF THE TEACHING PART CAN HAPPEN 
+                CONCURRENTLY IN THE LABORATORY)
+                
+              </h5><br> 
+              <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">DETAILED CONTENTS
+              </p><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: INTRODUCTION TO ENGINEERING DRAWING
+              </h5><br>
+            <p style="text-align: justify; font-family: roboto;">
+              PRINCIPLES OF ENGINEERING GRAPHICS AND THEIR SIGNIFICANCE, USAGE OF 
+              DRAWING INSTRUMENTS, LETTERING, CONIC SECTIONS INCLUDING THE RECTANGULAR 
+              HYPERBOLA (GENERAL METHOD ONLY); CYCLOID, EPICYCLOID, HYPOCYCLOID AND INVOLUTE; 
+              SCALES – PLAIN, DIAGONAL AND VERNIER SCALES</p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: ORTHOGRAPHIC PROJECTIONS
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">PRINCIPLES OF ORTHOGRAPHIC PROJECTIONS-CONVENTIONS -PROJECTIONS OF POINTS 
+                AND LINES INCLINED TO BOTH PLANES; PROJECTIONS OF PLANES INCLINED PLANES -
+                AUXILIARY PLANES
+                
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3: PROJECTIONS OF REGULAR SOLIDS
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">THOSE INCLINED TO BOTH THE PLANES- AUXILIARY VIEWS; DRAW SIMPLE ANNOTATION,
+                  DIMENSIONING AND SCALE. FLOOR PLANS THAT INCLUDE: WINDOWS, DOORS, AND FIXTURES 
+                  SUCH AS WC, BATH, SINK, SHOWER, ETC.
+                  
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4: SECTIONS AND SECTIONAL VIEWS OF RIGHT ANGULAR SOLIDS
+
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;">COVERING, PRISM, CYLINDER, PYRAMID, CONE – AUXILIARY VIEWS; DEVELOPMENT 
+                    OF SURFACES OF RIGHT REGULAR SOLIDS- PRISM, PYRAMID, CYLINDER AND CONE; DRAW 
+                    THE SECTIONAL ORTHOGRAPHIC VIEWS OF GEOMETRICAL SOLIDS, OBJECTS FROM INDUSTRY 
+                    AND DWELLINGS (FOUNDATION TO SLAB ONLY) .
+                    
+                    </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: ISOMETRIC PROJECTIONS
+
+                    </h5><br>
+                    <p style="text-align: justify; font-family: roboto;">PRINCIPLES OF ISOMETRIC PROJECTION – ISOMETRIC SCALE, ISOMETRIC VIEWS, 
+                      CONVENTIONS; ISOMETRIC VIEWS OF LINES, PLANES, SIMPLE AND COMPOUND SOLIDS; 
+                      CONVERSION OF ISOMETRIC VIEWS TO ORTHOGRAPHIC VIEWS AND VICE-VERSA, CONVENTIONS.
+                      
+                      </p><br>
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6: OVERVIEW OF COMPUTER GRAPHICS
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">LISTING THE COMPUTER TECHNOLOGIES THAT IMPACT ON GRAPHICAL COMMUNICATION, 
+                        DEMONSTRATING KNOWLEDGE OF THE THEORY OF CAD SOFTWARE [SUCH AS: THE MENU SYSTEM, 
+                        TOOLBARS (STANDARD, OBJECT PROPERTIES, DRAW, MODIFY AND DIMENSION), DRAWING 
+                        AREA (BACKGROUND, CROSSHAIRS, COORDINATE SYSTEM), DIALOG BOXES AND WINDOWS, 
+                        SHORTCUT MENUS (BUTTON BARS), THE COMMAND LINE (WHERE APPLICABLE), THE STATUS 
+                        BAR, DIFFERENT METHODS OF ZOOM AS USED IN CAD, SELECT AND ERASE OBJECTS.; 
+                        ISOMETRIC VIEWS OF LINES, PLANES, SIMPLE AND COMPOUND SOLIDS].
+                        
+                        </p><br>
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 7: CUSTOMISATION & CAD DRAWING 
+                        </h5><br>
+                        <p style="text-align: justify; font-family: roboto;">CONSISTING OF SET UP OF THE DRAWING PAGE AND THE PRINTER, INCLUDING SCALE 
+                          SETTINGS, SETTING UP OF UNITS AND DRAWING LIMITS; ISO AND ANSI STANDARDS FOR 
+                          COORDINATE DIMENSIONING AND TOLERANCING; ORTHOGRAPHIC CONSTRAINTS, SNAP TO 
+                          OBJECTS MANUALLY AND AUTOMATICALLY; PRODUCING DRAWINGS BY USING VARIOUS 
+                          COORDINATE INPUT ENTRY METHODS TO DRAW STRAIGHT LINES, APPLYING VARIOUS WAYS OF 
+                          DRAWING CIRCLES.
+                          
+                          
+                          </p><br>
+                          <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 8: ANNOTATIONS, LAYERING & OTHER FUNCTIONS
+
+                          </h5><br>
+                          <p style="text-align: justify; font-family: roboto;">COVERING APPLYING DIMENSIONS TO OBJECTS, APPLYING ANNOTATIONS TO 
+                            DRAWINGS; SETTING UP AND USE OF LAYERS, LAYERS TO CREATE DRAWINGS, CREATE, EDIT 
+                            AND USE CUSTOMIZED LAYERS; CHANGING LINE LENGTHS THROUGH MODIFYING EXISTING 
+                            LINES (EXTEND/LENGTHEN); PRINTING DOCUMENTS TO PAPER USING THE PRINT COMMAND; 
+                            ORTHOGRAPHIC PROJECTION TECHNIQUES; DRAWING SECTIONAL VIEWS OF COMPOSITE RIGHT 
+                            REGULAR GEOMETRIC SOLIDS AND PROJECT THE TRUE SHAPE OF THE SECTIONED SURFACE; 
+                            DRAWING ANNOTATION, COMPUTER-AIDED DESIGN (CAD) SOFTWARE MODELING OF PARTS AND 
+                            ASSEMBLIES. PARAMETRIC AND NON-PARAMETRIC SOLID, SURFACE, AND WIREFRAME MODELS. 
+                            PART EDITING AND TWO-DIMENSIONAL DOCUMENTATION OF MODELS. PLANAR PROJECTION 
+                            THEORY, INCLUDING SKETCHING OF PERSPECTIVE, ISOMETRIC, MULTIVIEW, AUXILIARY, 
+                            AND SECTION VIEWS. SPATIAL VISUALIZATION EXERCISES. DIMENSIONING GUIDELINES, 
+                            TOLERANCING TECHNIQUES; DIMENSIONING AND SCALE MULTI VIEWS OF DWELLING.
+                            
+                            </p><br>
+                            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 9: DEMONSTRATION OF A SIMPLE TEAM DESIGN PROJECT THAT ILLUSTRATES
+
+                            </h5><br>
+                            <p style="text-align: justify; font-family: roboto;">GEOMETRY AND TOPOLOGY OF ENGINEERED COMPONENTS: CREATION OF ENGINEERING 
+                              MODELS AND THEIR PRESENTATION IN STANDARD 2D BLUEPRINT FORM AND AS 3D WIRE-FRAME AND SHADED SOLIDS; MESHED TOPOLOGIES FOR ENGINEERING ANALYSIS AND TOOLPATH GENERATION FOR COMPONENT MANUFACTURE; GEOMETRIC DIMENSIONING AND 
+                              TOLERANCING; USE OF SOLID-MODELING SOFTWARE FOR CREATING ASSOCIATIVE MODELS AT 
+                              THE COMPONENT AND ASSEMBLY LEVELS. FLOOR PLANS THAT INCLUDE: WINDOWS, DOORS, 
+                              AND FIXTURES SUCH AS WC, BATH, SINK, SHOWER, ETC. APPLYING COLOUR CODING ACCORDING TO BUILDING DRAWING PRACTICE; DRAWING SECTIONAL ELEVATION SHOWING 
+                              FOUNDATION TO CEILING; INTRODUCTION TO BUILDING INFORMATION MODELLING (BIM). 
+                              
+                              </p><br>
+
+                              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                BHATT N.D., PANCHAL V.M. & INGLE P.R., (2014), ENGINEERING DRAWING,
+                                CHAROTAR PUBLISHING HOUSE .
+                                 </p><br>
+                                <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                  SHAH, M.B. &RANA B.C. (2008), ENGINEERING DRAWING AND COMPUTER GRAPHICS, 
+                                  PEARSON EDUCATION.</p><br>
+          
+                                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED REFERENCE BOOKS</h5><br>
+                                  <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                     AGRAWAL B. & AGRAWAL C. M. (2012), ENGINEERING GRAPHICS, TMH PUBLICATION
+                                     NARAYANA, K.L. & P KANNAIAH (2008), TEXT BOOK ON ENGINEERING DRAWING, 
+                                    SCITECHPUBLISHERS . </p><br>
+                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                      (CORRESPONDING SET OF) CAD SOFTWARE THEORY AND USER MANUALS .</p><br>
+                                    
+                <h5 style="font-family: roboto;color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+                </h5><br> 
+                <p style="text-align: justify; font-family: roboto;">ALL PHASES OF MANUFACTURING OR CONSTRUCTION REQUIRE THE CONVERSION OF NEW 
+                  IDEAS AND DESIGN CONCEPTS INTO THE BASIC LINE LANGUAGE OF GRAPHICS. THEREFORE, 
+                  THERE ARE MANY AREAS (CIVIL, MECHANICAL, ELECTRICAL, ARCHITECTURAL AND 
+                  INDUSTRIAL) IN WHICH THE SKILLS OF THE CAD TECHNICIANS PLAY MAJOR ROLES IN THE 
+                  DESIGN AND DEVELOPMENT OF NEW PRODUCTS OR CONSTRUCTION. STUDENTS PREPARE FOR 
+                  ACTUAL WORK SITUATIONS THROUGH PRACTICAL TRAINING IN A NEW STATE-OF-THE-ART 
+                  COMPUTER DESIGNED CAD LABORATORY USING ENGINEERING SOFTWARE.
+                  
+                  </p><br>
+
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">THIS COURSE IS DESIGNED TO ADDRESS:
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;"> TO PREPARE YOU TO DESIGN A SYSTEM, COMPONENT, OR PROCESS TO MEET DESIRED 
+                    NEEDS WITHIN REALISTIC CONSTRAINTS SUCH AS ECONOMIC, ENVIRONMENTAL, 
+                    SOCIAL, POLITICAL, ETHICAL, HEALTH AND SAFETY, MANUFACTURABILITY, AND 
+                    SUSTAINABILITY .<br><br>
+                     TO PREPARE YOU TO COMMUNICATE EFFECTIVELY.<br><br>
+                     TO PREPARE YOU TO USE THE TECHNIQUES, SKILLS, AND MODERN ENGINEERING TOOLS 
+                    NECESSARY FOR ENGINEERING PRACTICE.<br><br>
+                    </p><br>
+
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">THE STUDENT WILL LEARN:
+                    </h5><br>
+                    <p style="text-align: justify; font-family: roboto;"> INTRODUCTION TO ENGINEERING DESIGN AND ITS PLACE IN SOCIETY.<br><br>
+                       EXPOSURE TO THE VISUAL ASPECTS OF ENGINEERING DESIGN.<br><br>
+                       EXPOSURE TO ENGINEERING GRAPHICS STANDARDS.<br><br>
+                       EXPOSURE TO SOLID MODELLING.<br><br>
+                       EXPOSURE TO COMPUTER-AIDED GEOMETRIC DESIGN.<br><br>
+                       EXPOSURE TO CREATING WORKING DRAWINGS.<br><br>
+                       EXPOSURE TO ENGINEERING COMMUNICATION.<br><br>
+                      </p><br>
+</div>
+          </div>
+       
+          </div>
+        </div>
+        
+      </div>
+</div>
+<div class="container-fluid gap"  style="background-color:#FF6633;">
+  <div class="container  shadow p-3 mb-5 bg-body-tertiary rounded"  style="background-color:#FF6633;">
+    <div class="row "  >
+      <div class="col-md-4 my-3  fw-bold border align-self:center">
+        <p style="font-size: 20px;">Address:- Growth Center, Jasoiya More, Aurangabad Bihar - 824102</p>
+      
+      </div><br>
+   
+
+
+      <div class="col-md-4 my-3 mx-2 fw-bold border align-self:center">
+        <p style="font-size: 20px;"><i class="bi bi-telephone"></i>Contact Number:-</i>+91-9308392306 / 9102318888 <br>9308394144 / 9334127770 / 9322698410</p><br>
+   
+      </div>
+   
+
+      <div class="col-md-3 my-3 fw-bold border align-self:center">
+        <p style="font-size:20px;"><i class="bi bi-envelope"></i>Email:- Sityog@gmail.com</p><br>
+        <p style="font-size:20px;">yahoo:-Sityog@yahoo.com</p>
+      </div>
+      <div class="col-md-6 border my-3">
+        <a href="https://www.facebook.com/sityogaurangabad"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+        <a href="https://www.youtube.com/channel/UCqLpIqvF3GldPpZWso6AIlg"><i class="bi bi-youtube" style="font-size: 30px; color:red; padding-left: 15px;"></i></a>
+        <a href="https://www.instagram.com/sityog_institute_of_technology/?hl=en"><i class="bi bi-instagram" style="font-size: 30px; color:blue; padding-left: 15px;"></i></a>
+     <a href=""></a>
+      </div>
+    </div>
+      <div class="row border align-self:center">
+        <div class="col-md-6">
+          <div class="detailTab-section-title">
+            <div class="detailTab-title">
+                <h4 >Important Links</h4>
+           
+            </div>
+          </div>
+          <a href="http://www.sityog.edu.in/alumni/"><li class=" fw-bold">Alumini</li></a>
+          <a href="https://swayam.gov.in/">    <li class=" fw-bold">Online Classes</li></a>
+          <a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">    <li class=" fw-bold">Student Credit Card Apply</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">B.tech Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BCA Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BBA Syllabus</li></a>
+          <a href="http://sbteonline.in/syllabus">    <li class=" fw-bold">Diploma Syllabus</li></a>
+          <a href=" https://results.akuexam.net/"><li class=" fw-bold">AKU Result</li></a>
+          <a href=" https://www.akubihar.com//"><li class=" fw-bold">AKu Previous Year Question</li></a>
+        </div>
+      </div>
+    </div>
+</div>
+  
+<footer class="bg-custom text-white py-2 text-center ">&copy Designed By Deepak Kumar, Vandna Kumari, Atul Kumar, Shakshi Gupta and Vinisha Kumari</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

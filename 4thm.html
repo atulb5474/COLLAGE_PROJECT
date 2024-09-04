@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sityog Institute of Technology </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        p{
+          font-size:20px ;
+        }
+          .accordion-button
+  {
+   background-color: purple;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+  }
+   button:hover{
+     background-color:#FF6633 ;
+     color:white;
+     border-radius: 30px;
+  
+   }
+   .dropdown-submenu {
+       position: relative;
+     }
+     
+     .dropdown-submenu .dropdown-menu {
+       top: 0;
+       left: 100%;
+       margin-top: -1px;
+     } .navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+      </style>
+</head>
+  <body >
+    <img src="image/download.png"width="100%", height="150px">
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+    <header class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#"><p style="text-align: justify;">Welcome to Smart Sityog</p></a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="institute.html"text-white fw-bold>About Institute</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="vision.html"text-white fw-bold>Vision & Mission</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="board.html"text-white fw-bold>Board Of Management</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="chairman.html"text-white fw-bold>Chairman Message</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="secretary.html"text-white fw-bold>Secretary Message</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="approve.html"text-white fw-bold>Approval & Affiliation</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   ADMISSION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Apply Now <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="registration.html">Apply For B.Tech, BBA ,BCA,BA(J&MC)</a></li>
+                        <li><a tabindex="-1" href="https://bceceboard.bihar.gov.in/">Apply For Diploma</a></li>
+                        <li><a tabindex="-1" href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">Apply For Student Credit Card</a></li>
+                       
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X2dq1ElIqKtn91-rE8e9uIUzd6OgthwF/view?usp=drivesdk">Registration Form</a></li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X3QoQcHpv-6GPBQX5NaXHUaeCioAKgoU/view?usp=drivesdk">Prospectus</a></li>
+                    <li><a tabindex="-1" href="fee.html">Fee Structure</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">U.G(UNDER GRADUATION) <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="btech.html">B.Tech</a></li>
+                        <li><a tabindex="-1" href="bca.html">BCA</a></li>
+                        <li><a tabindex="-1" href="bba.html">BBA</a></li>
+                        <li><a tabindex="-1" href="bj.html">BA(J&MC)</a></li>
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="diploma.html">Diploma</a></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                  Facilities & Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="workshop.html"text-white fw-bold>Workshops</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="library.html"text-white fw-bold>Library</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="lab.html"text-white fw-bold>Lab Testing</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="wifi.html"text-white fw-bold>Wifi-Campus</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="computer.html"text-white fw-bold>Hi-tech Computer Lab</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="transport.html"text-white fw-bold>Transportation</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sports.html"text-white fw-bold>Sports Facilities</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="hostel.html"text-white fw-bold>Hostel & Mess</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="hall.html"text-white fw-bold>Seminar-Hall</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="temple.html"text-white fw-bold>Temple</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white fw-bold" href="faculty.html"text-white fw-bold>Faculty List</a>
+                </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Placement
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="recruiters.html"text-white fw-bold>Our Top Recruiters</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="tpo.html"text-white fw-bold>Training Placement Officer(T.P.O)</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2017.html"text-white fw-bold>Campus Placement 2017</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2018.html"text-white fw-bold>Campus Placement 2018</a></li>
+                     <li><a class="dropdown-item text-fw-bold" href="2019.html"text-white fw-bold>Campus Placement 2019</a></li>
+               
+                     <li><a class="dropdown-item text-fw-bold" href="2021.html"text-white fw-bold>Campus Placement 2021</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2022.html"text-white fw-bold>Campus Placement 2022</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sit/upload-placement.php"text-white fw-bold>Latest Placement</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="facilities.html"text-white fw-bold>Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>Login Now</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        </div>
+      </header>
+      <a href="registration.html"><div class="fixed-icon"><img src="https://www.sityog.edu.in/images/applynow1.gif" style="width: 100px;height: 100px;"></div></a>
+<div class="container-fluid gap ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingOne" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <h1>  Fluid Mechanics</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse  border shadow p-3 mb-5 bg-body-tertiary rounded" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded">
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">OBJECTIVES
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">To learn about the application of mass and momentum conservation laws for fluid flows.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">To understand the importance of dimensional analysis.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">To obtain the velocity and pressure variations in various types of simple flows.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">To analyze the flow in water pumps and turbines.
+                </p><br>
+                <h5 style="font-family: roboto; color:brown;" >CONTENTS</h5>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1 (8 lectures)
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Definition of fluid, Units and dimensions, Newton's law of viscosity, Properties of fluids, mass, density, specific volume, specific gravity, 
+                viscosity, surface tension and capillarity, vapor pressure, compressibility and bulk modulus.Hydrostatics; fluid force on plane and curved surfaces, manometers, buoyancy, uniformly accelerated motion.
+            </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: (4 lectures)
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Kinematics of fluid flow: Generalized continuity equation, Irrotational motion and solution to Laplace equation. Concept of stream lines, Equipotential Lines, Flow Nets.
+
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3 (6 lectures)
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Dynamics of fluid flow: Control volume and control surface, application of continuity equation and
+                    momentum equation, Bernoulli's equation and its applications.
+                </p><br>
+    
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4 ( 4lectures)
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;">Concept of boundary layer, boundary layer thickness, Displacement thickness, momentum thickness, energy thickness.
+    
+                    </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5 (8 lectures)
+                    </h5><br>
+                    <p style="text-align: justify; font-family: roboto;">Laminar viscous flow through circular conduits, Couette and Poisuielle flow, Turbulent flow through pipes, Darcy Weisbach equation, friction factor for smooth and rough pipes, Moody's diagram.
+                    </p><br>
+        
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6 (6 lectures)
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">Need for dimensional analysis, methods of dimension analysis, Similitude and types of similitude, Dimensionless parameters, application of dimensionless parameters Model analysis.
+        
+                        </p><br>
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 7 (6 lectures)
+                        </h5><br>
+                        <p style="text-align: justify; font-family: roboto;">Forces on immersed bodies, concepts of separation, drag force, circulation and lift force.
+                        </p><br>
+            
+                         
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS / REFRENCES BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Frank M. White, Fluid Mechanics (Sixth Edition), Tata McGraw-Hill, New Delhi (2008).
+                     </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        J. O. Wilkes, Fluid Mechanics for Chemical Engineers, Prentice Hall (1999).
+                    </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Som and Biswas; Fluid Mechanics and machinery; TMH.</p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Cengal; Fluid Mechanics; TMH.</p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                Modi & Seth; Fluid Mechanics; Standard Book House, Delhi.</p><br>
+                                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">PRATICALS
+                                </h5><br>
+                              <p style="text-align: justify; font-family: roboto;">
+                                Determination of density & viscosity of oil.
+                                 </p><br>
+                                <p style="text-align: justify; font-family: roboto;">
+                                    To determine the meta-centric height of a floating body.
+                                    </p><br>
+                                    <p style="text-align: justify; font-family: roboto;">
+                                        Measurement of Coefficient of Discharge of given Orifice and Venturimeter.
+                                         </p><br>
+                                        <p style="text-align: justify; font-family: roboto;">
+                                            To determine the coefficient of discharge of Notch (Vand Rectangular types).
+                                            </p><br>
+                                            <p style="text-align: justify; font-family: roboto;">
+                                                To determine the friction factor for the pipes.
+                                                 </p><br>
+                                                <p style="text-align: justify; font-family: roboto;">
+                                                    To verify the Bernoulli's Theorem.
+                                                    </p><br>
+                                                    <p style="text-align: justify; font-family: roboto;">
+                                                        To find critical Reynolds number for a pipe flow.
+                                                         </p><br>
+                                                        <p style="text-align: justify; font-family: roboto;">
+                                                            To determine the minor losses due to sudden enlargement, sudden contraction and bends.
+                                                            </p><br>
+                                                            <p style="text-align: justify; font-family: roboto;">
+                                                                 To show the velocity and pressure variation with radius in a free and forced vortex.
+                                                                </p><br>
+                                                                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> COURCE OUTCOMES
+                                                                </h5><br>
+                                                                <p style="text-align: justify; font-family: roboto;">
+                                                                    State the Newton's law of viscosity and explain the mechanics of fluids at rest and in
+                                                                    motion by observing the fluid phenomena.
+                                                                   </p><br>
+                                                                  <p style="text-align: justify; font-family: roboto;">
+                                                                    Compute force of buoyancy on a partially or fully submerged body and analyze the stability of a floating body.
+                                                                  </p><br>
+                                            
+                                                                    <p style="text-align: justify; font-family: roboto;">
+                                                                        Derive Euler's Equation of motion and deduce Bernoulli's equation.
+                                                                     </p><br>
+                                                                      <p style="text-align: justify; font-family: roboto;">
+                                                                        Examine energy losses in pipe transitions and sketch energy gradient lines.
+                                                                    </p><br>
+                                                                        <p style="text-align: justify; font-family: roboto;">
+                                                                            Evaluate pressure drop in pipe flow using Hagen-Poiseuille's equation.
+                                                                         </p><br>    
+                                                                         <p style="text-align: justify; font-family: roboto;">
+                                                                            Distinguish the types of flows.
+                                                                         </p><br>                        
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwo" style="text-align: center;">
+            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+               <h1 style="text-align: center;"> Applied Thermodynamics</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+             
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> OBJECTIVES
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">
+                    To learn about of I law for reacting systems and heating value of fuels.
+                   </p><br>
+                  <p style="text-align: justify; font-family: roboto;">
+                    To learn about gas and vapor cycles and their first law and second law efficiencies.
+                  </p><br>
+
+                    <p style="text-align: justify; font-family: roboto;">
+                        To understand about the properties of dry and wet air and the principles of psychometric.
+                     </p><br>
+                      <p style="text-align: justify; font-family: roboto;">
+                        To learn about gas dynamics of air flow and steam through nozzles.
+                    </p><br>
+                        <p style="text-align: justify; font-family: roboto;">
+                            To learn the about reciprocating compressors with and without intercooling.
+                         </p><br>    
+                         <p style="text-align: justify; font-family: roboto;">
+                            To analyze the performance of steam turbines.
+                         </p><br>
+                         <h5 style="font-family: roboto; color:brown;" >CONTENTS</h5> 
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1 (8 lectures)
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Introduction to solid, liquid and gaseous fuels - Stoichiometry, exhaust gas analysis- First law analysisof combustion reactions. Heat calculations using enthalpy 
+                tables. Adiabatic flame temperature. Chemical equilibrium and equilibrium composition calculations using free energy.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2 (10 lectures)
+               </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Thermodynamic cycles, Gas power cycles: Air standard Otto, Diesel and Dual Cycles. Air standard Brayton cycle, effect of reheat, regeneration and intercooling. Combined gas and vapor power cycles. Vapor compression refrigeration cycles cycle and comparison with Carnot cycle, refrigerants and their properties.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3 (6 lectures)
+                    </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Vapor power cycles: Basic Rankine cycle, Rankine cycle with superheat, reheat and regeneration, exergy analysis. Super- critical and ultra-super-critical Rankine cycle.
+               </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4 (8 lectures)
+                </h5><br>
+               <p style="text-align: justify; font-family: roboto;">Basics of compressible flow. Stagnation properties, Isentropic flow of a perfect gas through a nozzle, choked flow, subsonic and supersonic flows- normal shocks- use of ideal gas tables for isentropic flow and normal shock flow- Flow of steam and refrigerant through nozzle, super saturation- compressible flow in diffusers, efficiency of nozzle and diffuser.
+                 
+                 </p><br>
+ 
+                 <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5 (5 lectures)
+                </h5><br>
+               <p style="text-align: justify; font-family: roboto;">Analysis of steam turbines, velocity and pressure compounding of steam turbines.
+            </p><br>
+                 <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6 (5 lectures)
+                </h5><br>
+               <p style="text-align: justify; font-family: roboto;">Reciprocating compressors, staging of reciprocating compressors, optimal stage pressure ratio, effect of intercooling, minimum work for multistage reciprocating compressors.
+                 
+                 </p><br>
+ 
+               
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT / REFRENCES BOOKS
+                </h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Sonntag, R. E, Borgnakke, C. and Van Wylen, G. J., 2003, 6th Edition, Fundamentals of Thermodynamics, John Wiley andSons.
+                    </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Jones, J. B. and Duggan, R. E., 1996, Engineering Thermodynamics, Prentice-Hall of India
+                      </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Moran, M. J. and Shapiro, H. N., 1999, Fundamentals of Engineering Thermodynamics, John Wiley andSons.
+                        </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Nag, P. K, 1995, Engineering Thermodynamics, Tata McGraw-Hill Publishing Co. Ltd. 
+                        </p><br>
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> COURCE OUTCOMES
+                        </h5><br>
+                        <p style="text-align: justify; font-family: roboto;">
+                            After completing this course, the students will get a good understanding of various practical power cycles and heat pump cycles.
+                           </p><br>
+                          <p style="text-align: justify; font-family: roboto;">
+                            They will be able to analyze energy conversion in various thermal devices such as combustors, air coolers, nozzles, diffusers, steam turbines and reciprocating compressors.
+                          </p><br>
+    
+                            <p style="text-align: justify; font-family: roboto;">
+                                They will be able to understand phenomena occurring in high speed compressible flows.
+                             </p><br>
+     
+                                                       </div>
+          </div>
+        </div>
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingThree" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          <h1>  Strength of Materials</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">OBJECTIVES
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">To understand the nature of stresses developed in simple geometries such as bars, cantilevers, beams, shafts, cylinders and spheres for various types of simple loads.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">To calculate the elastic deformation occurring in various simple geometries for different types of loading.
+                        </p><br>
+                        <h5 style="font-family: roboto; color:brown;" >CONTENTS</h5>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1 (8 lectures)
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Deformation in solids- Hooke's law, stress and strain- tension, compression and shear stresses- elastic constants and their relations- volumetric, linear and shear strains- principal stresses and
+                principal planes- Mohr's circle, theories of failure.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2 (8 lectures)
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Beams and types transverse loading on beams- shear force and bend moment diagrams- Types of beam supports, simply supported and over-hanging beams, cantilevers. Theory of bending of beams, bending stress distribution and neutral axis, shear stress distribution, point and distributed
+                loads.
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 3 (8 lectures)
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Moment of inertia about an axis and polar moment of inertia, deflection of a beam using double integration method, computation of slopes and deflection in beams, Maxwell's reciprocal theorems.
+                
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 4 (8 lectures)
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Torsion, stresses and deformation in circular and hollow shafts, stepped shafts, deflection of shafts fixed at both ends, stresses and deflection of helical springs.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5 (8 lectures)
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Axial and hoop stresses in cylinders subjected to internal pressure, deformation of thick and thin cylinders, deformation in spherical shells subjected to internal pressure.
+                </p><br>
+
+               
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT BOOKS</h5><br>
+                   
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Egor P. Popov, Engineering Mechanics of Solids, Prentice Hall of India, New Delhi,2001.
+                    </p><br>
+
+                
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            R. Subramanian, Strength of Materials, Oxford University Press,2007.
+                         </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Ferdinand P. Been, Russel Johnson Jr. and John J. Dewole, Mechanics of Materials, Tata GrawHill Publishing Co. Ltd., New Delhi2005.</p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              Salmon, C.G. and Johnson, J.E., Steel Structures: Design and Behavior, 3rd Edition, Harper &
+                              Row, Publishers, New York, 1990. </p><br>
+               
+                             <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> PRATICALS</h5><br>
+                                <p style="text-align: justify; font-family: roboto;">
+                                    Hooke's Law. </p><br>
+                                  <p style="text-align: justify; font-family: roboto;">
+                                    Hardness Test: Rockwell, Brinell, Vicker.</p><br>
+                                    <p style="text-align: justify; font-family: roboto;">
+                                        Izod & Charpy Impact Test.
+                                     </p><br>
+                                      <p style="text-align: justify; font-family: roboto;">
+                                        Bending Test.</p><br>
+                                        <p style="text-align: justify; font-family: roboto;">
+                                            Torsion Test. </p><br>
+                                          <p style="text-align: justify; font-family: roboto;">
+                                            Shear test.</p><br>
+                                            
+                                            <p style="text-align: justify; font-family: roboto;">
+                                                Compressive strength test.
+                                             </p><br>
+                                              <p style="text-align: justify; font-family: roboto;">
+                                                Fatigue Test.</p><br>
+                                                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURCES OUTCOMES
+                                                </h5><br>
+                                                <p style="text-align: justify; font-family: roboto;">
+                                                    After completing this course, the students should be able to recognize various types loads applied on machine components of simple geometry and understand the nature of internal stresses that will develop within the components.
+                                                 </p><br>
+                                                  <p style="text-align: justify; font-family: roboto;">
+                                                    The students will be able to evaluate the strains and deformation that will result due to the elastic stresses developed within the materials for simple types of loading.
+                                                   </p><br>
+                            
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFour" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+             <h1>   Engineering Materials</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">OBJECTIVES
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Understanding of the correlation between the internal structure of materials, their mechanical properties and various methods to quantify their mechanical integrity and
+                    failure criteria.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">To provide a detailed interpretation of equilibrium phase diagrams and Learning about different phases and heat treatment methods to tailor the properties of Fe-C alloys.
+                        </p><br>
+                        <h5 style="font-family: roboto; color:brown;" >CONTENTS</h5>
+              
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1 (6 lectures)
+              </h5><br>
+            <p style="text-align: justify; font-family: roboto;">
+                Crystal Structure: Unit cells, Metallic crystal structures, Ceramics. Imperfection in solids: Point, line, interfacial and volume defects; dislocation strengthening mechanisms and slip systems, critically resolved shear stress.
+            </p><br>
+           
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2 (6 lectures)
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Crystal Structure: Unit cells, Metallic crystal structures, Ceramics. Imperfection in solids: Point, line, interfacial and volume defects; dislocation strengthening mechanisms and slip systems, critically resolved shear stress.
+                </p><br>
+               
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3 (6 lectures)
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Mechanical Property measurement: Tensile, compression and torsion tests; Young's modulus, relations between true and engineering stress-strain curves, generalized Hooke’s law, yielding and yield strength, ductility, resilience, toughness and elastic recovery; Hardness: Rockwell, Brinell and Vickers and their relation to strength, Introduction to non-destructive testing (NDT).
+                  
+                  </p><br>
+                 
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4 (6 lectures)
+
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;">Heat treatment of Steel: Annealing, tempering, normalising and spheroidising, isothermal transformation diagrams for Fe-C alloys and microstructure development. Continuous cooling curves, T-T-T diagram and interpretation of final microstructures and properties- austempering, martempering, case hardening, carburizing, nitriding, cyaniding, carbo-nitriding, flame and induction hardening, vacuum and plasma hardening.
+                    
+                    </p><br>
+                   
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5
+
+                    </h5><br>
+                    <p style="text-align: justify; font-family: roboto;">Alloying of steel, properties of stainless steel and tool steels, maraging steels- cast irons; grey, white, malleable and spheroidal cast irons- copper and copper alloys; brass, bronze and cupro-
+                        nickel; Aluminium and Al-Cu - Mg alloys- Nickel based superalloys and Titanium alloys.
+                      </p><br>
+                
+
+                              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT BOOKS</h5><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                W. D. Callister, 2006, “Materials Science and Engineering-An Introduction”, 6th Edition, Wiley India.
+                                 </p><br>
+                                <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    Kenneth G. Budinski and Michael K. Budinski, “Engineering Materials”, Prentice Hall of India Private Limited, 4th Indian Reprint, 2002.
+                                </p><br>
+
+                                  <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    V. Raghavan, “Material Science and Engineering'S, Prentice Hall of India Private Limited, 1999. </p><br>
+                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                        U. C. Jindal, “Engineering Materials and Metallurgy”, Pearson, 2011.
+                                     </p><br>
+                                     <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURCE OUTCOMES
+                                    </h5><br>
+                                     <p style="text-align: justify; font-family: roboto;">
+                                        Student will be able to identify crystal structures for various materials and understand the defects in such structures.
+                                     </p><br>
+                                      <p style="text-align: justify; font-family: roboto;">
+                                        Understand how to tailor material properties of ferrous and non-ferrous alloys.
+                                      </p><br>
+                                      <p style="text-align: justify; font-family: roboto;">
+                                        How to quantify mechanical integrity and failure in materials.
+                                      </p><br>
+                                       
+               
+</div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSFive" style="text-align: center;">
+              <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <h1>  Instrumentation and Control</h1> 
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+             
+              <div class="accordion-body">
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">OBJECTIVES
+                </h5><br>
+                 <p style="text-align: justify; font-family: roboto;">
+                    To provide a basic knowledge about measurement systems and their components.
+                 </p><br>
+                  <p style="text-align: justify; font-family: roboto;">
+                    To learn about various sensors used for measurement of mechanical quantities.
+                  </p><br>
+                  <p style="text-align: justify; font-family: roboto;">
+                    To learn about system stability and control.
+                  </p><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                        To integrate the measurement systems with the process for process monitoring and control.
+                    </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1 (10 lectures)
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Measurement systems and performance -configuration of a measuring system, Methods for correction 
+                for interfering and modifying inputs - accuracy, range, resolution, error sources, precision, error sensitivity etc.Classification of errors and statistical analysis of experimental data.
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2 (8 lectures)
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Instrumentation system elements -sensors for common engineering measurements. Transducers based on variable resistance, variable induction, variable capacitance and piezo-electric effects, Displacement transducer.
+                    </p><br>
+                     <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3 (6 lectures)
+                    </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Signal processing and conditioning; correction elements- actuators: pneumatic, hydraulic, electric.
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4 (10 lectures)
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Control systems - basic elements, open/closed loop, design of block diagram; control method - P, PI, PID, when to choose what, tuning of controllers.
+                    </p><br>
+                     <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5 (6 lectures)
+                    </h5><br>
+                <p style="text-align: justify; font-family: roboto;">System models, transfer function and system response, frequency response; Nyquist diagrams and
+                    their use.
+                  </p><br>
+                                 
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT BOOKS 
+                    </h5><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Instrumentation and control systems by W. Bolton, 2nd edition, Newnes, 2000.
+                      </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Thomas G. Beckwith, Roy D. Marangoni, John H. Lienhard V, Mechanical Measurements (6th
+                            Edition) 6th Edition, Pearson Education India, 2007.
+                       </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Gregory K. McMillan, Process/Industrial Instruments and Controls Handbook, Fifth Edition, McGraw-Hill: New York, 1999.
+                          </p><br>
+                          <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> COURCE OUTCOMES
+                        </h5><br>
+                            <p style="text-align: justify; font-family: roboto;">
+                                Upon completion of this course, the students will be able to understand the measurement of various quantities using instruments, their accuracy & range, and the techniques for controlling devices automatically.
+                             </p><br>
+                                     
+                               </div>
+            </div>
+       
+          </div>
+        </div>
+        
+      </div>
+</div>
+<div class="container-fluid gap"  style="background-color:#FF6633;">
+  <div class="container  shadow p-3 mb-5 bg-body-tertiary rounded"  style="background-color:#FF6633;">
+    <div class="row "  >
+      <div class="col-md-4 my-3  fw-bold border align-self:center">
+        <p style="font-size: 20px;">Address:- Growth Center, Jasoiya More, Aurangabad Bihar - 824102</p>
+      
+      </div><br>
+   
+
+
+      <div class="col-md-4 my-3 mx-2 fw-bold border align-self:center">
+        <p style="font-size: 20px;"><i class="bi bi-telephone"></i>Contact Number:-</i>+91-9308392306 / 9102318888 <br>9308394144 / 9334127770 / 9322698410</p><br>
+   
+      </div>
+   
+
+      <div class="col-md-3 my-3 fw-bold border align-self:center">
+        <p style="font-size:20px;"><i class="bi bi-envelope"></i>Email:- Sityog@gmail.com</p><br>
+        <p style="font-size:20px;">yahoo:-Sityog@yahoo.com</p>
+      </div>
+      <div class="col-md-6 border my-3">
+        <a href="https://www.facebook.com/sityogaurangabad"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+        <a href="https://www.youtube.com/channel/UCqLpIqvF3GldPpZWso6AIlg"><i class="bi bi-youtube" style="font-size: 30px; color:red; padding-left: 15px;"></i></a>
+        <a href="https://www.instagram.com/sityog_institute_of_technology/?hl=en"><i class="bi bi-instagram" style="font-size: 30px; color:blue; padding-left: 15px;"></i></a>
+     <a href=""></a>
+      </div>
+    </div>
+      <div class="row border align-self:center">
+        <div class="col-md-6">
+          <div class="detailTab-section-title">
+            <div class="detailTab-title">
+                <h4 >Important Links</h4>
+           
+            </div>
+          </div>
+          <a href="http://www.beu-bih.ac.in/BEUP/Default.aspx">    <li class=" fw-bold text-white">Bihar Engineering University</li></a>
+          <a href="http://www.sityog.edu.in/alumni/"><li class=" fw-bold">Alumini</li></a>
+          <a href="https://swayam.gov.in/">    <li class=" fw-bold">Online Classes</li></a>
+          <a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">    <li class=" fw-bold">Student Credit Card Apply</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">B.tech Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BCA Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BBA Syllabus</li></a>
+          <a href="http://sbteonline.in/syllabus">    <li class=" fw-bold">Diploma Syllabus</li></a>
+          <a href=" https://results.akuexam.net/"><li class=" fw-bold">AKU Result</li></a>
+          <a href=" https://www.akubihar.com//"><li class=" fw-bold">AKu Previous Year Question</li></a>
+        </div>
+      </div>
+    </div>
+</div>
+  
+    <footer class="bg-custom text-white py-2 text-center">&copy Designed By Vandna Kumari</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+ </body>
+</html>

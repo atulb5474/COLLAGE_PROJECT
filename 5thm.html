@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sityog Institute of Technology </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        p{
+          font-size:20px ;
+        }
+          .accordion-button
+  {
+   background-color: purple;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+  }
+   button:hover{
+     background-color:#FF6633 ;
+     color:white;
+     border-radius: 30px;
+  
+   }
+   .dropdown-submenu {
+       position: relative;
+     }
+     
+     .dropdown-submenu .dropdown-menu {
+       top: 0;
+       left: 100%;
+       margin-top: -1px;
+     } .navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+      </style>
+</head>
+  <body >
+    <img src="image/download.png"width="100%", height="150px">
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+    <header class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#"><p style="text-align: justify;">Welcome to Smart Sityog</p></a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="institute.html"text-white fw-bold>About Institute</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="vision.html"text-white fw-bold>Vision & Mission</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="board.html"text-white fw-bold>Board Of Management</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="chairman.html"text-white fw-bold>Chairman Message</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="secretary.html"text-white fw-bold>Secretary Message</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="approve.html"text-white fw-bold>Approval & Affiliation</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   ADMISSION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Apply Now <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="registration.html">Apply For B.Tech, BBA ,BCA,BA(J&MC)</a></li>
+                        <li><a tabindex="-1" href="https://bceceboard.bihar.gov.in/">Apply For Diploma</a></li>
+                        <li><a tabindex="-1" href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">Apply For Student Credit Card</a></li>
+                       
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X2dq1ElIqKtn91-rE8e9uIUzd6OgthwF/view?usp=drivesdk">Registration Form</a></li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X3QoQcHpv-6GPBQX5NaXHUaeCioAKgoU/view?usp=drivesdk">Prospectus</a></li>
+                    <li><a tabindex="-1" href="fee.html">Fee Structure</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">U.G(UNDER GRADUATION) <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="btech.html">B.Tech</a></li>
+                        <li><a tabindex="-1" href="bca.html">BCA</a></li>
+                        <li><a tabindex="-1" href="bba.html">BBA</a></li>
+                        <li><a tabindex="-1" href="bj.html">BA(J&MC)</a></li>
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="diploma.html">Diploma</a></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                  Facilities & Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="workshop.html"text-white fw-bold>Workshops</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="library.html"text-white fw-bold>Library</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="lab.html"text-white fw-bold>Lab Testing</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="wifi.html"text-white fw-bold>Wifi-Campus</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="computer.html"text-white fw-bold>Hi-tech Computer Lab</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="transport.html"text-white fw-bold>Transportation</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sports.html"text-white fw-bold>Sports Facilities</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="hostel.html"text-white fw-bold>Hostel & Mess</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="hall.html"text-white fw-bold>Seminar-Hall</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="temple.html"text-white fw-bold>Temple</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white fw-bold" href="faculty.html"text-white fw-bold>Faculty List</a>
+                </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Placement
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="recruiters.html"text-white fw-bold>Our Top Recruiters</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="tpo.html"text-white fw-bold>Training Placement Officer(T.P.O)</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2017.html"text-white fw-bold>Campus Placement 2017</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2018.html"text-white fw-bold>Campus Placement 2018</a></li>
+                     <li><a class="dropdown-item text-fw-bold" href="2019.html"text-white fw-bold>Campus Placement 2019</a></li>
+               
+                     <li><a class="dropdown-item text-fw-bold" href="2021.html"text-white fw-bold>Campus Placement 2021</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2022.html"text-white fw-bold>Campus Placement 2022</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sit/upload-placement.php"text-white fw-bold>Latest Placement</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="facilities.html"text-white fw-bold>Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>Login Now</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        </div>
+      </header>
+      <a href="registration.html"><div class="fixed-icon"><img src="https://www.sityog.edu.in/images/applynow1.gif" style="width: 100px;height: 100px;"></div></a>
+<div class="container-fluid gap ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingOne" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <h1>  Heat Transfer</h1>
+            </button>
+            
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse  border shadow p-3 mb-5 bg-body-tertiary rounded" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded">
+             <h3><b>Objectives</b></h3>
+              <p style="font-family: roboto; " class="border shadow p-3 mb-5 bg-body-tertiary rounded">
+                1. The aim of the course is to build a solid foundation in heat transfer exposing students 
+                to the three basic modes namely conduction, convection and radiation.<br><br>
+                2. Rigorous treatment of governing equations and solution procedures for the three 
+                modes will be provided, along with solution of practical problems using empirical 
+                correlations.<br><br>
+                3. The course will also briefly cover boiling and condensation heat transfer, and the 
+                analysis and design of heat exchangers.<br><br>
+            </p>
+                <h5 style="font-family: roboto;" ><b>Contents:</b>
+                </h5><br>
+                             <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module: 1 (12 lectures)
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Introduction to three modes of heat transfer, Derivation of heat balance equation- Steady one 
+                dimensional solution for conduction heat transfer in Cartesian, cylindrical and spherical 
+                geometry, concept of conduction and film resistances, critical insulation thickness, lumped 
+                system approximation and Biot number, heat transfer through pin fins- Two dimensional 
+                conduction solutions for both steady and unsteady heat transfer-approximate solution to 
+                unsteady conduction heat transfer by the use of Heissler charts.
+                
+            </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module:2 (8 lectures)
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;" >Heat convection, basic equations, boundary layers- Forced convection, external and internal 
+                flows- Natural convective heat transfer- Dimensionless parameters for forced and free 
+                convection heat transfer-Correlations for forced and free convection- Approximate solutions 
+                to laminar boundary layer equations (momentum and energy) for both internal and external 
+                flow- Estimating heat transfer rates in laminar and turbulent flow situations using appropriate 
+                correlations for free and forced convection.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module: 3 (8 lectures)
+                 </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Interaction of radiation with materials, definitions of radiative properties, Stefan Boltzmann’s 
+                law, black and gray body radiation, Calculation of radiation heat transfer between surfaces 
+                using radiative properties, view factors and the radiosity method.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module: 4 (6 lectures)
+
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Types of heat exchangers, Analysis and design of heat exchangers using bothLMTD and ε-NTU methods.
+             
+            </p><br>
+              
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module: 5 (3 lectures)
+            </h5><br>
+              <p style="text-align: justify; font-family: roboto;">   Boiling and Condensation heat transfer, Pool boiling curve.
+              </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module: 6 (3 lectures)</h5><br>
+                <p style="text-align: justify; font-family: roboto;">Introduction mass transfer, Similarity between heat and mass transfer.
+                  </p><br>
+                 
+  
+                    <h5 style="font-family: roboto;" > TEXT / REFRENCES BOOKS
+                    </h5><br>
+                    <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                        1. Bejan, Heat Transfer John Wiley, 1993.<br><br>
+                        2. J.P.Holman, Heat Transfer, Eighth Edition, McGraw Hill, 1997.<br><br>
+                        3. F.P.Incropera, and D.P. Dewitt, Fundamentals of Heat and Mass Transfer, John 
+                        Wiley, Sixth Edition, 2007.<br><br>
+                        4. MassoudKaviany, Principles of Heat Transfer, John Wiley, 2002.<br><br>
+                        5. Yunus A Cengel, Heat Transfer: A Practical Approach, McGraw Hill, 2002.<br>
+                             </p><br>    
+                             
+                             <h5 style="font-family: roboto;" > Practical:
+
+                            </h5><br>
+                            <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                                1. Determination of Thermal Conductivity of a Metal Rod.<br><br>
+                                2. Determination of Overall Heat Transfer Coefficient of a Composite wall.<br><br>
+                                3. To find the effectiveness of a pin fin in a rectangular duct natural convective 
+                                condition and plot temperature distribution along its length.<br><br>
+                                4. To find the effectiveness of a pin fin in a rectangular duct under forced convective 
+                                and plot temperature distribution along its length.<br><br>
+                                5. Determination of Heat Transfer Coefficient in a free Convection on a vertical tube.<br><br>
+                                6. Determination of Heat Transfer Coefficient in a Forced Convention Flow through a 
+                                Pipe.<br><br>
+                                7. Determination of Emissivity of a Surface.<br><br>
+                                8. Determination of Stefan Boltzmann’s Constant.<br><br>
+                                9. Determination of LMDT and Effectiveness in a Parallel Flow and Counter Flow Heat 
+                                Exchangers.
+                                <br>
+                                     </p><br>    
+
+                                     <h5 style="font-family: roboto;" >Course Outcomes:
+
+
+                                     </h5><br>
+                                     <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                                        1. After completing the course, the students will be able to formulate and analyze a heat 
+                                        transfer problem involving any of the three modes of heat transfer.<br><br>
+                                        2. The students will be able to obtain exact solutions for the temperature variation using 
+                                        analytical methods where possible or employ approximate methods or empirical 
+                                        correlations to evaluate the rate of heat transfer.<br><br>
+                                        3. The students will be able to design devices such as heat exchangers and also estimate 
+                                        the insulation needed to reduce heat losses where necessary.
+                                         <br>
+                                              </p><br>    
+          </div>
+        </div></div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwo" style="text-align: center;">
+            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h1>   Fluid Machinery</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Objectives</b>
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">The objective is to present the mathematical and physical principles in understanding the 
+                linear continuum behavior of solids.</p><br><br>
+                
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module: 1
+
+            </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Introduction – Classification of fluid machinery.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module: 2
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Dynamic action of fluid jet – Impact of fluid jet on fixed and moving flat places, impact of jet 
+                on fixed and moving curved vanes, flow over radial vanes, jet propulsions. 
+            </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3: 
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Euler’s fundamental equation, degree of reaction.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4:  
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Hydraulic turbines, introduction, classification, impulse turbine, construction details, velocity 
+                triangles, power and efficiency calculations, reaction turbines; constructional details, working 
+                principle, velocity triangles, power and efficiency calculations, draft tube, cavitation, 
+                governing. 
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: 
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Principle of similarity in fluid machinery; unit and specific quantities, testing models and 
+                    selection of hydraulic turbines. 
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6: 
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Positive displacement pumps: Reciprocating pump; working principle, classification, slip, 
+                    indicator diagram, effect of friction and acceleration, theory of air vessel, performance 
+                    characteristics gas gear oil pump and screw pump. 
+                  </p><br>
+
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 7: 
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Rotodynamic pumps: Introduction, classification, centrifugal pump; main components, 
+                    working principle velocity triangle, effect of shape of blade specific speed, heats, power and 
+                    efficiency, calculations minimum steering speed, multi stage pumps, performance 
+                    characteristic, comparison with reciprocating pump.
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">PRACTICAL WORK
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">
+                    1. Performance on hydraulic turbines:<br><br>
+                    a. Pelton wheel.<br><br>
+                    b. Francis turbine.<br><br>
+                    c. Kaplan turbine.<br><br>
+                    2. Performance on hydraulic pumps:<br><br>
+                    a. Single stage and multi stage centrifugal pumps.<br><br>
+                    b. Reciprocating pump.<br><br>
+                    3. Performance test of a two stage reciprocating air compressor.<br><br>
+                    4. Performance test on an air blower.<br><br>
+                </p><br>
+                    <h5 style="font-family: roboto;"> TEXT/ REFERENCE BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"  class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                        1. G. T. Mase, R. E. Smelser and G. E. Mase, Continuum Mechanics for Engineers, Third 
+                        Edition, CRC Press,2004.<br><br>
+                        2. Y. C. Fung, Foundations of Solid Mechanics, Prentice Hall International, 1965.<br><br>
+                        3. Lawrence. E. Malvern, Introduction to Mechanics of a Continuous Medium, Prentice 
+                        Hall international, 1969.<br><br>
+                        4. Hydrantic Machine by Jagdish Lal.<br><br> 
+                        5. Hydraulics & Hydraulic Machines by Vasandari.<br><br> 
+                        6. Hydrantic Machine by RD Purohit</p><br>
+
+                        <h5 style="font-family: roboto;"> Course Outcomes:
+                        </h5><br>
+                        <p style="text-align: justify; font-family: roboto;"  class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                            Upon completion of this course, students will be able understand the deformation behavior of 
+solids under different types of loading and obtain mathematical solutions for simple 
+geometries.
+</p><br>
+<h5 style="font-family: roboto;"> OPTIONAL
+
+</h5><br>
+<p style="text-align: justify; font-family: roboto;"  class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+    1. Visit to hydraulic power station/Municipal water pump house and case studies.<br><br>
+    2. Demonstration of cut section models of hydraulic turbines and pumps.<br><br>
+</p><br>         
+                             </div>
+          </div>
+        </div>
+        <div class="accordion-item ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingThree" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+               <h1> Manufacturing Processes</h1>
+            </button>
+          </h2>
+          
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <h5 style="font-family: roboto;">OBJECTIVE
+            </h5><br>
+    
+            <p style="text-align: justify; font-family: roboto;"  class=" border shadow p-3 mb-5 bg-body-tertiary rounded">To motivate and challenge students to understand and develop an appreciation of the 
+                processes in correlation with material properties which change the shape, size and form of the 
+                raw materials into the desirable product by conventional or unconventional manufacturing 
+                methods.
+              </p><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: 
+            </h5><br>
+    
+            <p style="text-align: justify; font-family: roboto;">Conventional Manufacturing processes: Casting and Moulding: Metal casting processes and 
+                equipment, Heat transfer and solidification, shrinkage, riser design, casting defects and 
+                residual stresses.
+              </p><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2:
+            </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Introduction to bulk and sheet metal forming, plastic deformation and yield criteria; 
+                fundamentals of hot and cold working processes; load estimation for bulk forming(forging, 
+                rolling, extrusion, drawing) and sheet forming (shearing, deep drawing, bending) principles 
+                of powder metallurgy.
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 3: 
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Metal cutting: Single and multi-point cutting; Orthogonal cutting, various force components: 
+                Chip formation, Tool wear and tool life, Surface finish and integrity, Machinability, Cutting 
+                tool materials, Cutting fluids, Coating; Turning, Drilling, Milling and finishing processes, 
+                Introduction to CNC machining. 
+                
+                </p><br>
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 4: 
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Joining/fastening processes: Physics of welding, brazing and soldering; design considerations 
+                in welding, Solid and liquid state joining processes; Adhesive bonding.<br> 
+                Additive manufacturing: Rapid prototyping and rapid tooling .
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5:
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Machine Tools:</b>
+                (a) Lathe: Principle, types, operations, turret/capstan, semi/automatic, Tool layout.<br><br> 
+                (b) Shaper, slotted, planer, operation, drive. <br><br>
+                (c) Milling, Milling cutter, up & down milling, dividing head indexing, Max chip thickness, 
+                power required. <br><br>
+                (d) Drilling and boring, reaming tools, Geometry of twist drill, Grinding, Grinding wheel, 
+                Abrasive, cutting action, grinding wheel specification, Grinding wheel wear, alterations, 
+                wear, fracture wear, dressing and trimming. Max chip thickness and guest criteria, Flat 
+                and cylindrical grinding, Centerless grinding, Super finishing, Honing lapping, Polishing.
+                </p><br>
+               
+              
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT/ REFERENCE BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                        1. Kalpakjian and Schmid, Manufacturing processes for engineering materials (5th 
+                        Edition)-Pearson India, 2014.<br><br>
+                        2. Mikell P. Groover, Fundamentals of Modern Manufacturing: Materials, Processes, 
+                        and Systems.<br><br>
+                        3. Degarmo, Black &Kohser, Materials and Processes in Manufacturing
+                                 </p><br> 
+                                 
+                                 <h5 style="font-family: roboto;"> Course Outcomes:
+                                </h5><br>
+                                <p style="text-align: justify; font-family: roboto;"  class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                                    Upon completion of this course, students will be able to understand the different conventional 
+                                    and unconventional manufacturing methods employed for making different products.
+        </p><br>
+
+        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> <b>Practical:</b></h5><br>
+        <p style="text-align: justify; font-family: roboto;">
+          <b>  Minimum of 10 Experiment need to be performed</b><br><br>
+<b>I. Metal Casting Lab:</b><br><br>
+1. Pattern Design and making – for one casting drawing.<br><br>
+2. Sand properties testing (strengths and permeability).<br><br>
+3. Moulding, Melting and Casting .<br><br>
+<b>II. Welding Lab:</b><br><br>
+1. ARC Welding Lap & Butt Joint .<br><br>
+2. Spot Welding .<br><br>
+3. Gas Welding .<br><br>
+<b>III. Mechanical Press Working:</b>
+1. Blanking & Piercing operation and study of simple, compound and progressivepress. 
+tool.<br><br>
+2. Bending and other operations.<br><br>
+<b>IV. Machining Lab:</b><br><br>
+1. Cutting operation (Orthogonal & Oblique) on lathe machine.<br><br>
+2. Bolt making on lathe machine.<br><br>
+3. Facing, plain turning and step turning knurling.<br><br>
+4. Boring and internal thread cutting.<br><br>
+5. Finishing of a surface on surface –grinding machine.<br><br>
+6. Gear cutting on milling machine (Spur Gear).<br><br>
+7. Machining a block on shaper machine.<br><br>
+8. Drilling holes on drilling machine.<br><br>
+
+                     </p><br>
+            </div>                    
+          </div>
+        </div>
+         
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFour" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+               <h1> Kinematics of Machine</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Objectives</b>
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">
+                    1. To understand the kinematics and rigid- body dynamics of kinematically driven 
+                    machine components.<br><br>
+                    2. To understand the motion of linked mechanisms in terms of the displacement, velocity 
+                    and acceleration at any point in a rigid link.<br><br>
+                    3. To be able to design some linkage mechanisms and cam systems to generate specified 
+                    output motion.<br><br>
+                    4. To understand the kinematics of gear trains</p><br><br>
+                    <h3>ontents:</h3><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: 
+              </h5><br><p style="font-family: roboto;"><b>Introduction:</b> Classification of mechanisms: -Basic kinematic concepts and Definitions-Degree of freedom, mobility-Grashof’s law, Kinematic inversions of four bar chain and slider 
+                crank chains. 
+            </p><br>
+               
+                            
+    
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: 
+              </h5><br>
+             <p style="text-align: justify; font-family: roboto;">
+              <b>  Kinematic analysis of plane mechanism:</b> Displacement, velocity and acceleration analysis 
+                of simple mechanisms, graphical velocity analysis using instantaneous centers, kinematic 
+                analysis of simple mechanisms- slider crank mechanism dynamics- Coriolis component of 
+                acceleration.
+            </p><br>
+          
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3:
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Friction devices:</b> Belt drive, Clutch, Shoe brakes, Band and block brakes.
+                
+                </p><br>
+                   
+                              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4: 
+            
+                              </h5><br>
+                              <p style="text-align: justify; font-family: roboto;"><b>Gear:</b> gear terminology, Involute and Cycloidal gear profiles, gear parameters, fundamental 
+                                law of gearing and conjugate action, spur gear contact ratio and interference/undercutting.<br><br>
+                               <b> Gear Train:</b> Analysis of simple, compound, reverted and epicyclic gear train with problems.
+                                </p><br>
+
+                                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: 
+            
+                                </h5><br>
+                                <p style="text-align: justify; font-family: roboto;"><b>Balancing of rotating masses:</b> Balancing of rotating masses in the same plane by a single 
+                                    revolving mass. Balancing of several rotating masses in the same plane. Balancing of several 
+                                    rotating masses in different planes by two revolving masses in suitable planes.
+                                    
+                                  </p><br>
+
+                                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6: 
+            
+                                  </h5><br>
+                                  <p style="text-align: justify; font-family: roboto;">Governors: Watt, Porter, Proel & Hartnell Governors, Effect of friction, controlling force, 
+                                    governor effort and power, sensitivity and isochronisms.
+                                    
+                                    </p><br>
+                   
+                   
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT/REFERENCE BOOKS</h5><br>
+                      <p style="text-align: justify; font-family: roboto;">
+                        [1.] Thomas Bevan, Theory of Machines, 3rd edition, CBS Publishers & Distributors, 
+                        2005.<br><br>
+                        [2.] CleghornW.L. , Mechanisms of Machines, Oxford University Press, 2005.<br><br>
+                        [3.] Robert L. Norton, Kinematics and Dynamics of Machinery, Tata McGrawHill, 
+                        2009.<br><br>
+                        [4.] Ghosh A. and Mallick A.K., Theory of Mechanisms and Machines, Affiliated 
+                        East-West Pvt. Ltd, New Delhi, 1988.<br>
+                        </p><br>
+                       
+                        <h5 style="font-family: roboto;"> Course Outcomes:
+                        </h5><br>
+                        <p style="text-align: justify; font-family: roboto;"  class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                            After completing this course, the students can design various types of linkage 
+mechanisms for obtaining specific motion and analyse them for optimal functioning.
+</p><br>
+                            
+                     </div>
+                      </div></div>
+                    
+                      <div class="accordion-item">
+                        <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFive" style="text-align: center;">
+                          <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                          <h1>  Constitution of India/Essence of Indian Knowledge 
+                            Tradition</h1>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                         
+                          <div class="accordion-body">
+                                  
+                                           </div>
+                        </div></div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSix" style="text-align: center;">
+                            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                              <h1>  Summer Entrepreneurship-II</h1>
+                            </button>
+                          </h2>
+                          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+            
+                            
+                                                
+                                             </div>
+                          </div></div>
+                         
+                                             <div class="accordion-item">
+                                              <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSeven" style="text-align: center;">
+                                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                                 <h1>   Open Elective- I (MOOCs / SWAYAM / NPTEL 
+Courses – 2) </h1>
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                  
+                                                
+                                    
+                                                   
+                                                                 </div>
+                                              </div>                   </div>
+                      
+
+                      
+                      <div class="accordion-item">
+                        <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingEight" style="text-align: center;">
+                          <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          <h1>  Graduate Employability Skills and Competitive 
+Courses (GATE, IES, etc.) </h1>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            
+                        
+                             
+                                           </div>
+                        </div>                   </div>
+</div>
+                    </div>
+                    
+                  </div>
+            </div>
+            <div class="container-fluid gap"  style="background-color:#FF6633;">
+              <div class="container  shadow p-3 mb-5 bg-body-tertiary rounded"  style="background-color:#FF6633;">
+                <div class="row "  >
+                  <div class="col-md-4 my-3  fw-bold border align-self:center">
+                    <p style="font-size: 20px;">Address:- Growth Center, Jasoiya More, Aurangabad Bihar - 824102</p>
+                  
+                  </div><br>
+               
+          
+            
+                  <div class="col-md-4 my-3 mx-2 fw-bold border align-self:center">
+                    <p style="font-size: 20px;"><i class="bi bi-telephone"></i>Contact Number:-</i>+91-9308392306 / 9102318888 <br>9308394144 / 9334127770 / 9322698410</p><br>
+               
+                  </div>
+               
+           
+                  <div class="col-md-3 my-3 fw-bold border align-self:center">
+                    <p style="font-size:20px;"><i class="bi bi-envelope"></i>Email:- Sityog@gmail.com</p><br>
+                    <p style="font-size:20px;">yahoo:-Sityog@yahoo.com</p>
+                  </div>
+                  <div class="col-md-6 border my-3">
+                    <a href="https://www.facebook.com/sityogaurangabad"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+                    <a href="https://www.youtube.com/channel/UCqLpIqvF3GldPpZWso6AIlg"><i class="bi bi-youtube" style="font-size: 30px; color:red; padding-left: 15px;"></i></a>
+                    <a href="https://www.instagram.com/sityog_institute_of_technology/?hl=en"><i class="bi bi-instagram" style="font-size: 30px; color:blue; padding-left: 15px;"></i></a>
+                 <a href=""></a>
+                  </div>
+                </div>
+                  <div class="row border align-self:center">
+                    <div class="col-md-6">
+                      <div class="detailTab-section-title">
+                        <div class="detailTab-title">
+                            <h4 >Important Links</h4>
+                       
+                        </div>
+                      </div>
+                      <a href="http://www.beu-bih.ac.in/BEUP/Default.aspx">    <li class=" fw-bold text-white">Bihar Engineering University</li></a>
+                      <a href="http://www.sityog.edu.in/alumni/"><li class=" fw-bold">Alumini</li></a>
+                      <a href="https://swayam.gov.in/">    <li class=" fw-bold">Online Classes</li></a>
+                      <a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">    <li class=" fw-bold">Student Credit Card Apply</li></a>
+                      <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">B.tech Syllabus</li></a>
+                      <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BCA Syllabus</li></a>
+                      <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BBA Syllabus</li></a>
+                      <a href="http://sbteonline.in/syllabus">    <li class=" fw-bold">Diploma Syllabus</li></a>
+                      <a href=" https://results.akuexam.net/"><li class=" fw-bold">AKU Result</li></a>
+                      <a href=" https://www.akubihar.com//"><li class=" fw-bold">AKu Previous Year Question</li></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+              
+                <footer class="bg-custom text-white py-2 text-center">&copy Designed By vandna</footer>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+             </body>
+            </html>
+                             

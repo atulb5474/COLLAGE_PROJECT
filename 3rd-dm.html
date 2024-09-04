@@ -1,0 +1,1226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sityog Institute of Technology </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        p{
+          font-size:20px ;
+        }
+          .accordion-button
+  {
+   background-color: purple;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+  }
+   button:hover{
+     background-color:#FF6633 ;
+     color:white;
+     border-radius: 30px;
+  
+   }
+   .dropdown-submenu {
+       position: relative;
+     }
+     
+     .dropdown-submenu .dropdown-menu {
+       top: 0;
+       left: 100%;
+       margin-top: -1px;
+     } .navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+      </style>
+</head>
+  <body >
+    <img src="image/download.png"width="100%", height="150px">
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+    <header class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#"><p style="text-align: justify;">Welcome to Smart Sityog</p></a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="institute.html"text-white fw-bold>About Institute</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="vision.html"text-white fw-bold>Vision & Mission</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="board.html"text-white fw-bold>Board Of Management</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="chairman.html"text-white fw-bold>Chairman Message</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="secretary.html"text-white fw-bold>Secretary Message</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="approve.html"text-white fw-bold>Approval & Affiliation</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   ADMISSION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Apply Now <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="registration.html">Apply For B.Tech, BBA ,BCA,BA(J&MC)</a></li>
+                        <li><a tabindex="-1" href="https://bceceboard.bihar.gov.in/">Apply For Diploma</a></li>
+                        <li><a tabindex="-1" href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">Apply For Student Credit Card</a></li>
+                       
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X2dq1ElIqKtn91-rE8e9uIUzd6OgthwF/view?usp=drivesdk">Registration Form</a></li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X3QoQcHpv-6GPBQX5NaXHUaeCioAKgoU/view?usp=drivesdk">Prospectus</a></li>
+                    <li><a tabindex="-1" href="fee.html">Fee Structure</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">U.G(UNDER GRADUATION) <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="btech.html">B.Tech</a></li>
+                        <li><a tabindex="-1" href="bca.html">BCA</a></li>
+                        <li><a tabindex="-1" href="bba.html">BBA</a></li>
+                        <li><a tabindex="-1" href="bj.html">BA(J&MC)</a></li>
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="diploma.html">Diploma</a></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                  Facilities & Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="workshop.html"text-white fw-bold>Workshops</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="library.html"text-white fw-bold>Library</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="lab.html"text-white fw-bold>Lab Testing</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="wifi.html"text-white fw-bold>Wifi-Campus</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="computer.html"text-white fw-bold>Hi-tech Computer Lab</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="transport.html"text-white fw-bold>Transportation</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sports.html"text-white fw-bold>Sports Facilities</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="hostel.html"text-white fw-bold>Hostel & Mess</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="hall.html"text-white fw-bold>Seminar-Hall</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="temple.html"text-white fw-bold>Temple</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white fw-bold" href="faculty.html"text-white fw-bold>Faculty List</a>
+                </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Placement
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="recruiters.html"text-white fw-bold>Our Top Recruiters</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="tpo.html"text-white fw-bold>Training Placement Officer(T.P.O)</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2017.html"text-white fw-bold>Campus Placement 2017</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2018.html"text-white fw-bold>Campus Placement 2018</a></li>
+                     <li><a class="dropdown-item text-fw-bold" href="2019.html"text-white fw-bold>Campus Placement 2019</a></li>
+               
+                     <li><a class="dropdown-item text-fw-bold" href="2021.html"text-white fw-bold>Campus Placement 2021</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2022.html"text-white fw-bold>Campus Placement 2022</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sit/upload-placement.php"text-white fw-bold>Latest Placement</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="facilities.html"text-white fw-bold>Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>Login Now</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        </div>
+      </header>
+      <a href="registration.html"><div class="fixed-icon"><img src="https://www.sityog.edu.in/images/applynow1.gif" style="width: 100px;height: 100px;"></div></a>
+<div class="container-fluid gap ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingOne" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              BASIC MECHANICAL ENGINEERING
+            </button>
+            
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse  border shadow p-3 mb-5 bg-body-tertiary rounded" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded">
+            
+              
+              <h5 style="font-family: roboto; color:brown;" >CONTENTS: THEORY</h5>
+                <p style="text-align: justify; font-family: roboto;">
+                    • To understand General Principles of Mechanical Engineering. 
+                       </p><br>
+                       <p style="text-align: justify; font-family: roboto;">
+                        • To understand laws of thermodynamics, thermal and thermodynamic Processes.
+                             </p><br>
+                             <p style="text-align: justify; font-family: roboto;">
+                                • To understand working principles of power developing and power absorbing devices.
+                            </p><br>
+                            <p style="text-align: justify; font-family: roboto;">
+                                • To understand basic materials and manufacturing processes.
+                                <h5 style="font-family: roboto; color:brown;" >CONTENTS: THEORY</h5>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit : Name of Topics
+            </h5><br>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-I
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Introduction to Thermodynamics - Role of Thermodynamics in Engineering and Science, Types of Systems, Thermodynamic Equilibrium, Properties, State, Process and Cycle.</p><br>
+                <p style="text-align: justify; font-family: roboto;">Elementary introduction to Zeroth, First and Second laws of thermodynamics, Heat and Work Interactions for various non-flow and flow processes.</p><br>
+                    <p style="text-align: justify; font-family: roboto;">Concept of Heat Engine, Heat Pump & Refrigerator, Efficiency/ COP; Kelvin- Planck and Clausius Statements, Carnot Cycle, Carnot Efficiency, T-S and P-V Diagrams, Concept of Entropy (Definition and simple problems only).</p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-II
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;" >Heat transfer & Thermal Power Plant - Modes of Heat Transfer; Conduction: Composite Walls and Cylinders, Combined Conduction and Convection.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;" >Overall Heat Transfer Co- efficient, Simple Numerical Problems: Thermal Power Plant Layout; Rankine Cycle.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;" >Fire Tube and Water Tube boilers, Babcock & Wilcox, Cochran Boilers; (Related simple problems only).
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-III
+                 </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Steam Turbines - Impulse and Reaction Turbines; Condensers: Jet & Surface Condensers, Cooling Towers.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Internal Combustion Engines and Refrigeration: Otto, Diesel and Dual cycles; P-V and T-S Diagrams; IC Engines: 2 - Stroke and 4 - Stroke I.C. Engines, S.I. and C.I. Engines.
+                    </p><br>
+               
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-IV
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Materials and Manufacturing Processes - Engineering Materials, Classification and their Properties;
+                Metal Casting, Moulding, Patterns.
+              </p><br>
+              <p style="text-align: justify; font-family: roboto;">Metal Working: Hot Working and Cold Working, Metal Forming: Extrusion, Forging, Rolling, Drawing.
+              </p><br>
+              <p style="text-align: justify; font-family: roboto;">Gas Welding, Arc Welding, Soldering, and Brazing.
+              </p><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-V
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Machine Tools and Machining Processes - Machine Tools: Lathe Machine and types, Lathe Operations,  </p><br>
+            <p style="text-align: justify; font-family: roboto;">Milling Machine and types, Milling Operations, Shaper and Planer Machines: Differences.
+            </p><br>
+            <p style="text-align: justify; font-family: roboto;">Quick-Return Motion Mechanism, Drilling Machine: Operations, Grinding Machine: Operations.
+            </p><br>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">REFERENCE
+            </h5><br>
+             
+              <p style="text-align: justify; font-family: roboto;">Basic Mechanical Engineering - M.P. Poonia & S.C. Sharma, Khanna Publishing House, Delhi.
+              </p><br>
+               
+                <p style="text-align: justify; font-family: roboto;">Elements of Mechanical Engineering - M. L. Mathur, F. S. Mehta and R. P. Tiwari, Jain Brothers, New Delhi
+                  </p><br>
+                  <p style="text-align: justify; font-family: roboto;">Engineering Heat Transfer - Gupta & Prakash, Nem Chand & Brothers, New Delhi.
+                  </p><br>
+                   
+                    <p style="text-align: justify; font-family: roboto;">Workshop Technology (Vol. 1 and 2) - B. S. Raghuvanshi, Dhanpath Rai and Sons, New Delhi.
+                      </p><br>
+                      <p style="text-align: justify; font-family: roboto;">Basic Mechanical Engineering - J Benjamin.
+                      </p><br>
+                       
+                        <p style="text-align: justify; font-family: roboto;">Elements of Mechanical Engineering - Roy and Choudhary.
+                          </p><br>
+                          <p style="text-align: justify; font-family: roboto;">Engineering Thermodynamics - Spalding and Cole.
+                          </p><br>
+                           
+                            <p style="text-align: justify; font-family: roboto;">Basic Mechanical Engineering
+                              Dinesh Agarwal, Naweed
+                              FPH
+                              </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Course outcomes</h5><br>
+                  <p style="text-align: justify; font-family: roboto;">Understand basics of thermodynamics and components of a thermal power plant.
+                    </p><br>
+
+              <p style="text-align: justify; font-family: roboto;">Understand basics of heat transfer, refrigeration and internal combustion engines
+                </p><br>
+
+                <p style="text-align: justify; font-family: roboto;">Understand mechanism of thermal power plant and boiler operation
+                  </p><br>
+                  <p style="text-align: justify; font-family: roboto;">Identify engineering materials, their properties, manufacturing methods encountered in engineering practice
+                  </p><br>
+                  <p style="text-align: justify; font-family: roboto;">Understand functions and operations of machine tools including milling, shaping, grinding and lathe machines
+                  </p><br>
+                                 
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwo" style="text-align: center;">
+            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              MATERIAL SCIENCE & ENGINEERING
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto; color:brown;" >CONTENTS: THEORY</h5>
+              <p style="text-align: justify; font-family: roboto;">• To understand crystal structures and atomic bonds.
+              </p><br>
+              <p style="text-align: justify; font-family: roboto;">• To understand the properties of different types of ferrous metals and alloys.
+              </p><br>
+              <p style="text-align: justify; font-family: roboto;">• To understand the properties of different types of non-ferrous metals and alloys.
+              </p><br>
+              <p style="text-align: justify; font-family: roboto;">• To understand various metallic failures and acquire the knowledge of testing of materials.
+              </p><br>
+              <p style="text-align: justify; font-family: roboto;">• To understand the concept of corrosion and its prevention.
+              </p><br>
+              
+              <h5 style="font-family: roboto; color:brown;" >CONTENTS: THEORY</h5>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit - Name of Topics
+            </h5><br>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-I
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Crystal structures and Bonds - Unit cell and space lattice: Crystal system: The seven basic crystal systems; 
+              Crystal structure for metallic elements: BCC, FCC and HCP; Coordination number for Simple Cubic, BCC and FCC; Atomic radius: definition, atomic radius for Simple Cubic, BCC and FCC; Atomic Packing Factor for Simple Cubic, BCC, FCC and HCP; Simple problems on finding number of atoms for a unit cell.
+              </p><br>
+              <p style="text-align: justify; font-family: roboto;">Bonds in solids - Classification of primary or chemical bond, secondary or molecular bond; Types of primary bonds: Ionic, Covalent and Metallic Bonds; Types of secondary bonds: Dispersion bond, Dipole bond and Hydrogen bond.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-II
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Phase diagrams, Ferrous metals and its Alloys - Isomorphs, eutectic and eutectoid systems; Iron-Carbon binary diagram; Iron and Carbon Steels; flow sheet for production of iron and steel.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Iron ores – Pig iron: classification, composition and effects of impurities on iron; Cast Iron: classification, composition, properties and uses; Wrought Iron: properties, uses/applications of wrought Iron; comparison of cast iron, wrought iron and mild steel and high carbon steel.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">standard commercial grades of steel as per BIS and AISI; Alloy Steels - purpose of alloying; effects of alloying elements - Important alloy steels: Silicon steel, High Speed Steel (HSS), heat resisting steel, spring steel, Stainless Steel (SS): types of SS, applications of SS - magnet steel - composition, properties and uses.
+                </p><br>
+                
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-III</h5><br>
+                <p style="text-align: justify; font-family: roboto;">Non-ferrous metals and its Alloys - Properties and uses of aluminium, copper, tin, lead, zinc, magnesium and nickel; Copper alloys: Brasses, bronzes – composition, properties and uses; Aluminium alloys: Duralumin, hindalium, magnalium -composition, properties and uses; Nickel alloys: Inconel, monel, nichrome – composition, properties and uses.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Anti-friction/Bearing alloys: Various types of bearing bronzes - Standard commercial grades as per BIS/ASME.
+                </p><br>
+                
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-IV
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Failure analysis & Testing of Materials - Introduction to failure analysis; Fracture: ductile fracture, brittle fracture; cleavage; notch sensitivity; fatigue; endurance limit; characteristics of fatigue fracture; variables affecting fatigue life; creep; creep curve; creep fracture.
+                
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Destructive testing: Tensile testing; compression testing; Hardness testing: Brinell, Rockwell; bend test; torsion test; fatigue test; creep test.
+                
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Non-destructive testing: Visual Inspection; magnetic particle inspection; liquid penetrant test; ultrasonic inspection; radiography.
+                
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-V
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Corrosion & Surface Engineering - Nature of corrosion and its causes; Electrochemical reactions; Electrolytes; Factors affecting corrosion: Environment, Material properties and physical conditions; Types of corrosion; Corrosion control: Material selection, environment control and design.
+              
+                </p><br>
+              <p style="text-align: justify; font-family: roboto;">Surface engineering processes: Coatings and surface treatments; Cleaning and mechanical finishing of surfaces; Organic coatings; Electroplating and Special metallic plating; Electro polishing and photo-etching; Conversion coatings: Oxide, phosphate and chromate coatings; Thin film coatings: PVD and CVD.
+              
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Surface analysis; Hard-facing, thermal spraying and high- energy processes; Process/material selection. Pollution norms for treating effluents as per standards.
+              
+                </p><br>
+
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT/ REFERENCE BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                      A Text Book of Material Science & Metallurgy - O.P. Khanna, Dhanpath Rai and Sons, New Delhi. 2003.
+                    </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Material Science & Engineering - R.K. Rajput, S.K. Kataria & Sons, New Delhi, 2004.
+                      </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          Material Science - R.S. Khurmi, S. Chand & Co. Ltd., New Delhi, 2005.
+                        </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Material Science and Engineering
+                            Arun Jain, K.P.Singh
+                            FPH
+                          </p><br>
+                          <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Course outcomes
+                          </h5><br>
+                            <p style="text-align: justify; font-family: roboto;">
+                              Explain about crystal structures and atomic bonds.</p><br>
+                              <p style="text-align: justify; font-family: roboto;">
+                                Describe about classification of ferrous metals and their properties.</p><br>
+                                <p style="text-align: justify; font-family: roboto;">
+                                  Explain about non-ferrous metals, cutting tool materials and composites along with their properties.</p><br>
+                                  <p style="text-align: justify; font-family: roboto;">
+                                    Describe about the various metallic failures and knowledge in testing of materials.</p><br>
+                                    <p style="text-align: justify; font-family: roboto;">
+                                      Explain the principle of corrosion, their types and its prevention methods along with the various surface engineering processes.</p><br>
+                          
+                             </div>
+          </div>
+        </div>
+        <div class="accordion-item ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingThree" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              FLUID MECHANICS & HYDRAULIC MACHINERY
+            </button>
+          </h2>
+          
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+           
+            <h5 style="font-family: roboto; color:brown;" >CONTENTS: THEORY</h5>>
+            <p style="text-align: justify; font-family: roboto;">
+              • To understand fluid flow & related machinery for power generation, water supply and irrigation.
+                   </p><br>
+                   <p style="text-align: justify; font-family: roboto;">
+                    • To Select and use appropriate flow measuring device.   
+                         </p><br>
+                         <p style="text-align: justify; font-family: roboto;">
+                          • To Select and use appropriate pressure measuring device.
+                           </p><br> 
+                <p style="text-align: justify; font-family: roboto;">
+                  • To understand and analyze the performance of pumps and turbines. 
+                </p><br>
+       
+            <div class="accordion-body">
+              <h5 style="font-family: roboto; color:brown;" >CONTENTS: THEORY</h5>
+              <h6 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded; color : brown">Unit-Name of Topics
+              </h6><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-I
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Properties of fluid - Density, Specific gravity, Specific Weight, Specific Volume, Dynamic Viscosity, Kinematic Viscosity, Surface tension, Capillarity, Vapour Pressure, Compressibility.
+              </p><br>
+              <p style="text-align: justify; font-family: roboto;">Fluid Pressure & Pressure Measurement - Fluid pressure, Pressure head, Pressure intensity, Concept of vacuum and gauge pressures, atmospheric pressure, absolute pressure, Simple and differential manometers, Bourdon pressure gauge.
+              </p><br>
+              <p style="text-align: justify; font-family: roboto;">Concept of Total pressure on immersed bodies, center of pressure, Simple problems on Manometers.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-II
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Fluid Flow - Types of fluid flows, Path line and Stream line, Continuity equation, Bernoulli's theorem.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Principle of operation of Venturimeter, Orifice meter and Pitot tube, Derivations for discharge, coefficient of discharge and numerical problems.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Flow Through Pipes- Laminar and turbulent flows; Darcy's equation and Chazy's equation for
+                  frictional losses, Minor losses in pipes, Hydraulic gradient and total gradient line, Numerical problems to estimate major and minor losses.
+                </p><br>
+                
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">Unit-III
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Impact of jets - Impact of jet on fixed vertical, moving vertical flat plates, Impact of jet on curved vanes with special reference to turbines & pumps, Simple Numerical on work done and efficiency.
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 4: BULDING DRAWING
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Hydraulic Turbines – Layout of hydroelectric power plant, Features of Hydroelectric power plant, Classification of hydraulic turbines, Selection of turbine on the basis of head and discharge available.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Construction and working principle of Pelton wheel, Francis and Kaplan turbines, Draft tubes–types and construction, Concept of cavitation in turbines.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Calculation of Work done, Power, efficiency of turbines, Unit quantities and simple numerical.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-V
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Centrifugal Pumps - Principle of working and applications, Types of casings and impellers.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Concept of multistage, Priming and its methods, Cavitation, Manometric head, Work done, Manometric efficiency, Overall efficiency. Numerical on calculations of overall efficiency and power required to drive pumps.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Reciprocating Pumps- Construction, working principle and applications of single and double acting reciprocating pumps, Concept of Slip, Negative slip, Cavitation and separation.
+                </p><br>
+                
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> REFERENCE BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                      Fluid Mechanics & Hydraulic Machines, S.S. Rattan, Khanna Publishing House, New Delhi.
+                       </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Hydraulic, fluid mechanics & fluid machines – Ramamrutham S, Dhanpath Rai and Sons, New Delhi.</p><br>
+
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          Hydraulics and fluid mechanics including Hydraulic machines – Modi P.N. and Seth S.M., Stan- dard Book House. New Delhi. </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            One Thousand Solved Problems in Fluid Mechanics – K. Subramanya, Tata McGraw Hill.</p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              Hydraulic, fluid mechanics & fluid machines – S. Ramamrutham, Dhanpat Rai and Sons, New Delhi. </p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                Fluid Mechanics and Hydraulic Machines – R. K. Bansal, Laxmi Publications, New Delhi.</p><br>
+                                <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                  Fluid Mechanics and Hydraulic Machinery
+                                  Manish Sinha
+                                  FPH.</p><br>
+                                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Course outcomes:
+                                  </h5><br>
+                                  <p style="text-align: justify; font-family: roboto;">Measure various properties such as pressure, velocity, flow rate using various instruments.
+                                  </p><br>
+                                  <p style="text-align: justify; font-family: roboto;">Calculate different parameters such as co-efficient of friction, power, efficiency etc. of various Systems.
+                                  </p><br>
+                                  <p style="text-align: justify; font-family: roboto;">Describe the construction and working of turbines and pumps.
+                                  </p><br>
+                                  <p style="text-align: justify; font-family: roboto;">Test the performance of turbines and pumps.
+                                  </p><br>
+                                  <p style="text-align: justify; font-family: roboto;">Plot characteristics curves of turbines and pumps.
+                                  </p><br>
+                             
+                                
+            </div>                    
+          </div>
+        </div>
+         
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFour" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+              MANUFACTURING ENGINEERING - I
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto; color:brown;" >CONTENTS: THEORY</h5>
+              <p style="font-family: roboto;">• To understand the importance of cutting fluids & lubricants in machining.</p>
+               
+                <p style="text-align: justify; font-family: roboto;">
+                  • To study various types of basic production processes. To select, operate and control the appropriate processes for specific applications.
+                       </p><br>
+                       <p style="text-align: justify; font-family: roboto;">
+                        • To understand the concept of gear making and list various gear materials.  
+                             </p><br>
+                             <p style="text-align: justify; font-family: roboto;">
+                              • To understand the importance of press tools and understand various die operations.
+                            </p><br>
+                            <p style="text-align: justify; font-family: roboto;">
+                              • To understand Grinding and finishing processes.
+                            </p><br>
+             
+            <h5 style="font-family: roboto; color:brown;" >CONTENTS: THEORY</h5>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit - Name of Topics
+            </h5><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-I
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Cutting Fluids & Lubricants -Introduction; Types of cutting fluids, Fluids and coolants required in turning, drilling, shaping, 
+                sawing & broaching; Selection of cutting fluids, methods of application of cutting fluid; Classification of lubricants (solid, liquid, gaseous), Properties and applications of lubricants.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Lathe Operations - Types of lathes - light duty, medium duty and heavy duty geared lathe, CNC lathe; Specifications; Basic parts and their functions; Operations and tools – Turning, parting off, Knurling, facing, Boring, drilling, threading, step turning, taper turning.
+                  </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-II
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Broaching Machines - Introduction to broaching; Types of broaching machines - Horizontal type (Single ram & duplex ram), Vertical type, pull up, pull down, and push down; Elements of broach tool; broach teeth details; Nomenclature; Tool materials.
+                  
+                  </p><br>
+                  <p style="text-align: justify; font-family: roboto;">Drilling - Classification; Basic parts and their functions; Radial drilling machine; Types of operations; Specifications of drilling machine; Types of drills and reamers.
+                  
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-III
+
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;">Welding - Classification; Gas welding techniques; Types of welding flames; Arc Welding - Principle, Equipment, Applications; Shielded metal arc welding; Submerged arc welding; TIG / MIG welding; Resistance welding - Spot welding, Seam welding, Projection welding; Welding defects.
+                    Welding defects; Brazing and soldering: Types, Principles, Applications.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">Milling - Introduction; Types of milling machines: plain, Universal, vertical; constructional details, specifications; Milling operations: simple, compound and differential indexing; Milling cutters – types; Nomenclature of teeth; Teeth materials; Tool signature of milling cutter; Tool & work holding devices.
+                      </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-IV
+
+                    </h5><br>
+                    <p style="text-align: justify; font-family: roboto;">Gear Making - Manufacture of gears - by Casting, Moulding, Stamping, Coining Extruding, Rolling, Machining; Gear generating methods: Gear Shaping with pinion cutter & rack cutter.
+                      
+                      </p><br>
+                      <p style="text-align: justify; font-family: roboto;">Gear hobbing; Description of gear hob; Operation of gear hobbing machine; Gear finishing processes; Gear materials and specification; Heat treatment processes applied to gears.
+                      
+                      </p><br>
+                      <p style="text-align: justify; font-family: roboto;">Press working - Types of presses and Specifications, Press working operations  Cutting, bending,
+                        drawing, punching, blanking, notching, lancing; Die set components- punch and die shoe, guide pin, bolster plate, stripper, stock guide, feed stock, pilot; Punch and die clearances for blanking and piercing, effect of clearance.
+                      
+                      </p><br>
+                      
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-V
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">Grinding and finishing processes - Principles of metal removal by Grinding; Abrasives - Natural & Artificial; Bonds and binding processes:
+                        Vitrified, silicate, shellac, rubber, Bakelite.
+                      
+                      </p><br>
+                      <p style="text-align: justify; font-family: roboto;">Factors affecting the selection of grinding wheels: size and shape of wheel, kind of abrasive, grain size, grade and strength of bond, structure of grain, spacing, kinds of binding material;
+                      
+                      </p><br>
+                      <p style="text-align: justify; font-family: roboto;">Standard marking systems: Meaning of letters & numbers sequence of marking, Grades of letters;
+                      
+                      </p><br>
+                      <p style="text-align: justify; font-family: roboto;">Grinding machines classification: Cylindrical, Surface, Tool & Cutter grinding machines; Construction details; Principle of centerless grinding; Advantages & limitations of center less grinding; Finishing by grinding: Honing, Lapping, Super finishing; Electroplating: Basic principles, Plating metals, applications;
+                      
+                      </p><br>
+                      <p style="text-align: justify; font-family: roboto;">Hot dipping: Galvanizing, Tin coating, Parkerizing, Anodizing; Metal spraying: wire process, powder process and applications;
+                      
+                      </p><br>
+                      <p style="text-align: justify; font-family: roboto;">Organic coatings: Oil base Paint, Lacquer base, Enamels, Bituminous paints, rubber base coating; finishing specifications.
+                      
+                      </p><br>
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> REFERENCE BOOKS</h5><br>
+                                  <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    Manufacturing technology – P N Rao, Tata McGraw-Hill Publications. </p><br>
+                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                      Elements of workshop Technology (Volume I & II) - S. K. Hajra Chaudary, Bose & Roy, Media Promoters and Publishers Limited.</p><br>
+                                       <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                        Production Technology (Volume I & II) - O. P. Khanna & Lal, Dhanpat Rai Publications.</p><br>
+                                         <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                          Fundamental of metal cutting and machine tools - B. L. Juneja, New age international limited.</p><br>
+                                           <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                            Fundamental of metal cutting and machine tools - B. L. Juneja, New age international limited.</p><br>
+                                             <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                              Production Technology – R.B. Gupta, Satya Prakashan, New Delhi</p><br>
+                                               <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                Production Processes
+                                                 Ram manohar Pandey
+                                                 FPH.</p><br>
+                                                 <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                  Manufacturing Engineering -I
+                                                   Rajendra Duggar
+                                                   FPH</p><br>
+                                                   <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Course outcomes
+                                                  </h5><br>
+                                                  <p style="text-align: justify; font-family: roboto;">Grinding and finishing processes - Principles of metal removal by Grinding; Abrasives - Natural & Artificial; Bonds and binding processes:
+                                                    Know and identify basic manufacturing processes for manufacturing different compo- nents.
+                                                  </p><br>
+                                                  <p style="text-align: justify; font-family: roboto;">Operate & control different machines and equipment’s.
+                                                  </p><br>
+                                                  <p style="text-align: justify; font-family: roboto;">Produce jobs as per specified dimensions and inspect the job for specified dimensions. CO4 Select the specific manufacturing process for getting the desired type of output.
+                                                  </p><br>
+                                                  <p style="text-align: justify; font-family: roboto;">Adopt safety practices while working on various machines.
+                                                  </p><br>
+                                                
+                          
+</div>
+          </div>
+          <div class="accordion-item  ">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFive" style="text-align: center;">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                THERMAL ENGINEERING   I
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+              <h5 style="font-family: roboto; color:brown;" >CONTENTS: THEORY</h5>
+              <p style="text-align: justify; font-family: roboto;">
+                • To give a good understanding of and thorough insight into all important aspects of thermal systems, energy control and the general issue of energy.
+                     </p><br>
+                     <p style="text-align: justify; font-family: roboto;">
+                      • To understand the principles & working of various power producing & power absorbing de- vices.  
+                           </p><br>
+                           <p style="text-align: justify; font-family: roboto;">
+                            • To study, analyze and evaluate the operation and the performance of I.C. engines, compressors and refrigerators, to apply pinch technology and to critically analyze and describe the global behavior of integrated thermal systems.
+                             </p><br> 
+                      
+            
+                             <h5 style="font-family: roboto; color:brown;" >CONTENTS: THEORY</h5>
+              <div class="accordion-body"><h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit - Name of Topics
+              </h5><br>
+              <div class="accordion-body"><h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-I 
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Sources of Energy - Brief description of energy Sources: Classification of energy sources-Renewable, Non-Renewable; Fossil fuels, including CNG, LPG.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Solar Energy: Flat plate and concentrating collectors & its applications (Solar Water Heater, Photovoltaic Cell, Solar Distillation);
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">
+                  Wind Energy; Tidal Energy; Ocean Thermal Energy; Geothermal Energy; Biogas, Biomass, Bio-diesel; Hydraulic Energy, Nuclear Energy; Fuel cell.
+               </p><br>
+  
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-II
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Internal Combustion Engines - Assumptions made in air standard cycle analysis; Brief description of Carnot, Otto and Diesel cycles with P-V and T-S diagrams; Internal and external combustion engines; advantages of I.C. engines over external combustion engines;
+                  </p><br>
+                  <p style="text-align: justify; font-family: roboto;">Classification of I.C. engines; neat sketch of I.C. engine indicating component parts; Function of each part and materials used for the component parts - Cylinder, crank case, crank pin, crank, crank shaft, connecting rod, wrist pin, piston, cooling pins cylinder heads, exhaust valve, inlet valve;
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">Working of four-stroke and two-stroke petrol and diesel engines; Comparison of two stroke and four stroke engines; Comparison of C.I. and S.I. engines; Valve timing and port timing diagrams for four stroke and two stroke engines. (Related simple problems only).
+                      </p><br>
+  
+                  <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">Unit-III
+                  </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Engine Systems - Fuel system of Petrol engines; Principle of operation of simple and Zenith carburetors; Fuel system of Diesel engines; Types of injectors and fuel pumps;
+                  
+                  </p><br>
+                  <p style="text-align: justify; font-family: roboto;">Cooling system-air-cooling, water-cooling system with thermosiphon method of circulation and water-cooling system with radiator and forced circulation (description with line diagram). Comparison of air cooling and water-cooling system;
+                   
+                   </p><br>
+                   <p style="text-align: justify; font-family: roboto;">Ignition systems – Battery coil ignition and magneto ignition (description and working). Comparison of two systems;
+                   
+                   </p><br>
+                   <p style="text-align: justify; font-family: roboto;">Types of lubricating systems used in I.C. engines with line diagram; Types of governing of I.C. engines – hit and miss method, quantitative method, qualitative method and combination methods of governing; their applications; Objective of super charging. (Related simple problems only).
+                   </p><br>
+  
+                  <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">Unit-IV
+                  </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Performance of I.C. Engines - Brake power; Indicated power; Frictional power; Brake and Indicated mean effective pressures; Brake and Indicated thermal efficiencies; Mechanical efficiency; Relative efficiency.
+                  </p><br>
+                  <p style="text-align: justify; font-family: roboto;">Performance test; Morse test; Heat balance sheet; Methods of determination of B, P., I.P. and F.P.; Simple numerical problems on performance of I.C. engines.
+                   </p><br>
+                  
+  
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-V
+                  </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Air Compressors - Functions of air compressor; Uses of compressed air; Types of air compressors; Single stage reciprocating air compressor - its construction and working (with line diagram) using P-V diagram; Multi stage compressors – Advantages over single stage compressors; Rotary compressors: Centrifugal compressor, axial flow type compressor and vane type compressors.
+                  </p><br>]
+                  <p style="text-align: justify; font-family: roboto;">Refrigeration & Air- conditioning Refrigeration; Refrigerant; COP; Air Refrigeration system: components, working & applications; Vapour Compression system: components, working & applications; Air conditioning; Classification of Air- conditioning systems; Comfort and Industrial Air-Conditioning; Window Air-Conditioner; Summer Air-Conditioning system, Winter Air-Conditioning system, Year-round Air- Conditioning system. (Related simple problems only).
+                   </p><br>
+  
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">TEXT / REFERENCE BOOKS</h5><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Madhu, N,Introduction to Renewable Energy - Vaughn Nelson, CRC Press.
+                         </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          Thermal Engineering - P.L. Ballaney, Khanna Publishers, 2002</p><br>
+  
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            A Course in Thermal Engineering - S. Domkundwar & C.P. Kothandaraman, Dhanpat Rai.
+                            </p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              Thermal Engineering - R.S. Khurmi and J.K. Gupta, 18th Edition, S. Chand & Co, NewDelhi.</p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                Thermal Engineering – R. K. Rajput,8th Edition, Laxmi publications Pvt Ltd, New Delhi.
+                              </p><br>
+                                <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                  Thermal Engieering
+                                  Rajeev Singh
+                                  FPH.</p><br>
+                                
+                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                      Thermal Engieering -I
+                                     Sanjay Malhotra
+                                       FPH.</p><br>
+                                       <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit-V
+                                      </h5><br>
+                                    <p style="text-align: justify; font-family: roboto;">Know various sources of Energy and their applications.
+                                      </p><br>]
+                                      <p style="text-align: justify; font-family: roboto;">Classify I.C. engines and understand their working and constructional features.
+                                       </p><br>
+                                       <p style="text-align: justify; font-family: roboto;">Draw the energy flow diagram of an I.C. engine and evaluate its performance.
+                                      </p><br>]
+                                      <p style="text-align: justify; font-family: roboto;">Describe the constructional features of air compressor and working of different air compressors.
+                                       </p><br>
+                                       <p style="text-align: justify; font-family: roboto;">Know the applications of refrigeration and Classify air-conditioning systems.
+                                      </p><br>
+                                      </div>
+                      
+                                                    
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSix" style="text-align: center;">
+              <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                MANUFACTURING ENGINEERING LAB
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+              <h5 style="font-family: roboto; color:brown;" >CONTENTS: THEORY</h5>
+              <p style="text-align: justify; font-family: roboto;">
+                • To give a good understanding of and thorough insight into all important aspects of thermal systems, energy control and the general issue of energy.
+                     </p><br>
+                     <p style="text-align: justify; font-family: roboto;">
+                      • To understand the principles & working of various power producing & power absorbing de- vices.
+                           </p><br>
+                           <p style="text-align: justify; font-family: roboto;">
+                            • To study, analyze and evaluate the operation and the performance of I.C. engines, compressors and refrigerators, to apply pinch technology and to critically analyze and describe the global behavior of integrated thermal systems.
+                                 </p><br>
+              <div class="accordion-body">
+                <h5 style="font-family: roboto; color:brown;" >Course Content</h5>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">S.No - Topics for practice</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Moulding & casting of (i) Connecting rod (ii) Solid bearing (iii) V-Pulley/Gear Pulley
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Arc welding (i) Lap Joint (ii) Butt Joint (iii) T- Joint
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Gas welding (i) Lap Joint (ii) Butt Joint
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Spot welding (i) Lap Joint
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Turning Exercise (i) Facing, Step Turning & Chamfering (ii) Step Turning & Taper Turning
+                  (iii) Step Turning & Groove Cutting (iv) Step Turning & Knurling (v) Step Turning & Thread Cutting (vi) Turning and Drilling
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Grinding the Lathe Cutting tools to the required angles
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Study of Lathe, drilling machine, shaping machine and slotting machine
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">The dismantling some of the components of lathe and then assemble the same
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">List the faults associated with lathe and its remedies
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">The routine and preventive maintenance procedure for lathe
+                  </p><br>
+                
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Reference Books
+                  </h5><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                       Elements of Workshop Technology (Volume I & II) - Hajra Chowdry & Bhattacharaya, Media Promoters, 11th Edition, 2007.
+                 </p><br>       
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                       Introduction of Basic Manufacturing Processes and Workshop Technology - Rajender singh, new age International (P) Ltd. New Delhi, 2006.
+                </p><br>  
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                       >Workshop Technology - Raghuwanshi, Khanna Publishers. Jain &Gupta, New Delhi, 2002.
+                </p><br>  
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                       >Production Technology - Jain & Gupta, Khanna Publishers, New Delhi, 2006.
+                </p><br>    
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Production Technology - HMT, 18th edition, Tata McGraw Hill, New Delhi.
+                </p><br>   
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                       Manufacturing process - Myro N Begman, 5 th edition, Tata McGraw Hill, New Delhi.
+                </p><br>           
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> Course outcomes</h5><br>
+                      <p style="text-align: justify; font-family: roboto;">
+                        Prepare a mould sand mix and molten metal and calculate the amount of metal to be poured in the mould.
+                        <p style="text-align: justify; font-family: roboto;">
+                          Centre the job and select the proper tool to perform the job on lathe machine. CO3 Calculate the taper angle and practice different taper turning methods on lathe.
+                       </p><br>
+                          <p style="text-align: justify; font-family: roboto;">
+                            Prepare the edges for welding and select the suitable electrode, voltage and current.
+                          </p><br>
+                            <p style="text-align: justify; font-family: roboto;">
+                              Operate the welding transformer and generator to perform various weld joint operations. </p><br>
+                             
+                               </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSeven" style="text-align: center;">
+                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                  FLUID MECHANICS & HYDRAULIC MACHINERY LAB
+                </button>
+              </h2>
+              <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Course Objectives
+                  </h5><br>
+                <p style="text-align: justify; font-family: roboto;">• To calibrate the given flow measuring device.
+                  </p><br>
+                  <p style="text-align: justify; font-family: roboto;">• To apply the knowledge acquired in theory subject.
+                  </p><br>
+                  <p style="text-align: justify; font-family: roboto;">• To analyze the performance of turbines and pumps.
+                  </p><br>
+                  <h5 style="font-family: roboto; color:brown;" >Course Content</h5>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">S. No - Topics for practice
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;">Verification of Bernoulli’s theorem.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">Determination of Coefficient of Discharge of Venturi meter.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">Determination of Coefficient of Discharge, coefficient of contraction and coefficient of velocity of Orifice meter.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">Determination of coefficient of friction of flow through pipes.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">Determination of force exerted by the jet of water on the given vane.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">Determination of minor losses of flow through pipes.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">Calibration of pressure gauge using dead weight pressure gauge tester.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">Trial on centrifugal pump to determine overall efficiency.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">Trial on reciprocating pump to determine overall efficiency.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">Trial on Pelton wheel to determine overall efficiency.
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">Trial on Francis/Kaplan turbine to determine overall efficiency.
+                    </p><br>
+                  
+    
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">TEXT BOOKS / REFRENCES BOOKS</h5><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          N. Kumara Swamy, Fluid Mechanics and Machinery Laboratory Manual, Charotar Publishing House Pvt. Ltd., ANAND 388 001, Ed. 2008
+                        </p><br>
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Course outcomes</h5><br>
+                          <p style="text-align: justify; font-family: roboto;">
+                            Measure various properties such as pressure, velocity, flow rate using various instruments.
+                          </p><br>
+                            <p style="text-align: justify; font-family: roboto;">
+                              Calculate different parameters such as co-efficient of friction, power, efficiency etc. of various systems.
+                            </p><br>
+                              <p style="text-align: justify; font-family: roboto;">
+                                Understand the need and importance of calibration of pressure gauges. </p><br>
+                                <p style="text-align: justify; font-family: roboto;">
+                                  Describe the construction and working of turbines and pumps.</p><br>
+                                  <p style="text-align: justify; font-family: roboto;">
+                                    Test the performance of turbines and pumps and Plot characteristics curves.
+                                   </p><br>
+                                   </div> 
+                                 </div>
+                               </div>
+             
+                                 <div class="accordion-item">
+                                  <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingEight" style="text-align: center;">
+                                    <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                                      WEB TECHNOLOGY LAB
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                      <h5 style="font-family: roboto; color:brown;" >Course Learning Objectives</h5>
+                                    <p style="text-align: justify; font-family: roboto;">This Lab course is intended to practice whatever is taught in theory class of ‘Web Technologies’. Some of the things
+                                      that should necessary be covered in lab.
+                                      </p><br>
+                        
+                                      <h5 style="font-family: roboto; color:brown;" >Course outcomes</h5>
+                                      <p style="text-align: justify; font-family: roboto;">• Use LAMP Stack for web applications.
+                                        </p><br>
+                                        <p style="text-align: justify; font-family: roboto;">• Write simple applications with Technologies like HTML, Java script, AJAX, PHP.
+                                         </p><br>
+                                         <p style="text-align: justify; font-family: roboto;">• Connect to Database and get results.
+                                         </p><br>
+                                         <p style="text-align: justify; font-family: roboto;">• Parse XML files Student will be able to develop/build a functional website with full features.
+                                        </p><br>
+                                        <h5 style="font-family: roboto; color:brown;" >Content: Practical</h5>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit -  1
+                                        </h5><br>
+                                      <p style="text-align: justify; font-family: roboto;">Home page Development static pages (using Only HTML) of an online Book store.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit -  2
+                                        </h5><br>
+                                       
+                                        <p style="text-align: justify; font-family: roboto;">Write a JavaScript to design a simple calculator to perform the following operations: sum, product, difference and quotient.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit -  3
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;">Write a PHP program to display a digital clock which displays the current time of the server.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit -  4
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;">Write an HTML code to display your CV on a web page.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit -  5
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;">Write an XML program to display products.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit - 6
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;">Create a web page with all types of Cascading style sheets.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit - 7
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;">Write a PHP program to display a digital clock which displays the current time of the server.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit - 8
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;">Write a JavaScript that calculates the squares and cubes of the numbers from 0 to 10 and outputs HTML text that displays the resulting values in an HTML table format.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Reference Books
+                                        </h5><br>
+                                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                              “Web Technologies--A Computer Science Perspective”, Jeffrey C.Jackson.
+                                       </p><br>       
+                                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                               “Internet & World Wide Web How to Program”, Deitel, Deitel, Goldberg, Pearson Education.
+                                      </p><br>  
+                                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                            “Web programming- Building Internet Application”, Chris Bales.
+                                      </p><br>
+                                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                       Web Applications: Concepts and Real World Design, Knuckles
+                                       </p><br>
+                                       
+                                      
+                        
+                                       
+                                                     </div>
+                                  </div>      
+                                             </div>
+                                             <div class="accordion-item">
+                                              <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingNine" style="text-align: center;">
+                                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                                                  (TERM WORK)ESSENCE OF INDIAN KNOWLEDGE AND TRADITION
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                 
+                                    
+                                                  <h5 style="font-family: roboto; color:brown;" >Course Content</h5>
+                                                  <p style="text-align: justify; font-family: roboto;">• Basic Structure of Indian Knowledge System :
+                                                    </p><br>
+                                                    <p style="text-align: justify; font-family: roboto;">• Modern Science and Indian Knowledge System.
+                                                     </p><br>
+                                                     <p style="text-align: justify; font-family: roboto;">• Yoga and Holistic Healthcare.
+                                                     </p><br>
+                                                     <p style="text-align: justify; font-family: roboto;">• Case Studies.
+                                                    </p><br>
+                                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT/REFERENCE BOOKS:
+                                                    </h5><br>
+                                                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                          Cultural Heritage of In- dia-Course Material
+                                                           V. Sivaramakrishna
+                                                           Bharatiya Vidya Bhavan, Mumbai, 5th Edition, 2014.
+                                                   </p><br>       
+                                                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                          Modern Physics and Vedant
+                                                             Swami Jitatmanand
+                                                              Bhartiya Vidya Bhavan.
+                                                  </p><br>  
+                                                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                          The wave of Life
+                                                          Fritzof Capra.
+                                                  </p><br>
+                                                  <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                    Tao of Physics
+                                                    Fritzof Capra.
+                                                   </p><br>
+                                                   <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                    Tarkasangraha of Annam Bhatta, Inernational
+                                                    V N Jha
+                                                    Chinmay Foundation, Velliarnad, Amaku,am.
+                                                   </p><br>
+                                                   <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                    Science of Consciousness Psychotherapy and Yoga Practices
+                                                    RN Jha
+                                                    Vidyanidhi Prakasham Delhi, 2016.
+                                                   </p><br>
+                                                  
+                                                  
+                                           
+                                                   
+                                                                 </div>
+                                              </div>      
+                                                         </div>
+                                                         <div class="accordion-item">
+                                                          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTen" style="text-align: center;">
+                                                            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                                                              (TERM WORK)ESSENCE OF INDIAN KNOWLEDGE AND TRADITION
+                                                            </button>
+                                                          </h2>
+                                                          <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                                                            <div class="accordion-body">
+                                                  <h5 style="font-family: roboto; color:brown;" >CONTENTS: Practical</h5>
+                                               
+                                                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT = 01
+                                                  </h5><br>
+                                                  <p style="text-align: justify; font-family: roboto;">Write a program to demonstrate basic data type in python.
+                                                    </p><br>
+                                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT - 02
+                                                    </h5><br>
+                                                    <p style="text-align: justify; font-family: roboto;">Write a program to compute distance between two points taking input from the user (Pythagorean Theorem).
+                                                     </p><br>
+                                                     <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT = 03
+                                                    </h5><br>
+                                                     <p style="text-align: justify; font-family: roboto;">Write a python program Using for loop, write a program that prints out the decimal equivalent of 1+½+1/3….1/n.
+                                                     </p><br>
+                                                     <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT = 04
+                                                    </h5><br>
+                                                     <p style="text-align: justify; font-family: roboto;">Write a Python program to find first n prime numbers.
+                                                      Write a program to demonstrate list and tuple in python.
+                                                    </p><br>
+                                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT = 05
+                                                    </h5><br>
+                                                    <p style="text-align: justify; font-family: roboto;">Write a program using a for loop that loops over a sequence.
+                                                      Write a program using a while loop that asks the user for a number and prints a countdown from that number to zero.
+                                                    </p><br>
+                                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT = 06
+                                                    </h5><br>
+                                                    <p style="text-align: justify; font-family: roboto;">Write a Python Program to add matrices
+                                                      Write a Python program to multiply matrices.
+                                                    </p><br>
+                                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT = 07
+                                                    </h5><br>
+                                                    <p style="text-align: justify; font-family: roboto;">Write a Python program to check if a string is palindrome or not.
+                                                    </p><br>
+                                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT = 08
+                                                    </h5><br>
+                                                    <p style="text-align: justify; font-family: roboto;">Write a Python program to Extract Unique values dictionary values.
+                                                    </p><br>
+                                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT = 09
+                                                    </h5><br>
+                                                    <p style="text-align: justify; font-family: roboto;">Write a Python program to read file word by word
+                                                      Write a Python program to Get number of characters, words.
+                                                    </p><br>
+                                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT = 10
+                                                    </h5><br>
+                                                    <p style="text-align: justify; font-family: roboto;">Write a Python program for Linear Search
+                                                      
+                                                    </p><br>
+                                                    
+                                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">References Books
+                                                    </h5><br>
+                                                   
+                                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                      Taming Python by Programming, Jeeva Jose, Khanna Publishing House.
+                                                    </p><br>
+                                                    
+                                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                      Starting Out with Python, Tony Gaddis, Pearson.
+                                                    </p><br>
+                                                   
+                                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                      Core Python Programming, Wesley J. Chun, Prentice Hall.
+                                                    </p><br>
+                                                   
+                                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                      Python Programming: Using Problem Solving Approach, Reema Thareja, Oxford University.
+                                                    </p><br>
+                                                   
+                                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                                      Introduction to Computation and Programming Using Python. John V. Guttag, MIT Press.
+                                                    </p><br>
+                                                    
+                                                   
+                                                   
+                                                                 </div>
+                                              </div>      
+                                                         
+                                            </div>
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingEleven" style="text-align: center;">
+                                                <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                                                  TERM WORK
+                                                  Summer Internship-I (4 weeks)
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                     
+                                      <p style="text-align: justify; font-family: roboto;">How important is it really to do an internship before applying for a job?
+                                        </p><br>
+                                        
+                                        <p style="text-align: justify; font-family: roboto;">Do you need to get the hands-on experience that is talked about when discussing the importance of internships or is it a matter of just landing the right job?
+                                         </p><br>
+                                        
+                                         <p style="text-align: justify; font-family: roboto;">During the Course duration year, students may feel overwhelmed with coursework, sports, or co- curricular activities that may keep them extremely busy while leaving no time to think of doing an internship or a job. Many students may also feel that they are caught in a bind since they need to make money to pay for their expenses but they can only find unpaid internships in their field.
+                                         </p><br>
+                                         <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Getting Your Feet Wet
+                                        </h5><br>
+                                         <p style="text-align: justify; font-family: roboto;">Internships are a proven way to gain relevant knowledge, skills, and experience while establishing important connections in the field. Internships are also a way to get your feet wet and find out if a specific field is something you could see yourself doing full-time.
+                                        </p><br>
+                                       
+                                        <p style="text-align: justify; font-family: roboto;">Internships may be completed during fall or spring semester or full time over the course of the summer. Unpaid internships may be easier to get but may also pose problems if making money is necessary, especially during the summer. There are many who cannot afford to work for no pay, so they are forced into doing menial jobs such as wait staff or bartending to work their way through college. It may preclude some from doing an internship which may be a detriment when hoping to get a full-time job.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Financial Considerations
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;">Financial considerations when looking for an internship can make a big difference in the decision- making process. Sometimes, students will take a part-time or full-time job to supplement the time that they are spending at their internship. Whether an internship is paid or unpaid, there are many things that need to be taken into consideration to decide if an internship is worthwhile. It’s important to decide if an internship will ultimately be in the best interest of the student to help meet the requirements needed when applying for a full-time job.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">How to Get Funding for an Internship
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;">Some colleges also offer funded internships for students. Check with your college to see if they offer a funded internship program that may help to meet the requirements of your college curriculum while offering experiences that employers seek when hiring new college graduates for entry-level jobs. Many foundations and organizations offer financing to college students so they may try writing to a number of them to see if they provide funding for college students seeking to do internships in their field.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Having an Internship and a Job
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;">Students may elect to do a summer internship a couple of days per week while working a part-time job for the remainder of the time. For those who need to maximize the amount of money they make over the course of the summer, they may look into doing an internship during the academic year when they are less likely to expect to make money to help defray their college expenses.
+                                          In addition to internships, volunteer opportunities can also be an excellent way to gain experience and exposure to the workforce. Employers love to see volunteer experiences on a student’s resume.
+                                          Volunteering shows commitment to causes and certain values that are intrinsic to the individuals who have participated in these types of experiences. Employers look for employees who are publicly engaged and who take an interest in community service and in doing good work.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">What Employers Want
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;">Internships and volunteer experiences make candidates more competitive in the job market. In addition to gaining exposure and experience in the field, they also provide an opportunity to see if the particular career field is the right one based on getting personal experience in the field. No matter what opportunities you engage in, it’s important to maintain professionalism and take on the individual responsibility that is required.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">The Benefits of Completing an internship
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;">By doing a great job and completing more than what is required of you in your internship, you will be creating a great impression that can provide a great reference letter at the least, and may even potentially lead to a potential job offer. When you leave the organization at the end of the internship, you should ask for a recommendation letter that you can keep on file for future reference.
+                                          
+                                        </p><br>
+                                        
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Internships Are a Learning Experience
+                                        </h5><br>
+                                       
+                                        <p style="text-align: justify; font-family: roboto;">
+                                          Internships are a great way to learn the ropes so even if you find yourself filing or making coffee, as long as you‘re learning about the field take advantage of the opportunity and don’t take the experience lightly. Asking questions is one key to learning in an internship and keeping yourself flexible throughout the internship can open many doors.
+                                        </p><br>
+                                        
+                                       
+                                       
+                                                     </div>
+                                  </div>      
+                                             
+                                </div>
+                                 
+                                             
+                                           
+                                                   
+                                              
+                                                   
+          </div>
+        </div>
+        
+      </div>
+</div>
+<div class="container-fluid gap"  style="background-color:#FF6633;">
+  <div class="container  shadow p-3 mb-5 bg-body-tertiary rounded"  style="background-color:#FF6633;">
+    <div class="row "  >
+      <div class="col-md-4 my-3  fw-bold border align-self:center">
+        <p style="font-size: 20px;">Address:- Growth Center, Jasoiya More, Aurangabad Bihar - 824102</p>
+      
+      </div><br>
+   
+
+
+      <div class="col-md-4 my-3 mx-2 fw-bold border align-self:center">
+        <p style="font-size: 20px;"><i class="bi bi-telephone"></i>Contact Number:-</i>+91-9308392306 / 9102318888 <br>9308394144 / 9334127770 / 9322698410</p><br>
+   
+      </div>
+   
+
+      <div class="col-md-3 my-3 fw-bold border align-self:center">
+        <p style="font-size:20px;"><i class="bi bi-envelope"></i>Email:- Sityog@gmail.com</p><br>
+        <p style="font-size:20px;">yahoo:-Sityog@yahoo.com</p>
+      </div>
+      <div class="col-md-6 border my-3">
+        <a href="https://www.facebook.com/sityogaurangabad"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+        <a href="https://www.youtube.com/channel/UCqLpIqvF3GldPpZWso6AIlg"><i class="bi bi-youtube" style="font-size: 30px; color:red; padding-left: 15px;"></i></a>
+        <a href="https://www.instagram.com/sityog_institute_of_technology/?hl=en"><i class="bi bi-instagram" style="font-size: 30px; color:blue; padding-left: 15px;"></i></a>
+     <a href=""></a>
+      </div>
+    </div>
+      <div class="row border align-self:center">
+        <div class="col-md-6">
+          <div class="detailTab-section-title">
+            <div class="detailTab-title">
+                <h4 >Important Links</h4>
+           
+            </div>
+          </div>
+          <a href="http://www.beu-bih.ac.in/BEUP/Default.aspx">    <li class=" fw-bold text-white">Bihar Engineering University</li></a>
+          <a href="http://www.sityog.edu.in/alumni/"><li class=" fw-bold">Alumini</li></a>
+          <a href="https://swayam.gov.in/">    <li class=" fw-bold">Online Classes</li></a>
+          <a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">    <li class=" fw-bold">Student Credit Card Apply</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">B.tech Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BCA Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BBA Syllabus</li></a>
+          <a href="http://sbteonline.in/syllabus">    <li class=" fw-bold">Diploma Syllabus</li></a>
+          <a href=" https://results.akuexam.net/"><li class=" fw-bold">AKU Result</li></a>
+          <a href=" https://www.akubihar.com//"><li class=" fw-bold">AKu Previous Year Question</li></a>
+        </div>
+      </div>
+    </div>
+</div>
+  
+    <footer class="bg-custom text-white py-2 text-center">&copy Designed By Vandna Kumari</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sityog Institute of Technology </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        p{
+          font-size:20px ;
+        }
+          .accordion-button
+  {
+   background-color: purple;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+  }
+   button:hover{
+     background-color:#FF6633 ;
+     color:white;
+     border-radius: 30px;
+  
+   }
+   .dropdown-submenu {
+       position: relative;
+     }
+     
+     .dropdown-submenu .dropdown-menu {
+       top: 0;
+       left: 100%;
+       margin-top: -1px;
+     } .navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+      </style>
+</head>
+  <body >
+    <img src="image/download.png"width="100%", height="150px">
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+    <header class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#"><p style="text-align: justify;">Welcome to Smart Sityog</p></a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="institute.html"text-white fw-bold>About Institute</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="vision.html"text-white fw-bold>Vision & Mission</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="board.html"text-white fw-bold>Board Of Management</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="chairman.html"text-white fw-bold>Chairman Message</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="secretary.html"text-white fw-bold>Secretary Message</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="approve.html"text-white fw-bold>Approval & Affiliation</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   ADMISSION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Apply Now <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="registration.html">Apply For B.Tech, BBA ,BCA,BA(J&MC)</a></li>
+                        <li><a tabindex="-1" href="https://bceceboard.bihar.gov.in/">Apply For Diploma</a></li>
+                        <li><a tabindex="-1" href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">Apply For Student Credit Card</a></li>
+                       
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X2dq1ElIqKtn91-rE8e9uIUzd6OgthwF/view?usp=drivesdk">Registration Form</a></li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X3QoQcHpv-6GPBQX5NaXHUaeCioAKgoU/view?usp=drivesdk">Prospectus</a></li>
+                    <li><a tabindex="-1" href="fee.html">Fee Structure</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">U.G(UNDER GRADUATION) <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="btech.html">B.Tech</a></li>
+                        <li><a tabindex="-1" href="bca.html">BCA</a></li>
+                        <li><a tabindex="-1" href="bba.html">BBA</a></li>
+                        <li><a tabindex="-1" href="bj.html">BA(J&MC)</a></li>
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="diploma.html">Diploma</a></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                  Facilities & Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="workshop.html"text-white fw-bold>Workshops</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="library.html"text-white fw-bold>Library</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="lab.html"text-white fw-bold>Lab Testing</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="wifi.html"text-white fw-bold>Wifi-Campus</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="computer.html"text-white fw-bold>Hi-tech Computer Lab</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="transport.html"text-white fw-bold>Transportation</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sports.html"text-white fw-bold>Sports Facilities</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="hostel.html"text-white fw-bold>Hostel & Mess</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="hall.html"text-white fw-bold>Seminar-Hall</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="temple.html"text-white fw-bold>Temple</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white fw-bold" href="faculty.html"text-white fw-bold>Faculty List</a>
+                </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Placement
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="recruiters.html"text-white fw-bold>Our Top Recruiters</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="tpo.html"text-white fw-bold>Training Placement Officer(T.P.O)</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2017.html"text-white fw-bold>Campus Placement 2017</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2018.html"text-white fw-bold>Campus Placement 2018</a></li>
+                     <li><a class="dropdown-item text-fw-bold" href="2019.html"text-white fw-bold>Campus Placement 2019</a></li>
+               
+                     <li><a class="dropdown-item text-fw-bold" href="2021.html"text-white fw-bold>Campus Placement 2021</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2022.html"text-white fw-bold>Campus Placement 2022</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sit/upload-placement.php"text-white fw-bold>Latest Placement</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="facilities.html"text-white fw-bold>Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>Login Now</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        </div>
+      </header>
+      <a href="registration.html"><div class="fixed-icon"><img src="https://www.sityog.edu.in/images/applynow1.gif" style="width: 100px;height: 100px;"></div></a>
+<div class="container-fluid gap ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingOne" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+           <h1>   Compiler Design</h1> 
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded">
+              <h5 style="font-family: roboto; color:black;" ><b>Objective of the Course</b></h5><br><br>
+             
+              <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                1. To understand and list the different stages in the process of compilation. <br><br>
+                2. Identify different methods of lexical analysis .<br><br>
+                3. Design top-down and bottom-up parsers .<br><br>
+                4. Identify synthesized and inherited attributes .<br><br>
+                5. Develop syntax directed translation schemes .<br><br>
+                6.Develop algorithms to generate code for a target machine.<br><br> 
+                7. To study the underlying theories in designing of a compiler .<br><br>
+                8.The study especially consider the imperative languages</p><br>
+                <h3 style="font-family: roboto; color:black;">Detailed Contents</h3>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture: 6 hours
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Introduction:</b> Phases of compilation and overview<br>
+              <b>Lexical Analysis (scanner):</b> Regular languages, finite automata, regular expressions, from regular 
+              expressions to finite automata, scanner generator (lex, flex). 
+              
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture: 9 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;" ><b>Syntax Analysis (Parser):</b> Context-free languages and grammars, push-down automata, LL(1) grammars and top-down parsing, operator grammars, LR(O), SLR(1), LR(1), LALR(1) grammars and 
+                bottom-up parsing, ambiguity and LR parsing, LALR(1) parser generator (yacc, bison).
+
+</p><br>
+                
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3 Lecture: 10 
+                  hrs. </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Semantic Analysis:</b> Attribute grammars, syntax directed definition, evaluation and flow of attribute 
+                in a syntax tree. <br>
+                <b>Symbol Table:</b> Its structure, symbol attributes and management. Run-time environment: 
+                Procedure activation, parameter passing, value return, memory allocation, and scope.
+                
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4 Lecture : 10 hrs. 
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Intermediate Code Generation:</b> Translation of different language features, different types of 
+                intermediate forms. <br><br>
+              <b>  Code Improvement (optimization) Analysis:</b> control-flow, data-flow dependence etc.; Code 
+                improvement local optimization, global optimization, loop optimization, peep-hole optimization 
+                etc. <br><br>
+             <b>   Architecture dependent code improvement:</b> instruction scheduling (for pipeline), loop 
+                optimization (for cache memory) etc. Register allocation and target code generation.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 5 Lecture 5 
+                  hrs.</h5><br>
+                <p style="text-align: justify; font-family: roboto;"><b>Advanced topics:</b> Type systems, data abstraction, compilation of Object Oriented features and 
+                  non-imperative programming languages. 
+                  </p><br>
+
+                 
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Suggested Books:</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      1. Compilers Principles Techniques And Tools by Alfred V. Aho, Ravi Sethi, Jeffery D. Ullman. 
+                      Pearson Education.</p><br>
+                     
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Suggested reference books:</h5><br>
+                      <p style="text-align: justify; font-family: roboto;">
+                        1. Compiler Design by Santanu Chattopadhyay. PHI<br><br>
+                        2. Modern Compiler Design by Dick Grune, E. Bal. Ceriel, J. H. Jacobs, and Koen G. Langendoen, 
+                        Viley Dreamtech. </p><br>  
+                       
+                       <h5 style="font-family: roboto; color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">After the completion of course, students can able to able to:<br><br>
+                        1. Develop the lexical analyser for a given grammar specification. <br><br>
+                        2. Design top-down and bottom-up parsers for a given parser specification .<br><br>
+                        3. Develop syntax directed translation schemes .<br><br>
+                        4. Develop algorithms to generate code for a target machine<br><br>
+
+                        </p><br>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwo" style="text-align: center;">
+            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+           <h1>   Computer Networks</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto; color:black;">Objective of the Course</h5><br><br>
+             
+              <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                1. To develop an understanding of modern network architectures from a design and 
+                performance perspective.<br><br> 
+                2. To introduce the student to the major concepts involved in wide-area networks (WANs), 
+                local area networks (LANs) and Wireless LANs (WLANs).<br><br> 
+                3. To provide an opportunity to do network programming. <br><br> 
+                4. To provide a WLAN measurement ideas. <br><br>
+                </p><br>
+                <h3 style="font-family: roboto; color:black;">Detailed Contents</h3>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture: 8 hours
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Data communication Components:</b> Representation of data and its flow Networks , Various 
+              Connection Topology, Protocols and Standards, OSI model, Transmission Media, LAN: Wired LAN, 
+              Wireless LANs, Connecting LAN and Virtual LAN, Techniques for Bandwidth utilization: 
+              Multiplexing - Frequency division, Time division and Wave division, Concepts on spread 
+              spectrum. <br><br>
+           
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture: 8 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;" ><b>Data Link Layer and Medium Access Sub Layer:</b> Error Detection and Error Correction - 
+                Fundamentals, Block coding, Hamming Distance, CRC; Flow Control and Error control protocols - 
+                Stop and Wait, Go back – N ARQ, Selective Repeat ARQ, Sliding Window, Piggybacking, Random 
+                Access, Multiple access protocols -Pure ALOHA, Slotted ALOHA, CSMA/CD,CDMA/CA
+ 
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3 Lecture 8 
+                  hrs. 
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Network Layer:</b> Switching, Logical addressing – IPV4, IPV6; Address mapping - ARP, RARP, 
+                BOOTP and DHCP–Delivery, Forwarding and Unicast Routing protocols.  
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4 Lecture: 8 
+                  hrs. </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Transport Layer:</b> Process to Process Communication, User Datagram Protocol (UDP), 
+                Transmission Control Protocol (TCP), SCTP Congestion Control; Quality of Service, QoS 
+                improving techniques: Leaky Bucket and Token Bucket algorithm.
+                </p><br> 
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 5 Lecture: 8 
+                  hrs. </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Application Layer:</b> Domain Name Space (DNS), DDNS, TELNET, EMAIL, File Transfer Protocol 
+                (FTP), WWW, HTTP, SNMP, Bluetooth, Firewalls, Basic concepts of Cryptography.
+                
+                </p><br>                
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Suggested books</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      1. Data Communication and Networking, 4th Edition, Behrouz A. Forouzan, McGraw- Hill. <br><br>
+2. Data and Computer Communication, 8th Edition, William Stallings, Pearson Prentice Hall 
+India. <br><br>
+ </p><br>
+                     
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Suggested reference books:</h5><br>
+                      <p style="text-align: justify; font-family: roboto;">
+                        1. Computer Networks, 8th Edition, Andrew S. Tanenbaum, Pearson New International 
+                        Edition. <br><br>
+                        2. Internetworking with TCP/IP, Volume 1, 6th Edition Douglas Comer, Prentice Hall of India.<br><br> 
+                        3. TCP/IP Illustrated, Volume 1, W. Richard Stevens, Addison-Wesley, United 
+                        States of America.  </p><br>  
+                       
+                       <h5 style="font-family: roboto; color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">After the completion of course, students can able to able to:<br>
+                        1. Explain the functions of the different layer of the OSI Protocol. <br><br>
+                        2. Draw the functional block diagram of wide-area networks (WANs), local area networks.<br><br> 
+                        (LANs) and Wireless LANs (WLANs) and can able to describe the function of each block. <br><br>
+                        3. Program for a given problem related TCP/IP protocol. <br><br>
+                        4. Configure DNS DDNS, TELNET, EMAIL, File Transfer Protocol (FTP), WWW, HTTP, SNMP, 
+                        Bluetooth, Firewalls using open source available software and tools. <br>
+                        </p><br>
+                             </div>
+          </div>
+        </div>
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingThree" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+           <h1>   Machine Learning</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto; color:black;">Objective of the Course</h5><br><br>
+              <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">• To learn the concept of how to learn patterns and concept from data. <br><br>
+                • Design and analyze various machine learning algorithms and their applications in recent 
+                trends. <br><br>
+                • Evaluate the various factors of machine learning to measure the performance.<br><br> 
+                • Understand basic of machine learning’s application in recent trend of technology.<br><br>
+</p><br>
+                <h3 style="font-family: roboto; color:black;">Detailed Contents</h3>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture: 8 hours
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Introduction:</b> Basic definitions, Linear Algebra, Statistical learning theory, types of learning, 
+              hypothesis space and Inductive bias, evaluation and cross validation, Optimization.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture: 8 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;" >Statistical Decision Theory, Bayesian Learning (ML, MAP, Bayes estimates, Conjugate priors), 
+                Linear Regression, Ridge Regression, Lasso, Principal Component Analysis, Partial Least Squares.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3 Lecture 8 
+                  hrs. 
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Linear Classification, Logistic Regression, Linear Discriminant Analysis, Quadratic Discriminant 
+                Analysis, Perceptron, Support Vector Machines + Kernels, Artificial Neural Networks + Back 
+                Propagation, Decision Trees, Bayes Optimal Classifier, Naive Bayes. 
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4 Lecture: 8 
+                  hrs. </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Hypothesis testing, Ensemble Methods, Bagging Adaboost Gradient Boosting, Clustering, K-means, 
+                K-medoids, Density-based Hierarchical, Spectral.
+                </p><br>
+
+                
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 5 Lecture: 8 
+                  hrs. </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Expectation Maximization, GMMs, Learning theory Intro to Reinforcement Learning, Bayesian 
+                Networks. 
+                </p><br>
+                
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Suggested text books:</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      1. Machine Learning. Tom Mitchell. First Edition, McGraw- Hill, 1997 .<br><br>
+                      </p><br>
+                     
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Suggested reference books:</h5><br>
+                      <p style="text-align: justify; font-family: roboto;">
+                        1. J. Shavlik and T. Dietterich (Ed), Readings in Machine Learning, Morgan Kaufmann, 1990. <br><br>
+2. P. Langley, Elements of Machine Learning, Morgan Kaufmann, 1995. <br><br>
+3. Understanding Machine Learning. Shai Shalev-Shwartz and Shai Ben-David. Cambridge 
+University Press. 2017. [SS-2017] .<br><br>
+4. The Elements of Statistical Learning. Trevor Hastie, Robert Tibshirani and Jerome Friedman. 
+Second Edition. 2009. [TH-2009]  </p><br>  
+                       
+                     
+                              
+
+                              
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFour" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+          <h1>    Graduate Employability Skills and Competitive Courses (GATE, IES, 
+              etc).</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFive" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+           <h1>   Professional Elective Lab-I</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseTwo">
+           <h1>   Project – I</h1>
+            </button>
+          </h2>
+             
+          
+            
+          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+             
+            </div>
+          </div>
+        </div>
+        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingNine">
+          <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseTwo">
+           <h1> MOOCs / SWAYAM / NPTEL etc. 
+            Courses - 1</h1>
+            
+          </button>
+        </h2>
+
+        <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            
+          </div>
+        </div>
+      </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingEight">
+            <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseTwo">
+         <h1>     Program Elective- I</h1>
+              
+            </button>
+          </h2>
+
+          <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              
+            </div>
+          </div>
+        </div>
+       
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTen">
+            <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTwo">
+          <h1>    Program Elective- II</h1>
+              
+            </button>
+          </h2>
+
+          <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              
+            </div>
+          </div>
+        </div></div></div>
+        <div class="container-fluid gap"  style="background-color:#FF6633;">
+          <div class="container  shadow p-3 mb-5 bg-body-tertiary rounded"  style="background-color:#FF6633;">
+            <div class="row "  >
+              <div class="col-md-4 my-3  fw-bold border align-self:center">
+                <p style="font-size: 20px;">Address:- Growth Center, Jasoiya More, Aurangabad Bihar - 824102</p>
+              
+              </div><br>
+           
+      
+        
+              <div class="col-md-4 my-3 mx-2 fw-bold border align-self:center">
+                <p style="font-size: 20px;"><i class="bi bi-telephone"></i>Contact Number:-</i>+91-9308392306 / 9102318888 <br>9308394144 / 9334127770 / 9322698410</p><br>
+           
+              </div>
+           
+       
+              <div class="col-md-3 my-3 fw-bold border align-self:center">
+                <p style="font-size:20px;"><i class="bi bi-envelope"></i>Email:- Sityog@gmail.com</p><br>
+                <p style="font-size:20px;">yahoo:-Sityog@yahoo.com</p>
+              </div>
+              <div class="col-md-6 border my-3">
+                <a href="https://www.facebook.com/sityogaurangabad"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+                <a href="https://www.youtube.com/channel/UCqLpIqvF3GldPpZWso6AIlg"><i class="bi bi-youtube" style="font-size: 30px; color:red; padding-left: 15px;"></i></a>
+                <a href="https://www.instagram.com/sityog_institute_of_technology/?hl=en"><i class="bi bi-instagram" style="font-size: 30px; color:blue; padding-left: 15px;"></i></a>
+             <a href=""></a>
+              </div>
+            </div>
+              <div class="row border align-self:center">
+                <div class="col-md-6">
+                  <div class="detailTab-section-title">
+                    <div class="detailTab-title">
+                        <h4 >Important Links</h4>
+                   
+                    </div>
+                  </div>
+                  <a href="http://www.beu-bih.ac.in/BEUP/Default.aspx">    <li class=" fw-bold text-white">Bihar Engineering University</li></a>
+                  <a href="http://www.sityog.edu.in/alumni/"><li class=" fw-bold">Alumini</li></a>
+                  <a href="https://swayam.gov.in/">    <li class=" fw-bold">Online Classes</li></a>
+                  <a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">    <li class=" fw-bold">Student Credit Card Apply</li></a>
+                  <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">B.tech Syllabus</li></a>
+                  <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BCA Syllabus</li></a>
+                  <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BBA Syllabus</li></a>
+                  <a href="http://sbteonline.in/syllabus">    <li class=" fw-bold">Diploma Syllabus</li></a>
+                  <a href=" https://results.akuexam.net/"><li class=" fw-bold">AKU Result</li></a>
+                  <a href=" https://www.akubihar.com//"><li class=" fw-bold">AKu Previous Year Question</li></a>
+                </div>
+              </div>
+            </div>
+        </div>
+          
+        <footer class="bg-custom text-white py-2 text-center ">&copy Designed By Deepak Kumar, Vandna Kumari, Atul Kumar, Shakshi Gupta and Vinisha Kumari</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

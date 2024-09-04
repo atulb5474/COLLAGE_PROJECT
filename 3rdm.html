@@ -1,0 +1,866 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sityog Institute of Technology </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        p{
+          font-size:20px ;
+        }
+          .accordion-button
+  {
+   background-color: purple;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+  }
+   button:hover{
+     background-color:#FF6633 ;
+     color:white;
+     border-radius: 30px;
+  
+   }
+   .dropdown-submenu {
+       position: relative;
+     }
+     
+     .dropdown-submenu .dropdown-menu {
+       top: 0;
+       left: 100%;
+       margin-top: -1px;
+     } .navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+      </style>
+</head>
+  <body >
+    <img src="image/download.png"width="100%", height="150px">
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+    <header class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#"><p style="text-align: justify;">Welcome to Smart Sityog</p></a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="institute.html"text-white fw-bold>About Institute</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="vision.html"text-white fw-bold>Vision & Mission</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="board.html"text-white fw-bold>Board Of Management</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="chairman.html"text-white fw-bold>Chairman Message</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="secretary.html"text-white fw-bold>Secretary Message</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="approve.html"text-white fw-bold>Approval & Affiliation</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   ADMISSION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Apply Now <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="registration.html">Apply For B.Tech, BBA ,BCA,BA(J&MC)</a></li>
+                        <li><a tabindex="-1" href="https://bceceboard.bihar.gov.in/">Apply For Diploma</a></li>
+                        <li><a tabindex="-1" href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">Apply For Student Credit Card</a></li>
+                       
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X2dq1ElIqKtn91-rE8e9uIUzd6OgthwF/view?usp=drivesdk">Registration Form</a></li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X3QoQcHpv-6GPBQX5NaXHUaeCioAKgoU/view?usp=drivesdk">Prospectus</a></li>
+                    <li><a tabindex="-1" href="fee.html">Fee Structure</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">U.G(UNDER GRADUATION) <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="btech.html">B.Tech</a></li>
+                        <li><a tabindex="-1" href="bca.html">BCA</a></li>
+                        <li><a tabindex="-1" href="bba.html">BBA</a></li>
+                        <li><a tabindex="-1" href="bj.html">BA(J&MC)</a></li>
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="diploma.html">Diploma</a></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                  Facilities & Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="workshop.html"text-white fw-bold>Workshops</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="library.html"text-white fw-bold>Library</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="lab.html"text-white fw-bold>Lab Testing</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="wifi.html"text-white fw-bold>Wifi-Campus</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="computer.html"text-white fw-bold>Hi-tech Computer Lab</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="transport.html"text-white fw-bold>Transportation</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sports.html"text-white fw-bold>Sports Facilities</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="hostel.html"text-white fw-bold>Hostel & Mess</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="hall.html"text-white fw-bold>Seminar-Hall</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="temple.html"text-white fw-bold>Temple</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white fw-bold" href="faculty.html"text-white fw-bold>Faculty List</a>
+                </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Placement
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="recruiters.html"text-white fw-bold>Our Top Recruiters</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="tpo.html"text-white fw-bold>Training Placement Officer(T.P.O)</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2017.html"text-white fw-bold>Campus Placement 2017</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2018.html"text-white fw-bold>Campus Placement 2018</a></li>
+                     <li><a class="dropdown-item text-fw-bold" href="2019.html"text-white fw-bold>Campus Placement 2019</a></li>
+               
+                     <li><a class="dropdown-item text-fw-bold" href="2021.html"text-white fw-bold>Campus Placement 2021</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2022.html"text-white fw-bold>Campus Placement 2022</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sit/upload-placement.php"text-white fw-bold>Latest Placement</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="facilities.html"text-white fw-bold>Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>Login Now</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        </div>
+      </header>
+      <a href="registration.html"><div class="fixed-icon"><img src="https://www.sityog.edu.in/images/applynow1.gif" style="width: 100px;height: 100px;"></div></a>
+<div class="container-fluid gap ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingOne" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+             <h1>   Mathematics III
+                (PDE, Probability & Statistics)</h1>
+            </button>
+            
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse  border shadow p-3 mb-5 bg-body-tertiary rounded" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded">
+              <h5 style="font-family: roboto;">Objectives</h5>
+              
+                <p style="text-align: justify; font-family: roboto;">
+                  1. To introduce the solution methodologies for second order Partial Differential Equations with
+                    applications in engineering.
+                       </p><br>
+               <p style="text-align: justify; font-family: roboto;">
+                   2. Understand use, general specifications and deployabilities of the electronic devices, and assemblies.  
+               </p><br>
+                             
+                                  
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1 :(14 lectures)
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Definition of Partial Differential Equations, First order partial differential equations, solutions of first order linear PDEs; Solution to 
+                homogenous and non-homogenous linear partial differential equations of second order by complimentary function and particular integral method. Second-order linear equations and their classification, 
+                Initial and boundary conditions, D'Alembert's solution of the wave equation; Duhamel's principle for one dimensional wave equation. Heat diffusion and vibration problems, Separation of variables 
+                method to simple problems in Cartesian coordinates. The Laplacian in plane, cylindrical and spherical polar coordinates, solutions with Bessel functions and Legendre functions. One dimensional 
+                diffusion equation and its solution by separation of variables.
+            </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: (12 lectures)
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;" >Probability spaces, conditional probability, independence; Discrete random variables, Independent random variables, the multinomial distribution, 
+                Poisson approximation to the binomial distribution, infinite sequences of Bernoulli trials, sums of independent random variables; Expectation of Discrete Random Variables, Moments, Variance of a sum, 
+                Correlation coefficient, Chebyshev's Inequality. Continuous random variables and their properties, distribution functions and densities, normal, exponential and gamma densities. Bivariate distributions 
+                and their properties, distribution of sums and quotients, conditional densities, Bayes' rule.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3: (12 lectures)
+                 </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Basic Statistics, Measures of Central tendency: Moments, skewness and Kurtosis - Probability distributions: Binomial, Poisson and Normal - evaluation of 
+                statistical parameters for these three distributions, Correlation and regression - Rank correlation. Curve fitting by the method of least squares- fitting of straight lines, second degree parabolas and more 
+                general curves. Test of significance: Large sample test for single proportion, difference of proportions, Tests for single mean, difference of means, and difference of standard deviations. Test for ratio of variances - Chi- square Page 24 of 75
+                test for goodness of fit and independence of attributes.
+                </p><br>
+
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">TEXT / REFRENCES BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Erwin Kreyszig, Advanced Engineering Mathematics, 9thEdition, John Wiley & Sons, 2006. </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        N.P. Bali and Manish Goyal, A text book of Engineering Mathematics, Laxmi Publications.
+                        </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            P. G. Hoel, S. C. Port and C. J. Stone, Introduction to Probability Theory, Universal Book Stall.
+                        </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            S. Ross, A First Course in Probability, 6th Ed., Pearson Education India,2002.
+                            </p><br>
+                            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURCE OUTCOMES</h5><br>
+                            <p style="text-align: justify; font-family: roboto;">
+                                Upon completion of this course, students will be able to solve field problems in engineering involving PDEs. They can also formulate and solve 
+                                problems involving random variables and apply statistical methods for analyzing experimental data.
+                            </p><br>                
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwo" style="text-align: center;">
+            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <h1>  Biology</h1>
+              
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: (2 hours)-Introduction
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Purpose: To convey that Biology is as important a scientific discipline as Mathematics, Physics and Chemistry 
+                Bring out the fundamental differences between science and engineering by drawing a comparison between 
+                eye and camera, Bird flying and aircraft. Mention the most exciting aspect of biology as an independent 
+                scientific discipline. Why we need to study biology? Discuss how biological observations of 18th Century 
+                that lead to major discoveries. Examples from Brownian motion and the origin of thermodynamics by referring 
+                to the original observation of Robert Brown and Julius Mayor. These examples will highlight the fundamental 
+                importance of observations in any scientific inquiry.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: (3hours)-Classification</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Purpose: To convey that classification per se is not what biology is all about. The underlying criterion, such as 
+                morphological, biochemical or ecological be highlighted. Hierarchy of life forms at phenomenological level. A 
+                common thread weaves this hierarchy Classification. Discuss classification based on (a) cellularity- Unicellular 
+                or multicellular (b) ultrastructure- prokaryotes or eucaryotes. (c) energy and Carbon utilization -Autotrophs, 
+                heterotrophs, lithotropes (d) Ammonia excretion - aminotelic, uricoteliec, ureotelic (e) Habitata- acquatic or 
+                terrestrial (e) Molecular taxonomy- three major kingdoms of life. A given organism can come under different 
+                category based on classification. Model organisms for the study of biology come from different groups. E.coli, 
+                S. cerevisiae, D. Melanogaster, C. elegance, A. Thaliana, M. musculus.
+                
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3: (4 hours)-Genetic</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Purpose: To convey that “Genetics is to biology what Newton's laws are to Physical Sciences” 
+                Mendel's laws, Concept of segregation and independent assortment. Concept of allele. Gene mapping, Gene 
+                interaction, Epistasis. Meiosis and Mitosis be taught as a part of genetics. Emphasis to be give not to the 
+                mechanics of cell division nor the phases but how genetic material passes from parent to offspring. Concepts 
+                of recessiveness and dominance. Concept of mapping of phenotype to genes. Discuss about the single gene 
+                disorders in humans. Discuss the concept of complementation using human genetics.
+                
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4: (4 hours)-Biomolecules
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Purpose: To convey that all forms of life has the same building blocks and yet the manifestations are as diverse 
+                as one can imagine 
+                Molecules of life. In this context discuss monomeric units and polymeric structures. Discuss about sugars, 
+                starch and cellulose. Amino acids and proteins. Nucleotides and DNA/RNA. Two carbon units and lipids.
+                
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: (4 hours)-Enzymes
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Purpose: To convey that without catalysis life would not have existed on earth 
+                Enzymology: How to monitor enzyme catalyzed reactions. How does an enzyme catalyzereactions. Enzyme 
+                classification. Mechanism of enzyme action. Discuss at least two examples. Enzyme kinetics and kinetic 
+                parameters. Why should we know these parameters to understand biology? RNA catalysis.
+                
+                
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6: (4 hours)-Information Transfer
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Purpose: The molecular basis of coding and decoding genetic information is universal Molecular basis of 
+                    information transfer. DNA as a genetic material. Hierarchy of DNA structure- from single stranded to double 
+                    helix to nucleosomes. Concept of genetic code. Universality and degeneracy of genetic code. Define gene in 
+                    terms of complementation and recombination.
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 7: (5 hours)-Macromolecular Analysis 
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Purpose: How to analyses biological processes at the reductionistic level 
+                    Proteins- structure and function. Hierarch in protein structure. Primary secondary, tertiary and quaternary 
+                    structure. Proteins as enzymes, transporters, receptors and structural elements.
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 8: (4 hours)-MEtabolism
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Concept of single celled organisms. Concept of species and strains. Identification and classification of 
+                    microorganisms. Microscopy. Ecological aspects of single celled organisms. Sterilization and media 
+                    compositions. Growth kinetics.
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 9: (3 hours)-Microbiology
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Purpose: The molecular basis of coding and decoding genetic information is universal Molecular basis of 
+                    information transfer. DNA as a genetic material. Hierarchy of DNA structure- from single stranded to double 
+                    helix to nucleosomes. Concept of genetic code. Universality and degeneracy of genetic code. Define gene in 
+                    terms of complementation and recombination of glucose from CO2 and H2O (Photosynthesis). Energy yielding and energy consuming reactions. Concept of 
+                    Energy charge.
+                  </p><br>
+                 
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT/ REFERENCE BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                      Biology: A global approach: Campbell, N. A.; Reece, J. B.; Urry, Lisa; Cain, M, L.; Wasserman, S. A.; 
+                      Minorsky, P. V.; Jackson, R. B. Pearsonion Education Ltd.
+                    </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Outlines of Biochemistry, Conn, E.E; Stumpf, P.K; Bruening, G; Doi, R.H., John Wiley and Sons.
+                      </p><br>
+                        
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Principles of Biochemistry (V Edition), By Nelson, D. L.; and Cox, M. M.W.H. Freeman and Company
+                          </div/p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              Molecular Genetics (Second edition), Stent, G. S.; and Calender, R.W.H. Freeman and company, 
+                              Distributed by Satish Kumar Jain for CBS Publisher 
+                              Microbiology, Prescott, L.M J.P. Harley and C.A. Klein 1995. 
+                              2nd edition Wm, C. Brown Publishers.</p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                Microbiology, Prescott, L.M J.P. Harley and C.A. Klein 1995. 2nd edition Wm, C. Brown Publishers.
+                              </p><br>
+                              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> COURCE OUTCOMES</h5><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                After studying the course, the student will be able to:
+                                Describe how biological observations of 18th Century that lead to major discoveries. Convey that classification per se is not what biology is all about but highlight the underlying criteria, such as morphological, 
+                                biochemical and ecological Highlight the concepts of recessiveness and dominance during the passage of genetic material from parent to offspring Convey that all 
+                                forms of life have the same building blocks and yet the manifestations are as diverse as one can imagine Classify enzymes and distinguish between different mechanisms of enzyme action. Identify DNA as a genetic 
+                                material in the molecular basis of information transfer. Analyse biological processes at the reductionistic level Apply thermodynamic principles to biological systems. Identify and classify microorganisms.
+                              </p><br>
+                            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingThree" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+             <h1> Basic Electronic Engineering</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+                              <h5 style="font-family: roboto; color:brown;" >CONTENTS</h5>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: SEMICONDUCTOR DEVICES AND APPLICATIONS (10 lectures)
+                </h5><br>
+           
+            <p style="text-align: justify; font-family: roboto;">Introduction to P-N Junction Diode and V-I characteristics, Half wave and Full-wave rectifiers, capacitor filter. Zener diode and its characteristics, 
+              Zener diode as voltage regulator. Regulated power supply IC based on 78XX and 79XX series, Introduction to BJT, its input-output and transfer characteristics, BJT as a single stage CE amplifier, frequency response and bandwidth.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: OPERATIONAL AMPLIFIER AND ITS APPLICATION (8 lectures)
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Introduction to operational amplifiers, Op-amp input modes and parameters, Op-amp in open loop configuration, op-amp with negative feedback, study of practical op-amp IC 741, 
+                inverting and non-inverting amplifier applications: summing and difference amplifier, unity gain buffer, comparator, integrator and differentiator.
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 3: TIMING CIRCUITS AND OSCILLATORS
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">RC-timing circuits, IC 555 and its applications as table and mono-stable multi-vibrators, positive feedback, Barkhausen's 
+                criteria for oscillation, R-C phase shift and Wein bridge oscillator.
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 4: DEGITAL ELECTRONICS FUNDAMENTALS
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Difference between analog and digital signals, Boolean algebra, Basic and Universal Gates, Symbols, Truth tables, logic expressions, Logic simplification 
+                using Kmap, Logic ICs, half and full adder/subtractor, multiplexers, de-multiplexers, flip-flops, shift registers, counters, Block diagram of microprocessor/microcontroller and their applications.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: ELECTRONIC COMMUNICATION SYSTEM
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">The elements of communication system, IEEE frequency spectrum, Transmission media: wired and wireless, need of modulation, AM and FM modulation schemes, 
+                Mobile communication systems: cellular concept and block diagram of GSM system.
+                </p><br>
+
+               
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT/ REFERENCE BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                      Floyd ,” Electronic Devices” Pearson Education 9th edition, 2012.
+                       </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        R.P. Jain , “Modern Digital Electronics”, Tata Mc Graw Hill, 3rd Edition, 2007.
+                      </p><br>
+
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          Frenzel, “Communication Electronics: Principles and Applications”, Tata Mc Graw Hill, 3rd
+                          Edition, 2001. </p><br>
+                          
+                             
+                                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> COURCE OUTCOMES
+                                  </h5><br>
+                                  <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    Understand the principles of semiconductor devices and their applications.
+                                     </p><br>
+                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                      Design an application using Operational amplifier.
+                                    </p><br>
+              
+                                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                        Understand the working of timing circuits and oscillators.
+                                       </p><br>
+                                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                          Understand logic gates, flip flop as a building block of digital systems.</p><br>
+                                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                            Learn the basics of Electronic communication system.
+                                           </p><br>
+                                </div>                    
+          </div>
+        </div>
+         
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFour" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+           <h1>   Engineering Mechanics</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+                              <h5 style="font-family: roboto; color:brown;" >CONTENTS</h5>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1 : STATICS (7 lectures)
+              </h5><br>
+             <p style="text-align: justify; font-family: roboto;">
+              Force System, Moment of a force about a point and an axis; Equivalent force and moment.
+            </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: EQUILIBRIUM (6 lectures)
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Free body diagram; equations of equilibrium; problems in two and three dimension; plane frames and trusses.
+               
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3: FRICTION (8 lectures)
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Laws of Coulomb friction, impending motion problems involving large and small contact surfaces; square 
+                  threaded screw; principle of virtual work and stability.
+                  
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4: DYNAMICS (6 lectures)
+
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;">Kinematics and kinetics of particles dynamics in rectangular coordinates cylindrical coordinates and in terms of path variables.
+                    </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: PROPERTIES OF AREAS (8 lectures)
+
+                    </h5><br>
+                    <p style="text-align: justify; font-family: roboto;">Center of mass; Moments of inertia; kinematics of rigid bodies;Chasle's Theorem, concept of fixed vector, velocity 
+                      and acceleration of particles in different frames of references. General plane motion.
+                      
+                      </p><br>
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6:  (7 lectures)
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">Work & Energy and impulse and Momentum methods for particles and rigid bodies: Conservation of 
+                        momentum, coefficient of restitution, moment of momentum equation.
+                        
+                        </p><br>
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 7: INTRODUCTION TO KINETICS OF RIGID BODIES COVERING
+                        </h5><br>
+                        <p style="text-align: justify; font-family: roboto;">Basic terms, general principles in dynamics; Types of motion, Instantaneous centre of rotation in
+                           plane motion and simple problems; D'Alembert's principle and its applications in plane motion and connected bodies; Work energy principle and its 
+                           application in plane motion of connected bodies; Kinetics of rigid body rotation.
+                          
+                          
+                          </p><br>
+                          <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 8: MECHANICAL VIBRATION COVERING
+
+                          </h5><br>
+                          <p style="text-align: justify; font-family: roboto;">Basic terminology, free and forced vibrations, resonance and its effects;
+                             Degree of freedom; Derivation for frequency and amplitude of free vibrations without damping and single degree of freedom
+                              system, simple problems, types of pendulum, use of simple, compound and torsion pendulums; Tutorials from the above modules 
+                            covering, To find the various forces and angles including resultants in various parts of wall crane, roof truss, pipes, etc.; 
+                            To verify the line of polygon on various forces; To find coefficient of friction between various materials on inclined plan;
+                             Free body diagrams various systems including block-pulley; To verify the principle of moment in the disc apparatus; Helical block;
+                              To draw a load efficiency curve for a screw jack
+                            
+                            </p><br>
+                           
+          
+                                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT/REFERENCE BOOKS</h5><br>
+                                  <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    Engineering Mechanics by Shames, Pearson's Education. 
+                                  </p><br>
+                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                      Mechanics for Engineers. Beer, F.P. and Johnston. Tata McGraw Hill. New Delhi.
+                                    </p><br>
+                                       <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                        Engineering mechanics. Meriam Wiley pub.
+                                      </p><br>
+                                         <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                          Engineering Mechanics. Timoshenko. McGraw Hill lnc.
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> PRATICALS
+                                        </h5><br>
+                                           <p style="text-align: justify; font-family: roboto;">
+                                            Practical based on mechanical advantage of different machines.
+                                          </p><br>
+                                             <p style="text-align: justify; font-family: roboto;">
+                                              Verification of triangle law & parallelogram law of forces.
+                                            </p><br>
+                                               <p style="text-align: justify; font-family: roboto;">
+                                                Verification of polygon law of forces.
+                                              </p><br>
+                                                 <p style="text-align: justify; font-family: roboto;">
+                                                  Determination of moment of inertia of a flywheel.
+                                                </p><br>
+                                                   <p style="text-align: justify; font-family: roboto;">
+                                                    Crank Lever apparatus.
+                                                  </p><br>
+                                                  <p style="text-align: justify; font-family: roboto;">
+                                                    Verification of support reactions of a simply supported beam.
+                                                  </p><br>
+                                                  <p style="text-align: justify; font-family: roboto;">
+                                                    Verification of condition of equilibrium of a system of forces.
+                                                  </p><br>
+                                                     <p style="text-align: justify; font-family: roboto;">
+                                                      Verification of axial forces in the members of a truss.
+                                                    </p><br>
+                                                       <p style="text-align: justify; font-family: roboto;">
+                                                        Verification of equilibrium of three dimensional forces.
+                                                      </p><br>
+                                                         <p style="text-align: justify; font-family: roboto;">
+                                                          Determination of coefficient of friction between two surfaces.
+                                                        </p><br>
+                                                           <p style="text-align: justify; font-family: roboto;">
+                                                            Verification of centroid of different laminae.
+                                                          </p><br>
+                                                          <p style="text-align: justify; font-family: roboto;">
+                                                             Verification of Newton's laws of motion.
+                                                          </p><br>
+                                                          <h6 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded; color : brown">Students will be able to articulate and describe
+                                                          </h6><br>
+                                                          <p style="text-align: justify; font-family: roboto;">
+                                                            Relative motion. Inertial and non-inertial reference frames.
+                                                                 </p><br>
+                                                                 <p style="text-align: justify; font-family: roboto;">
+                                                                  Parameters defining the motion of mechanical systems and their degrees of freedom.   
+                                                                       </p><br>
+                                                                       <p style="text-align: justify; font-family: roboto;">
+                                                                        Study of the interaction of forces between solids in mechanical systems.
+                                                                         </p><br> 
+                                                                   <p style="text-align: justify; font-family: roboto;">
+                                                                    Centre of mass and inertia tensor of mechanical systems.
+                                                                    </p><br>
+                                                                
+                                                                    <p style="text-align: justify; font-family: roboto;">
+                                                                      Application of the vector theorems of mechanics and interpretation of their results.
+                                                                   </p><br>
+                                                                   <p style="text-align: justify; font-family: roboto;">
+                                                                    Newton's laws of motion and conservation principles.
+                                                                 </p><br>
+               
+</div>    
+          </div>
+          <div class="accordion-item  ">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFive" style="text-align: center;">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+              <h1>  Thermodynamics</h1>
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">OBJECTIVES
+              <p style="text-align: justify; font-family: roboto;">
+                 1. To learn about work and heat interactions, and balance of energy between system and its.
+                     </p><br>
+                     <p style="text-align: justify; font-family: roboto;">
+                      2. Surroundings.   
+                           </p><br>
+                           <p style="text-align: justify; font-family: roboto;">
+                            3. To learn about application of 1st law to various energy conversion devices.
+                             </p><br> 
+                       <p style="text-align: justify; font-family: roboto;">
+                        4. To evaluate the changes in properties of substances in various processes.
+                        </p><br>
+                    
+                        <p style="text-align: justify; font-family: roboto;">
+                          5. To understand the difference between high grade and low grade energies and 2nd law limitations on energy conversion.
+                       </p><br>
+                       <h5 style="font-family: roboto; color:brown;" >CONTENTS</h5>
+              <div class="accordion-body">
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1  (5 lactures)
+  
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Fundamentals - System & Control volume; Property, State & Process; Exact & Inexact differentials; 
+                Work-Thermodynamic definition of work; examples; Displacement work; Path dependence of displacement work and illustrations for simple processes; 
+                electrical, magnetic, gravitational, spring and shaft work.
+                </p><br>
+                
+  
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2 (5 lactures)
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Temperature, Definition of thermal equilibrium and Zeroth law; Temperature scales; Various 
+                  Thermometers- Definition of heat; examples of heat/work interaction in systems- First Law for Cyclic & Non-cyclic processes; Concept of total 
+                  energy E; Demonstration that E is a property; Various modes of energy, Internal energy and Enthalpy.
+                  </p><br>
+  
+                  <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 3 (8 lactures)
+                  </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Definition of Pure substance, Ideal Gases and ideal gas mixtures, Real gases and real gas mixtures, 
+                  Compressibility charts- Properties of two phase systems - Const. temperature and Const. pressure heating of water; Definitions of saturated states; 
+                  P-v-T surface; Use of steam tables; Saturation tables; Superheated tables; Identification of states & determination of properties, Mollier's chart.  
+                  </p><br>
+  
+                  <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 4 (5 lactures)
+                  </h5><br>
+                <p style="text-align: justify; font-family: roboto;">First Law for Flow Processes - Derivation of general energy equation for a control volume; Steady state 
+                  steady flow processes including throttling; Examples of steady flow devices; Unsteady processes; examples of steady and unsteady I law applications for system and control volume.
+                  </p><br>
+  
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5 (5 lactures)
+                  </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Second law - Definitions of direct and reverse heat engines; Definitions of thermal efficiency and COP; Kelvin-Planck and Clausius statements; 
+                  Definition of reversible process; Internal and external irreversibility; Carnot cycle; Absolute temperature scale.
+                  </p><br>
+  
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6 (8 lactures)
+                  </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Clausius inequality; Definition of entropy S ; Demonstration that entropy S is a property; Evaluation of Entropy for solids, liquids, ideal 
+                  gases and ideal gas mixtures undergoing various processes; Determination of entropy from steam tables-Principle of increase of entropy; Illustration of processes in T-s coordinates; Definition 
+                  of Isentropic efficiency for compressors, turbines and nozzles- Irreversibility and Availability, Availability function for systems and Control volumes undergoing different processes, Lost work. 
+                  Second law analysis for a control volume. Exergy balance equation and Exergy analysis.
+                  </p><br>
+                 
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 7 (4 lactures)
+                  </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Properties of dry and wet air, use of psychometric chart, processes involving heating/cooling and humidification/dehumidification, dew point.
+                  </p><br>
+  
+  
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">TEXT / REFERENCE BOOKS</h5><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Sonntag, R. E, Borgnakke, C. and Van Wylen, G. J., 2003, 6th Edition, Fundamentals of Thermodynamics, John Wiley and Sons.
+                         </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          Jones, J. B. and Duggan, R. E., 1996, Engineering Thermodynamics, Prentice-Hall of India.
+                        </p><br>
+    
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Moran, M. J. and Shapiro, H. N., 1999, Fundamentals of Engineering Thermodynamics, John Wiley and Sons.
+                            </p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              Yunus A. Cengel; Michael A. Boles, Thermodynamics: An Engineering Approach, McGraw-Hill.</p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                Nag, P.K, 1995, Engineering Thermodynamics, Tata McGraw-Hill Publishing Co. Ltd.</p><br>
+                                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> COURCE OUTCOMES
+                                </h5><br>
+                                <p style="text-align: justify; font-family: roboto;">
+                                  After completing this course, the students will be able to apply energy balance to systems and control volumes, in situations involving heat and work interactions.
+                                   </p><br>
+                                  <p style="text-align: justify; font-family: roboto;">
+                                    Students can evaluate changes in thermodynamic properties of substances.
+                                  </p><br>
+            
+                                    <p style="text-align: justify; font-family: roboto;">
+                                      The students will be able to evaluate the performance of energy conversion devices.
+                                     </p><br>
+                                      <p style="text-align: justify; font-family: roboto;">
+                                        The students will be able to differentiate between high grade and low grade energies.</p><br>
+                                
+                                                    
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSix" style="text-align: center;">
+              <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <h1>  Machine Drawing</h1>
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded; color : brown">Objectives
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">
+                The student will acquire a knowledge of fastening arrangements such as welding, riveting the different styles of attachment for shaft. The student also is enabled to prepare the assembly of various machine or engine components and miscellaneous machine components.
+                     </p><br>
+                    
+              <div class="accordion-body">
+                <h5 style="font-family: roboto; color:brown;" >CONTENTS</h5>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1 (2 lactures)  
+              <p style="text-align: justify; font-family: roboto;">Introduction to full section, half section, revolved-section off-set section.
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2 (3 lactures)
+                <p style="text-align: justify; font-family: roboto;">Nut Bolts, Riveted joints, Thread profiles, Screw jack.
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3 (3 lactures) 
+                  <p style="text-align: justify; font-family: roboto;">Bushed bearing, pedestal, bearing, foot step bearing.
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4 (2 lactures)
+                  <p style="text-align: justify; font-family: roboto;">Flanged coupling, flexible coupling, solid coupling.
+                    </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5 (2 lactures) 
+                    <p style="text-align: justify; font-family: roboto;">Engine parts - Stuffing box, Connecting rod, Atomizer, spark plug, etc.
+                    </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6 (2 lactures)
+                    <p style="text-align: justify; font-family: roboto;">Eccentric.
+                      </p><br>
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 7 (2 lactures) 
+                        <p style="text-align: justify; font-family: roboto;">Cross Head.
+                        </p><br>
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 8 (2 lactures)
+                        <p style="text-align: justify; font-family: roboto;">Assembly of dissembled parts. disassembly of assembly parts.
+                          </p><br>
+                 
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT BOOKS / REFRENCES</h5><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Dhawan, R.K., A Text Book of Machine Drawing, S. Chand & Company, 1996.
+                      </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          Ostrowsky, O., Engineering Drawing with CAD Applications, ELBS, 1995.
+                       </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Engineering Drawing Practice for Schools and Colleges SP: 46- 19.
+                          </p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              Engineering Drawing by ND Bhatt.
+                             </p><br>
+                             <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> COURCE OUTCOMES
+                            </h5><br>
+                            <p style="text-align: justify; font-family: roboto;">
+                              Identify the national and international standards pertaining to machine drawing.
+                               </p><br>
+                              <p style="text-align: justify; font-family: roboto;">
+                                Apply limits and tolerances to assemblies and choose appropriate fits.
+                              </p><br>
+        
+                                <p style="text-align: justify; font-family: roboto;">
+                                  Recognize machining and surface finish symbols.
+                                 </p><br>
+                                  <p style="text-align: justify; font-family: roboto;">
+                                    Explain the functional and manufacturing datum.</p><br>
+                             
+                               </div>
+            </div>
+           
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingEight">
+              <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h3>   Inter/Intra Institutional 
+Activities
+(Summer Vacation after 2
+nd Sem.)
+Internship</h3>
+                
+              </button>
+            </h2>
+  
+            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingNine">
+              <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseTwo">
+               <h1> Professional Courses
+                (Spoken Tutorial, KYP, etc.)</h1> 
+                
+              </button>
+            </h2>
+  
+            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+</div><div class="container-fluid gap"  style="background-color:#FF6633;">
+  <div class="container  shadow p-3 mb-5 bg-body-tertiary rounded"  style="background-color:#FF6633;">
+    <div class="row "  >
+      <div class="col-md-4 my-3  fw-bold border align-self:center">
+        <p style="font-size: 20px;">Address:- Growth Center, Jasoiya More, Aurangabad Bihar - 824102</p>
+      
+      </div><br>
+   
+
+
+      <div class="col-md-4 my-3 mx-2 fw-bold border align-self:center">
+        <p style="font-size: 20px;"><i class="bi bi-telephone"></i>Contact Number:-</i>+91-9308392306 / 9102318888 <br>9308394144 / 9334127770 / 9322698410</p><br>
+   
+      </div>
+   
+
+      <div class="col-md-3 my-3 fw-bold border align-self:center">
+        <p style="font-size:20px;"><i class="bi bi-envelope"></i>Email:- Sityog@gmail.com</p><br>
+        <p style="font-size:20px;">yahoo:-Sityog@yahoo.com</p>
+      </div>
+      <div class="col-md-6 border my-3">
+        <a href="https://www.facebook.com/sityogaurangabad"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+        <a href="https://www.youtube.com/channel/UCqLpIqvF3GldPpZWso6AIlg"><i class="bi bi-youtube" style="font-size: 30px; color:red; padding-left: 15px;"></i></a>
+        <a href="https://www.instagram.com/sityog_institute_of_technology/?hl=en"><i class="bi bi-instagram" style="font-size: 30px; color:blue; padding-left: 15px;"></i></a>
+     <a href=""></a>
+      </div>
+    </div>
+      <div class="row border align-self:center">
+        <div class="col-md-6">
+          <div class="detailTab-section-title">
+            <div class="detailTab-title">
+                <h4 >Important Links</h4>
+           
+            </div>
+          </div>
+          <a href="http://www.beu-bih.ac.in/BEUP/Default.aspx">    <li class=" fw-bold text-white">Bihar Engineering University</li></a>
+          <a href="http://www.sityog.edu.in/alumni/"><li class=" fw-bold">Alumini</li></a>
+          <a href="https://swayam.gov.in/">    <li class=" fw-bold">Online Classes</li></a>
+          <a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">    <li class=" fw-bold">Student Credit Card Apply</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">B.tech Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BCA Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BBA Syllabus</li></a>
+          <a href="http://sbteonline.in/syllabus">    <li class=" fw-bold">Diploma Syllabus</li></a>
+          <a href=" https://results.akuexam.net/"><li class=" fw-bold">AKU Result</li></a>
+          <a href=" https://www.akubihar.com//"><li class=" fw-bold">AKu Previous Year Question</li></a>
+        </div>
+      </div>
+    </div>
+</div>
+  
+
+    <footer class="bg-custom text-white py-2 text-center">&copy Designed By Vandna Kumari</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

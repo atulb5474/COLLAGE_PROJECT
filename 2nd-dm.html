@@ -1,0 +1,1211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sityog Institute of Technology </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        p{
+          font-size:20px ;
+        }
+          .accordion-button
+  {
+   background-color: purple;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+  }
+   button:hover{
+     background-color:#FF6633 ;
+     color:white;
+     border-radius: 30px;
+  
+   }
+   .dropdown-submenu {
+       position: relative;
+     }
+     
+     .dropdown-submenu .dropdown-menu {
+       top: 0;
+       left: 100%;
+       margin-top: -1px;
+     } .navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+      </style>
+</head>
+  <body >
+    <img src="image/download.png"width="100%", height="150px">
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+    <header class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#"><p style="text-align: justify;">Welcome to Smart Sityog</p></a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="institute.html"text-white fw-bold>About Institute</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="vision.html"text-white fw-bold>Vision & Mission</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="board.html"text-white fw-bold>Board Of Management</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="chairman.html"text-white fw-bold>Chairman Message</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="secretary.html"text-white fw-bold>Secretary Message</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="approve.html"text-white fw-bold>Approval & Affiliation</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   ADMISSION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Apply Now <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="registration.html">Apply For B.Tech, BBA ,BCA,BA(J&MC)</a></li>
+                        <li><a tabindex="-1" href="https://bceceboard.bihar.gov.in/">Apply For Diploma</a></li>
+                        <li><a tabindex="-1" href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">Apply For Student Credit Card</a></li>
+                       
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X2dq1ElIqKtn91-rE8e9uIUzd6OgthwF/view?usp=drivesdk">Registration Form</a></li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X3QoQcHpv-6GPBQX5NaXHUaeCioAKgoU/view?usp=drivesdk">Prospectus</a></li>
+                    <li><a tabindex="-1" href="fee.html">Fee Structure</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">U.G(UNDER GRADUATION) <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="btech.html">B.Tech</a></li>
+                        <li><a tabindex="-1" href="bca.html">BCA</a></li>
+                        <li><a tabindex="-1" href="bba.html">BBA</a></li>
+                        <li><a tabindex="-1" href="bj.html">BA(J&MC)</a></li>
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="diploma.html">Diploma</a></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                  Facilities & Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="workshop.html"text-white fw-bold>Workshops</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="library.html"text-white fw-bold>Library</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="lab.html"text-white fw-bold>Lab Testing</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="wifi.html"text-white fw-bold>Wifi-Campus</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="computer.html"text-white fw-bold>Hi-tech Computer Lab</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="transport.html"text-white fw-bold>Transportation</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sports.html"text-white fw-bold>Sports Facilities</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="hostel.html"text-white fw-bold>Hostel & Mess</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="hall.html"text-white fw-bold>Seminar-Hall</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="temple.html"text-white fw-bold>Temple</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white fw-bold" href="faculty.html"text-white fw-bold>Faculty List</a>
+                </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Placement
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="recruiters.html"text-white fw-bold>Our Top Recruiters</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="tpo.html"text-white fw-bold>Training Placement Officer(T.P.O)</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2017.html"text-white fw-bold>Campus Placement 2017</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2018.html"text-white fw-bold>Campus Placement 2018</a></li>
+                     <li><a class="dropdown-item text-fw-bold" href="2019.html"text-white fw-bold>Campus Placement 2019</a></li>
+               
+                     <li><a class="dropdown-item text-fw-bold" href="2021.html"text-white fw-bold>Campus Placement 2021</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2022.html"text-white fw-bold>Campus Placement 2022</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sit/upload-placement.php"text-white fw-bold>Latest Placement</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="facilities.html"text-white fw-bold>Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>Login Now</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        </div>
+      </header>
+      <a href="registration.html"><div class="fixed-icon"><img src="https://www.sityog.edu.in/images/applynow1.gif" style="width: 100px;height: 100px;"></div></a>
+      <div class="container-fluid gap"> 
+        <div class="detailTab-section-title shadow p-3 mb-5 bg-body-tertiary rounded"  style="text-align: center;">
+          <div class="detailTab-title" style="text-align: center;">
+              <h1 style="text-align: center;">Theory</h1>
+          </div>
+        </div>
+        </div>
+  
+<div class="container-fluid gap ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingOne" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+           <h1>  Mathematics-II</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse  border shadow p-3 mb-5 bg-body-tertiary rounded" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded"><h5 style="font-family: roboto;"><b>Course Objectives:</b>
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;" class="border shadow p-3 mb-5 bg-body-tertiary rounded">This course is designed to give a comprehensive coverage at an introductory level to the subject of
+              Differential Calculus, Integral Calculus.First Order Differential Equations and Basic elements of vector
+              algebra</p><br>
+<h1><b>Course Contents:</b></h1>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT -1: Differential Calculus</h5><br>
+              <p style="text-align: justify; font-family: roboto;" >Definition of function; Types of function &simple examples. Concept of limits. Concept of Continuity (Simple Problems)
+                Differentiation bydefinition ofT"'Sin,v cos log^:Differentiation ofsum, product and
+                quotient of functions. Differentiation of function of a function. Differentiation of trigonometric and
+                inverse trigonometric functions, Logarithmic differentiation, Exponentialfunctions. Differentiation of
+                implicit and Parametric function. Differentiation of one function with respect to another function.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT - II: Integral Calculus</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Integration as inverse operation of differentiation. Simple integration by transformation, by
+                substitution, by parts andbypartialfractions(forlinearfactorsonly).Definite Integration & its
+                properties,simple problems.Applications of integration for (i) Simple problem on evaluation of
+                area bounded by a curve and axes, (ii) Area bounded by two curves .(Simple problems).
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT-III: Differential Equations
+                  LECTURES)</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Definition of differential equations. Order and degree of a differential equation.Formation of
+                differential equation.Solution of first order and first degree differential equation by variable
+                separation method (simple problems).MATLAB - Simple Introduction.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT - IV: Vector Algebra</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Definition, notation and rectangular resolution of a vector. Addition and subtraction of vectors. Scalar
+                and vector products of 2 vectors. Simple problems related to work, moment and angular velocity.
+                
+                </p><br>
+
+              
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">References:</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">1. B.S. Grewal, Higher Engineering Mathematics, Khanna Publishers, New Delhi,
+                      40"'Edition, 2007.<br><br>
+                      2. S.S. Sabharwal, Sunita Jain, Eagle Parkashan, Applied Mathematics, Vol. 1&
+                      II,Jalandhar.<br><br>
+                      3. Comprehensive Mathematics, Vol. I & 1! by Laxmi Publications,Delhi.<br><br>
+                      4. Mathematics today XI & Xll (Part 1& II) by Lalji Prasad (Paramount Publication,
+                      GovindMitra Road).<br><br>
+                      5. A Text Book of Mathematics-Xl & Xll (Voi-1 & Vol-2) - by K..C. Sinha- RastogI
+                      Publication, Meerut. </p><br>
+                             
+                                <h5 style="font-family: roboto;">COURSE OUTCOMES
+                                </h5><br>
+                                <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>By the end ofthe course the students are expected to learn</b>
+                                  (i) the cumulative effect ofthe original quantity or equation is thelntegration.<br><br>
+                                  (ii) Tell the difference between a resultant and a concurrent force to model simple
+                                  physical problems in the form of a differential equation, analyze and interpret the
+                                  solutions.<br><br>
+                                  
+                                  </p><br>
+
+                                  
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwo" style="text-align: center;">
+            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+           <h1 >  Applied
+            Physics-II</h1> 
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><h5 style="font-family: roboto;" ><b>Course Objectives :-
+            </b>
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Applied Physics aims to give an understanding of this world both by observation and by prediction
+              of the way in which objects behave. Concrete use of physical principles and analysis in various
+              fields of engineering and technology are given prominence in the course content. The course will
+              help the diploma engineers to apply the basic concepts and principles to solve broad-based
+              engineering problems and to understand different technology based applications.</p><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Teaching Approach :-</b>
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Teachers should give examples from daily routine as well as, engineering/technology appli
+                cations on various concepts and principles in each topic so that students are able to understand
+                and grasp these concepts and principles. In all contents, SI units should be followed. Use of
+                demonstration can make the subject interesting and develop scientific temper in the students.
+                Student activities should be planned on all the topics.
+                Activity-Theory - Demonstrate/practice approach may be followed throughout the course so
+                that learning may be outcome and employability based.
+                </p><br>
+<h1><b>Course Contents :-</b></h1>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT • 1: Wave motion and Its applications</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Wave motion, transverse and longitudinal waves with examples, definitions of wave
+                velocity, frequency and wave length and their relationship, Sound and light waves
+                and their properties, wave equation [y = r sin cot) amplitude, phase, phase difference,
+                principle of superposition of waves and beat formation.
+                Simple Harmonic Motion (SHM): definition, expression for displacement, velocity,
+                acceleration, time period, frequency etc. Simple harmonic progressive wave and
+                energy transfer, study of vibration of cantilever and determination of its time period,
+                Free, forced and resonant vibrations with examples.<br><br>
+                <b>Acoustics of buildings - </b>reverberation, reverberation time, echo, noise, coefficient of
+                absorption of sound, methods to control reverberation time and their applications. Ultrasonic
+                waves - Introduction and properties, engineering and medical applications of ultrasonic.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT-2; Optics</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Basic optical laws; reflection and refraction, refractive index. Images and image
+                formation by mirrors, lens and thin lenses, lens formula, power of lens, magnification
+                and defects. Total internal reflection. Critical angle and conditions for total internal
+                reflection, applications of total internal reflection in optical fiber.<br><br>
+                Optical Instruments; simple and compound microscope, astronomical telescope in normal adjustment, magnifying power, resolving power, uses of microscope and
+                telescope, optical projection systems.
+             </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT - 3: Electrostatics
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Coulombs law, unit of charge, Electric field. Electric lines of force and their properties,
+                Electric flux, Electric potential and potential difference. Gauss law: Application of
+                Gauss law to find electric field intensity of straight charged conductor, plane charged
+                sheet and charged sphere. Capacitor and its working. Types of capacitors.Capacitance
+                and its units. Capacitance ofa parallel plate capacitor. Series and parallel combination
+                of capacitors [related numerical), dielectric and its effect on capacitance, dielectric
+                break down.
+                
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT - 4: Current Electricity</h5><br>
+              <p style="text-align: justify; font-family: roboto;">EXACT, LINEAR AND BERNOULLI’S EQUATIONS, EULER’S EQUATIONS, EQUATIONS NOT 
+                OF FIRST DEGREE: EQUATIONS SOLVABLE FOR P, EQUATIONS SOLVABLE FOR Y, EQUATIONS 
+                SOLVABLE FOR X AND CLAIRAUT’S TYPE.
+                
+                </p><br>
+
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT - 5: Electromagnetism
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;">Types of magnetic materials; diamagnetic , Paramagnetic and ferromagnetic with their
+                    properties. Magnetic field and itsunits, magnetic intensity, magnetic lines offorce, magnetic
+                    flux and units, magnetization. Concept ofelectromagnetic induction, Faraday's Laws. Lorentz
+                    force [force on moving charge in magnetic field). Force oncurrent carrying conductor, force
+                    on rectangular coil placed in magnetic field. Moving coil galvanometer; principle,
+                    construction and working, Conversion ofa galvanometer intoammeter andvoltmeter.
+                    </p><br>
+
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT - 6: Semiconductor Physics
+                    </h5><br>
+                    <p style="text-align: justify; font-family: roboto;">Energy bands in solids, Types ofmaterials (insulator, semi-conductor, conductor), intrinsic
+                      and extrinsic semiconductors, p-n junction, junction diode and V-1 characteristics, types of
+                      junction diodes. Diode asrectifier - half wave and full wave rectifier (centre taped).
+                      Transistor: description and three terminals. Types- p-n-p and n-p-n, some electronic
+                      applications (list only). Photocells, Solar cells; working principle and engineering
+                      applications.
+                      </p><br>
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT - 7: Modern Physics
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">Lasers: Energy levels, ionization and excitation potentials; spontaneous and stimulated
+                        emission; population inversion, pumping methods, optical feedback. Types oflasers; Ruby, He-Neand semiconductor, laser characteristics, engineering and medical applications of laser. Fiber Optics: Introduction to optical fibers, light propagation, acceptance angle and
+                        numerical aperture, fiber types, applications in; telecommunication, medical and sensors.
+                        Nano-science and Nanotechnology; Introduction, nano-particles and nano-materials,
+                        properties at nano-scale, nanotechnology, nanotechnology based devicesand applications.
+                        </p><br>
+
+                    <h5 style="font-family: roboto;" > <b>Learning Outcome:</b></h5><br>
+                    <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>After undergoing this subject, the student will be able to;</b><br><br>
+                      a) Describe waves and wave motion, periodic and simple harmonic motions and solve
+                      simple problems. Establish wave parameters: frequency, amplitude, wavelength, and
+                      velocity and ableto explain diffraction, interference, polarization of waves.<br><br>
+                      b) Explain ultrasonic waves and engineering, medical and industrial applications of
+                      Ultrasonics. Apply acoustics principles to various types of buildings for best sound effect.<br><br>
+                      c) State basic optical laws, establish the location ofthe images formed by mirrors and
+                      thin con- verging lens, design and assemble microscope using lenses combination.<br><br>
+                      d) Describe refi^tive index of a liquid or a solid and will be able to explain conditions
+                      for total internal reflection.<br><br>
+                      e) Define capacitance and its unit, explain the function ofcapacitors in simple circuits, and
+                      solve simple problems.<br><br>
+                      f) Differentiate between insulators, conductors and semiconductors, and definethe
+                      terms: potential, potential difference, electromotive force.<br><br>
+                      g) Express electric current as flow of charge,conceptofresistance, measure of the
+                      parameters: electric current, potential difference, resistance.<br><br>
+                      h) List the effects of an electric current and its common applications. State Ohm's law,
+                      calculate the equivalent resistance of a variety of resistor combinations, distinguish
+                      between AC and DC currents, determine the energy consumed by an appliance.<br><br>
+                      i) State the laws of electromagnetic induction, describe the effect on a current-carrying
+                      conductorwhen placed in a magnetic field.<br><br>
+                      j] Explain the operation of appliances like moving coil galvanometer, simple DC motors.<br><br>
+                      k) Apply the knowledge of diodes in rectifiers, power adapters and various electronic
+                      circuits. Use the knowledge of semiconductors in various technical gadgets like mobile
+                      phones, computers, LED, photocells, solarlights etc.<br><br>
+                      l] Illustrate the conditions for light amplification in variousLASER and laserbased
+                      instruments and optical devices.<br><br>
+                      m) Appreciate the potential of optical fiber in fields of medicine and communication.<br><br>
+                      n) Express importance of nanoscience and nanotechnology and impact of
+                      nanotechnology to the society.
+                    </p><br><br>
+                    <h5 style="font-family: roboto;" > <b>References:</b></h5><br>
+                    <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                      1.TextBook of Physics for Class XI& Xil (Part-1, Part-II); N.C.E.R.T., Delhi.<br><br>
+                      2. Applied Physics. Vol. I and Vol. U,TTTI Publications, TataMcGraw Hill, Delhi.<br><br>
+                      3. Concepts in Physics by HC Vcrma, Vol. I & II, Bharli Bhawan Ltd. New Delhi.<br><br>
+                      4. Engineering Physics by PV Naik, Pearson Education Pvt. Ltd, New Delhi.<br><br>
+                      S Modern approach to Applied Physics-1 and 11, AS Vasudeva. Modern Publishers.<br><br>
+                      6. ATextbook of Optics. N Subramanyam, Brij Lai, MN Avahanulu, SChand and Company Ltd.<br><br>
+                      7. Introduction to Fiber Optics, Ajoy Ghatak and K Thyagarajan, Cambridge
+                      University Press India Pvt. Ltd, New Delhi.<br><br>
+                      8. Nanoscience andNanotechnology, KK Choudhary, Narosa Publishing House, Pvt.
+                      Ltd. New Delhi.<br><br>
+                      9. Nanotechnology: Importance and Applications, M.H. Fulekar, IK International
+                      Publishing Mouse Pvt. Ltd, New Delhi.<br><br>
+                      la e-books/e-tools/ learning physics software/websites etc.
+                      
+                    </p><br><br>
+                             </div>
+          </div>
+        </div>
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingThree" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+           <h1>  Introduction
+            to IT Systems</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto;" ><b>Course Objectives :-
+              </b>
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;"class=" border shadow p-3 mb-5 bg-body-tertiary rounded">This course is intended to make newstudents comfortable with computing environment Learning
+                basic computer skills, Learning basic application software tools, Understanding Computer Hard
+                ware, Cyber security awareness</p><br>
+
+                <h1><b>Course Contents:</b></h1>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>UNIT 1:</b>
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Basic Internet skills: Understanding browser, efficient useof search engines, awareness
+              about Digital India portals(state and national portals) and college portals.
+              General understanding of various computer hardware components - CPU, Memory,
+              Display, Keyboard, Mouse, HDD and other Peripheral Devices.</p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>UNIT 2:</b></h5><br>
+              <p style="text-align: justify; font-family: roboto;">OS Installation [Linux and MS Windows), UnixShell and Commands, vi editor.
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;"><b>UNIT 3:</b></h5><br>
+              <p style="text-align: justify; font-family: roboto;">HTML4, CSS, making basic personal webpage.
+                
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;"><b>UNIT 4:</b></h5><br>
+              <p style="text-align: justify; font-family: roboto;">Office Tools: Open Office Writer, Open Office Spreadsheet (Calc), Open Office
+                Impress.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>UNIT 5:</b></h5><br>
+              <p style="text-align: justify; font-family: roboto;">Information security best practices. Class lectures will only introduce the topic or
+                demonstrate the tool, actual learning will take place in the Lab by practicing
+                regularly.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Suggested Lab Work:</b></h5><br>
+                <p style="text-align: justify; font-family: roboto;">This is a skill course. Topics/concepts taught in the class should be practiced in the Lab
+                  same week and practiced regularly during the semester till student becomes confident
+                  about it.Thiscourse is all about some theory and a lot ofpractice.
+                  </p><br>
+
+                    <h5 style="font-family: roboto;" >References:</h5><br>
+                    <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">• R.S. Salaria, Computer Fundamentals, Khanna Publishing House.<br><br>
+                      • Ramesh Bangia, PCSoftware Made Easy - The PCCourse Kit, Khanna Publishing House.<br><br>
+                      • Online Resources, Linux man pages, Wikipedia.<br><br>
+                      • Mastering Linux Shell Scripting: A practical guide to Linux command-line, Bash scripting,
+                      and Shell programming, by Mokhtar Ebrahim, Andrew Mallett</p><br>
+                      
+                             
+                              
+
+                                  <h5 style="font-family: roboto; color:brown;"><b>Course outcomes:</b>   </h5><br>
+                                <p style="text-align: justify; font-family: roboto;"  class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                                 
+                                  At the end of the course student will be able to comfortably work on computer,
+                                  install and configure OS, assemble a PC and connect it to external devices, write
+                                  documents, create worksheets, prepare presentations, protect information and
+                                  computers from basic abuses/ attacks.
+                                  
+                                 
+                                  </p><br>
+                               
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFour" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+          <h1>   Fundamental of
+            Electrical &
+            Electronics
+            EnSS</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              
+              <h1 style="font-family: roboto;" ><b>Course Objectives:-</b>
+              </h1><br>
+              <p style="text-align: justify; font-family: roboto;"  class=" border shadow p-3 mb-5 bg-body-tertiary rounded">To provide basic knowledge of the different elements and concepts of electrical
+                engineering field and to learn basic concepts of various active and passive electronic
+                components. Signals, Op-Amp and their applications. Digital Electronics and their
+                applications to help students deal with electrical and electronics engineering principles
+                and applications in industrial processes of different fields.
+                </p><br>
+                <h1><b>Course Contents:-</b></h1>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit 1: Overview of Electronic Components 
+                </h5><br> 
+                <p style="text-align: justify; font-family: roboto;">Passive Active Components: Resistances, Capacitors, Inductors. Basic Concept of Diodes,
+                  Transistors, FET, MOS and CMOS and their Applications. Signals: DC / AC, voltage /
+                  current, periodic / non-periodic signals. Ideal / non-ideal voltage / current sources,
+                  independent / dependent voltage currentsources.
+                  
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT-II Overview of Analog Circuits
+                  </h5><br> 
+                  <p style="text-align: justify; font-family: roboto;">Operational Amplifiers-Ideal Op-Amp, Practical op amp. Open loop and closed loop
+                    configurations. Application of Op-Amp as amplifier, adder, differentiator and
+                    integrator.
+                    
+                    </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT- III Overview nf Digital Florrrnnirc
+                    </h5><br> 
+                    <p style="text-align: justify; font-family: roboto;">Introduction to Boolean Algebra, Electronic Implementation of Boolean Operations,
+                      Gates-Functional Block Approach,
+                      </p><br>
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT - IV Electric and Magnetic Circuits:
+                      </h5><br> 
+                      <p style="text-align: justify; font-family: roboto;">EMP, Current, Potential Difference, Power and Energy; M.M.F, magnetic force,
+                        permeability, hysteresis loop, reluctance, leakage factor and BH curve; Electromagnetic
+                        induction, Faraday's laws of electromagnetic induction, Lenz's law; Dynamically induced
+                        emf; Statically induced emf; Equations of self and mutual inductance; Analogy between
+                        electric and magnetic circuits.
+                        
+                        </p><br>
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT -V : A.C. Circuits:
+                        </h5><br> 
+                        <p style="text-align: justify; font-family: roboto;">Cycle, Frequency, Periodic time, Amplitude, Angular velocity, RMS value, Average value.
+                          Form Factor Peak Factor, impedance, phase angle, and power factor KCL and KVL
+                          Mathematical and phasor representation of alternating emf and current; Voltage and
+                          Current relationship in Star and Delta connections; A.C in resistors, inductors and
+                          capacitors; A.C in R-L series, R-C series, R-L-C series Circuits.
+                          
+                          </p><br>
+                          <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Unit 6: Transformer and Machines-
+                          </h5><br> 
+                          <p style="text-align: justify; font-family: roboto;">General construction and principle of different type of transformers; Emf equation and transformation ratio of transformers; Auto
+                            transformers; Construction and Working principle of motors; Basic equations and
+                            characteristic of motors.
+                            
+                            </p><br>
+                              
+                  <h5 style="font-family: roboto;" >References:
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">1. Ritu Sahdev. Basic Electrical Engineering, Khanna Publishing House
+                    2. Mitlleand Mittal, Basic Electrical Engineering. McGraw Education, New Delhi, 2015, ISBN
+                    : 978-0-07-0088572-5.<br><br>
+                    3. Saxena, S. B. Lai. Fundamentals of Electrical Engineering, Cambridge University Press, latest
+                    edition ISBN : 9781107464353.<br><br>
+                    4. Theraja, B. L., Electrical Technology Vol- I, S. Chand Publications, New Delhi.
+                    2015, ISBN: 9788121924405.<br><br>
+                    5. Theraja. B. L., Electrical Technology Vol - 11, S. Chand Publications, New Delhi,
+                    2015, ISBN: 9788121924375.<br><br>
+                    6. Jegathesan, V., Basic Electrical and Electronics Engineering, Wiley India, New
+                    Delhi, 2015, ISBN : 97881236529513.<br><br>
+                    7. Scdha. R.S., A text book of Applied Electronics, S.Chand. New Delhi, 2008, 1SBN-13:978-
+                    8121927833.<br><br>
+                    8. Malvino. Albert Paul. David, Electronics Principles, McGraw Hill Education, New
+                    DeIhi,20I5, lSBN-13: 0070634244-978.<br><br>
+                    9. Mehta. V.K., Mehta, Rohit, Principles of Electronics, S. Chand and Company, New
+                    Delhi, 2014, ISBN-13-9788121924504.<br><br>
+                    10. Bell Devid, Fundamental of Electronic Devices and Circuits, Oxford University Press, New
+                    Delhi 2015 ISBN : 9780195425239.<br><br>
+                    
+                    </p><br>
+</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFive" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+           <h1>   Engg.
+            Mechanics</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h1 style="font-family: roboto;" ><b>Course Objectives:-</b>
+              </h1><br>
+              <p style="text-align: justify; font-family: roboto;"  class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                1] To obtain resultant of various forces.<br><br>
+                2) To calculate support reactions through conditions of equilibrium for various structures.<br><br>
+                3) To understand role of friction in equilibrium problems.<br><br>
+                4] To know fundamental laws of machines and their applications to various engineering problems.<br><br>
+                </p><br>
+                <h1><b>Course Contents:-</b></h1>
+             
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT -1 Basics of mechanics and force system
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Significance and relevance ofMechanics, Applied mechanics, Statics, Dynamics. Space,
+              time, mass, particle, Hexibie body and rigid body. Scalar and vector quantity, Units of
+              measurement [SI units) -Fundamental units and derived units.<br><br>
+              <b>Force - unit</b>, representation as avector and by Bow's notation, characteristics and effects
+              of aforce. Principle of transmissibility offorce, Force system and its classification.
+              Resolution ofaforce -Orthogonal components of aforce, moment of aforce, Vangnon s
+              Theorem.<br><br>
+              <b>Composition of forces -</b> Resultant, analytical method for determination of
+              resultant for concurrent, non-concurrent and parallel co-planar force systems - Law
+              oftriangle, parallelogram and polygon offorces</p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT- II Equilibrium</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Equilibrium and Equilibrant, Free body and Free body diagram, Analytical and
+                graphical methods of analysing equilibrium Lami's Theorem -statement and
+                explanation. Application for various engineering problems. Types of beam, supports
+                [simple, hinged, roller and fixed) and loads acting on beam [vertical and inclined point
+                load, uniformly distributed load, couple), Beam reaction for cantilever, simply supported
+                beam with or without overhang -subjected to combination of Point load and uniformly
+                distributed load. Beam reaction graphically for simply supported beam subjected to
+                vertical point loads only
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">UNIT-III Friction</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Friction and its relevance in engineering, types and laws of friction, limiting
+                equilibrium, limiting friction, co-efficient of friction, angle of friction, angle of
+                repose, relation between co-efficient offriction and angle of friction.
+                Equilibrium of bodies on level surface subjected to force parallel and inclined to plane. Equilibrium of bodies on inclined plane subjected to force parallel to the
+                plane only.
+                <br><br>
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">UNIT- IV Centroid and centre of gravity</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Centroid of geometrical plane figures [square, rectangle, triangle, circle, semicircle,
+                quarter circle) Centroid of composite figures composed of not more than three
+                geometrical figures Centre ofGravity ofsimplesolids[Cube, cuboid, cone, cylinder,
+                sphere, hemisphere) Centre of Gravityof composite solids composed of not more
+                than two simple solids.
+                </p><br>
+
+                
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT- V : Simple lifting machine</h5><br>
+                <p style="text-align: justify; font-family: roboto;">Simple lifting machine, load, effort, mechanical advantage, applicationsand advantages.
+                  Velocity ratio, efficiency of machines, law of machine. Ideal machine, friction in machine,
+                  maximum Mechanical advantage and efficiency, reversible and non-reversible machines,
+                  conditions for reversibility Velocityratios of Simple axle and wheel. Differential axle and
+                  wheel. Worm and wormwheel, Single purchaseand double purchase crabwinch. Simple
+                  screw jack,Weston's differential pulley block, geared pulley block.
+                  
+                  </p><br>
+
+              
+                    <h5 style="font-family: roboto;" >Suggested Learning Resources:</h5><br>
+                    <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                      1. D.S. Bedi, Engineering Mechanics. Khanna Publications. New Delhi (2008).<br><br>
+                      2. Khurmi, R.S., Applied Mechanics, S. Chand & Co. New Delhi.<br><br>
+                      3. Bansal R K, A text book of Engineering Mechanics, Laxmi Publications.<br><br>
+                      4. Ramamriitham, Engineering Mechanics, S. Chand & Co. New Delhi.<br><br>
+                      5. Dhade. Jamadar& Walawelkar, Fundamental of Applied Mechanics. Rune Vidhyarthi Gruh.<br><br>
+                      6. Ram, H. D.; Chauhan, A. K., Foundations and Applications of Applied
+                      Mechanics. Cam- bridge University Press.<br><br>
+                      7. Meriam, J. L.. Kraigc. E.G., Engineering Mechanics- Statics, Vol. 1. Wiley
+                      Publication, New Delhi.<br>
+                                  </p><br>
+
+                                  
+                    <h5 style="font-family: roboto;" >Course outcomes:</h5><br>
+                    <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                     <b> After completing this course, student will be able to:</b>
+1 Identify the force systems for given conditions by applying the basics ofmechanics.<br><br>
+Z Determine unknown force(s) of different engineering systems.<br><br>
+3 Apply the principles of friction in various conditions for useful purposes.<br><br>
+4. Find the centroid and centreof gravity of various components in engineering systems.<br><br>
+S Select the relevant simple lifting machine(s) for given purposes.<br>
+
+                                  </p><br>
+                              
+</div>
+          </div>
+        </div>
+        
+      </div>
+</div>
+<div class="container-fluid gap"> 
+  <div class="detailTab-section-title shadow p-3 mb-5 bg-body-tertiary rounded"  style="text-align: center;">
+    <div class="detailTab-title" style="text-align: center;">
+        <h1 style="text-align: center;">PRACTICAL.</h1>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid gap ">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item  ">
+        <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSix" style="text-align: center;">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+         <h1> Applied Physics Lab-II</h1>
+          </button>
+        </h2>
+        <div id="flush-collapseSix" class="accordion-collapse collapse  border shadow p-3 mb-5 bg-body-tertiary rounded" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h1 style="font-family: roboto;">Course Objectives:
+          </h1><br>
+          <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Concrete use of physical principles and analysis in various fields of engineering and technology is
+            very prominence. The course aims to supplement the factual knowledge gained in the lecture by first
+            hand manipulation of apparatus. This will develop scientific temper and help to apply the basic con
+            cepts and principles in solving engineering and technology based problems. In addition, students get
+            necessary confidence in handling equipment and thuslearn variousskills inmeasurement.</p><br>
+
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>List of Practical's</b> (To perform minimum 12 Praclical's)</h5><br>
+            <p style="text-align: justify; font-family: roboto;" >1. To determine and verify the time period ofa cantilever.<br><br>
+              2. Todetermine velocity ofultrasonic in different liquids using ultrasonic interferometer.<br><br>
+              3. To verify laws of reflection from a plane mirror/interface.<br><br>
+              4. To verify laws ofrefraction (Snell's law) using a glassslab.<br><br>
+              5. To determine focal length and magnifying power ofa convex lens.<br><br>
+              6. To verify Ohm's law by plotting graph between current and potential difference.<br><br>
+              7. To verify laws of resistances in series and parallel combination.<br><br>
+              8. To find the frequency of AC main using electrical vibrator.<br><br>
+              9. To verify Kirchhoffs law using electric circuits.<br><br>
+              10. To study the dependence ofcapacitance ofa parallel plate capacitor on various
+              factors and determines permittivity ofair at a place.<br><br>
+              11. Tofind resistance of a galvanometer by halfdeflection method.<br><br>
+              12 To convert a galvanometer into an ammeter.<br><br>
+              13. To convert a galvanometer into a voltmeter.<br><br>
+              14. To draw V-l characteristics ofa semiconductor diode (Ge, Si) and determine its knee
+              voltage.<br><br>
+              15. To verify inverse square law ofradiations using a photo-electric cell.<br><br>
+              16. lomeasure wavelength ofa He-Ne/diode laser using a diffraction grating.<br><br>
+              17. To measure numerical aperture (NA) ofan optical fiber.<br><br>
+              18 Study ofan optical projection system (OHP/LCD) - project report.              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Suggested Student Activities & Strategies</b></h5><br>
+            <p style="text-align: justify; font-family: roboto;">Apart fi om classroom and laboratory learning following are the suggested student related
+              activities which can be undertaken to accelerate the attainment ofvarious outcomes ofthe
+              course.<br><br>
+               a. Make survey of different physical products and compare the following points<br><br>
+              • Measurements of dimensions.<br><br>
+              • Properties.<br>
+              • Applications<br>
+              b. Library survey regarding engineering materials/products used in different industries.<br><br>
+              c. Seminar on any relevant topic.<br><br>
+              Teachers should use the following strategies to achieve the various outcomes of the course.<br><br>
+              • Different methods ofteaching and media to be used to attain classroom attention.<br><br>
+              • Massive open online courses (MOOCs) may be used to teach various topics/subtopics.<br><br>
+              • 15-20% ofthe topics which are relatively simpler or descriptive in nature should be
+              given to the students for self-learning and assess the development of competency
+              through classroom presentations/projects.<br><br>
+              • Micro-projects on relevant may be given to group of students for hand-on experiences.
+              Learning Outcome:<br><br>
+             <b> After undergoing thissubject, the student will be able to;</b><br><br>
+              a) Apply concept ofvibrations and determine the time period of vibrating objects.<br><br>
+              b) Use ofequipmentfor determining velocity ofultrasonicsin differentliquids.<br><br>
+              c) Verify optical laws; reflection, refraction from plane interfaces and surfaces.<br><br>
+              d) Apply knowledge ofoptics to determine focal length and magnifying power of
+              optical lenses.<br><br>
+              e) Understand uses ofelectrical components and meters and verify Ohm's law for flow of
+              current.<br><br>
+              f) Quantity resistances and verity laws ofseries and parallel combination ofresistances.
+              g) Apply concept ofelectrical vibrations in determine frequency of AC main.<br><br>
+              h) Analyse electrical circuits and verify Kirchhott slaw governing electrical circuits.<br><br>
+              i) Measure resistance of a galvanometer and how it is converted into an ammeter and
+              voltmeter.<br><br>
+              J) Investigate characteristics ot semiconductor diodes, photoelectric cells and determine
+              operational parameters associated with their performance.<br><br>
+              k) Work with laboratory lasers and understand method to measure the wavelength ofthe light
+              emitted from a laser.<br><br>
+              l) Handle optical fibers and determine numerical aperture ofgiven optical fiber.<br><br>
+m) Understand construction and working of an optical projection system.<br><br>
+            </p><br>
+              <h5 style="font-family: roboto;" ><b>Recommended Books:</b>
+                LECTURES)</h5><br>
+            <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+              1 Text Book of Physics for Class Xi& XII (Part-I, Part-II); N.C.E.R.T., Delhi.<br><br>
+              2. Comprehensive Practical Physics, Voi, I&11, JN Jaiswal, Laxmi Publications (P) Ltd., New Delhi.<br><br>
+              3. Practical Physics by C. L. Arora, S.Chand &Company Ltd.<br><br>
+              4 e-books/e-tools/ learning physics software/you Tube videos/ websites etc.
+              
+              </p><br>
+
+             
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSeven" style="text-align: center;">
+          <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+         <h1 > Introduction to IT
+          Systems Lab</h1> 
+          </button>
+        </h2>
+        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <h1 style="font-family: roboto;">Course Objectives:
+            </h1><br>
+            <p style="text-align: justify; font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">This Lab course is intended to practice whatever is taught in theory class of 'Introduction of IT Systems'
+              and become proficient in using computing environment - basic computer skills, basic application software
+              tools, Computer Hardware, cyber security features, etc.</p><br>
+
+              <h1><b>Course Contents:</b></h1>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">S.No. Topics for Practice
+          </h5><br>
+          <p style="text-align: justify; font-family: roboto;">
+            1. Browser features, browsing, using various search engines, writing search queries.<br><br>
+
+            2. Visit various e-govemance/Digital India portals, understand their features, services offered<br><br>
+
+            3. Read Wikipedia pages on computer hardware components, look at those components in lab,
+            identify them, recognise various ports/interfaces and related cables, etc.<br><br>
+            4. Install Linux and Windows operating system on identified lab machines, explore various
+            options, do it multiple times.<br><br>
+            5. Connect various peripherals (printer, scanner, etc.) to computer, explore variousfeatures
+            of peripheral and their device driver software.<br><br>
+           6. Practice HTMLcommands, try them with various values, make your own Webpage.<br><br>
+           7. Explore features of Open Office tools, create documents using these features, do it multiple
+            times.<br><br>
+            8 Explore security features of Operating Systems and Tools, try using them and see what
+            happens.</p><br>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>References:</b>
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">1. Online resources, Linux man pages, Wikipedia.<br><br>
+              2. R.S. Salaria, Computer Fundamentals, Khanna Publishing House.<br><br>
+              3. Ramesh Bangia, PC Software Made Easy - The PC Course Kit, Khanna PublishingHouse.<br><br>
+              4. Mastering Linux Shell Scripting: A practical guideto Linux command-line, Bash scripting,
+              and Shell programming, by Mokhtar Ebrahim, Andrew Mallett.<br><br>
+              5. IT Essentials PC Hardware and SoftwareCompanion Guide, Davis Anfinson and Ken
+              Quamme, CISC Press, Pearson Education.<br><br>
+              6. PC Hardware and A+ Handbook, Kate J. Chase PHI (Microsoft).<br><br>
+              </p><br>
+
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Course outcomes:-</b></h5><br>
+            <p style="text-align: justify; font-family: roboto;">At the end of the course student will be able to comfortably work on computer, install and
+              configure OS, assemble a PC and connect it to external devices, write documents, create
+              worksheets, prepare presentations, protect information and computers from basic
+              abuses/attacks.
+              
+              </p><br>
+
+
+             
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingNine" style="text-align: center;">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+        <h1>  FUNDAMENTALS OF ELECTRICAL AND ELECTRONICS ENGINEERING LAB</h1>
+          </button>
+        </h2>
+        <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <h5 style="font-family: roboto;color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Suggested Practical / Exercises</b>
+            </h5><br> 
+            
+          <p style="text-align: justify; font-family: roboto;">
+            1. Determine the permeability ofmagnetic material by plotting its B-H curve. 05 Hrs<br><br>
+            2. Measure voltage, current and power in 1-phase circuit with resistive load. 05 Hrs<br><br>
+            3. Measure voltage, current and power in R-L series circuit. 05 Hrs<br><br>
+            4. Determine the transformation ratio (K) of 1-phase transformer. 05 Hrs<br><br>
+            5. Connect single phase transformer and measure input and output quantities. 05 Hrs<br><br>
+            6. Make Star and Delta connection in induction motor starters and measure the line and
+            phase values.
+            05 Hrs<br><br>
+            7. Identify various passive electronic components in the given circuit 05 Hrs<br><br>
+            8. Connectresistors in series and parallel combination on bread board and measure its
+            value using digital multimeter.
+            05 Hrs<br><br>
+            9. Connect capacitors in series and parallel combination on bread board and measure its
+            value using multimeter.
+            05 Hrs<br><br>
+            10. Use multimeter to measurethe valueofgiven resistor. 05 Hrs<br><br>
+            11. Determine the value of given resistor using digital multimeter to confirm
+            with colour code.
+            05 Hrs<br><br>
+            12. Test the PN-junction diodes using digital multimeter. 05 Hrs<br><br></p><br>
+
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>References</b>
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">
+              1. Ritu Sahdev, Basic Electrical Engineering, Khanna Publishing House, 2018.<br><br>
+              2. Mittle and Mittal, Basic Electrical Engineering, McGraw Education, New Delhi.
+              2015, ISBN : 978-0-07-0088572-5.<br><br>
+              3. Saxena, S. B. La), Fundamentals of Electrical Engineering, Cambridge University Press, latest
+              edition ISBN: 9781107464353.<br><br>
+              4. Theraja, B. L., Electrical Technology Vol - 1, S. Chand publications, New Delhi.
+              2015, ISBN: 9788121924405.<br><br>
+              S Theraja, B. L., Electrical Technology Vol- IE S. Chand publications, New Delhi,
+              2015, ISBN: 9788I2I924375,<br><br>
+              6. Jegathesan, V., Basic Electrical and Electronics Engineering, Wiley India, New
+              Delhi. 2015, ISBN : 97881236529513.<br><br>
+              7. Sedha, R.S.. A text book of Applied Electronics, S.Chand .New Delhi, 2008. ISBN-13: 978-
+              8121927833.<br><br>
+              8. Malvino, Albert Paul. David, Electronics Principles, McGraw Hill Eduction, New
+              Delhi.2015, ISBN-13: 0070634244-978.<br><br>
+              9. Mehta, V.K., Mehta. Rohit, Principles of Electronics, S. Chandand Company, New
+              Delhi. 2014, ISBN-13-9788121924504.<br><br>
+              10. Bell Devid, Fundamental of Electronic Devices and Circuits,Oxford University Press, New
+              Delhi 2015 ISBN : 9780195425239.<br><br>              
+              </p><br>
+              <h5 style="font-family: roboto;color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Suggested Softwares/Learning Websites:</b>
+              </h5><br> 
+              <p style="text-align: justify; font-family: roboto;">a. en.vvikipedia.org/wiki/Transformer.<br><br>
+                b. www.animations.ph vsics.unsw.edu.au//iw/AC.html<br><br>
+                c. www.alpharubicon.com/altenergv/under.standingAC.htm<br><br>
+                d. www.electronics-tutorials<br><br>
+                e. iearn.sparkfun.com/tutorials/transistors<br><br>
+                f. ww\v.pitt.cdii/-qiw4/Academic/ME2082/Transistor%20Basics.pdf<br><br>
+                g. wvvw.technologvstudent.com/elec I/transis 1.htm<br><br>
+                h. wvvw.learningaboutelectronics.com<br><br>
+                i. wvvw.electrical4u.com          </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Course Outcomes:</b> 
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">
+                  <b>At the end of the course student will be able to:</b>
+                  1. Understand basic principle and operation of electric circuits and machines.<br><br>
+                  2. Solve basic problems related to electrical circuitsand machines. Explain the operation
+                  of different electrical technologies.<br><br>
+                  3. Demon.strate an understanding ofthe control systems.<br><br>
+                  4. Understand the basic circuit elements.<br><br>
+                  5. Understand different types ofsignal waveforms.<br><br>
+                  6. Understand logic gates and apply them in various electronic circuits.<br><br>
+                  7. Understand the basic concepts of op-amps, and their applications.<br><br>
+                  8. Use relevant electric/clcctronic protective devices safely.<br><br>
+                  
+                  
+                  </p><br>
+</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingEight" style="text-align: center;">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+        <h1>  FUNDAMENTALS OF ELECTRICAL AND ELECTRONICS ENGINEERING LAB</h1>
+          </button>
+        </h2>
+        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <h5 style="font-family: roboto;color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Course Objectives:</b>
+            </h5><br> 
+            
+          <p style="text-align: justify; font-family: roboto;">
+            Following are the objectives of this course:<br><br>
+            1) To obtain resultant ofvarious forces.<br><br>
+            2) To calculate support reactions through conditions of equilibrium for various structures<br><br>
+            3) To understand role offriction in equilibrium problems.<br><br>
+            4) To know fundamental laws ofmachines and their applications to various engineering problems<br><br></p><br>
+
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>List ofPractical to beperformed (Perform any 10 Practicals) :</b>
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">
+              1. Determine resultant ofconcurrent force system applying Law ofPolygon offorces
+              using force table.<br><br>
+              2. Verify Lami's theorem.<br><br>
+              3. Study forces in various members ofJib crane.<br><br>
+              4. Determine support reactions for simply supported beam.<br><br>
+              5. Determine coefficient offriction for motion on horizontal and inclined plane.<br><br>
+             6. Determine centroid ofgeometrical plane figures.<br><br>
+             7. To find the M.A., V.R., Efficiency and law ofmachine for Simple Screw Jack.<br><br>
+             8. To find the M.A., V.R., Efficiency and law ofmachine for Differential Axle and Wheel.<br><br>
+             9. Derive Law of machine using Worm and worm wheel.<br><br>
+             10. Derive Law ofmachine using Single purchase crab.<br><br>
+             11. IL Derive Law ofmachine using double purchase crab.<br><br>
+             12. Derive Law ofmachine using Weston's differential or wormed geared pulley block.<br><br>
+              
+              <br><br>              
+              </p><br>
+              <h5 style="font-family: roboto;color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Suggested Learning Resources:</b>
+              </h5><br> 
+              <p style="text-align: justify; font-family: roboto;">
+              1.  Bedi D.S., Engineering Mechanics, Khanna Publishing House.<br><br>
+2. Khurmi, R.S., Applied Mechanics, S.Chand & Co. New Delhi.<br><br>
+3. Bansal R K, A text book of Engineering Mechanics, Laxmi Publications.<br><br>
+4. Ramamrutham, Engineering Mechanics, S.,S Chand & Co. New Delhi.<br><br>
+5.Dhade. Jamadar &Walawelkar, Fundamental ofApplied Mechanics. Pune Vidhyarthi Gruh.<br><br>
+6. Ram, H. D.; Chauhan. A. K. Foundations and Applications ofApplied Mechanics,
+7. Cambridge Uni- versity Press.<br><br>
+8. Meriam, j. L., Kraige, E.G., Engineering Mechanics- Statics, Vol. I, Wiley Publication. New
+Delhi.<br><br>
+         </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Course Outcomes:</b> 
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">
+                  <b>At the end of the course student will be able to:</b><br><br>
+                  1 Identify the force systems for given conditions by applying the basics of mechanics.<br><br>
+                  2. Determine unknown force(s) of different engineering systems.<br><br>
+                  3. Apply the principles offriction in various conditions for useful purposes.<br><br>
+                  4. Find the centroid and centre of gravity of various components in engineering systems.<br><br>
+                  5. Select the relevant simple lifting machine(s) for given purposes.<br><br>
+                  <br><br>
+                  
+                  
+                  </p><br>
+</div>
+        </div>
+      </div>
+      
+    </div>
+</div>
+
+<div class="container-fluid gap"> 
+  <div class="detailTab-section-title shadow p-3 mb-5 bg-body-tertiary rounded"  style="text-align: center;">
+    <div class="detailTab-title" style="text-align: center;">
+        <h1 style="text-align: center;">TERM WORK</h1>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid gap ">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item  ">
+        <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTen" style="text-align: center;">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+         <h1> Course under MOOCS
+          /SWAYAM/ETC/
+          Others</h1>
+          </button>
+        </h2>
+        <div id="flush-collapseTen" class="accordion-collapse collapse  border shadow p-3 mb-5 bg-body-tertiary rounded" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded">
+           
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingEleven" style="text-align: center;">
+          <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseTwo">
+         <h1 >KYP/IT Essential/
+          Python / Others</h1> 
+          </button>
+        </h2>
+        <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            
+                           </div>
+        </div>
+      </div>
+      <div class="accordion-item  ">
+        <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwelve" style="text-align: center;">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+         <h1>  ENVIRONMENTAL
+          SCIENCE</h1>
+          </button>
+        </h2>
+        <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <h5 style="font-family: roboto;color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Course Objectives:</b>
+            </h5><br> 
+            
+          <p style="text-align: justify; font-family: roboto;">
+            Technicians working in industries or elsewhere essentially require the knowledge of environmental
+            science so as to enable them to work and produce most efficient, economicai and eco-friendly finished
+            products.<br><br>
+            • Solve various engineering problems applying ecosystem to produce eco - friendly products.<br><br>
+            • Use relevant air and noise control method to solve domestic and industrial problems.<br><br>
+            • Use relevant water and soil control method to solve domestic and industrial problems.<br><br>
+            • To recognize relevant energy sources required for domestic and industrial applications.<br><br></p><br>
+            <h1><b>Course Content:</b></h1><br><br>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT-1 Environmental Studies:
+
+          </h5><br>
+          <p style="text-align: justify; font-family: roboto;">Definition of Environment, Components of Environment, Biotic and Abiotic Components, Layers 
+            of Atmosphere, Greenhouse Effect and Global Warming, Ozone Layer-Earth's Protective Umbrella,
+            Depletion ofOzone Layer. Consequences of Ozone Depletion.</p><br>
+
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT-2 Water Pollution and Soil Pollution</h5><br>
+            <p style="text-align: justify; font-family: roboto;">Introduction, Sources ofWater Pollution, Effects of Water Pollution, Control of Water
+              Pollution, Oxygen Demanding Waste, Determination of Dissolved Oxygen, Turbidity, pH, Biological
+              Oxygen Demand, Chemical Oxygen Demand. Soil Pollution: Introduction, Composition of the Soil,
+              Types of Soil, Causes, Effects and control of Soil Pollution.
+              </p><br>
+
+              <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">UNIT- 3 Air Pollution and Noise Pollution:</h5><br>
+            <p style="text-align: justify; font-family: roboto;">Introduction, Composition ofAir, Causes and effects ofAir Pollution, Primaiyand [07]
+              Secondary Pollutants, Control ofAir Pollution, Acid Rain, Harmful effects of Acid Rain. Smog and its
+              kind, Difference between Classical smog and Photochemical Smog. Causes and effects of Noise
+              Pollution.
+              
+              </p><br>
+
+              <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">UNIT- 4 Radioactive Pollution :</h5><br>
+            <p style="text-align: justify; font-family: roboto;">Introduction, Kind of Radiation, Law of Radioactivity Decay, Mass Defect and Binding Energy,
+              Nuclear Fission and Fusion, Harmful effects of Radiation.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">UNIT-5 Renewable Sources of Energy;</h5><br>
+            <p style="text-align: justify; font-family: roboto;">Introduction of Solar Energy, Wind Energy, Tidal Energy, Biogas.
+              </p><br>
+
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>References:</b></h5><br>
+                  <p style="text-align: justify; font-family: roboto;"><b>(a) Suggested Learning Resources:
+                    Books:</b>
+                    1. S.C. Sharma &M.P. Poonia, Environmental Studies, Khanna Publishing House, New Delhi.<br><br>
+                    2. C.N. R. Rao, Understanding Chemistry, Universities Press (India) Pvt. Ltd., 2011.<br><br>
+                    3. Arceivala, Soli Asolekar, Shyam, Waste Water Treatment for Pollution Control.<br><br>
+                    4. Reuse, Mc-Graw Hill Education India Pvt. Ltd., New York, 2007, lSBN:978-07-062099-<br><br>
+                    5. Nazaroft, William, Cohen, Lisa, Environmental Engineering Science. Willy, New York
+                    2000. ISBN 10: 0471144940.<br><br>
+                    6. O.P. Gupta, Elements ofEnvironmental Pollution Control, Khanna Publishing House, New
+                    Delhi.<br><br>
+                    7. Rao, C. S., Environmental Pollution Control and Engineering, New Age International
+                    Publication, 2007. ISBN: 81-224-1835-X.<br><br>
+                    8. Rao, M. N.Rao, H.V.N, Air Pollution, Tata Mc-Graw Hill Publication New delhi 1988
+                    iSBN:0-07-45l87l-8.<br><br>
+                    9. Frank Kreith, Jan F Kreider, Principles ofSolar Engineering. McGraw-Hill, New York •
+                    1978, ISBN: 9780070354760.<br><br>
+                    10. Aide Vieira, Da Rosa, Fundamentals of renewable energy processes. Academic Press
+                    Oxford, UK; 2013. ISBN: 9780123978257.<br><br>
+                    11. Patvardhan, A.D. Industrial Solid Waste, Teri Press. New Delhi. 2013, ISBN-978-81-7993-
+                    502-6<br><br>
+                    12. Metcalt & Eddy. Waste Water Engineering, Mc-Graw Hill, New York. 2013 ISBN-077441206.
+                    Keshav Kant, Air Pollution &Control, Khanna Publishing House, New Delhi (Edition 2018)</p><br>
+                    
+                           
+                            
+
+                                <h5 style="font-family: roboto; color:brown;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">(a) Open source software and website address :   </h5><br>
+                              <p style="text-align: justify; font-family: roboto;">
+                               
+                                1) wwvv.eco-prayer.org<br><br>
+                                2) www.teriin.org<br><br>
+                                3) www.cpcp.nic.in<br><br>
+                                4) www.cpcp.gov.in<br><br>
+                                5) www.iiidiaenvironmentportal.org.in<br><br>
+                                6) www.whatis.techtarget.com<br><br>
+                                7) www.sustainabledevelopment.un.org<br><br>
+                                8) www.conserve-energy-future.com)<br><br>
+                                Teachers should use the following strategies to achieve the various outcomes of the course.<br><br>
+                                • Different methods ofteaching and media to be used to attain classroom attention.<br><br>
+                                • Massive open online courses (MOOCs) may be used to teach various topics/sub topics.<br><br>
+                                • 15-20% of the topics which are relatively simpler of descriptive in nature should be
+                                given to the students for self-learning and assess the development of competency through
+                                classroom presentations.<br><br>
+                                • Micro-projects may be given to group ofstudents for iiand-on experiences.<br><br>
+                                • Encouraging students to visit to sites such as Railway station and research establishment
+                                around the institution.<br><br>
+                                
+                               
+                                </p><br>
+                                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Course outcomes</b>
+                                </h5><br>
+                                <p style="text-align: justify; font-family: roboto;">
+                                  At the end ofthe course studentwill be able to<br><br>
+                                  1. Understand the ecosystem and terminology and solve various engineering.
+                                  problems applying ecosystem knowledge to produce eco - friendly products.<br><br>
+                                  2. Understand the suitable air, extent ofnoise pollution, and control measures and acts.<br><br>
+                                  3. Understand the water and soil pollution, and control measures and acts.<br><br>
+                                  4. Understand different renewable energy resources and efficient process ofharvesting.<br><br>
+                                  </p><br></div>
+                                  
+        </div>
+      </div>
+
+      
+      
+    </div>
+</div>
+<div class="container-fluid gap"  style="background-color:#FF6633;">
+  <div class="container  shadow p-3 mb-5 bg-body-tertiary rounded"  style="background-color:#FF6633;">
+    <div class="row "  >
+      <div class="col-md-4 my-3  fw-bold border align-self:center">
+        <p style="font-size: 20px;">Address:- Growth Center, Jasoiya More, Aurangabad Bihar - 824102</p>
+      
+      </div><br>
+   
+
+
+      <div class="col-md-4 my-3 mx-2 fw-bold border align-self:center">
+        <p style="font-size: 20px;"><i class="bi bi-telephone"></i>Contact Number:-</i>+91-9308392306 / 9102318888 <br>9308394144 / 9334127770 / 9322698410</p><br>
+   
+      </div>
+   
+
+      <div class="col-md-3 my-3 fw-bold border align-self:center">
+        <p style="font-size:20px;"><i class="bi bi-envelope"></i>Email:- Sityog@gmail.com</p><br>
+        <p style="font-size:20px;">yahoo:-Sityog@yahoo.com</p>
+      </div>
+      <div class="col-md-6 border my-3">
+        <a href="https://www.facebook.com/sityogaurangabad"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+        <a href="https://www.youtube.com/channel/UCqLpIqvF3GldPpZWso6AIlg"><i class="bi bi-youtube" style="font-size: 30px; color:red; padding-left: 15px;"></i></a>
+        <a href="https://www.instagram.com/sityog_institute_of_technology/?hl=en"><i class="bi bi-instagram" style="font-size: 30px; color:blue; padding-left: 15px;"></i></a>
+     <a href=""></a>
+      </div>
+    </div>
+      <div class="row border align-self:center">
+        <div class="col-md-6">
+          <div class="detailTab-section-title">
+            <div class="detailTab-title">
+                <h4 >Important Links</h4>
+           
+            </div>
+          </div>
+          <a href="http://www.beu-bih.ac.in/BEUP/Default.aspx">    <li class=" fw-bold text-white">Bihar Engineering University</li></a>
+          <a href="http://www.sityog.edu.in/alumni/"><li class=" fw-bold">Alumini</li></a>
+          <a href="https://swayam.gov.in/">    <li class=" fw-bold">Online Classes</li></a>
+          <a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">    <li class=" fw-bold">Student Credit Card Apply</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">B.tech Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BCA Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BBA Syllabus</li></a>
+          <a href="http://sbteonline.in/syllabus">    <li class=" fw-bold">Diploma Syllabus</li></a>
+          <a href=" https://results.akuexam.net/"><li class=" fw-bold">AKU Result</li></a>
+          <a href=" https://www.akubihar.com//"><li class=" fw-bold">AKu Previous Year Question</li></a>
+        </div>
+      </div>
+    </div>
+</div>
+  
+<footer class="bg-custom text-white py-2 text-center ">&copy Designed By Deepak Kumar, Vandna Kumari, Atul Kumar, Shakshi Gupta and Vinisha Kumari</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

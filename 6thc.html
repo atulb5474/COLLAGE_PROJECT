@@ -1,0 +1,855 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sityog Institute of Technology </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        p{
+          font-size:20px ;
+        }
+          .accordion-button
+  {
+   background-color: purple;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+  }
+   button:hover{
+     background-color:#FF6633 ;
+     color:white;
+     border-radius: 30px;
+  
+   }
+   .dropdown-submenu {
+       position: relative;
+     }
+     
+     .dropdown-submenu .dropdown-menu {
+       top: 0;
+       left: 100%;
+       margin-top: -1px;
+     } .navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+      </style>
+</head>
+  <body >
+    <img src="image/download.png"width="100%", height="150px">
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+    <header class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#"><p style="text-align: justify;">Welcome to Smart Sityog</p></a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="institute.html"text-white fw-bold>About Institute</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="vision.html"text-white fw-bold>Vision & Mission</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="board.html"text-white fw-bold>Board Of Management</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="chairman.html"text-white fw-bold>Chairman Message</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="secretary.html"text-white fw-bold>Secretary Message</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="approve.html"text-white fw-bold>Approval & Affiliation</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   ADMISSION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Apply Now <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="registration.html">Apply For B.Tech, BBA ,BCA,BA(J&MC)</a></li>
+                        <li><a tabindex="-1" href="https://bceceboard.bihar.gov.in/">Apply For Diploma</a></li>
+                        <li><a tabindex="-1" href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">Apply For Student Credit Card</a></li>
+                       
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X2dq1ElIqKtn91-rE8e9uIUzd6OgthwF/view?usp=drivesdk">Registration Form</a></li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X3QoQcHpv-6GPBQX5NaXHUaeCioAKgoU/view?usp=drivesdk">Prospectus</a></li>
+                    <li><a tabindex="-1" href="fee.html">Fee Structure</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">U.G(UNDER GRADUATION) <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="btech.html">B.Tech</a></li>
+                        <li><a tabindex="-1" href="bca.html">BCA</a></li>
+                        <li><a tabindex="-1" href="bba.html">BBA</a></li>
+                        <li><a tabindex="-1" href="bj.html">BA(J&MC)</a></li>
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="diploma.html">Diploma</a></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                  Facilities & Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="workshop.html"text-white fw-bold>Workshops</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="library.html"text-white fw-bold>Library</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="lab.html"text-white fw-bold>Lab Testing</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="wifi.html"text-white fw-bold>Wifi-Campus</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="computer.html"text-white fw-bold>Hi-tech Computer Lab</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="transport.html"text-white fw-bold>Transportation</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sports.html"text-white fw-bold>Sports Facilities</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="hostel.html"text-white fw-bold>Hostel & Mess</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="hall.html"text-white fw-bold>Seminar-Hall</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="temple.html"text-white fw-bold>Temple</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white fw-bold" href="faculty.html"text-white fw-bold>Faculty List</a>
+                </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Placement
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="recruiters.html"text-white fw-bold>Our Top Recruiters</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="tpo.html"text-white fw-bold>Training Placement Officer(T.P.O)</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2017.html"text-white fw-bold>Campus Placement 2017</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2018.html"text-white fw-bold>Campus Placement 2018</a></li>
+                     <li><a class="dropdown-item text-fw-bold" href="2019.html"text-white fw-bold>Campus Placement 2019</a></li>
+               
+                     <li><a class="dropdown-item text-fw-bold" href="2021.html"text-white fw-bold>Campus Placement 2021</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2022.html"text-white fw-bold>Campus Placement 2022</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sit/upload-placement.php"text-white fw-bold>Latest Placement</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="facilities.html"text-white fw-bold>Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>Login Now</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        </div>
+      </header>
+      <a href="registration.html"><div class="fixed-icon"><img src="https://www.sityog.edu.in/images/applynow1.gif" style="width: 100px;height: 100px;"></div></a>
+<div class="container-fluid gap ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingOne" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <h1>  Construction Engineering & Management</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse  border shadow p-3 mb-5 bg-body-tertiary rounded" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded">
+            
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: BASICS OF CONSTRUCTION
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Unique features of construction, construction projects- types and features, phases of a project, 
+                agencies involved and their methods of execution.
+            </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: CONSERVATION PROJECT PLANNING
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Stages of project planning: pre-tender planning, pre-construction planning, detailed construction
+                 planning, role of client and contractor, level of detail. Process of development of plans and schedules, work break-down structure, activity lists, 
+                 assessment of work content, concept of productivities, estimating durations, sequence of activities, activity utility data; Techniques of planning- Bar 
+                 charts, Gantt Charts. Networks: basic terminology, types of precedence relationships, preparation of CPM networks: activity on link and activity on node 
+                 representation, computation of float values, critical and semi critical paths, calendaring networks.PERT- Assumptions underlying PERT analysis, determining 
+                 three time estimates, analysis, slack computations, calculation of probability of completion.
+
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3: CONSTRUCTION METHODS BASICS
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Types of foundations and construction methods; Basics of Formwork and Staging; Common building construction 
+                    methods (conventional walls and slabs; conventional framed structure with blockwork walls; Modular construction methods for repetitive works; Precast concrete 
+                    construction methods; Basics of Slip forming for tall structures; Basic construction methods for steel structures; Basics of construction methods for Bridges.
+                </p><br>
+    
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4: CONSTRUCTION EQUIPMENT BASICS
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;">Conventional construction methods Vs Mechanized methods and advantages of latter; Equipment for Earthmoving, 
+                    Dewatering; Concrete mixing, transporting & placing; Cranes, Hoists and other equipment for lifting; Equipment for transportation of materials. Equipment Productivities.
+    
+                    </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: PLANNING AND ORGANIZING CONSTRUCTION SITE AND RESOURCES
+                    </h5><br>
+                    <p style="text-align: justify; font-family: roboto;">Site: site layout including enabling structures, developing site organization, Documentation at site; Manpower: planning,
+                         organizing, staffing, motivation; Materials: concepts of planning, procurement and inventory control; Equipment: basic concepts of planning and organizing; Funds: cash flow, 
+                         sources of funds; Histograms and S-Curves. Earned Value; Resource Scheduling- Bar chart, line of balance technique, resource constraints and conflicts; resource aggregation, 
+                         allocation, smoothening and leveling. Common Good Practices in Construction.
+                    </p><br>
+        
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6: PROJECT MONITORING & CONTROL
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">Supervision, record keeping, periodic progress reports, periodical progress meetings. Updating of plans: purpose, frequency and methods of updating. Common causes of time and cost overruns and corrective measures. Basics of Modern Project
+                        management systems such as Lean Construction; Use of Building Information Modelling (BIM) in
+                        project management; Quality control: concept of quality, quality of constructed structure, use of
+                        manuals and checklists for quality control, role of inspection, basics of statistical quality control.
+                        Safety, Health and Environment on project sites: accidents; their causes, effects and preventive
+                        measures, costs of accidents, occupational health problems in construction, organizing for safety
+                        and health.
+        
+                        </p><br>
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 7: CONTRACTS MANAGEMENT BASICS
+                        </h5><br>
+                        <p style="text-align: justify; font-family: roboto;">Importance of contracts; Types of Contracts, parties to a
+                            contract; Common contract clauses (Notice to proceed, rights and duties of various parties, notices
+                            to be given, Contract Duration and Price. Performance parameters; Delays, penalties and liquidated
+                            damages; Force Majeure, Suspension and Termination. Changes & variations, Dispute Resolution
+                            methods.
+                        </p><br>
+            
+                          <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 8: CONSERVATION COSTS
+                          </h5><br>
+                          <p style="text-align: justify; font-family: roboto;">Make-up of construction costs; Classification of costs, timecost
+                            trade-off in construction projects, compression and decompression.
+            
+                            </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS / REFRENCES BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Varghese, P.C., “Building Construction”, Prentice Hall India, 2007. </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        National Building Code, Bureau of Indian Standards, New Delhi, 2017.</p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Chudley, R., Construction Technology, ELBS Publishers, 2007.</p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Peurifoy, R.L. Construction Planning, Methods and Equipment, McGraw Hill, 2011.</p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                Nunnally, S.W. Construction Methods and Management, Prentice Hall, 2006.</p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                Jha, Kumar Neeraj., Construction Project management, Theory & Practice, Pearson
+                                Education India, 2015.</p><br>
+                                <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    Punmia, B.C., Khandelwal, K.K., Project Planning with PERT and CPM, Laxmi Publications, 2016.
+                                    </p><br>
+                                                           
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwo" style="text-align: center;">
+            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h1>   Engineering Economics, Estimation & Costing</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+             
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: BASICS PRINCIPLES AND METHODOLOGY OF ECONOMICS. DEMAND/SUPPLY - ELASTICITY
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Government Policies and Application. Theory of the Firm and Market Structure. Basic Macro-economic Concepts (including GDP/GNP/NI/Disposable 
+                Income) and Identities for both closed and open economies. Aggregate demand and Supply (IS/LM). Price Indices (WPI/CPI), Interest rates, Direct and Indirect Taxes (3 lectures).
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: PUBLIC SECTOR ECONOMICS
+               </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Welfare, Externalities, Labour Market. Components of Monetary and Financial System, Central Bank - Monetary Aggregates; Commercial Banks & their 
+                functions; Capital and Debt Markets. Monetary and Fiscal Policy Tools & their impact on the economy - Inflation and Phillips Curve. (2 lectures).
+                
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3: ELEMENTS OF BUSINESS/MANAGERIAL ECONOMICS AND FORMS OF ORGANIZINGS. COS & COST CONTROL
+                    </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Techniques, Types of Costs, Lifecycle costs, Budgets, Break even Analysis, Capital Budgeting, Application of Linear Programming. Investment Analysis - NPV, 
+                ROI, IRR, Payback Period, Depreciation, Time value of money (present and future worth of cash flows). Business Forecasting - Elementary techniques. Statements - Cash flow, Financial. Case Study Method. (3 lectures).
+                PARSEVAL'S THEOREM.</p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4: INDIAN ECONOMY
+                </h5><br>
+               <p style="text-align: justify; font-family: roboto;">Brief overview of post-independence period - plans. Post reform Growth, Structure of productive activity. Issues of Inclusion - Sectors, States/Regions, Groups of people (M/F), 
+                Urbanization. Employment-Informal, Organized, Unorganized, Public, Private. Challenges and Policy Debates in Monetary, Fiscal, Social, External sectors. (2 lectures).
+                 
+                 </p><br>
+ 
+                 <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: ESTIMSTION / MEASUREMENTS FOR VARIOUS ITEMS</h5><br>
+               <p style="text-align: justify; font-family: roboto;">Introduction to the process of Estimation; Use of relevant Indian Standard Specifications for the same, taking out quantities from 
+                the given requirements of the work, comparison of different alternatives, Bar bending schedules, Mass haul Diagrams, Estimating Earthwork and Foundations, Estimating Concrete and Masonry, 
+                Finishes, Interiors, MEP works; BIM and quantity take-offs; adding equipment costs; labour costs; rate analysis; Material survey-Thumb rules for computation of materials requirement for 
+                different materials for buildings, percentage breakup of the cost, cost sensitive index, market survey of basic materials. Use of Computers in quantity surveying (7 lectures).
+            </p><br>
+                 <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6: SPECIFICATIONS
+                </h5><br>
+               <p style="text-align: justify; font-family: roboto;">Types, requirements and importance, detailed specifications for buildings, roads, minor bridges and industrial structures. (3 lectures).
+                 
+                 </p><br>
+ 
+                 <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 7: RATE ANALYSIS
+                </h5><br>
+               <p style="text-align: justify; font-family: roboto;">Purpose, importance and necessity of the same, factors affecting, task work, daily output from different equipment/ productivity. (3 lectures).
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 8: TENDER
+                </h5><br>
+               <p style="text-align: justify; font-family: roboto;">Preparation of tender documents, importance of inviting tenders, contract types, relative merits, prequalification. general and special conditions, 
+                termination of contracts, extra work and Changes, penalty and liquidated charges, Settlement of disputes, R.A. Bill & Final Bill, Payment of advance, insurance, claims, price variation, etc. Preparing 
+                Bids- Bid Price buildup: Material, Labour, Equipment costs, Risks, Direct & Indirect Overheads, Profits; Bid conditions, alternative specifications; Alternative Bids. Bid process management (6 lectures).
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 9: INTRODUCTION TO ACTS PERTAININGN TO
+                </h5><br>
+               <p style="text-align: justify; font-family: roboto;">Minimum wages, Workman's compensation, Contracts, Arbitration, Easement rights. (1 lecture).
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT / REFRENCES
+                </h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Mankiw Gregory N. (2002), Principles of Economics, Thompson Asia.
+                    </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Joy P K, Handbook of Construction Management, Macmillan. 
+                      </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            V. Mote, S. Paul, G. Gupta(2004), Managerial Economics, Tata McGraw Hill.
+                        </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Misra, S.K. and Puri (2009), Indian Economy, Himalaya. </p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                Pareek Saroj (2003), Textbook of Business Economics, Sunrise Publishers.</p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                M Chakravarty, Estimating, Costing Specifications & Valuation. 
+                            </p><br>
+
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                 B.S. Patil, Building & Engineering Contracts.
+                            </p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                 Relevant Indian Standard Specifications.
+                              </p><br>
+                                <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    World Bank Approved Contract Documents.
+                                </p><br>
+                                  <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    FIDIC Contract Conditions. </p><br>
+                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                        Acts Related to Minimum Wages, Workmen's Compensation, Contract, and Arbitration.
+                                    </p><br>
+                                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                        Typical PWD Rate Analysis documents.
+                                     </p><br>
+
+                                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                            UBS Publishers & Distributors, Estimating and Costing in Civil Engineering: Theory and
+                                             Practice including Specification and Valuations,2016.
+                                        </p><br>
+                                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                            Dutta, B.N., Estimating and Costing in Civil Engineering (Theory & Practice), UBS Publishers,2016.
+                                          </p><br>
+                                            
+                                               
+
+                                
+                             </div>
+          </div>
+        </div>
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingThree" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+             <h1> Design Of Steel Structure</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: INTRODUCTION
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Steel structures, material properties, Limit states and design philosophies;
+              analysis and design methods, Loads, partial safety factors and load combinations, analysis of roof
+              for wind loads. Codes and standards. Section Classification: Plastic, compact, semi-compact, and
+              slender sections.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: CONNECTIONS
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Structural fasteners - Rivets, bolts and welds, strength under combined
+                stresses, Bolted and Welded Connections - Simple and Eccentric and Column bases.I
+                Module 3: Tension members: Design based on net section including shear lag effects and block
+                shear, lug angles. Compression members.
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 3: TENSION MEMBERS
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Tension members: Design based on net section including shear lag effects and block 
+                shear, lug angles. Compression members: 
+                
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 4: DESIGN FOR FLEXURAL - TORSIONAL BUCKLING, EFFECTIVE LENGTH FACTOR
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Sway and Nonsway
+                frames, Local buckling, Built-up columns - Battens and lacings. Laterally Supported and
+                Unsupported Beams.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: DESIGN STRENGTH USING SHEAR - MOMENT INTERACTION
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Built-up beams, Shear buckling
+                strength, Plate girders and design of stiffeners, Lateral torsional buckling, Effect of restraints and
+                effective length.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6: BEAM - COLUMNS
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Effect of axial load on flexure behaviour, P-M interaction and moment
+                  amplification, Flexural torsional buckling and Bi-axial bending.
+                  </p><br>
+
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT  / REFERENCE BOOKS</h5><br>
+                   
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        McCormac, J.C., Nelson, J.K. Jr., Structural Steel Design. 3rd edition. Prentice Hall, N.J., 2003.</p><br>
+
+                
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          Galambos, T.V., Lin, F.J., Johnston, B.G., Basic Steel Design with LRFD, Prentice Hall, 1996.
+                         </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Segui, W. T., LRFD Steel Design, 2nd Ed., PWS Publishing, Boston.</p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              Salmon, C.G. and Johnson, J.E., Steel Structures: Design and Behavior, 3rd Edition, Harper &
+                              Row, Publishers, New York, 1990. </p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                Related Codes of Practice of BIS.</p><br>
+                             
+                                <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                  NBC, National Building Code, BIS (2017). </p><br>
+                                  <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    ASCE, Minimum Design Loads for Buildings and Other Structures, ASCE 7-02, American
+                                    Society of Civil Engineers, Virginia, 2002.</p><br>
+                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                      Subramanian, N. (2010). Steel Structures: Design and Practice, Oxford University Press. </p><br>
+                                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                        Duggal, S.K. (2014). Limit State Design of Steel Structures, McGraw Hill.</p><br>
+                            
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFour" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+             <h1> Geotechnical Engineering -II </h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: CONSOILDATION OF SOIL
+              </h5><br>
+            <p style="text-align: justify; font-family: roboto;">
+              Introduction, comparison between compaction and consolidation, initial, primary & secondary consolidation, spring analogy 
+              for primary consolidation, interpretation of consolidation test results, Terzaghi's theory of consolidation, final settlement 
+              of soil deposits, computation of consolidation settlement and secondary consolidation.
+            </p><br>
+            <h6 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">On completion of this module, the student must be able to:
+            </h6><br>
+            <p style="text-align: justify; font-family: roboto;">
+              • Understand the basic mechanism of consolidation of soil;
+            </p><br>
+            <p style="text-align: justify; font-family: roboto;">
+              • Determine various consolidation parameters of soil through laboratory test; Evaluate ground settlements against time.
+            </p><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: SHEAR STRENGTH
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Mohr circle and its characteristics, principal planes, relation 
+                between major and minor principal stresses, Mohr-Coulomb theory, types of shear tests: direct shear test, merits of direct 
+                shear test, triaxial compression tests, test behaviour of UU, CU and CD tests, pore-pressure measurement, computation of 
+                effective shear strength parameters unconfined compression test, vane shear test. 
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">On completion of this module, the student must be able to:
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">
+                  • Determine graphically and analytically the stress state in any plane of the soil mass; Perform various shear strength tests and appreciate the different field conditions which they simulate;
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">
+                  • Understand the significance of shear strength parameters in various geotechnical analyses;
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">
+                  • Evaluate the stiffness of soil using shear strength parameters.
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3: STABILITY OF SLOPES
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Introduction, types of slopes and their failure mechanisms, factor of safety, 
+                  analysis of finite and infinite slopes, wedge failure Swedish circle method, friction circle method, stability numbers and charts.
+                  
+                  </p><br>
+                  <h6 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">On completion of this module, the student must be able to:
+                  </h6><br>
+                  <p style="text-align: justify; font-family: roboto;">
+                    • Differentiate various modes of slope failure;
+                  </p><br>
+                  <p style="text-align: justify; font-family: roboto;">
+                    Evaluate factor of safety of infinite slopes based on different ground conditions; Understand various methods for computation of factor of safety for finite slopes.
+                  </p><br>
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4: SOIL EXPLORATION
+
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;">Introduction, methods of site exploration and soil investigation, methods of boring, 
+                    soil samplers, sampling procedures, trail pits, borings, penetrometer tests, analysis of borehole logs, geophysical and advance soil exploration methods.
+                    
+                    </p><br>
+                    <h6 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">On completion of this module, the student must be able to:
+                    </h6><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      • Specify a strategy for site investigation to identify the soil deposits and determine the depth
+                      and spatial extent within the ground;
+                    </p><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      • Understand various site investigation techniques and their in-situ applications; Prepare a
+                       soil investigation report based on borehole log data and various in-situ tests like SPT, CPT, etc.
+                    </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5
+
+                    </h5><br>
+                    <p style="text-align: justify; font-family: roboto;">Application of soil mechanics to determine earth pressures, analysis of retaining walls,
+                      cuts & excavations and sheet piles, stability of slopes, instrumentation.
+                      </p><br>
+                
+
+                              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT REFERENCE BOOKS</h5><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                Soil Mechanics by Craig R.F., Chapman & Hall.
+                                 </p><br>
+                                <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                  Fundamentals of Soil Engineering by Taylor, John Wiley & Sons.
+                                </p><br>
+
+                                  <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    An Introduction to Geotechnical Engineering, by Holtz R.D. and Kovacs, W.D., Prentice Hall, NJ. </p><br>
+                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                      Principles of Geotechnical Engineering, by Braja M. Das, Cengage Learning.
+                                     </p><br>
+                                     <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                      Principles of Foundation Engineering, by Braja M. Das, Cengage Learning.
+                                     </p><br>
+                                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                        Essentials of Soil Mechanics and Foundations: Basic Geotechnics by David F. McCarthy.
+                                      </p><br>
+                                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                        An Introduction to Geotechnical Engineering, by Holtz R.D. and Kovacs, W.D., Prentice Hall, NJSoil Mechanics in Engineering Practice by Karl Terzaghi, Ralph B. Peck, and Gholamreza Mesri. 
+                                      </p><br>
+                                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                          Geotechnical Engineering: Principles and Practices of Soil Mechanics and Foundation
+                                          Engineering (Civil and Environmental Engineering) by V.N.S. Murthy.
+                                        </p><br>
+               
+</div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSFive" style="text-align: center;">
+              <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h1>   Environmental Engineering-II </h1>
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+             
+              <div class="accordion-body">
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: SEWAGE
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Domestic and Storm water, Quantity of Sewage, Sewage flow variations.
+                Conveyance of sewage- Sewers, shapes design parameters, operation and maintenance of sewers,
+                Sewage pumping; Sewerage, Sewer appurtenances, Design of sewerage systems. Small bore
+                systems, Storm Water- Quantification and design of Storm water; Sewage and Sullage, Pollution
+                due to improper disposal of sewage, National River cleaning plans, Wastewater treatment, aerobic
+                and anaerobic treatment systems, suspended and attached growth systems, recycling of sewage -
+                quality requirements for various purposes.
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: SOLID WASTE MANAGEMENT
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Municipal solid waste, Composition and various chemical and
+                  physical parameters of MSW, MSW management: Collection, transport, treatment and disposal of
+                  MSW. Special MSW: waste from commercial establishments and other urban areas, solid waste
+                  from construction activities, biomedical wastes, Effects of solid waste on environment: effects on
+                  air, soil, water surface and ground health hazards. Disposal of solid waste-segregation, reduction at
+                  source, recovery and recycle. Disposal methods- Integrated solid waste management. Hazardous
+                  waste: Types and nature of hazardous waste as per the HW Schedules of regulating authorities.
+                    </p><br>
+                     <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3
+                    </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Government authorities and their roles in water supply, sewerage disposal. Solid waste
+                  management and monitoring/control of environmental pollution..
+                  </p><br>
+              
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">PRATICAL WORK : LIST OF EXPERIMENTS
+                  </h5><br>
+                <p style="text-align: justify; font-family: roboto;">1. Physical Characterization of water: Turbidity, Electrical Conductivity, pH
+                 </p><br> 
+                 
+                <p style="text-align: justify; font-family: roboto;">
+                    2. Analysis of solids content of water: Dissolved, Settleable, suspended, total, volatile, inorganic etc.
+                       </p><br>
+                       
+                       <p style="text-align: justify; font-family: roboto;">
+                        3. Alkalinity and acidity, Hardness: total hardness, calcium and magnesium hardness
+                             </p><br>  
+                     <p style="text-align: justify; font-family: roboto;">
+                            4. Analysis of ions: copper, chloride and sulfate
+                       </p><br>
+                                   
+                       <p style="text-align: justify; font-family: roboto;">
+                        5. Optimum coagulant dose
+                         </p><br>  
+                         <p style="text-align: justify; font-family: roboto;">
+                            6. Chemical Oxygen Demand (COD)
+                               </p><br>
+                               
+                               <p style="text-align: justify; font-family: roboto;">
+                                7. Dissolved Oxygen (D.O) and Biochemical Oxygen Demand (BOD)
+                                     </p><br>  
+                             <p style="text-align: justify; font-family: roboto;">
+                                    8. Break point Chlorination
+                               </p><br>
+                                           
+                               <p style="text-align: justify; font-family: roboto;">
+                                9. Bacteriological quality measurement: MPN,
+                                 </p><br>  
+                                 <p style="text-align: justify; font-family: roboto;">
+                                    10. Ambient Air quality monitoring (TSP, RSPM, SOx, NOx)
+                               </p><br>
+                                           
+                               <p style="text-align: justify; font-family: roboto;">
+                                11. Ambient noise measurement
+                                 </p><br>                  
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT BOOKS / REFRENCES</h5><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Introduction to Environmental Engineering and Science by Gilbert Masters, Prentice Hall, New Jersey.
+                      </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Introduction to Environmental Engineering by P. Aarne Vesilind, Susan M. Morgan, Thompson /Brooks/Cole; Second Edition 2008.
+                       </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Peavy, H.s, Rowe, D.R, Tchobanoglous, G. Environmental Engineering, Mc-Graw Hill International Editions, New York 1985.
+                          </p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                MetCalf and Eddy. Wastewater Engineering, Treatment, Disposal and Reuse, Tata McGraw-Hill, New Delhi.
+                             </p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                Manual on Water Supply and Treatment. Ministry of Urban Development, New Delhi.
+                              </p><br>
+                                <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    Plumbing Engineering. Theory, Design and Practice, S.M. Patil, 1999
+                               </p><br>
+                                  <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    Integrated Solid Waste Management, Tchobanoglous, Theissen & Vigil. McGraw Hill Publication.
+                                  </p><br>
+                                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                        Manual on Sewerage and Sewage Treatment Systems, Part A, B and C. Central Public Health and Environmental Engineering Organization, Ministry of Urban Development.
+                                    </p><br>         
+                               </div>
+            </div>
+       
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h1>   Constitution of India/Essence of 
+                Indian Knowledge Traditional </h1>
+              </button>
+            </h2>
+               
+            
+              
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p style="text-align: justify; font-family: roboto;;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">The Constitution of India is the supreme law of India. Parliament of India cannot make 
+                  any law which violates the Fundamental Rights enumerated under the Part III of 
+                  the Constitution. The Parliament of India has been empowered to amend the 
+                  Constitution under Article 368, however, it cannot use this power to change the 
+                  “basic structure” of the constitution, which has been ruled and explained by the 
+                  Supreme Court of India in its historical judgments. The Constitution of India reflects 
+                  the idea of “Constitutionalism” – a modern and progressive concept historically 
+                  developed by the thinkers of “liberalism” – an ideology which has been recognized as 
+                  one of the most popular political ideology and result of historical struggles against 
+                  arbitrary use of sovereign power by state. The historic revolutions in France, England, 
+                  America and particularly European Renaissance and Reformation movement have 
+                  resulted into progressive legal reforms in the form of “constitutionalism” in many 
+                  countries. The Constitution of India was made by borrowing models and principles from 
+                  many countries including United Kingdom and America.
+                  The Constitution of India is not only a legal document but it also reflects social, 
+                  political and economic perspectives of the Indian Society. It reflects India’s legacy of 
+                  “diversity”. It has been said that Indian constitution reflects ideals of its freedom 
+                  movement, however, few critics have argued that it does not truly incorporate our 
+                  own ancient legal heritage and cultural values. No law can be “static” and therefore 
+                  the Constitution of India has also been amended more than one hundred times. These 
+                  amendments reflect political, social and economic developments since the year 
+                  1950. The Indian judiciary and particularly the Supreme Court of India has played an 
+                  historic role as the guardian of people. It has been protecting not only basic ideals of the 
+                  Constitution but also strengthened the same through progressive interpretations of the 
+                  text of the Constitution. The judicial activism of the Supreme Court of India and its 
+                  historic contributions has been recognized throughout the world and it gradually made 
+                  it “as one of the strongest court in the world”.</p><br><br>
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Course Contents</h5><br>
+                <p style="text-align: justify; font-family: roboto;">
+                  1. Meaning of the constitution law and constitutionalism.<br><br>
+  2. Historical perspective of the Constitution of India.<br><br>
+  3. Salient features and characteristics of the Constitution of India.<br><br>
+  4. Scheme of the fundamental rights.<br><br>
+  5. The scheme of the Fundamental Duties and its legal status.<br><br>
+  6. The Directive Principles of State Policy – Its importance and implementation.<br><br>
+  7. Federal structure and distribution of legislative and financial powers between the 
+  Union and the States.<br><br>
+  8. Parliamentary Form of Government in India – The constitution powers and status of 
+  the President of India.<br><br>
+  9. Amendment of the Constitutional Powers and Procedure.<br><br>
+  10. The historical perspectives of the constitutional amendments in India.<br><br>
+  11. Emergency Provisions: National Emergency, President Rule, Financial Emergency.<br><br>
+  12. Local Self Government – Constitutional Scheme in India .<br><br>
+  13. Scheme of the Fundamental Right to Equality.<br><br>
+  14. Scheme of the Fundamental Right to certain Freedom under Article 19.<br><br>
+  15. Scope of the Right to Life and Personal Liberty under Article 21.<br>
+   
+                  
+                  <br><br>
+                    </p><br>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingEight">
+              <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h1>   Industrial Visit</h1>
+                
+              </button>
+            </h2>
+  
+            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingNine">
+              <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h1>   MOOCs / SWAYAM / NPTEL etc. 
+                Courses - 2</h1>
+                
+              </button>
+            </h2>
+  
+            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTen">
+              <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h1>   Program Elective- I</h1>
+              </button>
+            </h2>
+  
+            <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+</div>
+<div class="container-fluid gap"  style="background-color:#FF6633;">
+  <div class="container  shadow p-3 mb-5 bg-body-tertiary rounded"  style="background-color:#FF6633;">
+    <div class="row "  >
+      <div class="col-md-4 my-3  fw-bold border align-self:center">
+        <p style="font-size: 20px;">Address:- Growth Center, Jasoiya More, Aurangabad Bihar - 824102</p>
+      
+      </div><br>
+   
+
+
+      <div class="col-md-4 my-3 mx-2 fw-bold border align-self:center">
+        <p style="font-size: 20px;"><i class="bi bi-telephone"></i>Contact Number:-</i>+91-9308392306 / 9102318888 <br>9308394144 / 9334127770 / 9322698410</p><br>
+   
+      </div>
+   
+
+      <div class="col-md-3 my-3 fw-bold border align-self:center">
+        <p style="font-size:20px;"><i class="bi bi-envelope"></i>Email:- Sityog@gmail.com</p><br>
+        <p style="font-size:20px;">yahoo:-Sityog@yahoo.com</p>
+      </div>
+      <div class="col-md-6 border my-3">
+        <a href="https://www.facebook.com/sityogaurangabad"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+        <a href="https://www.youtube.com/channel/UCqLpIqvF3GldPpZWso6AIlg"><i class="bi bi-youtube" style="font-size: 30px; color:red; padding-left: 15px;"></i></a>
+        <a href="https://www.instagram.com/sityog_institute_of_technology/?hl=en"><i class="bi bi-instagram" style="font-size: 30px; color:blue; padding-left: 15px;"></i></a>
+     <a href=""></a>
+      </div>
+    </div>
+      <div class="row border align-self:center">
+        <div class="col-md-6">
+          <div class="detailTab-section-title">
+            <div class="detailTab-title">
+                <h4 >Important Links</h4>
+           
+            </div>
+          </div>
+          <a href="http://www.beu-bih.ac.in/BEUP/Default.aspx">    <li class=" fw-bold text-white">Bihar Engineering University</li></a>
+          <a href="http://www.sityog.edu.in/alumni/"><li class=" fw-bold">Alumini</li></a>
+          <a href="https://swayam.gov.in/">    <li class=" fw-bold">Online Classes</li></a>
+          <a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">    <li class=" fw-bold">Student Credit Card Apply</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">B.tech Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BCA Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BBA Syllabus</li></a>
+          <a href="http://sbteonline.in/syllabus">    <li class=" fw-bold">Diploma Syllabus</li></a>
+          <a href=" https://results.akuexam.net/"><li class=" fw-bold">AKU Result</li></a>
+          <a href=" https://www.akubihar.com//"><li class=" fw-bold">AKu Previous Year Question</li></a>
+        </div>
+      </div>
+    </div>
+</div>
+  
+    <footer class="bg-custom text-white py-2 text-center">&copy Designed By vandna</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+ </body>
+</html>

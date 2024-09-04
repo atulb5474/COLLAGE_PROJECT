@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sityog Institute of Technology </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        p{
+          font-size:20px ;
+        }
+          .accordion-button
+  {
+   background-color: purple;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+  }
+   button:hover{
+     background-color:#FF6633 ;
+     color:white;
+     border-radius: 30px;
+  
+   }
+   .dropdown-submenu {
+       position: relative;
+     }
+     
+     .dropdown-submenu .dropdown-menu {
+       top: 0;
+       left: 100%;
+       margin-top: -1px;
+     } .navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+      </style>
+</head>
+  <body >
+    <img src="image/download.png"width="100%", height="150px">
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+    <header class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#"><p style="text-align: justify;">Welcome to Smart Sityog </p></a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="institute.html"text-white fw-bold>About Institute</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="vision.html"text-white fw-bold>Vision & Mission</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="board.html"text-white fw-bold>Board Of Management</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="chairman.html"text-white fw-bold>Chairman Message</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="secretary.html"text-white fw-bold>Secretary Message</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="approve.html"text-white fw-bold>Approval & Affiliation</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   ADMISSION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Apply Now <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="registration.html">Apply For B.Tech, BBA ,BCA,BA(J&MC)</a></li>
+                        <li><a tabindex="-1" href="https://bceceboard.bihar.gov.in/">Apply For Diploma</a></li>
+                        <li><a tabindex="-1" href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">Apply For Student Credit Card</a></li>
+                       
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X2dq1ElIqKtn91-rE8e9uIUzd6OgthwF/view?usp=drivesdk">Registration Form</a></li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X3QoQcHpv-6GPBQX5NaXHUaeCioAKgoU/view?usp=drivesdk">Prospectus</a></li>
+                    <li><a tabindex="-1" href="fee.html">Fee Structure</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">U.G(UNDER GRADUATION) <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="btech.html">B.Tech</a></li>
+                        <li><a tabindex="-1" href="bca.html">BCA</a></li>
+                        <li><a tabindex="-1" href="bba.html">BBA</a></li>
+                        <li><a tabindex="-1" href="bj.html">BA(J&MC)</a></li>
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="diploma.html">Diploma</a></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                  Facilities & Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="workshop.html"text-white fw-bold>Workshops</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="library.html"text-white fw-bold>Library</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="lab.html"text-white fw-bold>Lab Testing</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="wifi.html"text-white fw-bold>Wifi-Campus</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="computer.html"text-white fw-bold>Hi-tech Computer Lab</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="transport.html"text-white fw-bold>Transportation</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sports.html"text-white fw-bold>Sports Facilities</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="hostel.html"text-white fw-bold>Hostel & Mess</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="hall.html"text-white fw-bold>Seminar-Hall</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="temple.html"text-white fw-bold>Temple</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white fw-bold" href="faculty.html"text-white fw-bold>Faculty List</a>
+                </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Placement
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="recruiters.html"text-white fw-bold>Our Top Recruiters</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="tpo.html"text-white fw-bold>Training Placement Officer(T.P.O)</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2017.html"text-white fw-bold>Campus Placement 2017</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2018.html"text-white fw-bold>Campus Placement 2018</a></li>
+                     <li><a class="dropdown-item text-fw-bold" href="2019.html"text-white fw-bold>Campus Placement 2019</a></li>
+               
+                     <li><a class="dropdown-item text-fw-bold" href="2021.html"text-white fw-bold>Campus Placement 2021</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2022.html"text-white fw-bold>Campus Placement 2022</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sit/upload-placement.php"text-white fw-bold>Latest Placement</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="facilities.html"text-white fw-bold>Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>Login Now</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        </div>
+      </header>
+      <a href="registration.html"><div class="fixed-icon"><img src="https://www.sityog.edu.in/images/applynow1.gif" style="width: 100px;height: 100px;"></div></a>
+<div class="container-fluid gap ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingOne" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+             <h1>   Dynamics of Machinery</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse  border shadow p-3 mb-5 bg-body-tertiary rounded" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded">
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">OBJECTIVES
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">To equip the student with fundamental knowledge of dynamics of machines so that student can appreciate problems of dynamic force balance, transmissibility of forces, isolation of systems, vibrations.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Develop knowledge of analytical and graphical methods for calculating balancing of reciprocating masses.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Develop understanding of vibrations and its significance on engineering design.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Develop understanding of dynamic balancing, flywheel analysis, gyroscopic forces and moments.
+                </p><br>
+                <h5 style="font-family: roboto; color:brown;" >CONTENTS</h5>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1 (3 lectures)
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Force analysis of mechanism: Dynamics of plane motion of a rigid body, dynamically equivalent two mass system, correction torque, forced in mechanism and machines.
+            </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: (5 lectures)
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Turning moment diagram: Fluctuations of crankshaft speed and energy in a direct acting engine mechanism, flywheels.
+
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3 (8 lectures)
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">Cams: Classification of cams and followers, types of follower and retardation, cam profile and generation of concentric and offset radial cam profiles by graphical method. Cams with specified contours tangent cam with roller follower, circular arc cam with flat follower.
+                </p><br>
+    
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4 ( 4lectures)
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;">Analysis of gyroscopic motion : Principle of gyroscope, gyroscopic couple and gyroscopic reaction couple, Gyroscopic effects on the movement of ships, aeroplanes, two wheeled and four wheeled vehicles, gyrostabilizers.
+    
+                    </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5 (8 lectures)
+                    </h5><br>
+                    <p style="text-align: justify; font-family: roboto;">Effects of inertia of reciprocating masses on engine frame: Unbalanced primary and secondary forces and couples, balancing of primary and secondary forces, partial balancing of locomotives balancing of multicylinder in line and radial engines, direct and reverse cranks methods for
+                        balancing of radial engines.
+                    </p><br>
+        
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6 (12 lectures)
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">Mechanical vibrations : Basic concepts degree of freedom, types of damping and viscous damping;
+                        natural free, damped free and damped forced vibrations of a single degree of freedom spring mass
+                        system, reciprocating and rotating unbalance, vibration isolation and transmissibility, whirling of
+                        shaft, elementary treatment of two degree of freedom systems torsional vibrations of single rotor
+                        and two rotor systems, transverse vibration of simply supported beam energy method, Rayleigh's
+                        and Dankerley method.
+                        </p><br>
+        
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> COURCE OUTCOMES
+                        </h5><br>
+                        <p style="text-align: justify; font-family: roboto;">
+                            Analyze stabilization of sea vehicles, aircrafts and automobile vehicles.
+                           </p><br>
+                          <p style="text-align: justify; font-family: roboto;">
+                            Compute frictional losses, torque transmission of mechanical systems.
+                          </p><br>
+    
+                            <p style="text-align: justify; font-family: roboto;">
+                                Analyze dynamic force analysis of slider crank mechanism and design of flywheel.
+                             </p><br>
+                              <p style="text-align: justify; font-family: roboto;">
+                                Understand how to determine the natural frequencies of continuous systems starting from the
+                                general equation of displacement.
+                            </p><br>
+                                <p style="text-align: justify; font-family: roboto;">
+                                    Understand balancing of reciprocating and rotary masses.
+                                 </p><br>    
+                                
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">TEXT / REFRENCES BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Theory of Machines / S.S Ratan/ Mc. Graw Hill Publ.
+                     </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Mechanism and machine theory by Ashok G. Ambedkar, PHI Publications.
+                    </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Mechanism and Machine Theory / JS Rao and RV Dukkipati / New Age.
+                        </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Theory of Machines / Shiegly / MGH.</p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                Theory of Machines / Thomas Bevan / CBS Publishers.</p><br>
+                                
+                                 <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> LABORATORY
+                                                                </h5><br>
+                                <p style="text-align: justify; font-family: roboto;">
+                                  To study various types of Links, Pairs, Chain and Mechanism.
+                                    </p><br>
+                                    <p style="text-align: justify; font-family: roboto;">
+                                      To study inversion of Four Bar Mechanism.
+                                         </p><br>
+                                        <p style="text-align: justify; font-family: roboto;">
+                                          To study velocity diagram for Slider Crank Mechanism.
+                                            </p><br>
+                                            <p style="text-align: justify; font-family: roboto;">
+                                              To study various kinds of belts drives.
+                                                 </p><br>
+                                                <p style="text-align: justify; font-family: roboto;">
+                                                    To verify the Bernoulli's Theorem.
+                                                    </p><br>
+                                                    <p style="text-align: justify; font-family: roboto;">
+                                                      To study and find coefficient of friction between belt and pulley.
+                                                         </p><br>
+                                                        <p style="text-align: justify; font-family: roboto;">
+                                                          To study various types of Cam and Follower arrangement.
+                                                            </p><br>
+                                                            <p style="text-align: justify; font-family: roboto;">
+                                                              To plot follower displacement Vs cam rotation graph for various cam follower arrangement.
+                                                                </p><br>
+                                                                
+                                                                <p style="text-align: justify; font-family: roboto;">
+                                                                  To study Different types of Gears.
+                                                                   </p><br>
+                                                                  <p style="text-align: justify; font-family: roboto;">
+                                                                    To study Different types of Gear Trains.
+                                                                  </p><br>
+                                            
+                                                                    <p style="text-align: justify; font-family: roboto;">
+                                                                      To Perform Experiment on Watt, Porter, Proell and Hartnell Governors and prepare Performance Characteristic Curves also analyze Stability & Sensitivity.
+                                                                     </p><br>
+                                                                      <p style="text-align: justify; font-family: roboto;">
+                                                                        To study gyroscopic effects through models.
+                                                                    </p><br>
+                                                                        <p style="text-align: justify; font-family: roboto;">
+                                                                          To determine gyroscopic couple on Motorized Gyroscope.
+                                                                         </p><br>    
+                                                                         <p style="text-align: justify; font-family: roboto;">
+                                                                          To perform the experiment of Balancing of rotating parts and find the unbalanced couple and forces.
+                                                                         </p><br>  
+                                                                         <p style="text-align: justify; font-family: roboto;">
+                                                                          To study Dynamically Equivalent System.
+                                                                         </p><br>
+                                                                          <p style="text-align: justify; font-family: roboto;">
+                                                                            Determine the moment of inertial of connecting rod by compound pendulum method and trifler suspension pendulum.
+                                                                        </p><br>
+                                                                            <p style="text-align: justify; font-family: roboto;">
+                                                                              To study the various types of dynamometers.
+                                                                             </p><br>    
+                                                                             <p style="text-align: justify; font-family: roboto;">
+                                                                              To find out critical speed experimentally and to compare the Whirling Speed of a shaft with theoretical values.
+                                                                             </p><br>                        
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwo" style="text-align: center;">
+            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h1> Manufacturing Technology</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+             
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> OBJECTIVES
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">
+                  To provide knowledge on machines and related tools for manufacturing various components.
+                   </p><br>
+                  <p style="text-align: justify; font-family: roboto;">
+                    To understand the relationship between process and system in manufacturing domain.
+                  </p><br>
+
+                    <p style="text-align: justify; font-family: roboto;">
+                      To identify the techniques for the quality assurance of the products and the optimality of the process in terms of resources and time management.
+                     </p><br>
+                      
+                         <h5 style="font-family: roboto; color:brown;" >COURCE CONTENTS</h5> 
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1 (10 lectures)
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Tooling for conventional and non-conventional machining processes: Mould and die design, Press tools, Cutting tools; Holding tools: Jigs and fixtures, principles, applications and design; press tools - configuration, design of die and punch; principles of forging die design.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2 (10 lectures)
+               </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Metrology: Dimensions, forms and surface measurements, Limits, fits and tolerances; linear and angular measurements; comparators; gauge design; interferometry; Metrology in tool wear and part quality including
+                 surface integrity, alignment and testing methods; tolerance analysis in manufacturing and assembly. Process metrology for emerging machining processes such as microscale machining, Inspection and workpiece quality.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3 (6 lectures)
+                    </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Assembly practices: Manufacturing and assembly, process planning, selective assembly, Material handling and devices.
+               </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4 (14 lectures)
+                </h5><br>
+               <p style="text-align: justify; font-family: roboto;">Unconventional Machining Processes: Abrasive Jet Machining, Water Jet Machining, Abrasive Water Jet Machining, Ultrasonic Machining, principles and process
+                 parameters. Electrical Discharge Machining, principle and processes parameters, MRR, surface finish, tool wear, Dielectric, power and control circuits, wire EDM; Electro-chemical machining (ECM), etchant & maskant, process parameters, MRR and surface finish. Laser Beam Machining (LBM), Plasma Arc Machining (PAM) and Electron Beam Machining.
+                 
+                 </p><br>
+                 <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> COURCE OUTCOMES
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">
+                  Upon completion of this course, students will be able to the tooling needed for manufacturing, the
+                  dimensional accuracy and tolerances of products, assembly of different components and the
+                  application of optimization methods in manufacturing.
+                   </p><br>
+                
+ 
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT / REFRENCES BOOKS
+                </h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                      Kalpakjian and Schmid, Manufacturing processes for engineering materials (5th Edition)-
+                      PearsonIndia, 2014.
+                    </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Taha H. A., Operations Research, 6th Edition, Prentice Hall of India, 2003.
+                      </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          Shenoy G.V. and Shrivastava U.K., Operations Research for Management, Wiley Eastern,
+                          1994.
+                        </p><br>
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> LABORATORY
+                        </h5><br>
+                          <p style="text-align: justify; font-family: roboto;">
+                            Measurement of angle using Sine Center / Sine bar / bevel protractor.
+                        </p><br>
+                       
+                        <p style="text-align: justify; font-family: roboto;">
+                            After completing this course, the students will get a good understanding of various practical power cycles and heat pump cycles.
+                           </p><br>
+                          <p style="text-align: justify; font-family: roboto;">
+                            Measurement of cutting tool forces using
+                            a. Lathe tool Dynamometer
+                            b. Drill tool Dynamometer.
+                          </p><br>
+    
+                            <p style="text-align: justify; font-family: roboto;">
+                              Measurement of Screw Threads Parameters using Two wire or Three-wire method.
+                             </p><br>
+                             <p style="text-align: justify; font-family: roboto;">
+                              Measurements of Surface roughness, Using Tally Surf/Mechanical Comparator. 
+                          </p><br>
+                         
+                          <p style="text-align: justify; font-family: roboto;">
+                            Measurement of gear tooth profile using gear tooth Vernier/Gear tooth micrometer.
+                             </p><br>
+                            <p style="text-align: justify; font-family: roboto;">
+                              Calibration of Micrometer using slip gauges.
+                            </p><br>
+      
+                              <p style="text-align: justify; font-family: roboto;">
+                                Measurement using Optical Flats.
+                               </p><br>
+     
+                                                       </div>
+          </div>
+        </div>
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingThree" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <h1>  Design of Machine Elements</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">OBJECTIVES
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">This course seeks to provide an introduction to the design of machine elements commonly
+                  encountered in mechanical engineering practice, through 1. A strong background in mechanics of
+                  materials based failure criteria underpinning the safety-critical design of machine components 2. An
+                  understanding of the origins, nature and applicability of empirical design principles, based on safety
+                  considerations 3. An overview of codes, standards and design guidelines for different elements 4.
+                  An appreciation of parameter optimization and design iteration 5. An appreciation of the
+                  relationships between component level design and overall machine system design and performance
+                    </p><br>
+                    
+                        <h5 style="font-family: roboto; color:brown;" >COURCE CONTENTS</h5>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: INTRODUCTION TO DESIGN (8 lectures)
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Steps in design process, design factors, practical considerations in design, selection of materials, strength of mechanical elements, impact load, shock load, fatigue loading, effects of surface, size, temperature and stress concentration, consideration of creep and thermal stress in design.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: DESIGN OF SHAFTS (10 lectures)
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Design of shafts: stresses in shafts, design of static loads, combined stresses, reversed bending and steady loads, design of shafts based on deflection and strength, critical speed of shafts. Analysis and design of sliding and rolling contact bearings.
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 3  RIVETED, BOLT, WELDED JOINTS(8 lectures)
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Riveted joint: Stresses in riveted joint, design of riveted joints with central and eccentric loads, boiler and tank joints, structural joints.
+                
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Bolt Joints: Stresses in bolt joint, design of bolt joints with central and eccentric loads.
+                
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Welded joints: types of welded joints, stresses, design of welded joints subjected to axial, torsional and bending loads, welds subjected to fluctuating loads.
+                
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 4 (6 lectures)
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Design of Clutches: Friction clutches, uniform wear and uniform pressure assumptions, centrifugal clutches.
+                </p><br>
+                <p style="text-align: justify; font-family: roboto;">Brakes: Design of internal expansion elements, assumptions, design of external contraction elements, band type brakes.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5 (8 lectures)
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Design of transmission elements: spur, helical, bevel and worm gears; Springs: stresses in helical springs, deflection of helical compression and tension springs, springs subjected to fatigue loading, concentric and helical torsion spring, critical frequency of springs, leaf springs, and design of automotive leaf springs.
+                </p><br>
+ 
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURCES OUTCOMES
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;">
+                  Upon completion of this course, students will get an overview of the design methodologies employed for the design of various machine components.
+                 </p><br>
+                 <h6 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Data books allowed for Examination:
+                </h6><br>
+                <p style="text-align: justify; font-family: roboto;">
+                  Mahadevan & Balaveera Reddy : Design Data Hand Book.
+                 </p><br>
+                 <p style="text-align: justify; font-family: roboto;">
+                  Dr. Linghaigh & Prof. Narayana Iyengar, Vol.1 & 2 : Design Data Hand Book.
+                 </p><br>
+                 <p style="text-align: justify; font-family: roboto;">
+                  P.S.G. Tech : Design Data Hand Book.
+                 </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> TEXT BOOKS</h5><br>
+                   
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        Egor Shigley, J.E. and Mischke, C.R., Mechanical Engineering Design, Fifth Edition, McGraw-Hill International; 1989.
+                    </p><br>
+
+                
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          Deutschman, D., Michels, W.J. and Wilson, C.E., Machine Design Theory and Practice, Macmillan, 1992.
+                         </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            Juvinal, R.C., Fundamentals of Machine Component Design, John Wiley, 1994.
+                          </p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              Spottes, M.F., Design of Machine elements, Prentice-Hall India, 1994. </p><br>
+                              
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                R. L. Norton, Mechanical Design – An Integrated Approach, Prentice Hall, 1998. </p><br>
+
+                             <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> LABORATORY</h5><br>
+                                <p style="text-align: justify; font-family: roboto;">
+                                  To study the design procedure of Knuckle & Cotter joint. </p><br>
+                                  <p style="text-align: justify; font-family: roboto;">
+                                    Design of shafts subjected to torsion, bending moment and combined bending and torsion.</p><br>
+                                    <p style="text-align: justify; font-family: roboto;">
+                                      Design of flat and square key.
+                                     </p><br>
+                                      <p style="text-align: justify; font-family: roboto;">
+                                        Design and drawing of riveted joints.</p><br>
+                                        <p style="text-align: justify; font-family: roboto;">
+                                          Design and drawing of screw jack. </p><br>
+                                          <p style="text-align: justify; font-family: roboto;">
+                                            Journal Bearing Test Rig.</p><br>
+                                            
+                                           
+                            
+          </div>
+        </div>
+       
+       
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFour" style="text-align: center;">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+             <h1>   Graduate Employability Skills and Competitive Courses (GATE, IES, 
+                etc).</h1>
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"></div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingEight">
+              <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h1>   Program Elective- I</h1>
+                
+              </button>
+            </h2>
+  
+            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                
+              </div>
+            </div>
+          </div>
+         
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTen">
+              <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h1>   Program Elective- II</h1>
+                
+              </button>
+            </h2>
+  
+            <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingNine">
+              <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <h1>  Open Elective- I</h1>
+              </button>
+            </h2>
+    
+            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                
+              </div>
+            </div>
+          </div>
+      </div>
+</div>
+<div class="container-fluid gap"  style="background-color:#FF6633;">
+  <div class="container  shadow p-3 mb-5 bg-body-tertiary rounded"  style="background-color:#FF6633;">
+    <div class="row "  >
+      <div class="col-md-4 my-3  fw-bold border align-self:center">
+        <p style="font-size: 20px;">Address:- Growth Center, Jasoiya More, Aurangabad Bihar - 824102</p>
+      
+      </div><br>
+   
+
+
+      <div class="col-md-4 my-3 mx-2 fw-bold border align-self:center">
+        <p style="font-size: 20px;"><i class="bi bi-telephone"></i>Contact Number:-</i>+91-9308392306 / 9102318888 <br>9308394144 / 9334127770 / 9322698410</p><br>
+   
+      </div>
+   
+
+      <div class="col-md-3 my-3 fw-bold border align-self:center">
+        <p style="font-size:20px;"><i class="bi bi-envelope"></i>Email:- Sityog@gmail.com</p><br>
+        <p style="font-size:20px;">yahoo:-Sityog@yahoo.com</p>
+      </div>
+      <div class="col-md-6 border my-3">
+        <a href="https://www.facebook.com/sityogaurangabad"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+        <a href="https://www.youtube.com/channel/UCqLpIqvF3GldPpZWso6AIlg"><i class="bi bi-youtube" style="font-size: 30px; color:red; padding-left: 15px;"></i></a>
+        <a href="https://www.instagram.com/sityog_institute_of_technology/?hl=en"><i class="bi bi-instagram" style="font-size: 30px; color:blue; padding-left: 15px;"></i></a>
+     <a href=""></a>
+      </div>
+    </div>
+      <div class="row border align-self:center">
+        <div class="col-md-6">
+          <div class="detailTab-section-title">
+            <div class="detailTab-title">
+                <h4 >Important Links</h4>
+           
+            </div>
+          </div>
+          <a href="http://www.beu-bih.ac.in/BEUP/Default.aspx">    <li class=" fw-bold text-white">Bihar Engineering University</li></a>
+          <a href="http://www.sityog.edu.in/alumni/"><li class=" fw-bold">Alumini</li></a>
+          <a href="https://swayam.gov.in/">    <li class=" fw-bold">Online Classes</li></a>
+          <a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">    <li class=" fw-bold">Student Credit Card Apply</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">B.tech Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BCA Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BBA Syllabus</li></a>
+          <a href="http://sbteonline.in/syllabus">    <li class=" fw-bold">Diploma Syllabus</li></a>
+          <a href=" https://results.akuexam.net/"><li class=" fw-bold">AKU Result</li></a>
+          <a href=" https://www.akubihar.com//"><li class=" fw-bold">AKu Previous Year Question</li></a>
+        </div>
+      </div>
+    </div>
+</div>
+  
+<footer class="bg-custom text-white py-2 text-center ">&copy Designed By  Vandna Kumari</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+ </body>
+</html

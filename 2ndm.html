@@ -1,0 +1,878 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sityog Institute of Technology </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        p{
+          font-size:20px ;
+        }
+          .accordion-button
+  {
+   background-color: purple;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+  }
+   button:hover{
+     background-color:#FF6633 ;
+     color:white;
+     border-radius: 30px;
+  
+   }
+   .dropdown-submenu {
+       position: relative;
+     }
+     
+     .dropdown-submenu .dropdown-menu {
+       top: 0;
+       left: 100%;
+       margin-top: -1px;
+     } .navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+      </style>
+</head>
+  <body >
+    <img src="image/download.png"width="100%", height="150px">
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+    <header class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#"><p style="text-align: justify;">Welcome to Smart Sityog</p></a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="institute.html"text-white fw-bold>About Institute</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="vision.html"text-white fw-bold>Vision & Mission</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="board.html"text-white fw-bold>Board Of Management</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="chairman.html"text-white fw-bold>Chairman Message</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="secretary.html"text-white fw-bold>Secretary Message</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="approve.html"text-white fw-bold>Approval & Affiliation</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   ADMISSION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Apply Now <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="registration.html">Apply For B.Tech, BBA ,BCA,BA(J&MC)</a></li>
+                        <li><a tabindex="-1" href="https://bceceboard.bihar.gov.in/">Apply For Diploma</a></li>
+                        <li><a tabindex="-1" href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">Apply For Student Credit Card</a></li>
+                       
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X2dq1ElIqKtn91-rE8e9uIUzd6OgthwF/view?usp=drivesdk">Registration Form</a></li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X3QoQcHpv-6GPBQX5NaXHUaeCioAKgoU/view?usp=drivesdk">Prospectus</a></li>
+                    <li><a tabindex="-1" href="fee.html">Fee Structure</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">U.G(UNDER GRADUATION) <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="btech.html">B.Tech</a></li>
+                        <li><a tabindex="-1" href="bca.html">BCA</a></li>
+                        <li><a tabindex="-1" href="bba.html">BBA</a></li>
+                        <li><a tabindex="-1" href="bj.html">BA(J&MC)</a></li>
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="diploma.html">Diploma</a></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                  Facilities & Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="workshop.html"text-white fw-bold>Workshops</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="library.html"text-white fw-bold>Library</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="lab.html"text-white fw-bold>Lab Testing</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="wifi.html"text-white fw-bold>Wifi-Campus</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="computer.html"text-white fw-bold>Hi-tech Computer Lab</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="transport.html"text-white fw-bold>Transportation</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sports.html"text-white fw-bold>Sports Facilities</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="hostel.html"text-white fw-bold>Hostel & Mess</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="hall.html"text-white fw-bold>Seminar-Hall</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="temple.html"text-white fw-bold>Temple</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white fw-bold" href="faculty.html"text-white fw-bold>Faculty List</a>
+                </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Placement
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="recruiters.html"text-white fw-bold>Our Top Recruiters</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="tpo.html"text-white fw-bold>Training Placement Officer(T.P.O)</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2017.html"text-white fw-bold>Campus Placement 2017</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2018.html"text-white fw-bold>Campus Placement 2018</a></li>
+                     <li><a class="dropdown-item text-fw-bold" href="2019.html"text-white fw-bold>Campus Placement 2019</a></li>
+               
+                     <li><a class="dropdown-item text-fw-bold" href="2021.html"text-white fw-bold>Campus Placement 2021</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2022.html"text-white fw-bold>Campus Placement 2022</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sit/upload-placement.php"text-white fw-bold>Latest Placement</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="facilities.html"text-white fw-bold>Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>Login Now</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        </div>
+      </header>
+      <a href="registration.html"><div class="fixed-icon"><img src="https://www.sityog.edu.in/images/applynow1.gif" style="width: 100px;height: 100px;"></div></a>
+<div class="container-fluid gap ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingOne" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          <h1>    Chemistry</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse  border shadow p-3 mb-5 bg-body-tertiary rounded" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded"><h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: ATOMIC AND MOLECULAR STRUCTURE (10 LECTURES)
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">FAILURE OF CLASSICAL NEWTONIAN AND MAXWELL WAVE MECHANICS TO EXPLAIN 
+              PROPERTIES OF PARTICLES AT ATOMIC AND SUB-ATOMIC LEVEL; ELECTROMAGNETIC 
+              RADIATION, DUAL NATURE OF ELECTRON AND ELECTROMAGNETIC RADIATION, PLANK’S THEORY, 
+              PHOTOELECTRIC EFFECT AND HEISENBERG UNCERTAINTY PRINCIPLE. FAILURE OF EARLIER 
+              THEORIES TO EXPLAIN CERTAIN PROPERTIES OF MOLECULES LIKE PARAMAGNETIC PROPERTIES. 
+              PRINCIPLES FOR COMBINATION OF ATOMIC ORBITALS TO FORM MOLECULAR ORBITALS. 
+              FORMATION OF HOMO AND HETERO DIATOMIC MOLECULES AND PLOTS OF ENERGY LEVEL 
+              DIAGRAM OF MOLECULAR ORBITALS. COORDINATION NUMBERS AND GEOMETRIES, ISOMERISM 
+              IN TRANSITIONAL METAL COMPOUNDS, CRYSTAL FIELD THEORY AND THE ENERGY LEVEL 
+              DIAGRAMS FOR TRANSITION METAL IONS AND THEIR MAGNETIC PROPERTIES.</p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: SPECTROSCOPIC TECHNIQUES AND APPLICATIONS (8 LECTURES)</h5><br>
+              <p style="text-align: justify; font-family: roboto;" >PRINCIPLES OF VIBRATIONAL AND ROTATIONAL SPECTROSCOPY AND SELECTION RULES 
+                FOR APPLICATION IN DIATOMIC MOLECULES. ELEMENTARY IDEA OF ELECTRONIC 
+                SPECTROSCOPY. UV-VIS SPECTROSCOPY WITH RELATED RULES AND ITS APPLICATIONS. 
+                FLUORESCENCE AND ITS APPLICATIONS IN MEDICINE. BASIC PRINCIPLE OF NUCLEAR 
+                MAGNETIC RESONANCE AND ITS APPLICATION. BASICS OF MAGNETIC RESONANCE IMAGING.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3: INTERMOLECULAR FORCES AND PROPERTIES OF GASES (4 LECTURES)</h5><br>
+              <p style="text-align: justify; font-family: roboto;">IONIC, DIPOLAR AND VAN DER WAALS INTERACTIONS. EQUATIONS OF STATE OF IDEAL 
+                AND REAL GASES, DEVIATION FROM IDEAL BEHAVIOUR. VANDER WAAL GAS EQUATION.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4: USE OF FREE ENERGY IN CHEMICAL EQUILIBRIA & WATER CHEMISTRY (8 
+                  LECTURES)</h5><br>
+              <p style="text-align: justify; font-family: roboto;">THERMODYNAMIC FUNCTIONS: ENERGY, ENTHALPY ENTROPY AND FREE ENERGY. 
+                EQUATIONS TO INTERRELATE THERMODYNAMIC PROPERTIES. FREE ENERGY, EMF. AND CELL 
+                POTENTIALS, THE NERNST EQUATION AND APPLICATIONS. CORROSION. USE OF FREE ENERGY 
+                CONSIDERATIONS IN METALLURGY THROUGH ELLINGHAM DIAGRAMS. SOLUBILITY EQUILIBRIA.
+                WATER CHEMISTRY, HARD AND SOFT WATER. PARAMETERS OF QUALITY OF WATER TO 
+                BE USED IN DIFFERENT INDUSTRIES AS FOR DRINKING WATER. CALCULATION OF HARDNESS 
+                OF WATER IN ALL UNITS. ESTIMATION OF HARDNESS USING EDTA AND ALKALINITY METHOD. 
+                REMOVAL OF HARDNESS BY SODA LIME AND ION EXCHANGE METHOD INCLUDING ZEOLITE 
+                METHOD.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: PERIODIC PROPERTIES (4 LECTURES)</h5><br>
+              <p style="text-align: justify; font-family: roboto;">EFFECTIVE NUCLEAR CHARGE, PENETRATION OF ORBITALS, VARIATIONS OF S, P, D 
+                AND F ORBITAL ENERGIES OF ATOMS IN THE PERIODIC TABLE, ELECTRONIC CONFIGURATIONS,ATOMIC AND IONIC SIZES, IONIZATION ENERGIES, ELECTRON AFFINITY AND 
+                ELECTRONEGATIVITY, POLARIZABILITY, ACID, BASE, PRINCIPLE OF HSAB THEORY, 
+                OXIDATION STATES, HYBRIDIZATION AND MOLECULAR GEOMETRIES.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6: STEREOCHEMISTRY (4 LECTURES)</h5><br>
+                <p style="text-align: justify; font-family: roboto;">REPRESENTATIONS OF 3-D STRUCTURES, STRUCTURAL ISOMERS AND STEREOISOMERS, 
+                  CONFIGURATIONS AND SYMMETRY AND CHIRALITY, ENANTIOMERS, DIASTEREOMERS, OPTICAL 
+                  ACTIVITY, ABSOLUTE CONFIGURATIONS AND CONFORMATIONAL ANALYSIS.
+                  </p><br>
+
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 7: ORGANIC REACTIONS AND SYNTHESIS OF A DRUG MOLECULE (4 LECTURES)</h5><br>
+                  <p style="text-align: justify; font-family: roboto;">INTRODUCTION TO INTERMEDIATES AND REACTIONS INVOLVING SUBSTITUTION, 
+                    ADDITION, ELIMINATION, OXIDATION- REDUCTION, DIELS ELDER CYCLIZATION AND 
+                    EPOXIDE RING OPENINGS REACTIONS. SYNTHESIS OF A COMMONLY USED DRUG MOLECULE 
+                    LIKE ASPIRIN.
+                    </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                      UNIVERSITY CHEMISTRY, BY B. H. MAHAN  </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        CHEMISTRY: PRINCIPLES AND APPLICATIONS, BY M. J. SIENKO AND R. A. PLANE </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          FUNDAMENTALS OF MOLECULAR SPECTROSCOPY, BY C. N. BANWELL  </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            ENGINEERING CHEMISTRY (NPTEL WEB-BOOK), BY B. L. TEMBE, KAMALUDDIN AND M. 
+                            S. KRISHNAN</p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              PHYSICAL CHEMISTRY, BY P. W. ATKINS </p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                ORGANIC CHEMISTRY: STRUCTURE AND FUNCTION BY K. P. C. VOLHARDT AND N. E. 
+                                SCHORE, 5TH EDITION </p><br>
+                             
+                                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+                                </h5><br>
+                                <p style="text-align: justify; font-family: roboto;">THE CONCEPTS DEVELOPED IN THIS COURSE WILL AID IN QUANTIFICATION OF
+                                  SEVERAL CONCEPTS IN CHEMISTRY THAT HAVE BEEN INTRODUCED AT THE 10+2 LEVELS IN 
+                                  SCHOOLS. TECHNOLOGY IS BEING INCREASINGLY BASED ON THE ELECTRONIC, ATOMIC AND 
+                                  MOLECULAR LEVEL MODIFICATIONS.<br>
+                                  QUANTUM THEORY IS MORE THAN 100 YEARS OLD AND TO UNDERSTAND PHENOMENA AT 
+                                  NANOMETER LEVELS, ONE HAS TO BASE THE DESCRIPTION OF ALL CHEMICAL PROCESSES AT 
+                                  MOLECULAR LEVELS. THE COURSE WILL ENABLE THE STUDENT TO: ANALYSE MICROSCOPIC 
+                                  CHEMISTRY IN TERMS OF ATOMIC AND MOLECULAR ORBITALS AND INTERMOLECULAR FORCES.
+                                  RATIONALISE BULK PROPERTIES AND PROCESSES USING THERMODYNAMIC CONSIDERATIONS.
+                                  DISTINGUISH THE RANGES OF THE ELECTROMAGNETIC SPECTRUM USED FOR EXCITING 
+                                  DIFFERENT MOLECULAR ENERGY LEVELS IN VARIOUS SPECTROSCOPIC TECHNIQUES
+                                  RATIONALISE PERIODIC PROPERTIES SUCH AS IONIZATION POTENTIAL, ELECTRONEGATIVITY, 
+                                  OXIDATION STATES AND ELECTRONEGATIVITY.LIST MAJOR CHEMICAL REACTIONS THAT ARE 
+                                  USED IN THE SYNTHESIS OF MOLECULES.
+                                  </p><br>
+
+                                  <h5 style="font-family: roboto; color:brown;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded ">CHEMISTRY LABORATORY   </h5><br>
+                                <p style="text-align: justify; font-family: roboto;">
+                                  CHOICE OF 10-12 EXPERIMENTS FROM THE FOLLOWING<br>
+                                  <li>DETERMINATION OF SURFACE TENSION AND VISCOSITY</li>
+                                  <li>THIN LAYER CHROMATOGRAPHY</li>
+                                  <li>ION EXCHANGE COLUMN FOR REMOVAL OF HARDNESS OF WATER</li>
+                                  <li>DETERMINATION OF CHLORIDE CONTENT OF WATER </li>
+                                  <li>COLLIGATIVE PROPERTIES USING FREEZING POINT DEPRESSION</li>
+                                  <li> DETERMINATION OF THE RATE CONSTANT OF A REACTION</li>
+                                  <li>DETERMINATION OF CELL CONSTANT AND CONDUCTANCE OF SOLUTIONS</li>
+                                  <li>POTENTIOMETRY - DETERMINATION OF REDOX POTENTIALS AND EMFS</li>
+                                  <li>SYNTHESIS OF A POLYMER/DRUG</li>
+                                  <li>SAPONIFICATION/ACID VALUE OF AN OIL</li>
+                                  <li> CHEMICAL ANALYSIS OF A SALT</li>
+                                  <li>LATTICE STRUCTURES AND PACKING OF SPHERES</li>
+                                  <li>USE OF THE CAPILLARY VISCOSIMETERS TO THE DEMONSTRATE OF THE ISOELECTRIC 
+                                    POINT AS THE PH OF MINIMUM VISCOSITY FOR GELATIN SOLS AND/OR COAGULATION 
+                                    OF THE WHITE PART OF EGG.</li>
+                                 
+                                  </p><br>
+                                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">LABORATORY OUTCOMES
+                                  </h5><br>
+                                  <p style="text-align: justify; font-family: roboto;">THE CHEMISTRY LABORATORY COURSE WILL CONSIST OF EXPERIMENTS 
+                                    ILLUSTRATING THE PRINCIPLES OF CHEMISTRY RELEVANT TO THE STUDY OF SCIENCE AND 
+                                    ENGINEERING. THE STUDENTS WILL LEARN TO: ESTIMATE RATE CONSTANTS OF REACTIONS 
+                                    FROM CONCENTRATION OF REACTANTS/PRODUCTS AS A FUNCTION OF TIME MEASURE 
+                                    MOLECULAR/SYSTEM PROPERTIES SUCH AS SURFACE TENSION, VISCOSITY, CONDUCTANCE OF 
+                                    SOLUTIONS, REDOX POTENTIALS, CHLORIDE CONTENT OF WATER, ETC SYNTHESIZE A SMALL 
+                                    DRUG MOLECULE AND ANALYSE A SALT SAMPLE
+                                    </p><br>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwo" style="text-align: center;">
+              <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <h1>    Mathematics –II (ODE & Complex Variables)</h1>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <h5 style="font-family: roboto; color:brown;" >DETAILED CONTENTS
+              </h5><br><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: MULTIVARIABLE CALCULUS (INTEGRATION): (10 LECTURES)
+
+  
+  
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">MULTIPLE INTEGRATION: DOUBLE INTEGRALS (CARTESIAN), CHANGE OF ORDER OF 
+                INTEGRATION IN DOUBLE INTEGRALS, CHANGE OF VARIABLES (CARTESIAN TO POLAR), 
+                APPLICATIONS: AREAS AND VOLUMES, CENTER OF MASS AND GRAVITY (CONSTANT AND 
+                VARIABLE DENSITIES); TRIPLE INTEGRALS (CARTESIAN), ORTHOGONAL CURVILINEAR 
+                COORDINATES, SIMPLE APPLICATIONS INVOLVING CUBES, SPHERE AND RECTANGULAR 
+                PARALLELEPIPEDS; SCALAR LINE INTEGRALS, VECTOR LINE INTEGRALS, SCALAR SURFACE 
+                INTEGRALS, VECTOR SURFACE INTEGRALS, THEOREMS OF GREEN, GAUSS AND STOKES.
+                  
+                </p><br>
+  
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: FIRST ORDER ORDINARY DIFFERENTIAL EQUATIONS: (6 LECTURES)
+
+  
+              </h5><br>
+                <p style="text-align: justify; font-family: roboto;">EXACT, LINEAR AND BERNOULLI’S EQUATIONS, EULER’S EQUATIONS, EQUATIONS NOT 
+                    OF FIRST DEGREE: EQUATIONS SOLVABLE FOR P, EQUATIONS SOLVABLE FOR Y, EQUATIONS 
+                    SOLVABLE FOR X AND CLAIRAUT’S TYPE.
+                  </p><br>
+
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 3: ORDINARY DIFFERENTIAL EQUATIONS OF HIGHER ORDERS: (8 LECTURE)</h5><br>
+                  <p style="text-align: justify; font-family: roboto;">SECOND ORDER LINEAR DIFFERENTIAL EQUATIONS WITH VARIABLE COEFFICIENTS, 
+                    METHOD OF VARIATION OF PARAMETERS, CAUCHY-EULER EQUATION; POWER SERIES 
+                    SOLUTIONS; LEGENDRE POLYNOMIALS, BESSEL FUNCTIONS OF THE FIRST KIND AND THEIR 
+                    PROPERTIES.
+                      
+                    </p><br>
+      
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 4: COMPLEX VARIABLE – DIFFERENTIATION: (8 LECTURES)
+
+    
+      
+                  </h5><br>
+                    <p style="text-align: justify; font-family: roboto;">DIFFERENTIATION, CAUCHY-RIEMANN EQUATIONS, ANALYTIC FUNCTIONS, HARMONIC 
+                        FUNCTIONS, FINDING HARMONIC CONJUGATE; ELEMENTARY ANALYTIC FUNCTIONS
+                        (EXPONENTIAL, TRIGONOMETRIC, LOGARITHM) AND THEIR PROPERTIES; CONFORMAL 
+                        MAPPINGS, MOBIUS TRANSFORMATIONS AND THEIR PROPERTIES.
+                      </p><br>
+
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: COMPLEX VARIABLE – INTEGRATION: (8 LECTURES)
+
+  
+  
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">CONTOUR INTEGRALS, CAUCHY-GOURSAT THEOREM (WITHOUT PROOF), CAUCHY 
+                        INTEGRAL FORMULA (WITHOUT PROOF), LIOUVILLE’S THEOREM AND MAXIMUM-MODULUS 
+                        THEOREM (WITHOUT PROOF); TAYLOR’S SERIES, ZEROS OF ANALYTIC FUNCTIONS, 
+                        SINGULARITIES, LAURENT’S SERIES; RESIDUES, CAUCHY RESIDUE THEOREM (WITHOUT 
+                        PROOF), EVALUATION OF DEFINITE INTEGRAL INVOLVING SINE AND COSINE, EVALUATION 
+                        OF CERTAIN IMPROPER INTEGRALS USING THE BROMWICH CONTOUR.
+                        </p><br><br>
+                          <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS / REFRENCES</h5><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        G.B. THOMAS AND R.L. FINNEY, CALCULUS AND ANALYTIC GEOMETRY, 9TH EDITION, 
+                        PEARSON, REPRINT, 2002.
+                          
+                          
+                      </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            ERWIN KREYSZIG, ADVANCED ENGINEERING MATHEMATICS, 9TH EDITION, JOHN WILEY 
+                            & SONS, 2006.
+                            
+                        </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              S. L. ROSS, DIFFERENTIAL EQUATIONS, 3RD ED., WILEY INDIA, 1984.
+                              
+                          </p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                W. E. BOYCE AND R. C. DIPRIMA, ELEMENTARY DIFFERENTIAL EQUATIONS AND 
+                                BOUNDARY.
+                               </p><br>
+                               <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                VALUE PROBLEMS, 9TH EDITION, WILEY INDIA, 2009.
+                                   </p><br>
+                                   <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    S. L. ROSS, DIFFERENTIAL EQUATIONS, 3RD ED., WILEY INDIA, 1984.
+
+                                      
+                                   </p><br>
+
+                                   <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    E. A. CODDINGTON, AN INTRODUCTION TO ORDINARY DIFFERENTIAL EQUATIONS, 
+PRENTICE HALL INDIA, 1995.
+                                   </p><br>
+                                   <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                    E. L. INCE, ORDINARY DIFFERENTIAL EQUATIONS, DOVER PUBLICATIONS, 1958.
+
+                                       </p><br>
+                                       <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                        J. W. BROWN AND R. V. CHURCHILL, COMPLEX VARIABLES AND APPLICATIONS, 7TH 
+                                        ED., MC- GRAW HILL, 2004.
+                                          
+                                       </p><br>
+
+                                       <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                        N.P. BALI AND MANISH GOYAL, A TEXT BOOK OF ENGINEERING MATHEMATICS, 
+LAXMI PUBLICATIONS, REPRINT, 2008.
+                                           </p><br>
+                                           <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                            B.S. GREWAL, HIGHER ENGINEERING MATHEMATICS, KHANNA PUBLISHERS, 36TH 
+                                            EDITION, 2010.
+                                            
+                                              
+                                           </p><br>
+                                           <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;"> THE OBJECTIVE OF THIS COURSE IS TO FAMILIARIZE THE PROSPECTIVE ENGINEERS 
+                                            WITH TECHNIQUES IN.<br><br>
+                                             MULTIVARIATE INTEGRATION, ORDINARY AND PARTIAL DIFFERENTIAL EQUATIONS AND 
+                                            COMPLEX VARIABLES. IT AIMS TO EQUIP THE STUDENTS TO DEAL WITH ADVANCED 
+                                            LEVEL OF MATHEMATICS AND APPLICATIONS THAT WOULD BE ESSENTIAL FOR THEIR 
+                                            DISCIPLINES.
+                                          </p><br>
+  
+                                          <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">THE STUDENTS WILL LEARN
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;">THE MATHEMATICAL TOOLS NEEDED IN EVALUATING MULTIPLE INTEGRALS AND THEIR 
+                                            USAGE.<br><br>
+                                             THE EFFECTIVE MATHEMATICAL TOOLS FOR THE SOLUTIONS OF DIFFERENTIAL 
+                                            EQUATIONS THAT MODEL PHYSICAL PROCESSES.<br><br>
+                                             THE TOOLS OF DIFFERENTIATION AND INTEGRATION OF FUNCTIONS OF A COMPLEX 
+                                            VARIABLE THAT ARE USED IN VARIOUS TECHNIQUES DEALING ENGINEERING PROBLEMS.
+                                            
+                                          </p><br>
+     
+                                                                                                                                             
+                               </div>
+            </div>
+          </div>
+          <div class="accordion-item  ">
+            <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingThree" style="text-align: center;">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <h1>  Programming for Problem Solving</h1>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 1: INTRODUCTION TO PROGRAMMING (6 LECTURES)
+  
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">INTRODUCTION TO COMPONENTS OF A COMPUTER SYSTEM (DISKS, MEMORY, PROCESSOR, 
+                WHERE A PROGRAM IS STORED AND EXECUTED, OPERATING SYSTEM, COMPILERS ETC). IDEA 
+                OF ALGORITHM: STEPS TO SOLVE LOGICAL AND NUMERICAL PROBLEMS. REPRESENTATION OF
+                ALGORITHM: FLOWCHART/PSEUDO CODE WITH EXAMPLES. FROM ALGORITHMS TO PROGRAMS; 
+                SOURCE CODE, VARIABLES (WITH DATA TYPES) VARIABLES AND MEMORY LOCATIONS, TYPE 
+                CASTING/TYPE CONVERSION, RUN TIME ENVIRONMENT (STATIC, DYNAMIC LOCATION), 
+                STORAGE CLASSES (AUTO, REGISTER, STATIC, EXTERN), SYNTAX AND LOGICAL ERRORS IN 
+                COMPILATION, OBJECT AND EXECUTABLE CODE.</p><br>
+  
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 2: OPERATORS (3 LECTURES)</h5><br>
+                <p style="text-align: justify; font-family: roboto;">ARITHMETIC EXPRESSIONS/ARITHMETIC OPERATORS/RELATIONAL OPERATORS/LOGICAL 
+                  OPERATORS/BITWISE OPERATORS AND PRECEDENCE. 
+                  </p><br>
+  
+                  <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 3: CONDITIONAL BRANCHING AND LOOPS (5 LECTURES)</h5><br>
+                <p style="text-align: justify; font-family: roboto;">WRITING AND EVALUATION OF CONDITIONALS AND CONSEQUENT BRANCHING, 
+                  ITERATION AND LOOPS.
+                  
+                  </p><br>
+  
+                  <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">MODULE 4: ARRAYS (4 LECTURES)</h5><br>
+                <p style="text-align: justify; font-family: roboto;">ARRAY DECLARATION & INITIALIZATION, BOUND CHECKING ARRAYS (1-D, 2-D), 
+                  CHARACTER ARRAYS AND STRINGS.
+                  </p><br>
+  
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 5: BASIC ALGORITHMS (6 LECTURES)</h5><br>
+                <p style="text-align: justify; font-family: roboto;">SEARCHING (LINEAR SEARCH, BINARY SEARCH ETC.), BASIC SORTING ALGORITHMS 
+                  (BUBBLE, INSERTION AND SELECTION), FINDING ROOTS OF EQUATIONS, NOTION OF ORDER 
+                  OF COMPLEXITY THROUGH EXAMPLE PROGRAMS (NO FORMAL DEFINITION REQUIRED) .
+                  </p><br>
+  
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 6: FUNCTION (4 LECTURES)</h5><br>
+                  <p style="text-align: justify; font-family: roboto;">INTRODUCTION & WRITING FUNCTIONS, SCOPE OF VARIABLES FUNCTIONS (INCLUDING 
+                    USING BUILT IN LIBRARIES), PARAMETER PASSING IN FUNCTIONS, CALL BY VALUE, 
+                    PASSING ARRAYS TO FUNCTIONS: IDEA OF CALL BY REFERENCE.
+                    </p><br>
+  
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 7: RECURSION (5 LECTURES)</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">IRECURSION, AS A DIFFERENT WAY OF SOLVING PROBLEMS. EXAMPLE PROGRAMS, SUCH 
+                      AS FINDING FACTORIAL, FIBONACCI SERIES, REVERSE A STRING USING RECURSION, AND 
+                      GCD OF TWO NUMBERS, ACKERMAN FUNCTION ETC. QUICK SORT OR MERGE SORT.
+                      </p><br>
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 8: STRUCTURE/UNION (3 LECTURES)</h5><br>
+                      <p style="text-align: justify; font-family: roboto;">STRUCTURES, ACCESSING STRUCTURE ELEMENTS, WAY OF STORAGE OF STRUCTURE 
+                        ELEMENT, DEFINING STRUCTURES AND ARRAY OF STRUCTURES, BASIC DEFINITION OF UNION,
+                        COMPARISON B/W STRUCTURE & UNION WITH EXAMPLE.
+                        </p><br>
+      
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 9: POINTERS (5 LECTURES)</h5><br>
+                        <p style="text-align: justify; font-family: roboto;">IDEA OF POINTERS, DEFINING POINTERS, USE OF POINTERS IN SELF-REFERENTIAL 
+                          STRUCTURES, NOTION OF LINKED LIST (NO IMPLEMENTATION), POINTER TO POINTER, 
+                          POINTER TO ARRAY, POINTER TO STRINGS, ARRAY OF POINTER, POINTER TO FUNCTION, 
+                          POINTER TO STRUCTURE.
+                          
+                          </p><br>
+                          <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">MODULE 10: FILE HANDLING </h5><br>
+                        <p style="text-align: justify; font-family: roboto;">(ONLY IF TIME IS AVAILABLE, OTHERWISE SHOULD BE DONE AS PART OF THE LAB)
+                          
+                          </p><br>
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        BYRON GOTTFRIED, SCHAUM'S OUTLINE OF PROGRAMMING WITH C, MCGRAW-HILL </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          E. BALAGURUSWAMY, PROGRAMMING IN ANSI C, TATA MCGRAW-HILL</p><br>
+  
+                          <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED REFERENCE BOOKS</h5><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            BRIAN W. KERNIGHAN AND DENNIS M. RITCHIE, THE C PROGRAMMING LANGUAGE, 
+                            PRENTICE HALL OF INDIA </p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              YASHWANT KANETKAR, LET US C, BPB PUBLICATION</p><br>
+                        
+                               
+                                
+  
+                                    <h5 style="font-family: roboto; color:brown;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">THE STUDENT WILL LEARN   </h5><br>
+                                  <p style="text-align: justify; font-family: roboto;">
+                                   
+                                    <li>TO FORMULATE SIMPLE ALGORITHMS FOR ARITHMETIC AND LOGICAL PROBLEMS.</li>
+                                    <li>TO TRANSLATE THE ALGORITHMS TO PROGRAMS (IN C LANGUAGE).</li>
+                                    <li>TO TEST AND EXECUTE THE PROGRAMS AND CORRECT SYNTAX AND LOGICAL ERRORS.</li>
+                                    <li>TO IMPLEMENT CONDITIONAL BRANCHING, ITERATION AND RECURSION. </li>
+                                    <li>TO DECOMPOSE A PROBLEM INTO FUNCTIONS AND SYNTHESIZE A COMPLETE PROGRAM 
+                                      USING DIVIDE AND CONQUER APPROACH.</li>
+                                    <li>TO USE ARRAYS, POINTERS AND STRUCTURES TO FORMULATE ALGORITHMS AND 
+                                      PROGRAMS.
+                                      </li>
+                                    <li>TO APPLY PROGRAMMING TO SOLVE MATRIX ADDITION AND MULTIPLICATION 
+                                      PROBLEMS AND SEARCHING AND SORTING PROBLEMS.</li>
+                                    <li>TO APPLY PROGRAMMING TO SOLVE SIMPLE NUMERICAL METHOD PROBLEMS, NAMELY 
+                                      ROT FINDING OF FUNCTION, DIFFERENTIATION OF FUNCTION AND SIMPLE 
+                                      INTEGRATION.</li>
+                                   
+                                    </p><br>
+                                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">LABORATORY OUTCOMES
+                                    </h5><br>
+                                    <p style="text-align: justify; font-family: roboto;">THE CHEMISTRY LABORATORY COURSE WILL CONSIST OF EXPERIMENTS 
+                                      ILLUSTRATING THE PRINCIPLES OF CHEMISTRY RELEVANT TO THE STUDY OF SCIENCE AND 
+                                      ENGINEERING. THE STUDENTS WILL LEARN TO: ESTIMATE RATE CONSTANTS OF REACTIONS 
+                                      FROM CONCENTRATION OF REACTANTS/PRODUCTS AS A FUNCTION OF TIME MEASURE 
+                                      MOLECULAR/SYSTEM PROPERTIES SUCH AS SURFACE TENSION, VISCOSITY, CONDUCTANCE OF 
+                                      SOLUTIONS, REDOX POTENTIALS, CHLORIDE CONTENT OF WATER, ETC SYNTHESIZE A SMALL 
+                                      DRUG MOLECULE AND ANALYSE A SALT SAMPLE
+                                      </p><br></div>
+                                      <h5 style="font-family: roboto; color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"> LABORATORY PROGRAMMING FOR PROBLEM SOLVING  </h5><br>
+                                      <h5 style="font-family: roboto;">[THE LABORATORY SHOULD BE PRECEDED OR FOLLOWED BY A TUTORIAL TO EXPLAIN THE 
+                                        APPROACH OR ALGORITHM TO BE IMPLEMENTED FOR THE PROBLEM GIVEN.]</h5><br>
+                                      <p style="text-align: justify; font-family: roboto;">
+                                        TUTORIAL 1: PROBLEM SOLVING USING COMPUTERS:
+                                        LAB1: FAMILIARIZATION WITH PROGRAMMING ENVIRONMENT .<br>
+                                        TUTORIAL 2: VARIABLE TYPES AND TYPE CONVERSIONS:
+                                        LAB 2: SIMPLE COMPUTATIONAL PROBLEMS USING ARITHMETIC EXPRESSIONS .<br>
+                                        TUTORIAL 3: BRANCHING AND LOGICAL EXPRESSIONS:
+                                        LAB 3: PROBLEMS INVOLVING IF-THEN-ELSE STRUCTURES .<br>
+                                        TUTORIAL 4: LOOPS, WHILE AND FOR LOOPS:LAB 4: ITERATIVE PROBLEMS E.G., SUM OF SERIES.<br>
+                                        TUTORIAL 5: 1D ARRAYS: SEARCHING, SORTING:
+                                        LAB 5: 1D ARRAY MANIPULATION.<br>
+                                        TUTORIAL 6: 2D ARRAYS AND STRINGS
+                                        LAB 6: MATRIX PROBLEMS, STRING OPERATIONS.<br>
+                                        TUTORIAL 7: FUNCTIONS, CALL BY VALUE:
+                                        LAB 7: SIMPLE FUNCTIONS.<br>
+                                        TUTORIAL 8: NUMERICAL METHODS (ROOT FINDING, NUMERICAL DIFFERENTIATION, 
+                                        NUMERICAL INTEGRATION):
+                                        LAB 8: PROGRAMMING FOR SOLVING NUMERICAL METHODS PROBLEMS.<br>
+                                        TUTORIAL 9: RECURSION, STRUCTURE OF RECURSIVE CALLS
+                                        LAB 9: RECURSIVE FUNCTIONS.<br>
+                                        TUTORIAL 10: POINTERS, STRUCTURES AND DYNAMIC MEMORY ALLOCATION
+                                        LAB 10: POINTERS AND STRUCTURES.<br>
+                                        TUTORIAL 11: FILE HANDLING:
+                                        LAB 11: FILE OPERATIONS.<br>
+                                        </p><br>
+                                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">LABORATORY OUTCOMES
+                                        </h5><br>
+                                        <p style="text-align: justify; font-family: roboto;"> TO FORMULATE THE ALGORITHMS FOR SIMPLE PROBLEMS
+                                         <br>  TO TRANSLATE GIVEN ALGORITHMS TO A WORKING AND CORRECT PROGRAM.<br>
+                                           TO BE ABLE TO CORRECT SYNTAX ERRORS AS REPORTED BY THE COMPILERS.<br>
+                                           TO BE ABLE TO IDENTIFY AND CORRECT LOGICAL ERRORS ENCOUNTERED AT RUN 
+                                          TIME.<br>
+                                           TO BE ABLE TO WRITE ITERATIVE AS WELL AS RECURSIVE PROGRAMS.<br>
+                                           TO BE ABLE TO REPRESENT DATA IN ARRAYS, STRINGS AND STRUCTURES AND 
+                                          MANIPULATE THEM THROUGH A PROGRAM.<br>
+                                           TO BE ABLE TO DECLARE POINTERS OF DIFFERENT TYPES AND USE THEM IN 
+                                          DEFINING SELF- REFERENTIAL STRUCTURES.<br>
+                                           TO BE ABLE TO CREATE, READ AND WRITE TO AND FROM SIMPLE TEXT FILES.
+                                          </p><br>
+            </div>
+          </div></div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFour" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+            <h1>  Workshop Manufacturing Practices</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto;color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">LECTURES & VIDEOS: (10 HOURS) [L: 1; T: 0; P: 0 (1 CREDIT)] 
+              </h5><br> 
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">DETAILED CONTENTS
+              </h5><br>
+            <p style="text-align: justify; font-family: roboto;">1. MANUFACTURING METHODS-CASTING, FORMING, MACHINING, JOINING, ADVANCED 
+              MANUFACTURING METHODS (3 LECTURES) <br><br>
+              2. CNC MACHINING, ADDITIVE MANUFACTURING (1 LECTURE) <br><br>
+              3. FITTING OPERATIONS & POWER TOOLS (1 LECTURE) <br><br>
+              4. CARPENTRY (1 LECTURE) <br><br>
+              5. PLASTIC MOULDING, GLASS CUTTING (1 LECTURE) <br><br>
+              6. METAL CASTING (1 LECTURE) <br><br>
+              7. WELDING (ARC WELDING & GAS WELDING), BRAZING, SOLDERING (2 LECTURE) </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">THE CONCEPTS DEVELOPED IN THIS COURSE WILL AID IN QUANTIFICATION OF
+                 UPON COMPLETION OF THIS COURSE, THE STUDENTS WILL GAIN KNOWLEDGE OF THE 
+                DIFFERENT MANUFACTURING PROCESSES WHICH ARE COMMONLY EMPLOYED IN THE 
+                INDUSTRY, TO FABRICATE COMPONENTS USING DIFFERENT MATERIALS.
+                </p><br>
+                <h5 style="font-family: roboto;color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">WORKSHOP PRACTICE: (60 HOURS) [L: 0; T: 0; P: 4 (2 CREDITS)]
+                </h5><br> 
+                <p style="text-align: justify; font-family: roboto;">1. MACHINE SHOP (10 HOURS) AND FITTING SHOP (8 HOURS) <br><br>
+                  2. CARPENTRY (6 HOURS) <br><br>
+                  3. WELDING SHOP (8 HOURS) (ARC WELDING 4 HRS + GAS WELDING 4 HRS)<br><br> 
+                  4. CASTING (8 HOURS) AND SMITHY (6 HOURS) <br><br>
+                  5. PLASTIC MOULDING & GLASS CUTTING (6 HOURS) <br><br>
+                  6. 3-D PRINTING OF DIFFERENT MODELS (8 HOURS)<br><br>
+                  EXAMINATIONS COULD INVOLVE THE ACTUAL FABRICATION OF SIMPLE COMPONENTS,
+                  UTILIZING ONE OR MORE OF THE TECHNIQUES COVERED ABOVE.
+                  
+                  </p><br>
+
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">LABORATORY OUTCOMES 
+                  </h5><br>
+                  <p style="text-align: justify; font-family: roboto;"> UPON COMPLETION OF THIS LABORATORY COURSE, STUDENTS WILL BE ABLE TO 
+                    FABRICATE COMPONENTS WITH THEIR OWN HANDS. <br><br>
+                     THEY WILL ALSO GET PRACTICAL KNOWLEDGE OF THE DIMENSIONAL ACCURACIES AND 
+                    DIMENSIONAL TOLERANCES POSSIBLE WITH DIFFERENT MANUFACTURING PROCESSES.<br><br> 
+                     BY ASSEMBLING DIFFERENT COMPONENTS, THEY WILL BE ABLE TO PRODUCE SMALL 
+                    DEVICES OF THEIR INTEREST. BY ASSEMBLING DIFFERENT COMPONENTS, THEY WILL 
+                    BE ABLE TO PRODUCE SMALL DEVICES OF THEIR INTEREST.
+                    
+                    
+                    </p><br>
+</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFive" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+             <h1> English</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h3 style="font-family: roboto;color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">DETAILED CONTENTS
+              </h3><br> 
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">1. VOCABULARY BUILDING
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">A. THE CONCEPT OF WORD FORMATION. <br><br>
+              B. ROOT WORDS FROM FOREIGN LANGUAGES AND THEIR USE IN ENGLISH. <br> <br>
+              C. ACQUAINTANCE WITH PREFIXES AND SUFFIXES FROM FOREIGN LANGUAGES IN 
+              ENGLISH TO FORM DERIVATIVES.<br><br>
+              D. SYNONYMS, ANTONYMS, AND STANDARD ABBREVIATIONS.<br><br>
+              E. AFFIXES, ACRONYMS</p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">2. BASIC WRITING SKILLS</h5><br>
+              <p style="text-align: justify; font-family: roboto;">A. SENTENCE STRUCTURES. <br><br>
+                B. USE OF PHRASES AND CLAUSES IN SENTENCES.<br><br>
+                C. IMPORTANCE OF PROPER PUNCTUATION.<br><br>
+                D. KINDS OF SENTENCES.<br><br>
+                E. USE OF TENSE, USE IN CONTEXT AND COHERENCE OF TENSE IN WRITING.<br><br> 
+                F. USE OF VOICE – ACTIVE/PASSIVE IN SENTENCES.<br><br>
+                G. USE OF SPEECH – DIRECT AND INDIRECT SPEECH.<br><br>
+                H. FRAMING QUESTIONS- DIRECT, USING MODAL VERBS.<br>
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">3. IDENTIFYING COMMON ERRORS IN WRITING</h5><br>
+              <p style="text-align: justify; font-family: roboto;">A. SUBJECT-VERB AGREEMENT.<br><br>
+                B. NOUN-PRONOUN AGREEMENT.<br><br>
+                C. MISPLACED MODIFIERS.<br><br>
+                D. ARTICLES.<br><br>
+                E. PREPOSITIONS.<br><br>
+                F. REDUNDANCIES.<br><br>
+                G. CLICHÉS.<br><br>
+                H. COMMON ENGLISH ERRORS.<br><br>
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">4. NATURE AND STYLE OF SENSIBLE WRITING</h5><br>
+              <p style="text-align: justify; font-family: roboto;">A. DESCRIBING.<br><br>
+                B. DEFINING.<br><br>
+                C. CLASSIFYING.<br><br>
+                D. PROVIDING EXAMPLES OR EVIDENCE.<br><br>
+                E. WRITING INTRODUCTION AND CONCLUSION.<br><br>
+                F. ORGANISING PRINCIPLE OF PARAGRAPHS IN DOCUMENTS.<br><br>
+                G. ARGUMENT, DESCRIBING/ NARRATING/ PLANNING, DEFINING,CLASSIFYING.<br><br>
+                H. LEXICAL RESOURCES, USING SUITABLE LANGUAGE REGISTER.<br><br>
+                I. COHERENCE, WRITING INTRODUCTION, BODY AND CONCLUSION, TECHNIQUES FOR 
+                WRITING PRECISELY,GRAMMAR AND ACCURACY.<br><br>
+                </p><br>
+
+                
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">5. WRITING PRACTICES</h5><br>
+                <p style="text-align: justify; font-family: roboto;">A. COMPREHENSION.<br><br>
+                  B. FORMAL LETTER WRITING/ APPLICATION/ REPORT WRITING/ WRITING MINUTES OF 
+                  MEETINGS .<br><br>
+                  C. ESSAY WRITING.<br><br>
+                  D. FORMAL EMAIL WRITING.<br><br>
+                  E. RESUME/ CV WRITING, COVER LETTER.<br><br> 
+                  F. STATEMENT OF PURPOSE
+                  
+                  </p><br>
+
+                  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">6. ORAL COMMUNICATION</h5><br>
+                  <h5 style="font-family: roboto;color:lightcoral;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">(THIS UNIT INVOLVES INTERACTIVE PRACTICE SESSIONS IN LANGUAGE LAB)
+
+                  </h5><br> 
+                  <p style="text-align: justify; font-family: roboto;">A. LISTENING COMPREHENSION.<br><br>
+                    B. PRONUNCIATION, INTONATION, STRESS AND RHYTHM.<br><br>
+                    C. COMMON EVERYDAY SITUATIONS: CONVERSATIONS AND DIALOGUES.<br><br>
+                    D. COMMUNICATION AT WORKPLACE.<br><br>
+                    E. INTERVIEWS.<br><br>
+                    F. FORMAL PRESENTATIONS.<br><br>
+                    G. ACQUAINTING STUDENTS WITH IPA SYMBOLS.<br><br>
+                    H. PHONETICS (BASIC) .<br><br>
+                    I. SOUNDS – VOWELS, CONSONANTS.<br><br>
+                    J. CLEARING MOTHER TONGUE INFLUENCE.<br><br> 
+                    K. CLEARING REDUNDANCIES AND COMMON ERRORS RELATED TO INDIANISMS.<br><br>
+                    L. GROUP DISCUSSION .<br><br>
+                    M. EXPRESSING OPINIONS.<br><br>
+                    N. COHERENCE AND FLUENCY IN SPEECH
+                    </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">7. READING SKILLS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">A. READING COMPREHENSION.<br><br> 
+                      B. PARAGRAPH READING BASED ON PHONETIC SOUNDS/ INTONATION.<br><br>
+                      </p><br>
+    
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">8. PROFESSIONAL SKILLS
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">A. TEAM BUILDING.<br><br> 
+                        B. SOFT SKILLS AND ETIQUETTES.<br><br>
+                        
+                        
+                        </p><br>
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">9. ACQUAINTANCE WITH TECHNOLOGY-AIDED LANGUAGE LEARNING</h5><br>
+                      <p style="text-align: justify; font-family: roboto;">
+                        A. USE OF COMPUTER SOFTWARE (GRAMMARLY, GINGER…)<br><br>
+                        B. USE OF SMARTPHONE APPLICATIONS (DUOLINGO, BUSUU…)<br><br>
+                        
+                        </p><br>
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">10. ACTIVITIES</h5><br>
+                        <p style="text-align: justify; font-family: roboto;">
+                          A. NARRATIVE CHAIN.<br><br>
+                          B. DESCRIBING/ NARRATING.<br><Br>
+                          C. WRITING ESSAYS IN RELAY .<br><br>
+                          D. PEER/ GROUP ACTIVITIES.<br><br>
+                          E. BRAINSTORMING VOCABULARY .<br><br>
+                          F. CUE / FLASH CARDS FOR VOCABULARY .<br><br>
+                          G. DEBATES.<br><br>
+                          
+                          </p><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED READINGS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                      PRACTICAL ENGLISH USAGE. MICHAEL SWAN. OUP. 1995. </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        REMEDIAL ENGLISH GRAMMAR. F.T. WOOD. MACMILLAN.2007</p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          ON WRITING WELL. WILLIAM ZINSSER. HARPER RESOURCE BOOK. 2001 </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            STUDY WRITING. LIZ HAMP-LYONS AND BEN HEASLY. CAMBRIDGE UNIVERSITY 
+                            PRESS. 2006.</p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              COMMUNICATION SKILLS. SANJAY KUMAR AND PUSHPLATA. OXFORD UNIVERSITY 
+                              PRESS. 2011.  </p><br>
+                              <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                                EXERCISES IN SPOKEN ENGLISH. PARTS. I-III. CIEFL, HYDERABAD. OXFORD 
+                                UNIVERSITY PRESS.</p><br>
+                                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+                                </h5><br>
+                                <p style="text-align: justify; font-family: roboto;">THE STUDENT WILL ACQUIRE BASIC PROFICIENCY IN ENGLISH INCLUDING READING 
+                                  AND LISTENING COMPREHENSION, WRITING AND SPEAKING SKILLS.
+                                  
+                                  </p><br>
+                              
+</div>
+          </div>
+        </div>
+        
+      </div>
+</div>
+<div class="container-fluid gap"  style="background-color:#FF6633;">
+  <div class="container  shadow p-3 mb-5 bg-body-tertiary rounded"  style="background-color:#FF6633;">
+    <div class="row "  >
+      <div class="col-md-4 my-3  fw-bold border align-self:center">
+        <p style="font-size: 20px;">Address:- Growth Center, Jasoiya More, Aurangabad Bihar - 824102</p>
+      
+      </div><br>
+   
+
+
+      <div class="col-md-4 my-3 mx-2 fw-bold border align-self:center">
+        <p style="font-size: 20px;"><i class="bi bi-telephone"></i>Contact Number:-</i>+91-9308392306 / 9102318888 <br>9308394144 / 9334127770 / 9322698410</p><br>
+   
+      </div>
+   
+
+      <div class="col-md-3 my-3 fw-bold border align-self:center">
+        <p style="font-size:20px;"><i class="bi bi-envelope"></i>Email:- Sityog@gmail.com</p><br>
+        <p style="font-size:20px;">yahoo:-Sityog@yahoo.com</p>
+      </div>
+      <div class="col-md-6 border my-3">
+        <a href="https://www.facebook.com/sityogaurangabad"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+        <a href="https://www.youtube.com/channel/UCqLpIqvF3GldPpZWso6AIlg"><i class="bi bi-youtube" style="font-size: 30px; color:red; padding-left: 15px;"></i></a>
+        <a href="https://www.instagram.com/sityog_institute_of_technology/?hl=en"><i class="bi bi-instagram" style="font-size: 30px; color:blue; padding-left: 15px;"></i></a>
+     <a href=""></a>
+      </div>
+    </div>
+      <div class="row border align-self:center">
+        <div class="col-md-6">
+          <div class="detailTab-section-title">
+            <div class="detailTab-title">
+                <h4 >Important Links</h4>
+           
+            </div>
+          </div>
+          <a href="http://www.beu-bih.ac.in/BEUP/Default.aspx">    <li class=" fw-bold text-white">Bihar Engineering University</li></a>
+          <a href="http://www.sityog.edu.in/alumni/"><li class=" fw-bold">Alumini</li></a>
+          <a href="https://swayam.gov.in/">    <li class=" fw-bold">Online Classes</li></a>
+          <a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">    <li class=" fw-bold">Student Credit Card Apply</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">B.tech Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BCA Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BBA Syllabus</li></a>
+          <a href="http://sbteonline.in/syllabus">    <li class=" fw-bold">Diploma Syllabus</li></a>
+          <a href=" https://results.akuexam.net/"><li class=" fw-bold">AKU Result</li></a>
+          <a href=" https://www.akubihar.com//"><li class=" fw-bold">AKu Previous Year Question</li></a>
+        </div>
+      </div>
+    </div>
+</div>
+  
+<footer class="bg-custom text-white py-2 text-center ">&copy Designed By Deepak Kumar, Vandna Kumari, Atul Kumar, Shakshi Gupta and Vinisha Kumari</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

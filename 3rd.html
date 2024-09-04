@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sityog Institute of Technology </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        p{
+          font-size:20px ;
+        }
+          .accordion-button
+  {
+   background-color: purple;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+  }
+   button:hover{
+     background-color:#FF6633 ;
+     color:white;
+     border-radius: 30px;
+  
+   }
+   .dropdown-submenu {
+       position: relative;
+     }
+     
+     .dropdown-submenu .dropdown-menu {
+       top: 0;
+       left: 100%;
+       margin-top: -1px;
+     } .navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+      </style>
+</head>
+  <body >
+    <img src="image/download.png"width="100%", height="150px">
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+    <header class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#"><p style="text-align: justify;">Welcome to Smart Sityog</p></a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="institute.html"text-white fw-bold>About Institute</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="vision.html"text-white fw-bold>Vision & Mission</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="board.html"text-white fw-bold>Board Of Management</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="chairman.html"text-white fw-bold>Chairman Message</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="secretary.html"text-white fw-bold>Secretary Message</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="approve.html"text-white fw-bold>Approval & Affiliation</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   ADMISSION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Apply Now <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="registration.html">Apply For B.Tech, BBA ,BCA,BA(J&MC)</a></li>
+                        <li><a tabindex="-1" href="https://bceceboard.bihar.gov.in/">Apply For Diploma</a></li>
+                        <li><a tabindex="-1" href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">Apply For Student Credit Card</a></li>
+                       
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X2dq1ElIqKtn91-rE8e9uIUzd6OgthwF/view?usp=drivesdk">Registration Form</a></li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X3QoQcHpv-6GPBQX5NaXHUaeCioAKgoU/view?usp=drivesdk">Prospectus</a></li>
+                    <li><a tabindex="-1" href="fee.html">Fee Structure</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">U.G(UNDER GRADUATION) <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="btech.html">B.Tech</a></li>
+                        <li><a tabindex="-1" href="bca.html">BCA</a></li>
+                        <li><a tabindex="-1" href="bba.html">BBA</a></li>
+                        <li><a tabindex="-1" href="bj.html">BA(J&MC)</a></li>
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="diploma.html">Diploma</a></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                  Facilities & Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="workshop.html"text-white fw-bold>Workshops</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="library.html"text-white fw-bold>Library</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="lab.html"text-white fw-bold>Lab Testing</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="wifi.html"text-white fw-bold>Wifi-Campus</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="computer.html"text-white fw-bold>Hi-tech Computer Lab</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="transport.html"text-white fw-bold>Transportation</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sports.html"text-white fw-bold>Sports Facilities</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="hostel.html"text-white fw-bold>Hostel & Mess</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="hall.html"text-white fw-bold>Seminar-Hall</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="temple.html"text-white fw-bold>Temple</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white fw-bold" href="faculty.html"text-white fw-bold>Faculty List</a>
+                </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Placement
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="recruiters.html"text-white fw-bold>Our Top Recruiters</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="tpo.html"text-white fw-bold>Training Placement Officer(T.P.O)</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2017.html"text-white fw-bold>Campus Placement 2017</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2018.html"text-white fw-bold>Campus Placement 2018</a></li>
+                     <li><a class="dropdown-item text-fw-bold" href="2019.html"text-white fw-bold>Campus Placement 2019</a></li>
+               
+                     <li><a class="dropdown-item text-fw-bold" href="2021.html"text-white fw-bold>Campus Placement 2021</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2022.html"text-white fw-bold>Campus Placement 2022</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sit/upload-placement.php"text-white fw-bold>Latest Placement</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="facilities.html"text-white fw-bold>Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>Login Now</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        </div>
+      </header>
+      <a href="registration.html"><div class="fixed-icon"><img src="https://www.sityog.edu.in/images/applynow1.gif" style="width: 100px;height: 100px;"></div></a>
+<div class="container-fluid gap ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingOne" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          <h1>    Analog Electronic
+              Circuits</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded">
+              <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Course Outcomes</b>
+              <br>At the end of this course, students will demonstrate the ability to<br>
+               Understand the characteristics of transistors.<br><br>
+               Design and analyse various rectifier and amplifier circuits.<br><br>
+               Design sinusoidal and non-sinusoidal oscillators.<br><br>
+               Understand the functioning of OP-AMP and design OP-AMP based circuits.</p><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1: Diode circuits (4 Hours)
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">P-N junction diode, I-V characteristics of a diode; review of half-wave and full-wave rectifiers, Zener 
+              diodes, clamping and clipping circuits.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2: BJT circuits (8 Hours)</h5><br>
+              <p style="text-align: justify; font-family: roboto;" >Structure and I-V characteristics of a BJT; BJT as a switch. BJT as an amplifier: small-signal model, biasing 
+                circuits, current mirror; common-emitter, common-base and common-collector amplifiers; Small signal 
+                equivalent circuits, high-frequency equivalent circuits.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3: MOSFET circuits (8 Hours)
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">MOSFET structure and I-V characteristics. MOSFET as a switch. MOSFET as an amplifier: small-signal model 
+                and biasing circuits, common-source, common-gate and common-drain amplifiers; small signal equivalent 
+                circuits - gain, input and output impedances, trans-conductance, high frequency equivalent circuit
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4: Differential, multi-stage and operational amplifiers (8 Hours)</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Differential amplifier; power amplifier; direct coupled multi-stage amplifier; internal structure of an 
+                operational amplifier, ideal op-amp, non-idealitiesin an op-amp (Output offset voltage, input bias current, 
+                input offset current, slew rate, gain bandwidth product)
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 5: Linear applications of op-amp (8 Hours)
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Idealized analysis of op-amp circuits. Inverting and non-inverting amplifier, differential amplifier, 
+                instrumentation amplifier, integrator, active filter, P,PI and PIDcontrollers andlead/lag compensator using 
+                an op-amp, voltage regulator, oscillators (Wein bridge and phase shift).
+                Analog to Digital Conversion.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 6: Nonlinear applications of op-amp (6 Hours)</h5><br>
+                <p style="text-align: justify; font-family: roboto;">Hysteretic Comparator, Zero Crossing Detector, Square-wave and triangular-wave generators. Precision 
+                  rectifier, peak detector. Monoshot.
+                  </p><br>
+
+                 
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS/ REFRENCES BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                      A. S. Sedra and K. C. Smith, “Microelectronic Circuits”, New York, Oxford University Press, 1998.  </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        J. V. Wait, L. P. Huelsman and G. A. Korn, “Introduction to Operational Amplifier theory and 
+applications”, McGraw Hill U. S., 1992. </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          J. Millman and A. Grabel, “Microelectronics”, McGraw Hill Education, 1988.  </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            P. Horowitz and W. Hill, “The Art of Electronics”, Cambridge University Press, 1989.</p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              P.R. Gray, R.G. Meyer and S. Lewis, “Analysis and Design of Analog Integrated Circuits”, John Wiley 
+                              & Sons, 2001. </p><br>
+                             
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwo" style="text-align: center;">
+            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+           <h1>   Mathematics-III 
+              (Differential
+              Calculus)</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h3 style="font-family: roboto;">Detailed Contents:</h3>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture: 6 hrs.
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;">Successive Differentiation, Leibnitz’s Theorem. Limit, Continuity and Differentiability of function for one 
+              variable.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture: 8 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;">Limit, Continuity and Differentiability of function for several variables. Partial Derivatives, Euler’s 
+                Theorem for Homogeneous functions, Total derivatives, Change of Variables. Maxima and Minima of Several Variables. Methods of Lagrange Multipliers. Taylor’s and Maclaurin’s Theorem with remainders 
+                of several variables.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3 Lecture: 8 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Vector Calculus:</b> Gradient, Divergence and Curl of a Vector and their Physical Interpretations, Vector 
+                Identities. Directional Derivatives. Line, Surface and Volume integrals, Application of Green’s, Stokes and 
+                Gauss Divergence Theorem (Without Proof). 
+                
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4 Lecture: 6 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>First Order Ordinary Differential Equations:</b> Exact, Linear and Bernoulli’s Equations, Euler’s Equations, 
+                Equations not of First Degree: Equations Solvable for P, Equations Solvable for Y, Equations Solvable 
+                for X and Clairaut’s Type.
+                
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 5 Lecture: 8 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Ordinary Differential Equations of Higher Orders:</b> Second Order Linear Differential Equations with 
+                Variable Coefficients, Method of Variation of Parameters, Cauchy-Euler Equation; Power Series 
+                Solutions; Legendre Polynomials, Bessel Functions of the First Kind and their properties.
+                
+                
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 6 Lecture: 6 hrs.
+                </h5><br>
+                <p style="text-align: justify; font-family: roboto;"><b>Partial Differential Equations – First Order: </b> Order Partial Differential Equations, Solutions of 
+                  First Order Linear and Non-Linear PDEs.
+                  
+                  </p><br>
+
+                 
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                      HAJRA CHOUDHURY S.K., HAJRA CHOUDHURY A.K. AND NIRJHAR ROY S.K., “ELEMENTS 
+OF WORKSHOP TECHNOLOGY”, VOL. I 2008 AND VOL. II 2010, MEDIA PROMOTERS 
+AND PUBLISHERS PRIVATE LIMITED, MUMBAI.  </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        KALPAKJIAN S. AND STEVEN S. SCHMID, “MANUFACTURING ENGINEERING AND 
+                        TECHNOLOGY”, 4TH EDITION, PEARSON EDUCATION INDIA EDITION, 2002. 
+                      </p><br>
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          GOWRI P. HARIHARAN AND A. SURESH BABU,”MANUFACTURING TECHNOLOGY – I” 
+                          PEARSON EDUCATION, 2008. </p><br>
+                          <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                            ROY A. LINDBERG, “PROCESSES AND MATERIALS OF MANUFACTURE”, 4TH EDITION, 
+                            PRENTICE HALL INDIA, 1998. </p><br>
+                            <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                              RAO P.N., “MANUFACTURING TECHNOLOGY”, VOL. I AND VOL. II, TATA MCGRAWHILL 
+                              HOUSE, 2017. </p><br>
+                             </div>
+          </div>
+        </div>
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingThree" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+           <h1>   Data Structure &
+              Algorithm</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded"><b>Objectives of the course:</b>
+                <br>1. To impart the basic concepts of data structures and algorithms.<br><br>
+                2. To understand concepts about searching and sorting techniques.<br><br>
+                3. To understand basic concepts about stacks, queues, lists, trees and graphs.<br><br>
+                4. To enable them to write algorithms for solving problems with the help of 
+fundamental data structures.</p><br><br><br>
+<h3 style="font-family: roboto;">Detailed Contents</h3>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture 4 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Introduction:</b> Basic Terminologies: Elementary Data Organizations, Data Structure 
+              Operations: insertion, deletion, traversal etc.; Analysis of an Algorithm, Asymptotic 
+              Notations, Time-Space trade off.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture 10 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Stacks and Queues:</b> ADT Stack and its operations: Algorithms and their complexity 
+                analysis, Applications of Stacks: Expression Conversion and evaluation – corresponding 
+                algorithms and complexity analysis. ADT queue, Types of Queue: Simple Queue, Circular 
+                Queue, Priority Queue; Operations on each Type of Queues: Algorithms and their analysis.
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">Module 3 Lecture 6 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Linked Lists:</b> Singly linked lists: Representation in memory, Algorithms of several 
+                operations: Traversing, Searching, Insertion into, Deletion from linked list; Linked 
+                representation of Stack and Queue, Header nodes, doubly linked list: operations on it and 
+                algorithmic analysis; Circular Linked Lists: all operations their algorithms and the 
+                complexity analysis.
+                </p><br>
+
+                <h5 class=" border shadow p-3 mb-5 bg-body-tertiary rounded" style="font-family: roboto;">Module 4 Lecture 12 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Searching, Sorting and Hashing:</b> Linear Search and Binary Search Techniques and their 
+                complexity analysis. Objective and properties of different sorting algorithms: Selection 
+                Sort, Bubble Sort, Insertion Sort, Quick Sort, Merge Sort, Heap Sort; Performance and 
+                Comparison among all the methods, Hashing.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 5 Lecture 8 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Trees:</b> Basic Tree Terminologies, Different types of Trees: Binary Tree, Threaded Binary 
+                Tree, Binary Search Tree, AVL Tree; Tree operations on each of the trees and their 
+                algorithms with complexity analysis. Applications of Binary Trees. B Tree, B+ Tree: 
+                definitions, algorithms and analysis.<br><br>
+               <b> Graph:</b> Basic Terminologies and Representations, Graph search and traversal algorithms 
+                and complexity analysis.
+                </p><br>
+
+               
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                      Algorithms, Data Structures, and Problem Solving with C++”, Illustrated Edition by Mark Allen Weiss, Addison-Wesley Publishing Company. </p><br>
+                      <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                        “How to Solve it by Computer”, 2nd Impression by R.G. Dromey, Pearson 
+                        Education.
+                        </p><br>
+
+                       
+                        <p style="text-align: justify; font-family: roboto;"><i class="bi bi-book" style="font-size:30px"></i>
+                          “Fundamentals of Data Structures”, Illustrated Edition by Ellis Horowitz, Sartaj 
+                          Sahni, Computer Science Press. </p><br>
+                          
+                      
+                          <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Course Outcomes 
+                          </h5><br>
+                          <p style="text-align: justify; font-family: roboto;">1. For a given algorithm student will able to analyze the algorithms to determine the 
+                            time and computation complexity and justify the correctness.<br><br>
+                            2. For a given Search problem (Linear Search and Binary Search) student will able to 
+                            implement it.<br><br>
+                            3. For a given problem of Stacks, Queues and linked list student will able to 
+                            implement it and analyze the same to determine the time and computation 
+                            complexity.<br><br>
+                            4. Student will able to write an algorithm Selection Sort, Bubble Sort, Insertion Sort, 
+                            Quick Sort, Merge Sort, Heap Sort and compare their performance in term of 
+                            Space and Time complexity.<br><br>
+                            5. Student will able to implement Graph search and traversal algorithms and 
+                            determine the time and computation complexity.
+                            
+                            
+                            </p><br>        
+                              
+
+                              
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFour" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+            <h1>  Object Oriented
+              Programming using 
+              C++</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto;color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Objectives of the course:
+              </h5><br> 
+              <p style="font-family: roboto;">
+                1. To impart the basic concepts of Object Oriented Programming.<br><br>
+                2. To understand concepts about Classes and Data Abstraction.<br><br>
+                3. To understand basic concepts about Inheritance.<br><br>
+                4. To enable them to write algorithms for solving problems using object oriented approach.<br><br>
+              </p>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">DETAILED CONTENTS
+              </h5><br>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture 3 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Introduction to C++ :</b> Object Oriented Technology, Advantages of OOP, Input- output in C++, Tokens, 
+Keywords, Identifiers, Data Types C++, Derives data types. The void data type, Type Modifiers, 
+Typecasting, Constant, Operator, Precedence of Operators, Strings.
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture: 6 hrs.</h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Control Structures and Functions: </b> making statements like if-else, Nested if-else, goto, break, 
+continue, switch case, Loop statement like for loop, nested for loop, while loop, do-while loop. Parts of 
+Function, User- defined Functions, Value- Returning Functions, void Functions, Value Parameters, 
+Function overloading, Virtual Functions.
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3 Lecture: 12 hrs.</h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Classes and Data Abstraction :</b> Structure in C++, Class, Build- in Operations on Classes, Assignment 
+Operator and Classes, Class Scope, Reference parameters and Class Objects (Variables), Member 
+functions, Accessor and Mutator Functions, Constructors, default Constructor, Destructors
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4 Lecture: 8 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Overloading, Templates and Inheritance:</b> Operator Overloading, Function Overloading, Function 
+Templates, Class Templates. Single and Multiple Inheritance, virtual Base class, Abstract Class, Pointer 
+and Inheritance, Overloading Member Function.
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 5 Lecture: 11 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Pointers, Arrays and Exception Handling:</b> Void Pointers, Pointer to Class, Pointer to Object, Void Pointer, 
+Arrays. The keywords try, throw and catch. Creating own Exception Classes, Exception Handling 
+Techniques (Terminate the Program, Fix the Error and Continue, Log the Error and Continue), Stack 
+Unwinding.
+              </p><br>
+               <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      1. The C++ Programming language 3/e by Bjarne Stroustrup, Pearson Education.<br><br>
+                      2. C++, How to Programme, 4e, by Deitel, Pearson Education.<br><br>
+                      3. Big C++ by Cay Horstmann, Wiley India.<br><br>
+                      4. C++ Primer, 3e by Stanley B. Lippmann, JoseeLajoie, Pearson Education.<br><br>
+                      5. C++ and Object Oriented Programming Paradigm, 2e by Debasish Jana, PHI.<br><br>
+                      6. Programming with C++, 2/e by Ravichandran, Tata McGraw Hill.<br><br>
+                      7. C++ Programming Black Book by Steven Holzner, Dreamtech Press.<br>
+                        </p><br>
+
+                           <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED REFRENCES BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">1. Thinking in C++, Volume 1 & 2 by Bruce Eckel, Chuck Allison, Pearson Education<br><br>
+                 2. Mastering C++, 1/e by Venugopal, Tata McGraw Hill.<br><br>
+                 3. Object Oriented Programming with C++, 3/e by E. Balaguruswamy, Tata McGraw Hill.<br><br>
+                 4. Starting Out with Object Oriented Programming in C++, by Tony Gaddis, Wiley India.<br><br>
+                        </p><br>
+              <h5 style="font-family: roboto; color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">After the completion of course, students can able to able to: <br><br>
+               1. Understand the concepts of Class, Object, Inheritance and Polymorphism.<br><br>
+               2. Apply overload operators in C++ .<br><br>
+               3. Understand the difference between function overloading and function overriding.<br><br> 
+               4. Incorporate exception handling in object-oriented programs.<br><br>
+               5. Able to use template classes.<br><br>
+               6. Able to write object-oriented programs of moderate complexity in C++.
+                </p><br>
+               
+
+                 
+</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFive" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+             <h1> Technical Writing</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+             <h5 style="font-family: roboto;color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Objectives of the course:
+              </h5><br> 
+              <p style="font-family: roboto;">
+               1. To understand the variety of structure of technical documents.<br><br>
+               2. To convey clearly, cogently and correctly, through written media, the technical aspects of a 
+                practice to audiences.<br><br>
+               3. To recognize and use of the verbal and technical elements necessary for the successful 
+                     practice of scientific and technical communication.<br><br>
+               4. To work collaboratively and individually to research, to analyze, and to write about, public  
+                  debates regarding the conduct of science and technology.<br><br>
+              </p>
+              <h5 style="font-family: roboto; color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">DETAILED CONTENTS
+              </h5><br>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture 10 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Introduction :</b> Fundamentals of Technical Writing: Need for Clear and Concise Technical Writing, 
+Attributes of Technical Writing, Types of Technical Writing, Benefits of Technical Writing, Technical, 
+Managerial and General Readers, Expressing versus Impressing, Correct use of Noun, Pronoun, Verb, 
+Adjective, Adverbs, Tense and Punctuation.
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture: 10 hrs.</h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Performing Technical Studies:</b> Types of Technical Studies, General Methodology- Proposing a Project,
+Gathering Background Information, Designing Test Plans, Performing Experiments, Reporting Results. 
+<b>Writing Strategy:</b> Analysis of Readers, Scope of Writing, Purpose and Objective. Document Options: 
+Document Hierarchy, Report Types and Selection.<b> Criteria for Good Technical Writing:</b> Technical 
+Content, Presentation, Language Skills. <b>Writing Style:</b> Elements of Style, Examples of Writing Styles, 
+Recommended Style, Learn to Prepare Effective Illustrations 
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3 Lecture: 10 hrs.</h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Formal Reports:</b> The Outline and Introduction (Outline, Title, Front Matter, Writing the Introduction), 
+Writing the Body (Writing a Procedure, Describing Machines/Processes, Writing Test Results, Writing 
+the Discussion Section), Closure (Conclusions, Recommendations, References, Abstract, Back Matter, 
+Report Distribution, Saving Reports).<b> Informal Reports:</b> Elements of an Informal Report, Investigation 
+Reports, Service Work, Action Letters and Proposals. Typical Memo Reports. 
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4 Lecture: 10 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Review and Editing:</b> Types of Review and Edit, Review and Editing Methodology, Examples 
+of Reviews. <b>Oral Presentations:</b> Types of Oral Presentations, Preparation, Visual Aids, 
+Impediments to Technical Writing, Maintaining Writing Skills, Measuring Report Results.
+              </p><br>
+  
+               <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      1. “Engineers’ Guide to Technical Writing”, Kenneth G. Budinski, ASM International.<br><br>
+2. “Handbook for Technical Writing”, James H. Shelton, NTC Contemporary Press .<br><br>
+3. “The Technical Writer's Handbook: Writing With Style and Clarity”, Matt Young, 
+University Science Books.<br><br>
+                        </p><br>
+                         <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED REFRENCES BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                     1. “A Guide to Technical Writing”, T. A. Rickard, Franklin Classics.<br><br>
+2. “Technical Writing”, S. Jayprakash, Himalaya Publishing House Pvt. Ltd.<br><br>
+3. “Technical Writing”, O. N. Pandey<br><br>
+                        </p><br>
+
+
+                         
+              <h5 style="font-family: roboto; color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">
+                1. Student should able to demonstrate improved competence in Standard Written 
+           English, including grammar, sentence and paragraph structure, coherence, and 
+           document design (including the use of the visual), and use this knowledge to 
+          revise texts.<br><br>
+            2. Student should identify and practice the stages required to produce competent, 
+           professional writing through planning, drafting, revising, and editing.<br><br>
+          3. It determine and implement the appropriate methods for each technical writing 
+               task.<br><br>
+           4. Students learn to practice the ethical use of sources and the conventions of 
+               citation appropriate to each genre.<br>
+                </p><br>
+                              
+</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseTwo">
+             <h1> Summer Industry 
+              Internship - 1</h1>
+              
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"></div>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="container-fluid gap"  style="background-color:#FF6633;">
+  <div class="container  shadow p-3 mb-5 bg-body-tertiary rounded"  style="background-color:#FF6633;">
+    <div class="row "  >
+      <div class="col-md-4 my-3  fw-bold border align-self:center">
+        <p style="font-size: 20px;">Address:- Growth Center, Jasoiya More, Aurangabad Bihar - 824102</p>
+      
+      </div><br>
+   
+
+
+      <div class="col-md-4 my-3 mx-2 fw-bold border align-self:center">
+        <p style="font-size: 20px;"><i class="bi bi-telephone"></i>Contact Number:-</i>+91-9308392306 / 9102318888 <br>9308394144 / 9334127770 / 9322698410</p><br>
+   
+      </div>
+   
+
+      <div class="col-md-3 my-3 fw-bold border align-self:center">
+        <p style="font-size:20px;"><i class="bi bi-envelope"></i>Email:- Sityog@gmail.com</p><br>
+        <p style="font-size:20px;">yahoo:-Sityog@yahoo.com</p>
+      </div>
+      <div class="col-md-6 border my-3">
+        <a href="https://www.facebook.com/sityogaurangabad"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+        <a href="https://www.youtube.com/channel/UCqLpIqvF3GldPpZWso6AIlg"><i class="bi bi-youtube" style="font-size: 30px; color:red; padding-left: 15px;"></i></a>
+        <a href="https://www.instagram.com/sityog_institute_of_technology/?hl=en"><i class="bi bi-instagram" style="font-size: 30px; color:blue; padding-left: 15px;"></i></a>
+     <a href=""></a>
+      </div>
+    </div>
+      <div class="row border align-self:center">
+        <div class="col-md-6">
+          <div class="detailTab-section-title">
+            <div class="detailTab-title">
+                <h4 >Important Links</h4>
+           
+            </div>
+          </div>
+          <a href="http://www.beu-bih.ac.in/BEUP/Default.aspx">    <li class=" fw-bold text-white">Bihar Engineering University</li></a>
+          <a href="http://www.sityog.edu.in/alumni/"><li class=" fw-bold">Alumini</li></a>
+          <a href="https://swayam.gov.in/">    <li class=" fw-bold">Online Classes</li></a>
+          <a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">    <li class=" fw-bold">Student Credit Card Apply</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">B.tech Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BCA Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BBA Syllabus</li></a>
+          <a href="http://sbteonline.in/syllabus">    <li class=" fw-bold">Diploma Syllabus</li></a>
+          <a href=" https://results.akuexam.net/"><li class=" fw-bold">AKU Result</li></a>
+          <a href=" https://www.akubihar.com//"><li class=" fw-bold">AKu Previous Year Question</li></a>
+        </div>
+      </div>
+    </div>
+</div>
+  
+<footer class="bg-custom text-white py-2 text-center ">&copy Designed By Deepak Kumar, Vandna Kumari, Atul Kumar, Shakshi Gupta and Vinisha Kumari</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

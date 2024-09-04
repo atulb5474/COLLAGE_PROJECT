@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sityog Institute of Technology </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        p{
+          font-size:20px ;
+        }
+          .accordion-button
+  {
+   background-color: purple;
+   color: white;
+   text-align: center;
+   border-radius: 20px;
+  }
+   button:hover{
+     background-color:#FF6633 ;
+     color:white;
+     border-radius: 30px;
+  
+   }.navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+   .dropdown-submenu {
+       position: relative;
+     }
+     
+     .dropdown-submenu .dropdown-menu {
+       top: 0;
+       left: 100%;
+       margin-top: -1px;
+     } 
+      </style>
+</head>
+  <body >
+    <img src="image/download.png"width="100%", height="150px">
+    <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+    <header class="sticky-top  ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#"><p style="text-align: justify;">Welcome to Smart Sityog</p></a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="institute.html"text-white fw-bold>About Institute</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="vision.html"text-white fw-bold>Vision & Mission</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="board.html"text-white fw-bold>Board Of Management</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="chairman.html"text-white fw-bold>Chairman Message</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="secretary.html"text-white fw-bold>Secretary Message</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="approve.html"text-white fw-bold>Approval & Affiliation</a></li>
+                   
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                   ADMISSION
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Apply Now <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="registration.html">Apply For B.Tech, BBA ,BCA,BA(J&MC)</a></li>
+                        <li><a tabindex="-1" href="https://bceceboard.bihar.gov.in/">Apply For Diploma</a></li>
+                        <li><a tabindex="-1" href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">Apply For Student Credit Card</a></li>
+                       
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X2dq1ElIqKtn91-rE8e9uIUzd6OgthwF/view?usp=drivesdk">Registration Form</a></li>
+                    <li><a tabindex="-1" href="https://drive.google.com/file/d/1X3QoQcHpv-6GPBQX5NaXHUaeCioAKgoU/view?usp=drivesdk">Prospectus</a></li>
+                    <li><a tabindex="-1" href="fee.html">Fee Structure</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">U.G(UNDER GRADUATION) <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="btech.html">B.Tech</a></li>
+                        <li><a tabindex="-1" href="bca.html">BCA</a></li>
+                        <li><a tabindex="-1" href="bba.html">BBA</a></li>
+                        <li><a tabindex="-1" href="bj.html">BA(J&MC)</a></li>
+                      
+                      </ul>
+                    </li>
+                    <li><a tabindex="-1" href="diploma.html">Diploma</a></li>
+                  
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                  Facilities & Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="workshop.html"text-white fw-bold>Workshops</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="library.html"text-white fw-bold>Library</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="lab.html"text-white fw-bold>Lab Testing</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="wifi.html"text-white fw-bold>Wifi-Campus</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="computer.html"text-white fw-bold>Hi-tech Computer Lab</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="transport.html"text-white fw-bold>Transportation</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sports.html"text-white fw-bold>Sports Facilities</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="hostel.html"text-white fw-bold>Hostel & Mess</a></li>
+                  
+                    <li><a class="dropdown-item text-fw-bold" href="hall.html"text-white fw-bold>Seminar-Hall</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="temple.html"text-white fw-bold>Temple</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-white fw-bold" href="faculty.html"text-white fw-bold>Faculty List</a>
+                </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"text-white fw-bold>
+                    Placement
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-fw-bold" href="recruiters.html"text-white fw-bold>Our Top Recruiters</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="tpo.html"text-white fw-bold>Training Placement Officer(T.P.O)</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2017.html"text-white fw-bold>Campus Placement 2017</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2018.html"text-white fw-bold>Campus Placement 2018</a></li>
+                     <li><a class="dropdown-item text-fw-bold" href="2019.html"text-white fw-bold>Campus Placement 2019</a></li>
+               
+                     <li><a class="dropdown-item text-fw-bold" href="2021.html"text-white fw-bold>Campus Placement 2021</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="2022.html"text-white fw-bold>Campus Placement 2022</a></li>
+                    <li><a class="dropdown-item text-fw-bold" href="sit/upload-placement.php"text-white fw-bold>Latest Placement</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="facilities.html"text-white fw-bold>Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>Login Now</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+        </div>
+      </header>
+      <a href="registration.html"><div class="fixed-icon"><img src="https://www.sityog.edu.in/images/applynow1.gif" style="width: 100px;height: 100px;"></div></a>
+<div class="container-fluid gap ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingOne" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            <h1>  Discrete Mathematics</h1> 
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body  border shadow p-3 mb-5 bg-body-tertiary rounded">
+              <h5 style="font-family: roboto; color:black;" >Objective of the Course</h5><br><br>
+              <p style="font-family: roboto;" >Throughout the course, students will be expected to demonstrate their understanding of 
+                Discrete Mathematics by being able to do each of the following: </p><br><br>
+              <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                1. Use mathematically correct terminology and notation.<br><br> 
+                2. Construct correct direct and indirect proofs. <br><br>
+                3. Use division into cases in a proof. <br><br>
+                4. Use counter examples. <br><br>
+                5. Apply logical reasoning to solve a variety of problems.</p><br>
+                <h3 style="font-family: roboto; color:black;">Detailed Contents</h3>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture: 6 hours
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Sets, Relation and Function:</b> Operations and Laws of Sets, Cartesian Products, 
+              Binary Relation, Partial Ordering Relation, Equivalence Relation, Image of a Set, Sum 
+              and Product of Functions, Bijective functions, Inverse and Composite Function, Size of a 
+              Set, Finite and infinite Sets, Countable and uncountable Sets, Cantor's diagonal 
+              argument and The Power Set theorem, Schroeder-Bernstein theorem.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture: 8 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;" ><b>Principles of Mathematical Induction:</b> The Well-Ordering Principle, Recursive definition, 
+                The Division algorithm: Prime Numbers, The Greatest Common Divisor: Euclidean 
+                Algorithm, The Fundamental Theorem of Arithmetic.<br><br>
+               <b> Basic counting techniques-</b> and exclusion, pigeon-hole principle, permutation 
+and combination.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3 Lecture 8 
+                  hrs. 
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Propositional Logic:</b> Syntax, Semantics, Validity and Satisfiability, Basic Connectives and 
+                Truth Tables, Logical Equivalence: The Laws of Logic, Logical Implication, Rules of 
+                Inference, The use of Quantifiers. Proof Techniques: Some Terminology, Proof Methods 
+                and Strategies, Forward Proof, Proof by Contradiction, Proof by Contraposition, Proof of 
+                Necessity and Sufficiency.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4 Lecture: 8 
+                  hrs. </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Algebraic Structures and Morphism: Algebraic Structures with one Binary Operation, 
+                Semi Groups, Monoids, Groups, Congruence Relation and Quotient Structures, Free and 
+                Cyclic Monoids and Groups, Permutation Groups, Substructures, Normal Subgroups, 
+                Algebraic Structures with two Binary Operation, Rings, Integral Domain and Fields. 
+                Boolean Algebraand Boolean Ring, Identities of Boolean Algebra, Duality, Representation of 
+                Boolean Function, Disjunctive and Conjunctive Normal Form.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 5 Lecture : 10 hrs. 
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;">Idealized analysis of op-amp circuits. Inverting and non-inverting amplifier, differential amplifier, 
+                instrumentation amplifier, integrator, active filter, P,PI and PIDcontrollers andlead/lag compensator using 
+                an op-amp, voltage regulator, oscillators (Wein bridge and phase shift).
+                Analog to Digital Conversion.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 6: Nonlinear applications of op-amp (6 Hours)</h5><br>
+                <p style="text-align: justify; font-family: roboto;">Hysteretic Comparator, Zero Crossing Detector, Square-wave and triangular-wave generators. Precision 
+                  rectifier, peak detector. Monoshot.
+                  </p><br>
+
+                 
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      1. Kenneth H. Rosen, Discrete Mathematics and its Applications, Tata McGraw –Hill.<br><br>
+                      2. Susanna S. Epp, Discrete Mathematics with Applications, 4th edition, 
+                      Wadsworth Publishing Co.Inc.<br> <br>
+                      3. C L Liu and D P Mohapatra, Elements of Discrete Mathematics A Computer 
+                      Oriented Approach, 3rd Edition by, Tata McGraw –Hill.</p><br>
+                     
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Suggested reference books:</h5><br>
+                      <p style="text-align: justify; font-family: roboto;">
+                        1. J.P. Tremblay and R. Manohar, Discrete Mathematical Structure and It’s  
+                        Application to Computer Science”, TMGEdition,TataMcgraw-Hill.<br><br> 
+                       2. Norman L. Biggs, Discrete Mathematics, 2nd Edition, Oxford University Press.<br><br> 
+                       Schaum’s Outlines Series, Seymour Lipschutz, MarcLipson, 
+                       3. Discrete Mathematics, Tata McGraw -Hill </p><br>  
+                       
+                       <h5 style="font-family: roboto; color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">1. For a given logic sentence express it in terms of predicates, quantifiers, and logical 
+                        connectives. <br><br>
+                        2. For a given a problem, derive the solution using deductive logic and prove the 
+                        solution based on logical inference.<br><br> 
+                        3. For a given a mathematical problem, classify its algebraic structure.<br><br> 
+                        4. Evaluate Boolean functions and simplify expressions using the properties of 
+                        Boolean algebra.<br><br> 
+                        5. Develop the given problem as graph networks and solve with techniques of 
+                        graph theory.<br><br>
+                        </p><br>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingTwo" style="text-align: center;">
+            <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <h1>  Computer Organization & Architecture</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto; color:black;">Objective of the Course</h5><br><br>
+              <p style="font-family: roboto;" >To expose the students to the following: 
+                Discrete Mathematics by being able to do each of the following: </p><br><br>
+              <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                1. How Computer Systems work & the basic principles .<br><br>
+                2. Instruction Level Architecture and Instruction Execution .<br><br>
+                3. The current state of art in memory system design .<br><br>
+                4. How I/O devices are accessed and its principles. <br><br>
+                5. To provide the knowledge on Instruction Level Parallelism.<br><br> 
+                6. To impart the knowledge on microprogramming .<br><br>
+                7. Concepts of advanced pipelining techniques.</p><br>
+                <h3 style="font-family: roboto; color:black;">Detailed Contents</h3>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture: 10 hours
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Functional blocks of a computer:</b> CPU, memory, input-output subsystems, control unit. 
+              Instruction set architecture of a CPU–registers, instruction execution cycle, RTL 
+              interpretation of instructions, addressing modes, instruction set. Case study – instruction 
+              sets of some common CPUs. <br><br>
+            <b>  Data representation:</b> signed number representation, fixed and floating point 
+              representations, character representation. Computer arithmetic – integer addition and 
+              subtraction, ripple carry adder, carry look-ahead adder, etc. multiplication – shift-and-add, 
+              Booth multiplier, carry save multiplier, etc. Division restoring and non-restoring techniques, 
+              floating point arithmetic. 
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture: 14 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;" ><b>Introduction to x86 architecture.</b> CPU control unit design: hardwired and microprogrammed design approaches, Case study – design of a simple hypothetical CPU. Memory 
+                system design: semiconductor memory technologies, memory organization. <br><br>
+              <b>  Peripheral devices and their characteristics:</b> Input-output subsystems, I/O device 
+interface, I/O transfers–program controlled, interrupt driven and DMA, privileged and non-privileged instructions, software interrupts and exceptions. Programs and processes–role of 
+interrupts in process state transitions, I/O device interfaces – SCII, USB. 
+ 
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3 Lecture 10 
+                  hrs. 
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Pipelining:</b> Basic concepts of pipelining, throughput and speedup, pipeline hazards.<br><br>
+               <b> Parallel Processors:</b> Introduction to parallel processors, Concurrent access to memory and 
+cache coherency. 
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4 Lecture: 6 
+                  hrs. </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Memory organization:</b> Memory interleaving, concept of hierarchical memory organization, 
+                cache memory, cache size vs. Block size, mapping functions, replacement algorithms, write 
+                policies.
+                </p><br>                 
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      1. “Computer Organization and Design: The Hardware/Software Interface”, 5th Edition 
+                      by David A. Patterson and John L. Hennessy, Elsevier. <br><br>
+                      2. “Computer Organization and Embedded Systems”, 6th Edition by Carl Hamacher, 
+                      McGraw Hill Higher Education. </p><br>
+                     
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Suggested reference books:</h5><br>
+                      <p style="text-align: justify; font-family: roboto;">
+                        1. “Computer Architecture and Organization”, 3rd Edition by John P. Hayes, 
+                        WCB/McGraw-Hill .<br><br>
+                        2. “Computer Organization and Architecture: Designing for Performance”, 10th Edition 
+                        by William Stallings, Pearson Education.<br><br> 
+                        3. “Computer System Design and Architecture”, 2nd Edition by Vincent P. Heuring and 
+                        Harry F. Jordan, Pearson Education. </p><br>  
+                       
+                       <h5 style="font-family: roboto; color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+                      </h5><br>
+                      <p style="text-align: justify; font-family: roboto;">1. Draw the functional block diagram of a single bus architecture of a computer and 
+                        describe the function of the instruction execution cycle, RTL interpretation of 
+                        instructions, addressing modes, instruction set. <br><br>
+                        2. Write assembly language program for specified microprocessor for computing 16 bit 
+                        multiplication, division and I/O device interface (ADC, Control circuit, serial port 
+                        communication). <br><br>
+                        3. Write a flowchart for Concurrent access to memory and cache coherency in Parallel 
+                        Processors and describe the process.<br><br> 
+                        4. Given a CPU organization and instruction, design a memory module and analyze its 
+                        operation by interfacing with the CPU. <br><br>
+                        5. Given a CPU organization, assess its performance, and apply design techniques to 
+                        enhance performance using pipelining, parallelism and RISC methodology.
+                        </p><br>
+                             </div>
+          </div>
+        </div>
+        <div class="accordion-item  ">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingThree" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <h1>  Operating Systems</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto; color:black;">Objective of the Course</h5><br><br>
+              <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">To expose the students to the following: 
+                Discrete Mathematics by being able to do each of the following: </p><br><br>
+              <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                1. To learn the fundamentals of Operating Systems. <br><br>
+                2. To learn the mechanisms of OS to handle processes and threads and their 
+                communication .<br><br>
+                
+                3. To learn the mechanisms involved in memory management in contemporary OS.<br><br> 
+                4. To gain knowledge on distributed operating system concepts that includes architecture, 
+                mutual exclusion algorithms, deadlock detection algorithms and agreement protocols .<br><br>
+                5. To know the components and management aspects of concurrency management .<br><br>
+                6. To learn to implement simple OS mechanisms</p><br>
+                <h3 style="font-family: roboto; color:black;">Detailed Contents</h3>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture: 4 hours
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Introduction:</b> Concept of Operating Systems, Generations of Operating systems, Types of 
+              Operating Systems, OS Services, System Calls, Structure of an OS-Layered, Monolithic, 
+              Microkernel Operating Systems, Concept of Virtual Machine. Case study on UNIX and 
+              WINDOWS Operating System.
+              </p><br>
+
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture: 10 hrs.</h5><br>
+              <p style="text-align: justify; font-family: roboto;" ><b>Processes:</b> Definition, Process Relationship, Different states of a Process, Process State 
+                transitions, Process Control Block (PCB), Context switching<br><br>
+               <b>Thread:</b> Definition, Various states, Benefits of threads, Types of threads, Concept of 
+                multithreads.<br><br>
+                <b>Process Scheduling:</b> Foundation and Scheduling objectives, Types of Schedulers, Scheduling 
+criteria: CPU utilization, Throughput, Turnaround Time, Waiting Time, Response Time; 
+Scheduling algorithms: Pre-emptive and Non pre-emptive, FCFS, SJF, RR; Multiprocessor 
+scheduling: Real Time scheduling: RM and EDF. 
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3 Lecture 6 
+                  hrs. 
+                </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Inter-process Communication:</b> Critical Section, Race Conditions, Mutual Exclusion, Hardware 
+                Solution, Strict Alternation, Peterson’s Solution, The Producer - Consumer Problem, 
+                Semaphores, Event Counters, Monitors, Message Passing, Shared Memory, Classical IPC 
+                Problems: Reader’s & Writer Problem, Dinning Philosopher Problem etc.
+                </p><br>
+
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4 Lecture: 4 
+                  hrs. </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Deadlocks:</b> Definition, Necessary and sufficient conditions for 
+                Deadlock, Deadlock Prevention, and Deadlock Avoidance: Banker’s algorithm, Deadlock 
+                detection and Recovery.
+                </p><br>
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 5 Lecture: 9 
+                  hrs. </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Memory Management:</b> Basic concept, Logical and Physical address map, Memory allocation: 
+                Contiguous Memory allocation – Fixed and variable partition–Internal and External 
+                fragmentation and Compaction; Paging and Segmentation: Principle of operation – Page 
+                allocation – Hardware support for paging, Protection and sharing, Advantages and 
+                Disadvantages of paging and segmentation.<br><br>
+            
+                <b>   Virtual Memory:</b> Basics of Virtual Memory – Hardware and control structures – Locality of 
+reference, Page fault , Working Set , Dirty page/Dirty bit – Demand paging, Page 
+Replacement algorithms: Optimal, First in First Out (FIFO), Second Chance (SC), Not 
+recently used (NRU) and Least Recently used (LRU).
+                </p><br>          
+                <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 6 Lecture: 9 
+                  hrs. </h5><br>
+                <p style="text-align: justify; font-family: roboto;"><b>File Management:</b> Concept of File, Access methods, File types, File operation, Directory 
+                  structure, File System structure, Allocation methods (contiguous, linked, indexed), Free-space management (bit vector, linked list, grouping), directory implementation (linear list, hash 
+                 
+                 <b> Disk Management:</b> Disk structure, Disk scheduling - FCFS, SSTF, SCAN, C-SCAN, Disk reliability, 
+                  Disk formatting, Boot-block, Bad blocks. <br><br>
+
+                  <b>I/O Hardware:</b> I/O devices, Device controllers, Direct memory access, Principles of I/O 
+Software: Goals of Interrupt handlers, Device drivers, Device independent I/O software, 
+Secondary-Storage Structure. 
+                </p><br><br>
+                    <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Suggested text books:</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      1. Operating System Concepts Essentials, 9th Edition by Avi Silberschatz, Peter Galvin, 
+Greg Gagne, Wiley Asia Student Edition. <br><br>
+2. Operating Systems: Internals and Design Principles, 5th Edition, William Stallings, 
+Prentice Hall of India. <br><br>
+3. Operating Systems: Design and Implementation 3rd Edition, 3rd Edition, Andrew S. 
+Tanenbaum  </p><br>
+                     
+                      <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Suggested reference books:</h5><br>
+                      <p style="text-align: justify; font-family: roboto;">
+                        1. Modern Operating Systems, 4th Edition, Andrew S. Tanenbaum.<br><br> 
+                        2. Operating System: A Design-oriented Approach, 1st Edition by Charles Crowley, Irwin Publishing.<br><br> 
+                        3. Operating Systems: A Modern Perspective, 2nd Edition by Gary J. Nutt, Addison-Wesley.<br><br> 
+                        4. Design of the Unix Operating Systems, 8th Edition by Maurice Bach, Prentice-Hall of India .<br><br>
+                        5. Understanding the Linux Kernel, 3rd Edition, Daniel P. Bovet, Marco Cesati, O'Reilly and Associates.  </p><br>  
+                       
+                       <h5 style="font-family: roboto; color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+                      </h5><br>
+                      <p>After the completion of course, students can able to able to:</p><br><br>
+                      <p style="text-align: justify; font-family: roboto;">1. Understand algorithms for process scheduling for a given specification of CPU 
+                        utilization, Throughput, Turnaround Time, Waiting Time, and Response Time.<br><br> 
+                        2. Develop the techniques for optimally allocating memory to processes by increasing 
+                        memory utilization and for improving the access time. <br><br>
+                        3. Understand and implement file management system .<br><br>
+                        4. Understand the I/O management functions in OS by performing operations for 
+                        synchronization between CPU and I/O controllers.<br><br>
+                        </p><br>        
+                              
+
+                              
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFour" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+           <h1>   Design and Analysis of Algorithms</h1>
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto;color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Objectives of the course:
+              </h5><br> 
+              <p style="font-family: roboto;">
+                • Analyze the asymptotic performance of algorithms. <br><br>
+                • Write rigorous correctness proofs for algorithms. <br><br>
+                • Demonstrate a familiarity with major algorithms and data structures.<br><br> 
+                • Apply important algorithmic design paradigms and methods of analysis. <br><br>
+                • Synthesize efficient algorithms in common engineering design situations<br><br>
+              </p>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">DETAILED CONTENTS
+              </h5><br>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture 10 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Introduction:</b> Characteristics of algorithm. Analysis of algorithm: Asymptotic analysis of 
+              complexity bounds – best, average and worst-case behavior; Performance 
+              measurements of Algorithm, Time and space trade-offs, Analysis of recursive algorithms 
+              through recurrence relations: Substitution method, Recursion tree method and Masters’ 
+              theorem. 
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture: 10 hrs.</h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Introduction to Divide and Conquer paradigm:</b> Binary Search, Quick and Merge sorting 
+              techniques, linear time selection algorithm, Strassen’s Matrix Multiplication, Karatsuba 
+              Algorithm for fast multiplication etc. Introduction to Heap: Min and Max Heap, Build Heap, 
+              Heap Sort
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3 Lecture: 10 hrs.</h5><br>
+            <p style="text-align: justify; font-family: roboto;">Overview of Brute-Force, GreedyProgramming, Dynamic Programming, Branch- and-Bound 
+              and Backtrackingmethodologies. Greedy paradigm examples of exact optimization solution: 
+              Minimum Cost Spanning Tree, Knapsack problem, Job Sequencing Problem, Huffman 
+              Coding, Single source shortest path problem.<br><br> 
+              Dynamic Programming, difference between dynamic programming and divide and conquer, 
+              Applications: Fibonacci Series, Matrix Chain Multiplication, 0-1 Knapsack Problem, Longest 
+              Common Subsequence, Travelling Salesman Problem, Rod Cutting, Bin Packing.<br><br> 
+              Heuristics – characteristics and their application domains.
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4 Lecture: 8 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Graph and Tree Algorithms:</b> issues in graphs, Traversal algorithms: Depth 
+              First Search (DFS) and Breadth First Search (BFS); Shortest path algorithms: Bellman-Ford algorithm,Dijkstra’s algorithm & Analysis of Dijkstra’s algorithm using heaps, Floyd-
+              Warshall’s all pairs shortest path algorithm.Transitive closure, Topological sorting, Network 
+              Flow Algorithm, Connected Component.<br> 
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 5 Lecture: 11 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Tractable and Intractable Problems:</b> Computability of Algorithms, Computability classes – P, 
+            NP, NP-complete and NP-hard. Cook’s theorem, Standard NP-complete problems and 
+            Reduction techniques. <br><br>
+            Approximation algorithms, Randomized algorithms 
+              </p><br>
+               <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      1. Introduction to Algorithms, 4th Edition, Thomas H Cormen, Charles E Lieserson, 
+                      Ronald L Rivest and Clifford Stein, MITPress/McGraw-Hill. <br><br>
+                      2. Horowitz & Sahani, "Fundamental of Computer Algorithm", Galgotia.<br><br> 
+                      3. Basse, "Computer Algorithms: Introduction to Design & Analysis", Addision 
+                      Wesley. 
+                        </p><br>
+
+                           <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED REFRENCES BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">1. Algorithm Design, 1st Edition, Jon Kleinberg and Éva Tardos, Pearson. <br><br>
+                      2. Algorithm Design: Foundations, Analysis, and Internet Examples, Second Edition, 
+                      Michael T Goodrich and Roberto Tamassia, Wiley. <br><br>
+                      3. Algorithms—A Creative Approach, 3RD Edition, UdiManber, Addison-Wesley, 
+                      Reading, MA.<br><br>
+                        </p><br>
+              <h5 style="font-family: roboto; color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">COURSE OUTCOMES
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;">After the completion of course, students can able to able to: <br><br>
+                1. For a given algorithms analyze worst-case running times of algorithms based on 
+                asymptotic analysis and justify the correctness of algorithms. <br><br>
+                2. Describe the greedy paradigm and explain when an algorithmic design situation calls 
+                for it. For a given problem develop the greedy algorithms. <br><br>
+                3. Describe the divide-and-conquer paradigm and explain when an algorithmic design 
+                situation calls for it. Synthesize divide-and-conquer algorithms. Derive and solve 
+                recurrence relation. <br><br>
+                4. Describe the dynamic-programming paradigm and explain when an algorithmic 
+                design situation calls for it. For a given problems of dynamic-programming and 
+                develop the dynamic programming algorithms, and analyze it to determine its 
+                computational complexity. <br><br>
+                5. For a given model engineering problem model it using graph and write the 
+                corresponding algorithm to solve the problems.<br><br> 
+                6. Explain the ways to analyze randomized algorithms (expected running time, 
+                probability of error). <br><br>
+                7. Explain what an approximation algorithm is. Compute the approximation factor of an 
+                approximation algorithm (PTAS and FPTAS).<br><br> 
+                </p><br>
+               
+
+                 
+</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingFive" style="text-align: center;">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+            <h1>  Digital Electronics</h1> 
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+             <h5 style="font-family: roboto;color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Objectives of the course:
+              </h5><br> 
+              <p>At the end of this course, students will demonstrate the ability to:</p><br>
+              <p style="font-family: roboto;">
+                1. Understand working of logic families and logic gates. <br><br>
+                2. Design and implement Combinational and Sequential logic circuits.<br><br> 
+                3. Understand the process of Analog to Digital conversion and Digital to Analog 
+                conversion. <br><br>
+                4. Be able to use Programmable logic devices to implement the given logical problem.<br><br>
+              </p>
+              <h5 style="font-family: roboto; color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">DETAILED CONTENTS
+              </h5><br>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture 7 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Fundamentals of Digital Systems and logic families:</b> Digital signals, digital circuits, AND, OR, 
+              NOT, NAND, NOR and Exclusive-OR operations, Boolean algebra, examples of IC gates, 
+              number systems-binary, signed binary, octal hexadecimal number, binary arithmetic, one’s 
+              and two’s complements arithmetic, codes, error detecting and correcting codes, characteristics 
+              of digital lCs, digital logic families, TTL, Schottky TTL and CMOS logic, interfacing CMOS and TTL, 
+              Tri - state logic.
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture: 7 hrs.</h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Combinational Digital Circuits:</b> Standard representation for logic functions K-map 
+              representation, simplification of logic functions using K-map, minimization of logical functions. 
+              Don’t care conditions, Multiplexer, DeMultiplexer/Decoders, Adders, Subtractors, BCD 
+              arithmetic, carry look ahead adder, serial adder, ALU, elementary ALU design, popular MSI 
+              chips, digital comparator, parity checker/generator, code converters, priority encoders, 
+              decoders/drivers for display devices, Q-M method of function realization. 
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3 Lecture: 7 hrs.</h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Sequential circuits and systems:</b> A 1-bit memory, the circuit properties of Bistable latch, 
+              the clocked SR flip flop, J- K-T and D types flip flops, applications of flip flops, shift registers, 
+              applications of shift registers, serial to parallel converter, parallel to serial converter, ring 
+              counter, sequence generator, ripple (Asynchronous) counters, synchronous counters, 
+              counters design using flip flops, special counter IC’s, asynchronous sequential counters, 
+              applications of counters 
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4 Lecture: 7 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>A/D and D/A Converters:</b> Digital to analog converters: weighted resistor/converter, R2RLadder D/A converter, specifications for D/A converters, examples of D/A converter lCs, 
+              sample and hold circuit, analog to digital converters: quantization and encoding, parallel 
+              comparator A/D converter, successive approximation A/D converter, counting A/D 
+              converter, dual slope A/D converter, A/D converter using 
+              Voltage to frequency and voltage to time conversion, specifications of A/D converters, example 
+              of A/D converter ICs. 
+              </p><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 5 Lecture: 7 hrs.
+
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Semiconductor memories and Programmable logic devices:</b> Memory organization and 
+                operation, expanding memory size, classification and characteristics of memories, sequential 
+                memory, read only memory (ROM), read and write memory(RAM), content addressable 
+                memory (CAM), charge de coupled device memory (CCD), commonly used memory chips, 
+                ROM as a PLD, Programmable logic array, Programmable array logic, complex 
+                Programmable logic devices (CPLDS), Field Programmable Gate Array (FPGA).
+                </p><br>
+               <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      1. R. P. Jain, "Modern Digital Electronics", McGraw Hill Education, 2009.<br><br> 
+                      2. M. M. Mano, "Digital logic and Computer design", Pearson Education India, 2016.<br><br> 
+                      3. A. Kumar, "Fundamentals of Digital Circuits", Prentice Hall India, 2016. 
+                      <br><br>
+                        </p><br>
+                        
+                              
+</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseTwo">
+           <h1>   Human Resource Development and 
+              Organizational Behavior</h1> 
+            </button>
+          </h2>
+             
+          
+            
+          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h5 style="font-family: roboto; color:black;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">DETAILED CONTENTS
+              </h5><br>
+            <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 1 Lecture 8 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Introduction:</b> HR Role and Functions, Concept and Significance of HR, Changing role of HR 
+              managers - HR functions and Global Environment, role of a HR Manager. Human Resources 
+              Planning: HR Planning andRecruitment: Planning Process - planning at different levels - Job 
+              Analysis 
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 2 Lecture: 8hrs</h5>
+  <p><b>Recruitment and selection processes -</b> Restructuring strategies - Recruitment-Sources of 
+    Recruitment-Selection Process-Placement and Induction-Retention of Employees. Training and 
+    Development: need for skill upgradation - Assessment of training needs - Retraining and 
+    Redeployment methods and techniques of training employees and executives – performance 
+    appraisal systems. 
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 3 Lecture: 8 hrs.</h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>Performance Management System:</b> Definition, Concepts and Ethics-Different methods of 
+              Performance Appraisal- Rating Errors Competency management. Industrial Relations : Factors 
+              influencing industrial relations - State Interventions and Legal Framework - Role of Trade 
+              unions - Collective Bargaining - Workers; participation in management.
+              </p><br>
+  <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 4 Lecture: 8 hrs.
+
+            </h5><br>
+            <p style="text-align: justify; font-family: roboto;"><b>AOrganizational Behaviour:</b> Definition, Importance, Historical Background, Fundamental 
+              Concepts of OB, Challenges and Opportunities for OB. Personality and Attitudes: Meaning of 
+              personality, Personality Determinants and Traits, Development of Personality, Types of 
+              Attitudes, Job Satisfaction.
+              </p><br>
+              <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Module 5 Lecture: 8 hrs.
+
+              </h5><br>
+              <p style="text-align: justify; font-family: roboto;"><b>Leadership:</b> Definition, Importance, Theories of Leadership Styles. Organizational Politics: 
+                Definition, Factors contributing to Political Behavior. Conflict Management: Traditional vis-a-vis 
+                Modern View of Conflict, Functional and Dysfunctional Conflict, Conflict Process, Negotiation - 
+                Bargaining Strategies, Negotiation Process. 
+                </p><br>
+               <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">SUGGESTED TEXT BOOKS</h5><br>
+                    <p style="text-align: justify; font-family: roboto;">
+                      1. Gary Dessler, “Human Resource Management” - (8th ed.,) Pearson Education, Delhi.<br><br> 
+                      2. Robbins, S.P., Judge &T.A., “Organizational Behavior”, Pearson Education, 15th Edn.<br><br>
+                      <br><br>
+                        </p><br>
+
+                        <h5 style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">Suggested reference books:</h5><br>
+                        <p style="text-align: justify; font-family: roboto;">
+                          1. Decenzo& Robbins, Personnel Human Resource Management, 3rd ed., John Wiley & Sons (Pvt.) Ltd.<br><br> 
+2. BiswajeetPatanayak, Human Resource Management, PHI, New Delhi .<br><br>
+3. Luis R. Gomez, Mejia, Balkin and Cardy, Managing Human Resources PHI, New Delhi 
+4. Luthans, Fred: Organizational Behavior, McGraw Hill, 12th Edn. <br><br>
+5. Shukla, Madhukar: Understanding Organizations - Organizational Theory & Practice in India, PHI .<br><br>
+                            </p><br>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header  border shadow p-3 mb-5 bg-body-tertiary rounded" id="flush-headingSeven">
+            <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <h1>  Environmental Science </h1>
+              
+            </button>
+          </h2>
+
+          <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">We as human being are not an entity separate from the environment around us 
+                rather we are a constituent seamlessly integrated and co-exist with the environment around 
+                us. We are not an entity so separate from the environment that we can think of 
+                mastering and controlling it rather we must understand that each and every action of ours 
+                reflects on the environment and vice versa. Ancient wisdom drawn from Vedas about 
+                environment and its sustenance reflects these ethos. There is a direct application of this 
+                wisdom even in modern times. Idea of an activity based course on environment protection is to 
+                sensitize the students on the above issues through following two type of activities:</p><br><br>
+                <h3 style="font-family: roboto;"><b>(a) Awareness Activities: </b></h3>
+                <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                  i) Small group meetings about water management, promotion of recycle use, generation.<br><br> 
+                  of less waste, avoiding electricity waste .<br><br>
+                  ii) Slogan making events .<br><br>
+                  iii) Poster making events .<br><br>
+                  iv) Cycle rally .<br><br>
+                  v) Lectures from experts</p><br>
+
+                  <h3 style="font-family: roboto;"><b>(b) Actual Activities: </b></h3>
+                <p style="font-family: roboto;" class=" border shadow p-3 mb-5 bg-body-tertiary rounded">
+                  i) Plantation .<br><br>
+ii) Gifting a tree to see its full growth.<br><br> 
+iii) Cleanliness drive .<br><br>
+iv) Drive for segregation of waste.<br><br> 
+v) To live some big environmentalist for a week or so to understand his work .<br><br>
+vi) To work in kitchen garden for mess .<br><br>
+vii) To know about the different varieties of plants.<br><br> 
+viii) Shutting down the fans and ACs of the campus for an hour or so</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="container-fluid gap"  style="background-color:#FF6633;">
+  <div class="container  shadow p-3 mb-5 bg-body-tertiary rounded"  style="background-color:#FF6633;">
+    <div class="row "  >
+      <div class="col-md-4 my-3  fw-bold border align-self:center">
+        <p style="font-size: 20px;">Address:- Growth Center, Jasoiya More, Aurangabad Bihar - 824102</p>
+      
+      </div><br>
+   
+
+
+      <div class="col-md-4 my-3 mx-2 fw-bold border align-self:center">
+        <p style="font-size: 20px;"><i class="bi bi-telephone"></i>Contact Number:-</i>+91-9308392306 / 9102318888 <br>9308394144 / 9334127770 / 9322698410</p><br>
+   
+      </div>
+   
+
+      <div class="col-md-3 my-3 fw-bold border align-self:center">
+        <p style="font-size:20px;"><i class="bi bi-envelope"></i>Email:- Sityog@gmail.com</p><br>
+        <p style="font-size:20px;">yahoo:-Sityog@yahoo.com</p>
+      </div>
+      <div class="col-md-6 border my-3">
+        <a href="https://www.facebook.com/sityogaurangabad"><i class="bi bi-facebook" style="font-size: 30px;"></i></a>
+        <a href="https://www.youtube.com/channel/UCqLpIqvF3GldPpZWso6AIlg"><i class="bi bi-youtube" style="font-size: 30px; color:red; padding-left: 15px;"></i></a>
+        <a href="https://www.instagram.com/sityog_institute_of_technology/?hl=en"><i class="bi bi-instagram" style="font-size: 30px; color:blue; padding-left: 15px;"></i></a>
+     <a href=""></a>
+      </div>
+    </div>
+      <div class="row border align-self:center">
+        <div class="col-md-6">
+          <div class="detailTab-section-title">
+            <div class="detailTab-title">
+                <h4 >Important Links</h4>
+           
+            </div>
+          </div>
+          <a href="http://www.beu-bih.ac.in/BEUP/Default.aspx">    <li class=" fw-bold text-white">Bihar Engineering University</li></a>
+          <a href="http://www.sityog.edu.in/alumni/"><li class=" fw-bold">Alumini</li></a>
+          <a href="https://swayam.gov.in/">    <li class=" fw-bold">Online Classes</li></a>
+          <a href="https://www.7nishchay-yuvaupmission.bihar.gov.in/">    <li class=" fw-bold">Student Credit Card Apply</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">B.tech Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BCA Syllabus</li></a>
+          <a href="http://akubihar.ac.in/Academics/Syllabus.aspx">    <li class=" fw-bold">BBA Syllabus</li></a>
+          <a href="http://sbteonline.in/syllabus">    <li class=" fw-bold">Diploma Syllabus</li></a>
+          <a href=" https://results.akuexam.net/"><li class=" fw-bold">AKU Result</li></a>
+          <a href=" https://www.akubihar.com//"><li class=" fw-bold">AKu Previous Year Question</li></a>
+        </div>
+      </div>
+    </div>
+</div>
+  
+<footer class="bg-custom text-white py-2 text-center ">&copy Designed By Deepak Kumar, Vandna Kumari, Atul Kumar, Shakshi Gupta and Vinisha Kumari</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

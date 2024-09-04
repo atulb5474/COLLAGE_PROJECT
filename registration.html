@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+      .bg-custom
+      {
+        background:indigo;
+      }
+      
+      button:hover
+      {
+        background: #03e9f4;
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+    
+      }
+      .form-control
+      {
+        border: solid 3px #03e9f4;;
+        color: black;
+      }
+      .form-control:hover
+      {
+        color: black;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+      }
+      .form-select
+      {
+        border: solid 3px #03e9f4;;
+      }
+      .form-select:hover
+      {
+        color:black;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+      }.navbar-toggle:hover
+{
+    border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+                  0 0 25px #03e9f4,
+                  0 0 50px #03e9f4,
+                  0 0 100px #03e9f4;
+                  background-color: #03e9f4;
+                  text-align: center;
+                  font-size: 20px;
+                  
+                  
+}
+      </style>
+</head>
+  <body style="background-image: url('image/animation2.gif');">
+    
+    <header class="sticky-top border ">
+      <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#">Sityog College Portal</a>
+            <button class="navbar-toggle " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html"text-white fw-bold>Home</a>
+                </li>
+              
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="registration.html"text-white fw-bold>Apply for Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/index.php"text-white fw-bold>College Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="sit/notice.php"text-white fw-bold>Latest Notices</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+     
+      <img src="image/download.png"width="100%", height="150px" style="box-shadow: 0 15px 25px rgba(0,0,0,.6);border-radius:10px;">
+     <div class="container-fluid gap">
+      <div class="detailTab-section-title shadow p-3 mb-5 bg-body-tertiary rounded" style="text-align: center;">
+        <div class="detailTab-title">
+            <h2>Here Students Can do their Registration.</h2>
+        </div>
+      </div>   </div>
+         
+
+
+
+<div class="container-fluid gap">
+    <div class="container align-self:center;">
+        <div class="row">
+        
+            <div class="col-md-6  offset-md-4 p-2 border " style="  box-shadow:0 15px 25px rgba(0,0,0,.6);border-radius:20px; background-color: purple;">
+    <form action="https://formspree.io/f/xqkoaoea" method="post">
+    
+      <div class="detailTab-section-title ">
+        <div class="detailTab-title">
+            <h2 style="color:#fff">Application Form for Registration</h2>
+            <p style="color:#fff">Registration Fee : RS 1000/- Only</p>
+        </div>
+      </div>
+      <div class="detailTab-section-title ">
+        <div class="detailTab-title">
+            <h2 style="color:#fff">Personal Details</h2>
+        </div>
+      </div>
+    
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Student  Name</label>
+          <input type="text" name="Name of Studnet" required placeholder="Enter Your Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Date of Birth</label>
+          <input type="date" required name="Date of Birth" class="form-control" id="exampleInputPassword1" style="width:300px;">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Nationality</label>
+          <input type="text" name="Nationality" required placeholder="Enter Your Nationality" class="form-control" id="exampleInputPassword1" >
+        </div> 
+       
+       
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Email Address</label>
+          <input type="email" required name="Email Address of Student" placeholder="Enter Your Valid Email Address" class="form-control" id="exampleInputPassword1">
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Mobile Number</label>
+          <input type="number" required  name="Contact Number of Student" placeholder="Enter Your Valid Email Address" class="form-control" id="exampleInputPassword1" >
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Gender</label>
+          <select name="Gender of Student" required class="form-select" aria-label="Default select example" >
+        <option selected>--Select Your Gender--</option>
+        <option value="Male" style="color: black;">Male</option>
+        <option value="Female"  style="color: black;">Female</option>
+        <option value="Others" style="color: black;">Others</option>
+      </select>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Caste</label>
+          <input type="text" name="Caste of Student" placeholder="Enter Your Caste" required class="form-control" id="exampleInputPassword1" >
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Category</label>
+          <select name="Category" required class="form-select" aria-label="Default select example">
+        <option selected>--Select Your Category--</option>
+        <option value="General" style="color: black;">General</option>
+        <option value="SC" style="color: black;">SC</option>
+        <option value="ST" style="color: black;">ST</option>
+        <option value="EBC" style="color: black;">EBC</option>
+        <option value="OBC" style="color: black;">OBC</option>
+       
+      </select>
+        </div>
+        
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Marital Status</label>
+          <input type="text" name="Marital Status" required placeholder="Enter Your Marital Status" class="form-control" id="exampleInputPassword1">
+        </div>
+    
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Aadhar Number</label>
+          <input type="number" name="Aadhar Number of Student" required placeholder="Enter Your Aadhar Number" class="form-control" id="exampleInputPassword1" >
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Belongs To</label>
+          <select name="Belongs" required class="form-select" aria-label="Default select example" >
+        <option selected>--Select Your Area--</option>
+        <option value="Rural" style="color: black;">Rural</option>
+        <option value="Urban" style="color: black;">Urban</option>  
+      </select>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Referred By</label>
+          <input type="text" required name="Referred By" placeholder="" class="form-control" id="exampleInputPassword1" >
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Blood Group</label>
+          <select name="Blood Group of Student" required class="form-select" aria-label="Default select example" >
+        <option selected>--Select Your Blood Group--</option>
+        <option value="A+" style="color: black;">A+</option> 
+        <option value="A-" style="color: black;">A-</option> 
+        <option value="B+" style="color: black;">B+</option> 
+        <option value="B-" style="color: black;">B-</option> 
+        <option value="AB+" style="color: black;">AB+</option> 
+        <option value="AB-" style="color: black;">AB-</option> 
+        <option value="O+" style="color: black;">O+</option> 
+        <option value="O-" style="color: black;">O-</option>  
+      </select>
+        </div><br><br>
+
+        <div class="detailTab-section-title ">
+          <div class="detailTab-title">
+              <h2 style="color:#fff">Father's/Husband's Details</h2>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Father's/Husband's  Name</label>
+          <input type="text" name="father's Name / Husband's Name" required placeholder="Enter Your Father's/Husband's  Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Occupation</label>
+          <input type="text" name="Occupation of Father's/ Husband's" required  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Annual Income</label>
+          <input type="text" name="Annual Income of Father's / Husband" required  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Contact Number</label>
+          <input type="number" name="Phone Number  of Father's / Husband" required placeholder="Enter Contact Number"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Aadhar Number</label>
+          <input type="number" name="Aadhar Number of  Father / Husband" required placeholder="Enter Aadhar Number"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+        <div class="detailTab-section-title ">
+          <div class="detailTab-title">
+              <h2 style="color:#fff">Mother's Details</h2>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Mother's Name</label>
+          <input type="text" name="Mother's Name" required placeholder="Enter Your Mother's Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        
+        </div>
+   
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Occupation</label>
+          <input type="text" name="Occupation of Mother of Student" required  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+      
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Aadhar Number</label>
+          <input type="number" name="Aadhar Number of  Mother" required placeholder="Enter Aadhar Number"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+        <div class="detailTab-section-title ">
+          <div class="detailTab-title">
+              <h2 style="color:#fff">Address</h2>
+          </div>
+        </div><br><br>
+
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label text-white fw-bold">Permanent Address</label>
+          <textarea class="form-control" placeholder="Enter Your Permanent Address" required name="Permanent Address of Student" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">State</label>
+          <input type="text" name="State" required placeholder="Enter State" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width:400px;">
+         
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Pin Code</label>
+          <input type="text" name="pin-code" required placeholder="Enter Pincode" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width:400px;">
+         
+        </div><br>
+
+        <h4 style="color: #03e9f4;">Correspondence Address Same As Permanent Address</h4><br>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label text-white fw-bold">Correspondence Address</label>
+          <textarea class="form-control" placeholder="Enter Your Correspondence Address" required name="Permanent Address" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">State</label>
+          <input type="text" name="state" required placeholder="Enter State" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width:400px;">
+         
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Pin Code</label>
+          <input type="text" name="pincode" required placeholder="Enter Pincode" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width:400px;">
+         
+        </div><br>
+
+        <div class="detailTab-section-title ">
+          <div class="detailTab-title">
+              <h2 style="color:#fff">Qualification Details of 10th/Matriculation</h2>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Name of Board</label>
+          <input type="text" name=" Name of Board in Matriculation of Student" required placeholder="Enter Your Board Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Total Marks Obtained</label>
+          <input type="text" name="Marks of Student in Matriculation" required  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+       
+        
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Percentage of Marks</label>
+          <input type="text" name="Percantage of Student in Matriculation" required placeholder="Enter Percentage"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Grade / Division</label>
+          <input type="text" name="Grade / Division of Student in Matriculation" required placeholder="Enter Grade/Division"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Year of Passing</label>
+          <input type="number" name="year of passing of Student in Matriculation" required placeholder=""  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Roll Number</label>
+          <input type="text" name="Roll Number of Student in Matriculation" required placeholder="Enter Your Roll Number"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Name of Previous School/College</label>
+          <input type="text" name="previous-college/School in Matriculation" required placeholder="Enter Name of Previous School/College"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Annual/Supplementry</label>
+          <select name="Annual/Supplementry" required class="form-select" aria-label="Default select example" >
+        <option selected>--Select--</option>
+        <option value="Annual" style="color: black;">Annual</option>
+        <option value="Supplementry" style="color: black;">Supplementry</option>  
+      </select>
+        </div>
+
+        <div class="detailTab-section-title ">
+          <div class="detailTab-title">
+              <h2 style="color:#fff">Qualification Details of 12th/Intermediate</h2>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Name of Board</label>
+          <input type="text" name="Name of Board in Intermediate of Student" required placeholder="Enter Your Board Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Stream</label>
+          <input type="text" name="Stream in Intermediate of Studnet" required placeholder="Enter Your Stream in Intermediate"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Total Marks Obtained</label>
+          <input type="text" name="Marks of Student in Intermediate" required  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+       
+       
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Percentage of Marks</label>
+          <input type="text" name="Percantage of Student in Intermediate" required placeholder="Enter Percentage"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+       
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Year of Passing</label>
+          <input type="number" name="year of passing of Student in Intermediate" required placeholder=""  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Roll Number</label>
+          <input type="text" name="Roll Number of Student in Intermediate" required placeholder="Enter Your Roll Number"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Name of Previous School/College</label>
+          <input type="text" name="previous-college/School in Intermediate" required placeholder="Enter Name of Previous School/College"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Annual/Supplementry</label>
+          <select name="Annual/Supplementry" required class="form-select" aria-label="Default select example" >
+        <option selected>--Select--</option>
+        <option value="Annual" style="color: black;">Annual</option>
+        <option value="Supplementry" style="color: black;">Supplementry</option>  
+      </select>
+        </div>
+
+        
+        <div class="detailTab-section-title ">
+          <div class="detailTab-title">
+              <h2 style="color:#fff">If Any ITI/Diploma / Graduation</h2>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Name of Board</label>
+          <input type="text" name=" Name of Board in ITI/Diploma / Graduation of Student"  placeholder="Enter Your Board Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Stream</label>
+          <input type="text" name="Stream in ITI/Diploma / Graduation of Student"  placeholder="Enter Your Stream in Intermediate"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Total Marks Obtained</label>
+          <input type="text" name="Marks of Student in ITI/Diploma / Graduation of Student"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+       
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Grade/Division</label>
+          <input type="text" name="Grade / Division of Student in  ITI/Diploma / Graduation of Student"  placeholder="Enter Percentage"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+       
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Year of Passing</label>
+          <input type="number" name="year of passing of Student in ITI/Diploma / Graduation of Student"  placeholder=""  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Roll Number</label>
+          <input type="text" name="Roll Number of Student in ITI/Diploma / Graduation of Student"  placeholder="Enter Your Roll Number"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Name of Previous School/College</label>
+          <input type="text" name="previous-college/School in ITI/Diploma / Graduation of Student"  placeholder="Enter Name of Previous School/College"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Annual/Supplementry</label>
+          <select name="Annual/Supplementry in ITI/Diploma / Graduation of Student"  class="form-select" aria-label="Default select example" >
+        <option selected>--Select--</option>
+        <option value="Annual" style="color: black;">Annual</option>
+        <option value="Supplementry" style="color: black;">Supplementry</option>  
+      </select>
+        </div>
+
+        <div class="detailTab-section-title ">
+          <div class="detailTab-title">
+              <h2 style="color:#fff">Course Details</h2>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white fw-bold">Course</label>
+          <select name="Course Selected by Student" required class="form-select" aria-label="Default select example" >
+        <option selected>--Select Course--</option>
+        <option value="Diploma" style="color: black;">Diploma</option> 
+        <option value="Diploma Lateral Entry" style="color: black;">Diploma Lateral Entry</option> 
+        <option value="B.Tech" style="color: black;">B.Tech</option> 
+        <option value="B-" style="color: black;">B.Tech Lateral Entry</option> 
+        <option value="BCA" style="color: black;">BCA</option> 
+        <option value="BBA" style="color: black;">BBA</option> 
+        <option value="BMC" style="color: black;">BMC</option> 
+      </select>
+      <p style="color: black; background-color: #fff;">Choose Branch Preference For <b style="background-color: black;color: #fff;">B.Tech</b> From The Given<br>
+      <b  style="background-color: black;color: #fff;">E.C.E</b>- Electrical & Communication Engg.<br>
+      <b  style="background-color: black;color: #fff;">C.S.E</b>- Computer Science Engg.<br> 
+      <b  style="background-color: black;color: #fff;">E.E</b>- Electrical Engg.<br> 
+      <b  style="background-color: black;color: #fff;">M.E</b>- Mechanical Engg.<br>
+      <b  style="background-color: black;color: #fff;">C.E</b>- Civil Engg.<br> 
+    </p>
+        </div><br><br>
+        
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Branch Preference 1 for B.Tech</label>
+          <input type="text" name="Branch Prefered By Student"    class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div> 
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Branch Preference 2 for B.Tech</label>
+          <input type="text" name="Branch Prefered By Student"    class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div> 
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Branch Preference 3 for B.Tech</label>
+          <input type="text" name="Branch Prefered By Student"    class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div> 
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Branch Preference 4 for B.Tech</label>
+          <input type="text" name="Branch Prefered By Student"    class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div> 
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label text-white fw-bold">Branch Preference 5 for B.Tech</label>
+          <input type="text" name="Branch Prefered By Student"    class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div> 
+      
+       <p style="color: #fff;">You may <a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm" style="color: #03e9f4;">Click Here</a> to pay Rs. 1000/- before apply and upload snapshot of payment or proceed without snap and pay on next page.</p>
+        <button type="submit" class="btn btn-primary" style="background: linear-gradient(90deg, transparent, #03e9f4); width:200px;height:60px;">Submit</button>
+      </form>
+            </div></div></div></div>
+
+
+
+            <div class="container-fluid gap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="detailTab-section-title shadow p-3 mb-5 bg-body-tertiary rounded" style="text-align: center;">
+                   
+                      <div class="detailTab-title">
+                          <p style="color:black; font-size: 20px; text-align: justify;"> Click on the Following  Link for upload some Important documents (Just like that Passport Size Photo, Aadhar Card Front , Aadhar Card Back, Signature of Student and Scrrenshot of Payment).<br>  <a href="https://forms.gle/2cKHN7CzFnJKPHbv8">https://forms.gle/2cKHN7CzFnJKPHbv8</a></p>
+                        </div>
+                    </div><br><br>
+            
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <footer class="bg-custom text-white py-2 text-center ">&copy Designed By  Atul Kumar</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
